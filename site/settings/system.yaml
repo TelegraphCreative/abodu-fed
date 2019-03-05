@@ -1,0 +1,8 @@
+app_key: w7VCRq236P0FaZDe2YdaxSo5s5Zp6vX1
+yaml_parser: symfony
+locales:
+  en:
+    full: en_US
+    name: English
+    url: /
+timezone: America/Chicago
