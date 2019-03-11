@@ -6,6 +6,4 @@
 @tailwind utilities;
 @tailwind screens;
 
-.bg-black {
-   background-color: black
-}
+@import 'plugins/sass-flexbox-grid/main';
