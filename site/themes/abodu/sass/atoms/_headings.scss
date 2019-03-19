@@ -1,0 +1,52 @@
+//
+// Headings
+//
+
+.heading {
+   &.--dash {
+      @apply flex leading-loose mb-1 pl-6 relative text-10 tracking-extra-wide uppercase;
+
+      @media screen and (min-width: 22.5rem) {
+         @apply text-13
+      }
+
+      &::before {
+         @apply absolute block pin-b pin-l w-4;
+         content: '';
+         height: .125rem;
+         margin-bottom: 7px;
+
+         @media screen and (min-width: 22.5rem) {
+            margin-bottom: 9px
+         }
+      }
+
+      &.--rust {
+         @apply text-rust;
+
+         &::before {
+            @apply bg-rust
+         }
+      }
+
+      &.--white {
+         @apply text-white;
+
+         &::before {
+            @apply bg-white
+         }
+      }
+   }
+
+   &.--sub {
+      @apply font-bold leading-tight mb-3 text-24;
+
+      @media screen and (min-width: 48rem) {
+         @apply text-36
+      }
+
+      @media screen and (min-width: 62rem) {
+         @apply text-42
+      }
+   }
+}

@@ -1,0 +1,96 @@
+//
+// Forms
+//
+
+
+// ---------------------------------------------------------------------------
+// Footer Email
+footer {
+   input[type="submit"] {
+      /*
+   	@apply border-2 border-white bg-white text-black w-full;
+
+      height: 2.75rem;
+
+   	&:hover {
+   		//@apply text-white;
+   	}
+
+   	@media screen and (min-width: 22.5rem) {
+   		border: 0;
+   		color: transparent;
+   		background: transparent;
+   		width: 3.5rem;
+
+   		background-image: url(../images/footer_arrow.svg);
+   		background-size: 100%;
+   		background-repeat: no-repeat;
+
+   		transition: all 150ms ease-in-out;
+
+   		&:hover {
+            background: transparent;
+            background-image: url(../images/footer_arrow.svg);
+            color: transparent;
+            opacity: 0.75;
+   			//background-image: url(../img/arrow--hover.svg);
+   			//color: transparent;
+   		}
+   	}
+      */
+
+      @apply bg-transparent text-transparent w-full;
+
+      height: 2.75rem;
+      width: 3.5rem;
+      background-image: url(../images/footer_arrow.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+
+      &:hover {
+         //background: transparent;
+         background-image: url(../images/footer_arrow.svg);
+         color: transparent;
+         opacity: 0.75;
+      }
+   }
+
+   #mc_embed_signup_scroll {
+      /*
+   	@media screen and (min-width: 22.5rem) {
+   		border-bottom: 2px solid white!important;
+   		display: flex
+   	}
+      */
+      @apply max-w-sm;
+      border-bottom: 2px solid #dae1e7!important;
+      display: flex
+   }
+   #mce-EMAIL {
+   	//@apply bg-black leading-loose mb-4 py-2 text-14 text-white w-full;
+      @apply bg-black leading-loose mb-0 py-2 text-14 text-grey-light w-full;
+   	//border-bottom: 2px solid white!important;
+   	border-radius: 0;
+
+   	&:-webkit-autofill {
+   		-webkit-box-shadow: none!important;
+   		-webkit-text-fill-color: #dae1e7 !important;
+   		-webkit-transition: background 3000s linear
+   	}
+
+   	&::placeholder {
+   		@apply text-14 opacity-75 text-white;
+   	}
+
+      /*
+   	@media screen and (min-width: 22.5rem) {
+   		@apply mb-0;
+   		border-bottom: 0!important;
+   	}
+      */
+   }
+
+   #mc-embedded-subscribe {
+   	cursor: pointer
+   }
+}

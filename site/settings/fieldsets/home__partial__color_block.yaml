@@ -1,0 +1,25 @@
+sections:
+  main:
+    display: Main
+    fields:
+      color_block__heading:
+        type: text
+        display: Heading
+        width: 50
+      color_block__subheading:
+        type: text
+        display: Subheading
+        width: 50
+      color_block__copy:
+        type: textarea
+        display: Copy
+        width: 50
+      color_block__button:
+        keys:
+          url: URL
+          text: Text
+        type: array
+        display: Button
+        width: 50
+taxonomies: false
+title: 'Home: Partial: Color Block'

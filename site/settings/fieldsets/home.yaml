@@ -1,0 +1,40 @@
+sections:
+  main:
+    display: Main
+    fields:
+      hero__section:
+        type: section
+        display: Hero
+      hero__heading:
+        type: text
+        display: Heading
+      slider__section:
+        type: section
+        display: Slider
+      slider__fields:
+        type: accordion_group
+        display: 'Edit Slider'
+        child_fieldset: partial__slider
+      cost__section:
+        type: section
+        display: Cost
+      color_block__fields:
+        type: accordion_group
+        display: 'Edit Cost'
+        child_fieldset: home__partial__color_block
+      how_it_feels__section:
+        type: section
+        display: 'How It Feels'
+      photo_with_content_block__fields:
+        type: accordion_group
+        display: 'Edit How It Feels'
+        child_fieldset: home__partial__photo_with_content_block
+      cta__section:
+        type: section
+        display: 'Call to Action'
+      cta__fields:
+        child_fieldset: partial__cta
+        type: accordion_group
+        display: 'Edit Call to Action'
+taxonomies: true
+title: 'Home: Page'

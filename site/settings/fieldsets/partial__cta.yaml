@@ -1,0 +1,21 @@
+sections:
+  main:
+    display: Main
+    fields:
+      cta__heading:
+        type: text
+        display: Heading
+        width: 66
+      cta__copy:
+        type: textarea
+        display: Copy
+        width: 50
+      cta__button:
+        keys:
+          url: URL
+          text: Text
+        type: array
+        display: Button
+        width: 50
+taxonomies: false
+title: 'Partial: CTA'

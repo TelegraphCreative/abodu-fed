@@ -1,0 +1,30 @@
+sections:
+  main:
+    display: Main
+    fields:
+      two_column_content_grid__heading:
+        type: text
+        width: 50
+        display: Heading
+      two_column_content_grid__subheading:
+        type: text
+        width: 50
+        display: Subheading
+      two_column_content_grid__list:
+        sets:
+          two_column_content_grid__list--items:
+            display: Reason
+            fields:
+              two_column_content_grid__list--item--copy:
+                type: textarea
+                display: Copy
+              two_column_content_grid__list--item--button:
+                keys:
+                  url: URL
+                  text: Text
+                type: array
+                display: Button
+        type: replicator
+        display: 'Why Abodu'
+taxonomies: true
+title: 'Why Backyard Living: Partial: Why Abodu - Two Column Content Grid'

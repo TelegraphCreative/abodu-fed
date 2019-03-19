@@ -1,0 +1,30 @@
+<!--   Color Block   -->
+<section class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20                    my-16 lg:my-20">
+
+   <div class="bg-sand py-12">
+      <div class="row  |  center-xs start-md">
+         <div class="col-xs-10 col-md-10  |  col-md-offset-1 ">
+
+            {{ color_block__fields }}
+               <h1 class="heading --dash --rust">{{ color_block__heading }}</h1>
+
+               {{ if color_block__subheading }}
+                  <h2 class="heading --sub">{{ color_block__subheading }}</h2>
+               {{ /if }}
+
+               {{ if color_block__value }}
+                  <p class="color_block__value   heading --sub">{{ color_block__value }}</p>
+               {{ /if }}
+
+               {{ if color_block__copy }}
+                  <p class="text-16   xs:text-18   max-w-xl">{{ color_block__copy }}</p>
+               {{ /if }}
+
+               {{ partial:atoms/btn--arrow url="{{ color_block__button.url }}" text="{{ color_block__button.text }}" }}
+            {{ /color_block__fields }}
+         </div>
+      </div>
+   </div>
+
+</section>
+<!-- End Color Block -->

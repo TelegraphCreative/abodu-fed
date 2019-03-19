@@ -1,0 +1,50 @@
+/*
+ * Legal Disclaimer
+ *
+ * These Fonts are licensed only for use on these domains and their subdomains:
+ * abodu.com
+ *
+ * It is illegal to download or use them on other websites.
+ *
+ * While the @font-face statements below may be modified by the client, this
+ * disclaimer may not be removed.
+ *
+ * Lineto.com, 2018
+ */
+
+
+/*
+ *
+ * INSTRUCTIONS
+ *
+ * Copy the Legal Disclaimer and the @font-faces statements to your regular CSS file.
+ * The fonts folder(s) should be placed relative to the regular CSS file.
+ *
+ * You can use either the complete or subsetted fonts:
+ * If you don’t require the entire range of characters, you can use the smaller, subsetted webfonts instead.
+ * See "Glyphs & Languages" for an overview of the characters in the corresponding html file in the root directory of this package.
+ *
+ */
+
+
+/* Subsetted */
+
+@font-face {
+    font-family: "LL Circular Sub";
+    src: url("../fonts/lineto-circular-bold.eot");
+    src: url("../fonts/lineto-circular-bold.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/lineto-circular-bold.woff2") format("woff2"),
+         url("../fonts/lineto-circular-bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "LL Circular Sub";
+    src: url("../fonts/lineto-circular-book.eot");
+    src: url("../fonts/lineto-circular-book.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/lineto-circular-book.woff2") format("woff2"),
+         url("../fonts/lineto-circular-book.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}

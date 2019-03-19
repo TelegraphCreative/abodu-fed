@@ -1,0 +1,19 @@
+//
+// Lists
+//
+
+.list {
+   @apply mt-8 pl-6;
+
+   li {
+      @apply mb-3 pl-6 relative;
+
+      &::before {
+         @apply absolute block bg-rust pin-l;
+         content: '';
+         height: 6px;
+         top: 10px;
+         width: 6px;
+      }
+   }
+}

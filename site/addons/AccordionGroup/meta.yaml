@@ -1,0 +1,11 @@
+name: AccordionGroup
+version: 1.0.0
+description: Stash away a group of fields inside an accordion section.
+addon_url: https://github.com/AndrewHaine/statamic-accordion-group
+developer: Andrew Haine
+developer_url: https://www.andrewhaine.co.uk
+commercial: false
+fieldtype_fields:
+  child_fieldset:
+    type: fieldset
+    hidden: true

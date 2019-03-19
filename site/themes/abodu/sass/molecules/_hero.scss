@@ -1,0 +1,12 @@
+//
+// Hero
+//
+
+.hero__image {
+   @apply bg-center bg-cover;
+   height: 50vw;
+
+   @media screen and (min-width: 75rem) {
+      height: 45rem
+   }
+}

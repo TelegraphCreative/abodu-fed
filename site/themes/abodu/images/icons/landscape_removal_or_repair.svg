@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 48">
+   <defs>
+      <style>.cls-3{fill:none;stroke:#9c4e07;stroke-miterlimit:10;stroke-width:2.5px;stroke-linecap:round}</style>
+   </defs>
+   <circle cx="22" cy="20" r="16" stroke-linecap="square" fill="none" stroke="#9c4e07" stroke-miterlimit="10" stroke-width="2.5"/>
+   <path fill="none" stroke="#9c4e07" stroke-miterlimit="10" stroke-width="2.5" d="M22 4v40"/>
+   <path class="cls-3" d="M22 9.49H9.86M22 14.75H6.84M22 20H6M22 25.25H6.84M22 30.51H9.86"/>
+</svg>

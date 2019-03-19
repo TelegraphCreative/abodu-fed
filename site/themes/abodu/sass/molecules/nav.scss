@@ -1,0 +1,197 @@
+//
+// Site Header
+//
+
+// ---------------------------------------------------------------------------
+// Logo
+#logo {
+   height: 24px;
+   width: 104px;
+
+   svg {
+      height: 24px;
+      width: 104px;
+   }
+
+   @media screen and (min-width: 22.5rem) {
+      height: 28px;
+      width: 120px;
+
+      svg {
+         height: 28px;
+         width: 120px;
+      }
+   }
+
+   @media screen and (min-width: 36rem) {
+      height: 32px;
+      width: 140px;
+
+      svg {
+         height: 32px;
+         width: 140px;
+      }
+   }
+}
+
+
+
+// ---------------------------------------------------------------------------
+// Nav
+#nav_wrap {
+	transform: translate(0, 0);
+	transition-duration: .45s;
+
+	&.at-top--false.scroll-direction--down { transform: translate(0, -100%) }
+
+	#site_nav {
+		@media screen and (max-width: 62rem) {
+			@apply invisible opacity-0;
+         height: 0;
+
+			&.is-visible {
+				@apply h-screen opacity-100 visible;
+
+				transition: opacity 350ms ease-out
+			}
+		}
+
+		#menu {
+			li {
+            a {
+               padding-bottom: 4px;
+
+               /*
+               &.active {
+                  &::after {
+                     @apply absolute border-blue border-b-2 pin-b pin-l w-full;
+                     content: "";
+                  }
+               }
+               */
+
+               &::after {
+                  @apply absolute border-b-2 pin-b pin-l;
+                  content: "";
+                  transition: width .25s ease-in-out;
+                  width: 0;
+               }
+
+               &:hover::after { @apply .w-full }
+
+               @media screen and (min-width: 62rem) {
+                  @apply pb-3
+   				}
+            }
+			}
+		}
+	}
+}
+
+#nav_wrap {
+   #logo { @apply text-white }
+
+   .hamburger {
+      .hamburger-inner {
+         &, &::before, &::after {
+            background-color: #fff
+         }
+      }
+   }
+
+   #menu {
+      li {
+         a {
+            @apply text-black;
+
+            &::after {
+               @apply border-rust
+            }
+
+            @media screen and (min-width: 62rem) {
+               @apply text-white;
+
+               &::after { @apply border-white }
+            }
+         }
+      }
+   }
+
+   &.--black {
+      #logo { @apply text-black }
+
+      .hamburger {
+         .hamburger-inner {
+            &, &::before, &::after {
+               @apply bg-black
+            }
+         }
+      }
+
+      #menu {
+         li {
+            a {
+               @apply text-black;
+
+               &::after {
+                  @apply border-rust
+               }
+            }
+         }
+      }
+   }
+
+   &.--active {
+      @apply bg-white shadow;
+
+      //transition: color 250ms ease-in-out;
+
+      #logo { @apply text-black }
+
+      .hamburger {
+         .hamburger-inner {
+            &, &::before, &::after {
+               @apply bg-black
+            }
+         }
+      }
+
+      #menu {
+         li {
+            a {
+               @apply text-black;
+
+               &::after {
+                  @apply border-rust
+               }
+            }
+         }
+      }
+   }
+}
+
+body.menu_open {
+   #nav_wrap {
+      #logo { @apply text-black }
+
+      .hamburger {
+         .hamburger-inner {
+            &, &::before, &::after {
+               @apply bg-black
+            }
+         }
+      }
+
+      #menu {
+         li {
+            a {
+               @apply text-black;
+
+               &::after {
+                  @apply border-rust
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,6 +1,8 @@
 @mixin row($full-width: "false") {
   box-sizing: border-box;
-  margin: 0 -$gutter;
+  //margin: $gutter;
+  margin-left: -$gutter;
+  margin-right: -$gutter;
   //width: 100%;
   min-width: 100%;
   display: -webkit-flex;

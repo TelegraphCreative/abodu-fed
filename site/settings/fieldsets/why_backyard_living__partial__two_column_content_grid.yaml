@@ -1,0 +1,32 @@
+sections:
+  main:
+    display: Main
+    fields:
+      two_column_content_grid__heading:
+        type: text
+        display: Heading
+        width: 50
+      two_column_content_grid__intro:
+        type: textarea
+        width: 50
+        display: Intro
+      two_column_content_grid__list:
+        sets:
+          two_column_content_grid__list--items:
+            display: Benefit
+            fields:
+              two_column_content_grid__list--item--heading:
+                type: text
+                display: Heading
+              two_column_content_grid__list--item--copy:
+                type: textarea
+                display: Copy
+                width: 50
+              two_column_content_grid__list--item--list:
+                type: list
+                width: 50
+                display: List
+        type: replicator
+        display: Benefits
+title: 'Why Backyard Living: Partial: Two Column Content Grid'
+taxonomies: true

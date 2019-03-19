@@ -1,0 +1,20 @@
+sections:
+  main:
+    display: Main
+    fields:
+      color_block__heading:
+        type: text
+        display: Heading
+        width: 50
+      color_block__value:
+        type: textarea
+        display: Copy
+      color_block__button:
+        keys:
+          url: URL
+          text: Text
+        type: array
+        display: Button
+        width: 50
+taxonomies: false
+title: 'Why Backyard Living: Partial: Color Block'

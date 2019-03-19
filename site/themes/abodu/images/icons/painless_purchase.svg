@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 48">
+   <defs>
+      <style>.cls-1,.cls-2{fill:none;stroke:#9c4e07;stroke-width:2.5px}.cls-1{stroke-miterlimit:10}.cls-2{stroke-linejoin:round}</style>
+   </defs>
+   <path class="cls-1" d="M7.52 11A2.46 2.46 0 0 1 10 8.57h27a5 5 0 0 1 5 5v18.07a2.46 2.46 0 0 1-2.46 2.46"/>
+   <rect class="cls-1" x="2" y="14.47" width="34.29" height="24.96" rx="2"/>
+   <path class="cls-1" d="M7.52 19.96h4.93v4.93H7.52z"/>
+   <path class="cls-2" d="M11.23 34.1H6.29M18.21 34.1h-4.94M25.17 34.1h-4.92M32.15 34.1h-4.93"/>
+</svg>

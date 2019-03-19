@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 48">
+   <defs>
+      <style>.cls-1,.cls-2{fill:none;stroke:#9c4e07;stroke-miterlimit:10;stroke-width:2.5px}.cls-1{stroke-linecap:square}</style>
+   </defs>
+   <path class="cls-1" d="M42 44c-10.21 0-10-5-20-5-10.21 0-10 5-20 5"/>
+   <path class="cls-2" d="M31.86 4L2 14v20h40V9L31.86 4zM31.86 33.71V4"/>
+   <path class="cls-2" d="M17.22 15.17v13.54h8.71V12.17l-8.71 3z"/>
+   <path class="cls-1" d="M2 39h40"/>
+</svg>

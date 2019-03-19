@@ -8,6 +8,11 @@ mix.sass('sass/styles.scss', 'css/abodu.css')
 	.options({
 		processCssUrls: false,
 		postCss: [tailwindcss('tailwind.js')],
+		autoprefixer: {
+        options: {
+            browsers: ['last 3 versions']
+        }
+    },
 	});
    /*
    .js([

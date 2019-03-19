@@ -1,0 +1,45 @@
+sections:
+  main:
+    display: Main
+    fields:
+      hero__partial:
+        fieldset: partial__hero
+        type: partial
+        display: 'Hero Partial'
+      homeowners__section:
+        type: section
+        display: 'Homeowners Section'
+      two_column_content_grid__fields:
+        child_fieldset: why_backyard_living__partial__two_column_content_grid
+        type: accordion_group
+        display: 'Edit Homeowners'
+      value__section:
+        type: section
+        display: Value
+      color_block__fields:
+        type: accordion_group
+        display: 'Edit Value'
+        child_fieldset: why_backyard_living__partial__color_block
+      why_abodu__section:
+        type: section
+        display: 'Why Abodu?'
+      why_abodu__two_column_content_grid__fields:
+        child_fieldset: why_backyard_living__partial__why_abodu__two_column_content_grid
+        type: accordion_group
+        display: 'Edit Why Abodu?'
+      california__section:
+        type: section
+        display: California
+      photo_with_content_block__fields:
+        child_fieldset: why_backyard_living__partial__photo_with_content_block
+        type: accordion_group
+        display: 'Edit California'
+      cta__section:
+        type: section
+        display: 'Call to Action'
+      cta__fields:
+        type: accordion_group
+        display: 'Edit Call to Action'
+        child_fieldset: partial__cta
+taxonomies: true
+title: 'Why Backyard Living: Page'

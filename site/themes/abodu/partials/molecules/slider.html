@@ -1,0 +1,40 @@
+<section class="flex flex-col md:flex-row  |  max-w-3xl  |  mx-auto">
+
+   <div class="w-full relative">
+      <div class="slider">
+         {{ slider__fields.slider__images }}
+            <div>
+               <figure class="img --is2by1">
+                  <img src="{{ value }}" alt="">
+               </figure>
+            </div>
+         {{ /slider__fields.slider__images }}
+      </div>
+
+
+      <!--   Controls   -->
+      <div class="slider__controls" aria-label="Carousel Navigation" tabindex="0">
+         <!--   Prev Button   -->
+         <button class="slider__controls--btn" data-controls="prev" aria-controls="customize" tabindex="-1">
+            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 20">
+               <path d="M10.59 20L0 10 10.59 0 12 1.33 2.82 10 12 18.67 10.59 20z"/>
+            </svg>
+         </button>
+         <!--   Next Button   -->
+         <button class="slider__controls--btn" data-controls="next" aria-controls="customize" tabindex="-1">
+            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 20">
+               <path d="M0 18.67L9.18 10 0 1.33 1.41 0 12 10 1.41 20 0 18.67z"/>
+            </svg>
+         </button>
+      </div>
+      <!-- End Controls -->
+   </div>
+
+   <div class="slider__panels">
+      <div>
+         <h1>{{ slider__fields.slider__title }}</h1>
+      </div>
+
+      <div></div>
+   </div>
+</section>

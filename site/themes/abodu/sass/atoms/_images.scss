@@ -1,0 +1,31 @@
+//
+// Images
+//
+
+.img {
+   @apply block overflow-hidden relative w-full;
+
+   img {
+      @apply absolute block h-full pin w-full;
+      object-fit: cover;
+   }
+
+   // Horizontal
+   &.--is2by1 { padding-top: 50% }
+   &.--is3by2 { padding-top: 66.666666% }
+
+   // Square
+   &.--is1by1 { padding-top: 100% }
+
+   // Vertical
+   &.--is4by5 { padding-top: 125% }
+   &.--is3by4 { padding-top: 133.333333% }
+
+   @media screen and (min-width: 36rem) {
+      &.sm\:--is5by4 { padding-top: 80% }
+   }
+
+   @media screen and (min-width: 48rem) {
+      &.md\:--is4by5 { padding-top: 125% }
+   }
+}

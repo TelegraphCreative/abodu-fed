@@ -1,0 +1,20 @@
+sections:
+  main:
+    display: Main
+    fields:
+      slider__title:
+        type: text
+        display: Title
+        localizable: true
+        width: 50
+      slider__images:
+        container: main
+        folder: /
+        restrict: false
+        max_files: 5
+        mode: grid
+        type: assets
+        instructions: 'Limit 5 images'
+        width: 50
+        display: Images
+title: 'Partial: Slider'

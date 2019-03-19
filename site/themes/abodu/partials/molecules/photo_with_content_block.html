@@ -1,0 +1,50 @@
+<!--   Photo with Content Block   -->
+{{ photo_with_content_block__fields }}
+   <section class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20                    my-16 lg:my-20">
+
+      <div class="row">
+         <div class="col-xs-12 col-md-6 | mb-8 md:mb-0">
+            <figure class="img --is4by5   sm:--is5by4   md:--is4by5">
+               {{ photo_with_content_block__image }}
+                  <img src="{{ value }}" alt="">
+               {{ /photo_with_content_block__image }}
+
+               {{ if photo_with_content_block__button }}
+               <div class="absolute flex pin">
+                  <div class="absolute flex items-center justify-center pin">
+                     <div class="text-center">
+                        <a class="btn --secondary" href="{{ photo_with_content_block__button.url }}">{{ photo_with_content_block__button.text }}</a>
+                     </div>
+                  </div>
+               </div>
+               {{ /if }}
+            </figure>
+         </div>
+
+         <div class="col-xs-12 col-sm-10 col-md-6">
+            <div class="row end-xs | h-full">
+
+               <div class="col-xs-12 col-lg-10      flex items-center">
+                  <div>
+                     <h1 class="heading --dash --rust">{{ photo_with_content_block__heading }}</h1>
+                     <h2 class="heading --sub">{{ photo_with_content_block__subheading }}</h2>
+                     <div class="nested-mb-6 mt-6">
+                        {{ photo_with_content_block__copy | markdown }}
+                     </div>
+
+                     {{ if photo_with_content_block__quote }}
+                        <blockquote class="border-l-2 border-rust mt-16 pl-5 py-3 text-14 text-rust">
+                           &ldquo;{{ photo_with_content_block__quote }}&rdquo;
+                           <cite class="block font-bold mt-4 roman">- {{ photo_with_content_block__quoted }}</cite>
+                        </blockquote>
+                     {{ /if }}
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </section>
+{{ /photo_with_content_block__fields }}
+<!-- End Photo with Content Block -->

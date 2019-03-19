@@ -1,0 +1,31 @@
+sections:
+  main:
+    display: Main
+    fields:
+      benefits__heading:
+        type: text
+        display: Heading
+        width: 50
+      benefits__intro:
+        type: textarea
+        width: 50
+        display: Intro
+      benefits__list:
+        sets:
+          benefits__list--items:
+            display: Benefit
+            fields:
+              benefits__list--item--heading:
+                type: text
+                display: Heading
+              benefits__list--item--copy:
+                type: textarea
+                display: Copy
+                width: 50
+              benefits__list--item--list:
+                type: list
+                width: 50
+                display: List
+        type: replicator
+        display: Benefits
+title: 'Why Backyard Living: Partial: Benefits'

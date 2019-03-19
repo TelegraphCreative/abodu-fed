@@ -1,2 +1,33 @@
+slider__fields:
+  slider__title: 'Abodu 450'
+  slider__images:
+    - /assets/1.jpg
+    - /assets/4.jpg
+    - /assets/6.jpg
+color_block__fields:
+  color_block__button:
+    url: 'https://google.com'
+    text: 'View Pricing'
+  color_block__heading: 'What it costs'
+  color_block__subheading: 'Straightforward Pricing.'
+  color_block__copy: 'Our simple, flat pricing starts at $180,000, which includes everything- permitting, build, and install.'
+photo_with_content_block__fields:
+  photo_with_content_block__button:
+    url: 'https://google.com'
+    text: 'Have a Look Around'
+  photo_with_content_block__image:
+    - /assets/4.jpg
+  photo_with_content_block__heading: 'How It Feels'
+  photo_with_content_block__subheading: 'Timeless, Considered Design.'
+  photo_with_content_block__copy: 'Turns out, Americans aren''t historically world-class at designing small spaces… so we had to enlist the help of our Scandinavian friends. Together, we''ve spent thousands of hours poring over every inch of your Abodu to make sure it''s just-right, so that you don''t have to. All you need to do is select your finishes, and tell us where you want it.'
+  photo_with_content_block__quote: 'Customer or review quote. We’ve spent thousands of hours designing every inch of an Abodu to ensure each aspect is deliberate and with purpose so you don’t have to... All you need to do is select a color, and any upgrades'
+  photo_with_content_block__quoted: 'Jane Smitherson'
+cta__fields:
+  cta__button:
+    url: 'https://google.com'
+    text: 'Talk to Us'
+  cta__heading: 'Ready to put an Abodu in your backyard?'
 title: Home
+template: home
+fieldset: home
 id: 7bbea697-e92b-4d23-9eae-9eed9989b0e4

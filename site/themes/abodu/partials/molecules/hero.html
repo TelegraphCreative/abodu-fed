@@ -1,0 +1,75 @@
+<!--   Hero   -->
+<section class="{{ if bg_color }} bg-{{ bg_color }} {{ /if }} {{ if color }} text-{{ color }} {{ /if }}">
+   <div class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16 lg:px-20      pb-20 pt-32  md:pb-24 md:pt-48   lg:pb-24">
+      <div class="row">
+
+         <div class="col-xs-12   col-sm-10   col-lg-8">
+            {{ if template == "home" }}
+
+               <h1 class="font-normal leading-tight text-30   xs:text-36   sm:text-42 md:text-64"><span class="text-rust">Backyard apartments<br></span> worth living in.</h1>
+
+            {{ else }}
+
+               <div class="mt-6 xs:mt-8 md:mt-10 lg:mt-8">
+                  <h1 class="heading --dash {{ if color }} --{{ color }} {{ /if }}">{{ hero__heading }}</h1>
+                  <h2 class="font-normal leading-tight text-30   xs:text-36   sm:text-42 md:text-64">{{ hero__subheading }}</h2>
+
+                  <div class="nested-mb-6 mt-12 | md:2-columns">
+                     {{ hero__copy | markdown }}
+                  </div>
+               </div>
+
+            {{ /if }}
+         </div>
+
+      </div>
+   </div>
+
+   {{ if hero__image }}
+      <div class="hero__image" style="background-image:url({{ assets:hero__image }}{{ url }}{{ /assets:hero__image }}"></div>
+   {{ /if }}
+</section>
+
+<!--
+{{ if template == "home" }}
+<section>
+   <div class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16 lg:px-20      pb-20 pt-32  md:pb-24 md:pt-48   lg:pb-24">
+
+      <div class="row">
+
+         <div class="col-xs-12   col-sm-10   col-lg-8">
+            <h1 class="font-normal leading-tight text-30   xs:text-36   sm:text-42 md:text-64"><span class="text-rust">Backyard apartments<br></span> worth living in.</h1>
+         </div>
+
+      </div>
+      <!--
+   </div>
+</section>
+{{ /if }}
+-->
+
+<!--
+{{ if template == "why-backyard-living" }}
+   <section class="bg-rust text-white">
+      <div class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16 lg:px-20      pb-20 pt-32  md:pb-24 md:pt-48   lg:pb-24">
+      -
+         <div class="row">
+
+            <div class="col-xs-12   col-sm-10   col-lg-8">
+               <h1 class="heading --dash --white   mt-6 xs:mt-8 md:mt-10 lg:mt-8">{{ hero__heading }}</h1>
+               <h2 class="font-normal leading-tight text-30   xs:text-36   sm:text-42 md:text-64">{{ hero__subheading }}</h2>
+
+               <div class="nested-mb-6 mt-12 | md:2-columns">
+                  {{ hero__copy | markdown }}
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+      <div class="hero__image" style="background-image:url({{ assets:hero__image }}{{ url }}{{ /assets:hero__image }}">
+      </div>
+      <!--
+   </section>
+{{ /if }}
+<!-- End Hero -->
