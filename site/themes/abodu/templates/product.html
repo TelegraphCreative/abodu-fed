@@ -44,15 +44,13 @@
             <div class="col-xs-12 col-lg-10">
                <h1 class="heading --dash --rust">{{ exterior__heading }}</h1>
 
-               <h2 class="heading --sub">{{ exterior__subheading }}</h2>
+               <h2 class="heading --tertiary">{{ exterior__subheading }}</h2>
 
-               <div class="mt-8">
-                  <ul class="list-reset list">
-                     {{ exterior__list }}
-                        <li>{{ value }}</li>
-                     {{ /exterior__list }}
-                  </ul>
-               </div>
+               <ul class="list-reset list  |  mt-8">
+                  {{ exterior__list }}
+                     <li>{{ value }}</li>
+                  {{ /exterior__list }}
+               </ul>
             </div>
          </div>
       </div>
@@ -64,6 +62,140 @@
 
 <!--   Interior   -->
 {{ partial:molecules/two_column_content_grid section="interior" }}
+
+
+<!--   Customize   -->
+<section class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20       pb-12 lg:pb-20 my-16 lg:my-20       relative" style="z-index: 1">
+
+   <!--   Color Block Background   -->
+   <div class="absolute bgf-sand h-full pin-b pin-l pin-r pt-32 md:pt-48 lg:pt-76" style="z-index:-1">
+      <div class="bg-sand h-full"></div>
+   </div>
+
+   <!--   Image Grid   -->
+   {{ partial:molecules/image_grid__reverse }}
+   <!-- End Image Grid -->
+
+   <div class="row">
+      <!--   Text: Hidden on Medium/Large Display   -->
+      <div class="col-xs-12 col-sm-10 col-lg-7  |  mb-10 lg:mb-16 lg:-mt-12 xl:-mt-20">
+         <h1 class="heading --dash --rust">Customize</h1>
+         <p class="text --large">Make your new Abodu yours, with a selection of curated upgrades and options.</p>
+      </div>
+   </div>
+
+   <div class="row  |  -mb-3">
+      <div class="col-xs-12 col-sm-6 col-lg-4  |  mt-4">
+         <h2 class="heading --quinary  |  mb-2">Turn-key furniture package:</h2>
+
+         <ul class="list-reset list  |  mt-4">
+            <li>Queen mattress, from our friends at XXXX</li>
+            <li>Dining table, from our friends at XXX</li>
+            <li>Sofa, from our friends at XXX</li>
+            <li>Coffee table, from our friends at XXX</li>
+         </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-lg-4  |  mt-4">
+         <h2 class="heading --quinary  |  mb-2">All-the-extras package:</h2>
+
+         <ul class="list-reset list  |  mt-4">
+            <li>Pots and pans, from our friends at XXX</li>
+            <li>Glassware, from our friends at XXX</li>
+            <li>Silverware, from our friends at XXX</li>
+            <li>Wall-mounted shelves, from our friends 	at XXX</li>
+            <li>Plants, from our friends at XXX</li>
+            <li>TV, from our friends at XXX</li>
+         </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-lg-4  |  mt-4">
+         <h2 class="heading --quinary  |  mb-2">Premium materials:</h2>
+
+         <ul class="list-reset list  |  mt-4">
+            <li>Sub-zero and Wolf appliances - $15,000</li>
+            <li>Upgraded counter surfaces - $X,XXX</li>
+            <li>Upgraded faucets and handles - $X,XXX </li>
+            <li>“Shou sugi ban” exterior siding - $X,XXX</li>
+         </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-lg-4  |  mt-4">
+         <h2 class="heading --quinary  |  mb-2">Solar:</h2>
+
+         <ul class="list-reset list  |  mt-4">
+            <li>2020 Zero Net Energy ready, in CA.</li>
+         </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-lg-4  |  mt-4">
+         <h2 class="heading --quinary  |  mb-2">Outdoor decking:</h2>
+
+         <ul class="list-reset list  |  mt-4">
+            <li>Details on decking to be added.</li>
+         </ul>
+      </div>
+   </div>
+</section>
+<!-- End Customize -->
+
+
+<!--   Design Partnership   -->
+{{ design_partnership__photo_with_content_block__fields }}
+   <section class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20                    my-16 lg:my-20">
+
+      <div class="row">
+         <div class="col-xs-12 col-md-6 | mb-8 md:mb-0">
+            <figure class="img --is4by5   sm:--is5by4   md:--is4by5">
+
+               <!--   Image   -->
+               <div class="absolute pin-l pin-t w-9/10  sm:w-4/5 md:w-9/10 lg:w-4/5">
+                  <figure class="img --is4by5   sm:--is5by4   md:--is4by5">
+                     {{ photo_with_content_block__image }}
+                        <img src="{{ value }}" alt="" style="-o-object-position: top;
+     object-position: top;"
+                     {{ /photo_with_content_block__image }}
+                  </figure>
+               </div>
+
+               <!--   Logo   -->
+               <div class="absolute pin-b pin-r  |  w-24 xs:w-32 sm:w-48 md:w-32 lg:w-48">
+                  <div class="img --is1by1">
+                     <img src="{{ theme:asset src="images/koto_logo.jpg" }}" alt="">
+                  </div>
+               </div>
+            </figure>
+         </div>
+
+         <div class="col-xs-12 col-sm-10 col-md-6">
+            <div class="row end-xs | h-full">
+
+               <div class="col-xs-12 col-lg-10      flex items-center">
+                  <div class="{{ if photo_with_content_block__list }}-mb-12{{/if}} md:pt-8 xl:pt-16">
+                     {{ if photo_with_content_block__heading }}
+                        <h1 class="heading --dash --rust">{{ photo_with_content_block__heading }}</h1>
+                     {{ /if }}
+
+                     {{ if photo_with_content_block__subheading }}
+                        <h2 class="heading --tertiary">{{ photo_with_content_block__subheading }}</h2>
+                     {{ /if }}
+
+                     {{ if photo_with_content_block__copy }}
+                        <div class="nested-mb-6 mt-6">
+                           {{ photo_with_content_block__copy | markdown }}
+                        </div>
+                     {{ /if }}
+
+                     {{ partial:atoms/btn--arrow url="{{ photo_with_content_block__link.url }}" text="{{ photo_with_content_block__link.text }}" }}
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </section>
+{{ /design_partnership__photo_with_content_block__fields }}
 
 
 <!--   CTA   -->

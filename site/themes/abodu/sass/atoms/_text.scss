@@ -1,0 +1,17 @@
+//
+// Text
+//
+
+.text {
+   &.--large {
+      @apply text-20;
+
+      @media screen and (min-width: 22.5rem) {
+         @apply text-24
+      }
+
+      @media screen and (min-width: 62rem) {
+         @apply text-32
+      }
+   }
+}

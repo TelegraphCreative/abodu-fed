@@ -3,19 +3,21 @@
    <section class="{{ if bg_color == 'green' }} bg-green {{ else }} bg-rust {{ /if }}">
       <div class="max-w-3xl mx-auto py-12 px-4 text-white   xs:px-6   sm:px-10   md:px-16 md:pt-16   lg:pb-20 lg:pt-24 lg:px-20">
 
-         <div class="row center-xs">
-            <div class="col-xs-12   col-sm-10   col-lg-8">
+         <div class="row  |  center-xs">
+            <div class="col-xs-12 col-sm-10 col-lg-8  |  text-center">
 
                <img class="block h-8 mb-8 mx-auto w-12   xs:h-10 xs:w-16   lg:h-12 lg:w-19" src="{{ theme:images src="abodu_brandmark.svg" }}">
 
-               <h1 class="font-normal leading-tight mb-10 text-24 text-center   xs:text-30   md:mb-12 md:text-36   lg:text-48   xl:text-60">{{ cta__heading }}</h1>
+               <h1 class="heading --secondary  |  mb-10 md:mb-12">{{ cta__heading }}</h1>
 
-               <div class="text-center">
-                  <a class="btn --primary  |  bg-white hover:text-white
+               {{ if cta__copy }}
+                  <p class="mb-10 md:mb-12 -mt-3 lg:px-16">{{ cta__copy }}</p>
+               {{ /if }}
 
-                  {{ if color == 'green' }} text-green hover:bg-green {{ else }} text-rust hover:bg-rust {{ /if }}
-                  " href="{{ cta__button.url }}">{{ cta__button.text }}</a>
-               </div>
+               <a class="btn --primary  |  bg-white hover:text-white
+
+               {{ if color == 'green' }} text-green hover:bg-green {{ else }} text-rust hover:bg-rust {{ /if }}"
+               href="{{ cta__button.url }}">{{ cta__button.text }}</a>
             </div>
          </div>
 

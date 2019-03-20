@@ -3,6 +3,8 @@
 //
 
 .heading {
+   @apply font-bold leading-tight;
+
    &.--dash {
       @apply flex leading-loose mb-1 pl-6 relative text-10 tracking-extra-wide uppercase;
 
@@ -38,8 +40,30 @@
       }
    }
 
-   &.--sub {
-      @apply font-bold leading-tight mb-3 text-24;
+   &.--primary {
+      @apply font-normal text-30;
+
+      span { @apply text-rust }
+
+      @media screen and (min-width: 22.5rem) {
+         @apply text-36
+      }
+
+      @media screen and (min-width: 36rem) {
+         @apply text-42
+      }
+
+      @media screen and (min-width: 48rem) {
+         @apply text-64
+      }
+   }
+
+   &.--secondary {
+      @apply font-normal text-24;
+
+      @media screen and (min-width: 22.5rem) {
+         @apply text-30
+      }
 
       @media screen and (min-width: 48rem) {
          @apply text-36
@@ -48,5 +72,33 @@
       @media screen and (min-width: 62rem) {
          @apply text-42
       }
+
+      @media screen and (min-width: 75rem) {
+         @apply text-60
+      }
+   }
+
+   &.--tertiary {
+      @apply text-24;
+
+      @media screen and (min-width: 48rem) {
+         @apply text-36
+      }
+
+      @media screen and (min-width: 62rem) {
+         @apply text-42
+      }
+   }
+
+   &.--quaternary {
+      @apply text-20;
+
+      @media screen and (min-width: 62rem) {
+         @apply text-26
+      }
+   }
+
+   &.--quinary {
+      @apply text-20
    }
 }
