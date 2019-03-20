@@ -47,8 +47,8 @@
       &:first-child {
          @apply bg-white flex h-16 items-center w-full;
 
-         h1 {
-            @apply font-bold leading-none ml-4 text-12 uppercase;
+         span {
+            @apply block font-bold leading-none ml-4 text-12 uppercase;
             letter-spacing: 3px;
 
             @media screen and (min-width: 22.5rem) {

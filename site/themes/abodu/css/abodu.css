@@ -24007,7 +24007,7 @@ table {
 }
 
 .list {
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding-left: 1.5rem;
 }
 
@@ -24426,7 +24426,8 @@ body.menu_open #nav_wrap #menu li a::after {
   width: 100%;
 }
 
-.slider__panels div:first-child h1 {
+.slider__panels div:first-child span {
+  display: block;
   font-weight: 700;
   line-height: 1;
   margin-left: 1rem;
@@ -24436,20 +24437,20 @@ body.menu_open #nav_wrap #menu li a::after {
 }
 
 @media screen and (min-width: 22.5rem) {
-  .slider__panels div:first-child h1 {
+  .slider__panels div:first-child span {
     margin-left: 1.5rem;
   }
 }
 
 @media screen and (min-width: 22.5rem) {
-  .slider__panels div:first-child h1 {
+  .slider__panels div:first-child span {
     margin-left: 2.5rem;
     font-size: .8125rem;
   }
 }
 
 @media screen and (min-width: 48rem) {
-  .slider__panels div:first-child h1 {
+  .slider__panels div:first-child span {
     margin-left: 0;
     margin-top: 3.5rem;
     -webkit-transform: rotate(90deg);
@@ -26471,6 +26472,15 @@ button {
   overflow: hidden;
   width: 1px;
   clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media only screen and (min-width: 48rem) {
+  .row.reverse-md {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: row-reverse !important;
+            flex-direction: row-reverse !important;
+  }
 }
 
 .nested-mb-6 {

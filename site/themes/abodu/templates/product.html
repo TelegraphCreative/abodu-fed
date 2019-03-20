@@ -1,0 +1,70 @@
+{{ partial:molecules/hero
+      bg_color="black"
+      color="white"
+}}
+
+<!--   Product Pillars   -->
+{{ partial:molecules/photo_with_content_block }}
+
+
+<!--   Abodu 450   -->
+<section>
+   {{ partial:molecules/slider }}
+   {{ partial:molecules/content_block_with_pattern }}
+
+   <div class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20">
+      <div class="row center-xs">
+         <div class="col-xs-12 col-md-10">
+
+            <img class="mb-6" src="{{ abodu_450_product_specs_image }}" alt="">
+
+            <p class="text-14 text-center"><span class="font-bold">Product Specs:</span> {{ abodu_450_product_specs }}</p>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+<!--   Exterior   -->
+<section class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20                    my-16 lg:my-20">
+
+   <div class="row reverse-md">
+
+      <!--   Image   -->
+      <div class="col-xs-12 col-md-6 | mb-8 md:mb-0">
+         <figure class="img --is3by2">
+            <img src="{{ exterior__image }}" alt="">
+         </figure>
+      </div>
+
+      <!--   Content Column   -->
+      <div class="col-xs-12 col-sm-10 col-md-6">
+         <div class="row">
+
+            <div class="col-xs-12 col-lg-10">
+               <h1 class="heading --dash --rust">{{ exterior__heading }}</h1>
+
+               <h2 class="heading --sub">{{ exterior__subheading }}</h2>
+
+               <div class="mt-8">
+                  <ul class="list-reset list">
+                     {{ exterior__list }}
+                        <li>{{ value }}</li>
+                     {{ /exterior__list }}
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+
+<!--   Interior   -->
+{{ partial:molecules/two_column_content_grid section="interior" }}
+
+
+<!--   CTA   -->
+{{ partial:molecules/cta }}

@@ -41,6 +41,9 @@ a, button { transition: all 150ms ease-in-out }
 	clip: rect(1px, 1px, 1px, 1px)
 }
 
+@media only screen and (min-width: 48rem) {
+	.row.reverse-md { flex-direction: row-reverse!important }
+}
 
 // Text Blocks
 .nested-mb-6 {

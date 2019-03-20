@@ -1,0 +1,20 @@
+<!--   Content Block with Pattern   -->
+<div class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20                    mb-16 lg:mb-20   py-12   md:py-16    relative     bg-black">
+
+   <div class="absolute h-full overflow-hidden pin-t pin-r    hidden   md:flex md:items-center" style="width: 34.72868217%">
+      <img class="block w-full" src="{{ theme:images src='patterns/pattern--1.svg' }}">
+   </div>
+
+   <div class="row">
+      <div class="col-xs-12   col-sm-10   col-md-7">
+         <h1 class="heading --dash --white">{{ content_block_with_pattern__heading }}</h1>
+         <p class="text-24 text-white   lg:text-32">{{ content_block_with_pattern__copy }}</p>
+
+         {{ if content_block_with_pattern__toggle == 'true' }}
+            {{ partial:atoms/btn--arrow color="--white" url="{{ content_block_with_pattern__button.url }}" text="{{ content_block_with_pattern__button.text }}" }}
+         {{ /if }}
+      </div>
+   </div>
+
+</div>
+<!-- End Content Block with Pattern -->

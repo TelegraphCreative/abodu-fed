@@ -1,9 +1,15 @@
-slider__fields:
-  slider__title: 'Abodu 450'
-  slider__images:
-    - /assets/1.jpg
-    - /assets/4.jpg
-    - /assets/6.jpg
+hero__heading: 'Backyard apartments<br></span> worth living in.'
+slider__title: 'Abodu 450'
+slider__images:
+  - /assets/1.jpg
+  - /assets/4.jpg
+  - /assets/6.jpg
+content_block_with_pattern__heading: 'What We Do'
+content_block_with_pattern__copy: 'Seamless buying, seamless installation, instant gratification. We do the heavy lifting so you don’t have to — welcome to your backyard home, welcome to your Abodu.'
+content_block_with_pattern__toggle: true
+content_block_with_pattern__button:
+  url: /why-backyard-living
+  text: 'Why Backyard Living'
 color_block__fields:
   color_block__button:
     url: 'https://google.com'

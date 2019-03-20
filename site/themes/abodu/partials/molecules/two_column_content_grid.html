@@ -2,25 +2,33 @@
 <section class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20                    my-16 lg:my-20">
    <!--   Header   -->
    <div class="row">
-      <div class="col-xs-12 col-sm-10 col-md-7">
 
       {{ if section == "Why Abodu" }}
+         <div class="col-xs-12 col-sm-10 col-md-7">
+            {{ why_abodu__two_column_content_grid__fields }}
+               <h1 class="heading --dash --rust">{{ two_column_content_grid__heading }}</h1>
+               <h2 class="text-20 xs:text-24 lg:text-32">{{ two_column_content_grid__subheading }}</h2>
+            {{ /why_abodu__two_column_content_grid__fields }}
+         </div>
 
-         {{ why_abodu__two_column_content_grid__fields }}
+      {{ elseif section == "interior" }}
+
+         <div class="col-xs-12 col-sm-10 col-md-7 col-lg-5">
             <h1 class="heading --dash --rust">{{ two_column_content_grid__heading }}</h1>
-            <h2 class="text-20 xs:text-24 lg:text-32">{{ two_column_content_grid__subheading }}</h2>
-         {{ /why_abodu__two_column_content_grid__fields }}
+            <h2 class="heading --sub">{{ two_column_content_grid__subheading }}</h2>
+         </div>
 
       {{ else }}
 
-         {{ two_column_content_grid__fields }}
-            <h1 class="heading --dash --rust">{{ two_column_content_grid__heading }}</h1>
-            <p class="text-20 xs:text-24 lg:text-32">{{ two_column_content_grid__intro }}</p>
-         {{ /two_column_content_grid__fields }}
+         <div class="col-xs-12 col-sm-10 col-md-7">
+            {{ two_column_content_grid__fields }}
+               <h1 class="heading --dash --rust">{{ two_column_content_grid__heading }}</h1>
+               <p class="text-20 xs:text-24 lg:text-32">{{ two_column_content_grid__intro }}</p>
+            {{ /two_column_content_grid__fields }}
+         </div>
 
       {{ /if }}
 
-      </div>
    </div>
    <!-- End Header -->
 
@@ -44,32 +52,49 @@
          {{ /why_abodu__two_column_content_grid__fields.two_column_content_grid__list }}
 
       </div>
-      
+
    {{ else }}
 
       <div class="row">
+         {{ if section == "interior" }}
 
-         {{ two_column_content_grid__fields.two_column_content_grid__list }}
-            <div class="col-xs-12 col-md-6   mt-8   md:mt-16">
-               {{ if two_column_content_grid__list--item--heading }}
-                  <h2 class="font-bold mb-1 text-20">{{ two_column_content_grid__list--item--heading }}</h2>
-               {{ /if }}
+            {{ two_column_content_grid__list }}
+               <div class="col-xs-12 col-md-6   mt-6">
+                  <h2 class="font-bold text-20">{{ two_column_content_grid__list--item--heading }}</h2>
 
-               {{ if two_column_content_grid__list--item--copy }}
-                  <div class="nested-mb-6">
-                     {{ two_column_content_grid__list--item--copy | markdown }}
-                  </div>
-               {{ /if }}
-
-               {{ if two_column_content_grid__list--item--list }}
                   <ul class="list-reset list">
                      {{ two_column_content_grid__list--item--list }}
                         <li>{{ value }}</li>
                      {{ /two_column_content_grid__list--item--list }}
                   </ul>
-               {{ /if }}
-            </div>
-         {{ /two_column_content_grid__fields.two_column_content_grid__list }}
+               </div>
+            {{ /two_column_content_grid__list }}
+
+         {{ else }}
+
+            {{ two_column_content_grid__fields.two_column_content_grid__list }}
+               <div class="col-xs-12 col-md-6   mt-8   md:mt-16">
+                  {{ if two_column_content_grid__list--item--heading }}
+                     <h2 class="font-bold text-20">{{ two_column_content_grid__list--item--heading }}</h2>
+                  {{ /if }}
+
+                  {{ if two_column_content_grid__list--item--copy }}
+                     <div class="nested-mb-6 mt-1">
+                        {{ two_column_content_grid__list--item--copy | markdown }}
+                     </div>
+                  {{ /if }}
+
+                  {{ if two_column_content_grid__list--item--list }}
+                     <ul class="list-reset list">
+                        {{ two_column_content_grid__list--item--list }}
+                           <li>{{ value }}</li>
+                        {{ /two_column_content_grid__list--item--list }}
+                     </ul>
+                  {{ /if }}
+               </div>
+            {{ /two_column_content_grid__fields.two_column_content_grid__list }}
+
+         {{ /if }}
 
       </div>
    {{ /if }}

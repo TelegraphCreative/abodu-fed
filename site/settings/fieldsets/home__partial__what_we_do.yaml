@@ -1,0 +1,14 @@
+sections:
+  main:
+    display: Main
+    fields:
+      what_we_do__slider:
+        fieldset: partial__slider
+        type: partial
+        display: Slider
+      what_we_do__content_block_with_pattern:
+        type: partial
+        display: 'Content Block'
+        fieldset: partial__content_block_with_pattern
+taxonomies: true
+title: 'Home: Partial: What We Do'

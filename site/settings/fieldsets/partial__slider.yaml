@@ -4,7 +4,7 @@ sections:
     fields:
       slider__title:
         type: text
-        display: Title
+        display: 'Slider Title'
         localizable: true
         width: 50
       slider__images:
@@ -16,5 +16,6 @@ sections:
         type: assets
         instructions: 'Limit 5 images'
         width: 50
-        display: Images
+        display: 'Slider Images'
 title: 'Partial: Slider'
+taxonomies: true

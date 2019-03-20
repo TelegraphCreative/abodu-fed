@@ -8,17 +8,23 @@ sections:
       hero__heading:
         type: text
         display: Heading
+        width: 50
       hero__subheading:
         type: text
         display: Subheading
+        width: 50
       hero__copy:
         type: textarea
         display: Copy
+        width: 50
       hero__image:
         container: main
         folder: /
         restrict: false
         type: assets
         display: Image
+        width: 50
+        max_files: 1
+        mode: grid
 taxonomies: true
 title: 'Partial: Hero'

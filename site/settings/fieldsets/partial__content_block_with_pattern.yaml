@@ -1,0 +1,23 @@
+sections:
+  main:
+    display: Main
+    fields:
+      content_block_with_pattern__heading:
+        type: text
+        display: Heading
+      content_block_with_pattern__copy:
+        type: textarea
+        display: Copy
+      content_block_with_pattern__toggle:
+        type: toggle
+        display: 'Display Button?'
+      content_block_with_pattern__button:
+        keys:
+          url: URL
+          text: Text
+        type: array
+        display: Button
+        show_when:
+          content_block_with_pattern__toggle: true
+taxonomies: true
+title: 'Partial: Content Block with Pattern'

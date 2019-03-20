@@ -8,13 +8,17 @@ sections:
       hero__heading:
         type: text
         display: Heading
-      slider__section:
+      what_we_do__section:
         type: section
-        display: Slider
+        display: 'What We Do'
       slider__fields:
-        type: accordion_group
-        display: 'Edit Slider'
-        child_fieldset: partial__slider
+        fieldset: partial__slider
+        type: partial
+        display: Slider
+      content_block_with_pattern__fields:
+        fieldset: partial__content_block_with_pattern
+        type: partial
+        display: 'Content Block with Pattern'
       cost__section:
         type: section
         display: Cost

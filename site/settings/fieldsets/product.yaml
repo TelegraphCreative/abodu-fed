@@ -1,0 +1,73 @@
+sections:
+  main:
+    display: Main
+    fields:
+      hero__section:
+        type: section
+        display: Hero
+      hero__partial:
+        fieldset: partial__hero
+        type: partial
+        display: Hero
+      pillars__section:
+        type: section
+        display: 'Product Pillars'
+      photo_with_content_block__fields:
+        child_fieldset: product__partial__photo_with_content_block
+        type: accordion_group
+        display: 'Edit Pillars'
+      abodu_450__section:
+        type: section
+        display: 'Abodu 450'
+      slider__fields:
+        fieldset: partial__slider
+        type: partial
+        display: 'Abodu 450: Slider'
+      content_block_with_pattern__fields:
+        fieldset: partial__content_block_with_pattern
+        type: partial
+        display: 'Abodu 450: Content Block with Pattern'
+      abodu_450_product_specs_image:
+        container: main
+        folder: /
+        restrict: false
+        max_files: 1
+        type: assets
+        width: 50
+        display: Image
+      abodu_450_product_specs:
+        type: textarea
+        width: 50
+        display: 'Product Specs'
+      exterior__section:
+        type: section
+        display: Exterior
+      exterior__heading:
+        type: text
+        width: 50
+        display: Heading
+      exterior__subheading:
+        type: text
+        width: 50
+        display: Subheading
+      exterior__list:
+        type: list
+        width: 50
+        display: List
+      exterior__image:
+        container: main
+        folder: /
+        restrict: false
+        max_files: 1
+        type: assets
+        width: 50
+        display: Image
+      interior__section:
+        type: section
+        display: Interior
+      two_column_content_grid__fields:
+        fieldset: product__partial__two_column_content_grid
+        type: partial
+        display: 'Interior Fields'
+taxonomies: false
+title: 'Product: Page'

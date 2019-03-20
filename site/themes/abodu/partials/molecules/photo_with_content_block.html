@@ -25,18 +25,37 @@
             <div class="row end-xs | h-full">
 
                <div class="col-xs-12 col-lg-10      flex items-center">
-                  <div>
-                     <h1 class="heading --dash --rust">{{ photo_with_content_block__heading }}</h1>
-                     <h2 class="heading --sub">{{ photo_with_content_block__subheading }}</h2>
-                     <div class="nested-mb-6 mt-6">
-                        {{ photo_with_content_block__copy | markdown }}
-                     </div>
+                  <div class="{{ if photo_with_content_block__list }}-mb-12{{/if}} md:pt-8 xl:pt-16">
+                     {{ if photo_with_content_block__heading }}
+                        <h1 class="heading --dash --rust">{{ photo_with_content_block__heading }}</h1>
+                     {{ /if }}
+
+                     {{ if photo_with_content_block__subheading }}
+                        <h2 class="heading --sub">{{ photo_with_content_block__subheading }}</h2>
+                     {{ /if }}
+
+                     {{ if photo_with_content_block__copy }}
+                        <div class="nested-mb-6 mt-6">
+                           {{ photo_with_content_block__copy | markdown }}
+                        </div>
+                     {{ /if }}
 
                      {{ if photo_with_content_block__quote }}
                         <blockquote class="border-l-2 border-rust mt-16 pl-5 py-3 text-14 text-rust">
                            &ldquo;{{ photo_with_content_block__quote }}&rdquo;
                            <cite class="block font-bold mt-4 roman">- {{ photo_with_content_block__quoted }}</cite>
                         </blockquote>
+                     {{ /if }}
+
+                     {{ if photo_with_content_block__list }}
+                        {{ photo_with_content_block__list }}
+                           <div class="mb-16 mt-4">
+                              <h2 class="font-bold leading-tight mb-4 text-20">{{ photo_with_content_block__list--item--heading }}</h2>
+                              <div class="nested-mb-6">
+                                 {{ photo_with_content_block__list--item--copy | markdown }}
+                              </div>
+                           </div>
+                        {{ /photo_with_content_block__list }}
                      {{ /if }}
 
                   </div>

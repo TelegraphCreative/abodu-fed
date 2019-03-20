@@ -1,0 +1,29 @@
+sections:
+  main:
+    display: Main
+    fields:
+      two_column_content_grid__heading:
+        type: text
+        display: Heading
+        width: 50
+      two_column_content_grid__subheading:
+        type: text
+        display: Subheading
+        width: 50
+      two_column_content_grid__list:
+        sets:
+          two_column_content_grid__list--items:
+            display: Location
+            fields:
+              two_column_content_grid__list--item--heading:
+                type: text
+                width: 50
+                display: Heading
+              two_column_content_grid__list--item--list:
+                type: list
+                width: 50
+                display: List
+        type: replicator
+        display: Features
+taxonomies: true
+title: 'Product: Partial: Two Column Content Grid'
