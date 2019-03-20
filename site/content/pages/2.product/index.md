@@ -49,46 +49,67 @@ exterior__list:
   - 'Black adonized aluminum, double-paned windows from Andersen.'
   - '9'' sliding door from Andersen.'
 exterior__image: /assets/2.jpg
-two_column_content_grid__heading: Interior
-two_column_content_grid__subheading: 'Standard Internal Features:'
-two_column_content_grid__list:
-  -
-    type: two_column_content_grid__list--items
-    two_column_content_grid__list--item--heading: Throughout
-    two_column_content_grid__list--item--list:
-      - 'LED lighting, with architectural LED accent strips.'
-      - 'Mini-split HVAC system.'
-      - 'In-unit washer dryer, from Haier.'
-      - 'Smart thermostat, from Nest.'
-      - 'Smart door locks, from August.'
-  -
-    type: two_column_content_grid__list--items
-    two_column_content_grid__list--item--heading: Kitchen
-    two_column_content_grid__list--item--list:
-      - 'White quartz countertops.'
-      - 'White tile backsplash.'
-      - 'White and wood cabinets, with soft-close hinges.'
-      - 'Fisher and Paykel stainless-steel, electric appliances.'
-      - 'Matte black faucets from Moen.'
-  -
-    type: two_column_content_grid__list--items
-    two_column_content_grid__list--item--heading: 'Living Room'
-    two_column_content_grid__list--item--list:
-      - 'Window seat / bench with built-in storage, with soft-close hinges.'
-  -
-    type: two_column_content_grid__list--items
-    two_column_content_grid__list--item--heading: Bathroom
-    two_column_content_grid__list--item--list:
-      - 'White tile flooring.'
-      - 'Marble-textured shower, from Kohler Choreograph.'
-      - 'Crittal-style, black-framed shower door.'
-      - 'Matte black faucets throughout from Moen.'
-      - 'Built-in wood vanity.'
-  -
-    type: two_column_content_grid__list--items
-    two_column_content_grid__list--item--heading: Bedroom
-    two_column_content_grid__list--item--list:
-      - 'Custom bedroom wardrobe, with soft-close hinges.'
+two_column_content_grid__fields:
+  two_column_content_grid__list:
+    -
+      type: two_column_content_grid__list--items
+      two_column_content_grid__list--item--heading: Throughout
+      two_column_content_grid__list--item--list:
+        - 'LED lighting, with architectural LED accent strips.'
+        - 'Mini-split HVAC system.'
+        - 'In-unit washer dryer, from Haier.'
+        - 'Smart thermostat, from Nest.'
+        - 'Smart door locks, from August.'
+      '#hidden': true
+    -
+      type: two_column_content_grid__list--items
+      two_column_content_grid__list--item--heading: Kitchen
+      two_column_content_grid__list--item--list:
+        - 'White quartz countertops.'
+        - 'White tile backsplash.'
+        - 'White and wood cabinets, with soft-close hinges.'
+        - 'Fisher and Paykel stainless-steel, electric appliances.'
+        - 'Matte black faucets from Moen.'
+      '#hidden': true
+    -
+      type: two_column_content_grid__list--items
+      two_column_content_grid__list--item--heading: 'Living Room'
+      two_column_content_grid__list--item--list:
+        - 'Window seat / bench with built-in storage, with soft-close hinges.'
+      '#hidden': true
+    -
+      type: two_column_content_grid__list--items
+      two_column_content_grid__list--item--heading: Bathroom
+      two_column_content_grid__list--item--list:
+        - 'White tile flooring.'
+        - 'Marble-textured shower, from Kohler Choreograph.'
+        - 'Crittal-style, black-framed shower door.'
+        - 'Matte black faucets throughout from Moen.'
+        - 'Built-in wood vanity.'
+      '#hidden': true
+    -
+      type: two_column_content_grid__list--items
+      two_column_content_grid__list--item--heading: Bedroom
+      two_column_content_grid__list--item--list:
+        - 'Custom bedroom wardrobe, with soft-close hinges.'
+      '#hidden': true
+  two_column_content_grid__heading: Interior
+  two_column_content_grid__subheading: 'Standard Internal Features:'
+design_partnership__photo_with_content_block__fields:
+  photo_with_content_block__link:
+    url: 'https://kotodesign.co.uk/'
+    text: 'View Work'
+  photo_with_content_block__image:
+    - /assets/koto.jpg
+  photo_with_content_block__heading: 'Award winning design'
+  photo_with_content_block__subheading: 'Designed in partnership with our friends at Koto Designs.'
+  photo_with_content_block__copy: 'Turns out, Americans aren''t historically world-class at designing small spaces… so we had to enlist the help of our Scandinavian friends. Together, we''ve spent thousands of hours poring over every inch of your'
+cta__fields:
+  cta__button:
+    url: /services
+    text: 'View Our Service'
+  cta__heading: 'And, we''ll make it easy.'
+  cta__copy: 'We take care of everything. No need to deal with construction crews in your backyard for months - we''ll be quick and painless.'
 title: Product
 fieldset: product
 template: product

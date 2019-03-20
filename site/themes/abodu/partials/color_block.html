@@ -9,15 +9,15 @@
                <h1 class="heading --dash --rust">{{ color_block__heading }}</h1>
 
                {{ if color_block__subheading }}
-                  <h2 class="heading --sub">{{ color_block__subheading }}</h2>
+                  <h2 class="heading --tertiary">{{ color_block__subheading }}</h2>
                {{ /if }}
 
                {{ if color_block__value }}
-                  <p class="color_block__value   heading --sub">{{ color_block__value }}</p>
+                  <p class="color_block__value   heading --tertiary">{{ color_block__value }}</p>
                {{ /if }}
 
                {{ if color_block__copy }}
-                  <p class="text-16   xs:text-18   max-w-xl">{{ color_block__copy }}</p>
+                  <p class="text-16 xs:text-18 max-w-xl  |  mt-3">{{ color_block__copy }}</p>
                {{ /if }}
 
                {{ partial:atoms/btn--arrow url="{{ color_block__button.url }}" text="{{ color_block__button.text }}" }}

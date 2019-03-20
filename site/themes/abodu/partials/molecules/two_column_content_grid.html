@@ -3,101 +3,63 @@
    <!--   Header   -->
    <div class="row">
 
-      {{ if section == "Why Abodu" }}
-         <div class="col-xs-12 col-sm-10 col-md-7">
-            {{ why_abodu__two_column_content_grid__fields }}
-               <h1 class="heading --dash --rust">{{ two_column_content_grid__heading }}</h1>
-               <h2 class="text-20 xs:text-24 lg:text-32">{{ two_column_content_grid__subheading }}</h2>
-            {{ /why_abodu__two_column_content_grid__fields }}
-         </div>
+      <div class="col-xs-12 col-sm-10 col-md-7">
 
-      {{ elseif section == "interior" }}
+         {{ {{ if section == "why_abodu__"}}why_abodu__{{/if}}two_column_content_grid__fields }}
 
-         <div class="col-xs-12 col-sm-10 col-md-7 col-lg-5">
+            {{#   Heading   #}}
             <h1 class="heading --dash --rust">{{ two_column_content_grid__heading }}</h1>
-            <h2 class="heading --sub">{{ two_column_content_grid__subheading }}</h2>
-         </div>
 
-      {{ else }}
+            {{#   Subheading   #}}
+            {{ two_column_content_grid__subheading | wrap:h2.heading.--tertiary }}
 
-         <div class="col-xs-12 col-sm-10 col-md-7">
-            {{ two_column_content_grid__fields }}
-               <h1 class="heading --dash --rust">{{ two_column_content_grid__heading }}</h1>
-               <p class="text-20 xs:text-24 lg:text-32">{{ two_column_content_grid__intro }}</p>
-            {{ /two_column_content_grid__fields }}
-         </div>
+            {{#   Intro   #}}
+            {{ two_column_content_grid__intro | wrap:p.text.--large }}
 
-      {{ /if }}
+         {{ /{{ if section == "why_abodu__" }}why_abodu__{{/if}}two_column_content_grid__fields }}
 
+      </div>
    </div>
    <!-- End Header -->
 
    <!--   List   -->
-   {{ if section == "Why Abodu" }}
+   <div class="row  |  {{ if section == 'interior' }}mt-4{{/if}}">
 
-      <div class="row  |  -mb-2">
+      {{ {{ if section == "why_abodu__" }}why_abodu__{{/if}}two_column_content_grid__fields }}
+         {{ two_column_content_grid__list }}
+            <div class="col-xs-12 col-md-6  |  {{ if section == 'why_abodu__' }}mt-8  |  md:flex md:flex-col{{ elseif section== 'interior' }}mt-4{{ else }}mt-8 md:mt-16{{ /if }}">
+               {{#
+               {{ if section == "why_abodu__" }}why_abodu__{{/if}}
+               #}}
 
-         {{ why_abodu__two_column_content_grid__fields.two_column_content_grid__list }}
-            <div class="col-xs-12 col-md-6  |  md:flex md:flex-col  |  mb-2 mt-8">
-               <div class="mb-auto">
-                  <div class="nested-mb-6">
-                     {{ two_column_content_grid__list--item--copy | markdown }}
+               {{#   h2   #}}
+               {{ two_column_content_grid__list--item--heading | wrap:h2.heading.--quinary.mb-2 }}
+
+               {{ if two_column_content_grid__list--item--copy }}
+                  <div class="mb-auto">
+                     <div class="nested-mb-6">
+                        {{ two_column_content_grid__list--item--copy | markdown }}
+                     </div>
                   </div>
-               </div>
-
-               {{ if two_column_content_grid__list--item--button }}
-                  {{ partial:atoms/btn--arrow url="{{ two_column_content_grid__list--item--button.url }}" text="{{ two_column_content_grid__list--item--button.text }}" }}
                {{ /if }}
-            </div>
-         {{ /why_abodu__two_column_content_grid__fields.two_column_content_grid__list }}
 
-      </div>
-
-   {{ else }}
-
-      <div class="row">
-         {{ if section == "interior" }}
-
-            {{ two_column_content_grid__list }}
-               <div class="col-xs-12 col-md-6   mt-6">
-                  <h2 class="font-bold text-20">{{ two_column_content_grid__list--item--heading }}</h2>
-
-                  <ul class="list-reset list">
+               {{ if two_column_content_grid__list--item--list }}
+                  <ul class="list-reset list  |  {{ if section == 'interior' }}mt-4{{ else }}mt-10{{/if}}">
                      {{ two_column_content_grid__list--item--list }}
                         <li>{{ value }}</li>
                      {{ /two_column_content_grid__list--item--list }}
                   </ul>
-               </div>
-            {{ /two_column_content_grid__list }}
+               {{ /if }}
 
-         {{ else }}
+               {{ if two_column_content_grid__list--item--button }}
+                  {{ partial:atoms/btn--arrow url="{{ two_column_content_grid__list--item--button.url }}" text="{{ two_column_content_grid__list--item--button.text }}" }}
+               {{ /if }}
 
-            {{ two_column_content_grid__fields.two_column_content_grid__list }}
-               <div class="col-xs-12 col-md-6   mt-8   md:mt-16">
-                  {{ if two_column_content_grid__list--item--heading }}
-                     <h2 class="font-bold text-20">{{ two_column_content_grid__list--item--heading }}</h2>
-                  {{ /if }}
+            </div>
+         {{ /two_column_content_grid__list }}
+      {{ /{{ if section == "why_abodu__" }}why_abodu__{{/if}}two_column_content_grid__fields }}
 
-                  {{ if two_column_content_grid__list--item--copy }}
-                     <div class="nested-mb-6 mt-1">
-                        {{ two_column_content_grid__list--item--copy | markdown }}
-                     </div>
-                  {{ /if }}
-
-                  {{ if two_column_content_grid__list--item--list }}
-                     <ul class="list-reset list">
-                        {{ two_column_content_grid__list--item--list }}
-                           <li>{{ value }}</li>
-                        {{ /two_column_content_grid__list--item--list }}
-                     </ul>
-                  {{ /if }}
-               </div>
-            {{ /two_column_content_grid__fields.two_column_content_grid__list }}
-
-         {{ /if }}
-
-      </div>
-   {{ /if }}
+   </div>
    <!-- End List -->
 </section>
 <!-- End Two Column Content Grid -->

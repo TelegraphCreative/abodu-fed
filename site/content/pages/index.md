@@ -1,4 +1,4 @@
-hero__heading: 'Backyard apartments<br></span> worth living in.'
+hero__heading: '<span>Backyard apartments<br></span> worth living in.'
 slider__title: 'Abodu 450'
 slider__images:
   - /assets/1.jpg

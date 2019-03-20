@@ -6,13 +6,12 @@
          <div class="col-xs-12   col-sm-10   col-lg-8">
             {{ if template == "home" }}
 
-               <h1 class="font-normal leading-tight text-30   xs:text-36   sm:text-42 md:text-64"><span class="text-rust">{{ hero__heading }}</h1>
+               <h1 class="heading  --primary">{{ hero__heading }}</h1>
 
             {{ else }}
-
                <div class="mt-6 xs:mt-8 md:mt-10 lg:mt-8">
                   <h1 class="heading --dash {{ if color }} --{{ color }} {{ /if }}">{{ hero__heading }}</h1>
-                  <h2 class="font-normal leading-tight text-30   xs:text-36   sm:text-42 md:text-64">{{ hero__subheading }}</h2>
+                  <h2 class="heading  --primary">{{ hero__subheading }}</h2>
 
                   <div class="nested-mb-6 mt-12 | md:2-columns">
                      {{ hero__copy | markdown }}

@@ -66,8 +66,16 @@ sections:
         type: section
         display: Interior
       two_column_content_grid__fields:
-        fieldset: product__partial__two_column_content_grid
-        type: partial
+        child_fieldset: product__partial__two_column_content_grid
+        type: accordion_group
         display: 'Interior Fields'
+      design_partnership__photo_with_content_block__fields:
+        child_fieldset: product__partial__design_partnership__photo_with_content_block
+        type: accordion_group
+        display: 'Design Partnership'
+      cta__fields:
+        child_fieldset: partial__cta
+        type: accordion_group
+        display: CTA
 taxonomies: false
 title: 'Product: Page'

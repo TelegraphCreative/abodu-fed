@@ -6,20 +6,27 @@ sections:
         container: main
         folder: /
         restrict: false
+        max_files: 1
         type: assets
         display: Image
-        width: 66
       photo_with_content_block__heading:
         type: text
+        width: 33
         display: Heading
-        width: 50
       photo_with_content_block__subheading:
         type: text
+        width: 66
         display: Subheading
-        width: 50
       photo_with_content_block__copy:
         type: textarea
+        width: 50
         display: Copy
-        width: 66
-taxonomies: false
-title: 'Why Backyard Living: Partial: Photo with Content Block'
+      photo_with_content_block__link:
+        keys:
+          url: URL
+          text: Text
+        type: array
+        width: 50
+        display: Button
+taxonomies: true
+title: 'Product: Partial: Design Partnership - Photo with Content Block'

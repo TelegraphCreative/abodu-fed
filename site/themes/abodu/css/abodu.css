@@ -4362,6 +4362,10 @@ table {
   width: 83.33333%;
 }
 
+.w-9\/10 {
+  width: 90%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -8226,6 +8230,10 @@ table {
 
   .xs\:w-5\/6 {
     width: 83.33333%;
+  }
+
+  .xs\:w-9\/10 {
+    width: 90%;
   }
 
   .xs\:w-full {
@@ -12095,6 +12103,10 @@ table {
     width: 83.33333%;
   }
 
+  .sm\:w-9\/10 {
+    width: 90%;
+  }
+
   .sm\:w-full {
     width: 100%;
   }
@@ -15960,6 +15972,10 @@ table {
 
   .md\:w-5\/6 {
     width: 83.33333%;
+  }
+
+  .md\:w-9\/10 {
+    width: 90%;
   }
 
   .md\:w-full {
@@ -19829,6 +19845,10 @@ table {
     width: 83.33333%;
   }
 
+  .lg\:w-9\/10 {
+    width: 90%;
+  }
+
   .lg\:w-full {
     width: 100%;
   }
@@ -23696,6 +23716,10 @@ table {
     width: 83.33333%;
   }
 
+  .xl\:w-9\/10 {
+    width: 90%;
+  }
+
   .xl\:w-full {
     width: 100%;
   }
@@ -23883,6 +23907,11 @@ table {
   font-style: normal;
 }
 
+.heading {
+  font-weight: 700;
+  line-height: 1.25;
+}
+
 .heading.\--dash {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23935,23 +23964,90 @@ table {
   background-color: #fff;
 }
 
-.heading.\--sub {
-  font-weight: 700;
-  line-height: 1.25;
-  margin-bottom: .75rem;
-  font-size: 1.5rem;
+.heading.\--primary {
+  font-weight: 400;
+  font-size: 1.875rem;
+}
+
+.heading.\--primary span {
+  color: #9b4c05;
+}
+
+@media screen and (min-width: 22.5rem) {
+  .heading.\--primary {
+    font-size: 2.25rem;
+  }
+}
+
+@media screen and (min-width: 36rem) {
+  .heading.\--primary {
+    font-size: 2.625rem;
+  }
 }
 
 @media screen and (min-width: 48rem) {
-  .heading.\--sub {
+  .heading.\--primary {
+    font-size: 4rem;
+  }
+}
+
+.heading.\--secondary {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 22.5rem) {
+  .heading.\--secondary {
+    font-size: 1.875rem;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .heading.\--secondary {
     font-size: 2.25rem;
   }
 }
 
 @media screen and (min-width: 62rem) {
-  .heading.\--sub {
+  .heading.\--secondary {
     font-size: 2.625rem;
   }
+}
+
+@media screen and (min-width: 75rem) {
+  .heading.\--secondary {
+    font-size: 3.75rem;
+  }
+}
+
+.heading.\--tertiary {
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 48rem) {
+  .heading.\--tertiary {
+    font-size: 2.25rem;
+  }
+}
+
+@media screen and (min-width: 62rem) {
+  .heading.\--tertiary {
+    font-size: 2.625rem;
+  }
+}
+
+.heading.\--quaternary {
+  font-size: 1.25rem;
+}
+
+@media screen and (min-width: 62rem) {
+  .heading.\--quaternary {
+    font-size: 1.625rem;
+  }
+}
+
+.heading.\--quinary {
+  font-size: 1.25rem;
 }
 
 .img {
@@ -24007,7 +24103,6 @@ table {
 }
 
 .list {
-  margin-top: 1rem;
   padding-left: 1.5rem;
 }
 
@@ -24026,6 +24121,22 @@ table {
   height: 6px;
   top: 10px;
   width: 6px;
+}
+
+.text.\--large {
+  font-size: 1.25rem;
+}
+
+@media screen and (min-width: 22.5rem) {
+  .text.\--large {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 62rem) {
+  .text.\--large {
+    font-size: 2rem;
+  }
 }
 
 .color_block__value a {
