@@ -11,6 +11,15 @@
       @media screen and (min-width: 48rem) {
          @apply h-15 leading-normal text-18;
       }
+
+      &.--input {
+         @apply cursor-pointer ml-0 pt-0 w-full;
+
+         @media screen and (min-width: 40rem) {
+            height: 5rem;
+            max-width: 348px
+         }
+      }
    }
 
    &.--secondary {

@@ -19,14 +19,14 @@ sections:
         fieldset: partial__content_block_with_pattern
         type: partial
         display: 'Content Block with Pattern'
+      how_its_built__fields:
+        child_fieldset: home__partial__how_its_built
+        type: accordion_group
+        display: 'How It''s Built'
       color_block__fields:
         type: accordion_group
         display: 'Edit Cost'
         child_fieldset: home__partial__color_block
-      photo_with_content_block__fields:
-        type: accordion_group
-        display: 'Edit How It Feels'
-        child_fieldset: home__partial__photo_with_content_block
       cta__fields:
         child_fieldset: partial__cta
         type: accordion_group

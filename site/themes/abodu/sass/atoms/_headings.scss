@@ -88,6 +88,8 @@
       @media screen and (min-width: 62rem) {
          @apply text-42
       }
+
+      &.--book { @apply font-normal }
    }
 
    &.--quaternary {

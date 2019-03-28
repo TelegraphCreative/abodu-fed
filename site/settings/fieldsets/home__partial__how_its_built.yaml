@@ -1,0 +1,29 @@
+sections:
+  main:
+    display: Main
+    fields:
+      how_its_built__heading:
+        type: text
+        width: 50
+        display: Heading
+      how_its_built__subheading:
+        type: text
+        width: 50
+        display: Subheading
+      how_its_built__images:
+        fieldset: partial__image_grid
+        type: partial
+        display: Images
+      how_its_built__copy:
+        type: textarea
+        width: 50
+        display: Copy
+      how_its_built__button:
+        keys:
+          url: URL
+          text: Text
+        type: array
+        width: 50
+        display: Button
+taxonomies: true
+title: 'Home: Partial: How It''s Built'

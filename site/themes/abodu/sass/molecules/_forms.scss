@@ -1,0 +1,140 @@
+//
+// Forms
+//
+
+.input {
+	@apply block text-14 text-white;
+
+	&.--label {
+		@apply font-bold leading-tight mb-3 mr-2 text-10 tracking-extra-wide uppercase;
+
+		@media screen and (min-width: 22.5rem) {
+			@apply text-13
+		}
+	}
+
+	&.--field {
+		@apply appearance-none bg-transparent border-b border-white cursor-pointer pb-3 tracking-wide w-full;
+		border-radius: 0;
+		transition: all 150ms ease-in-out;
+
+		@media screen and (min-width: 22.5rem) {
+			@apply text-16
+		}
+
+		@media screen and (min-width: 48rem) {
+			@apply py-3 text-20
+		}
+
+		@media screen and (min-width: 62rem) {
+			@apply text-26
+		}
+
+		&:placeholder-shown {
+			&::placeholder { @apply opacity-100 }
+		}
+
+		&:active, &:focus {
+			outline: 0
+		}
+
+		&.--select {
+			background-image: url(../images/icons/chevron--down.svg);
+			background-position: calc(100% - 8px) 6px;
+			background-repeat: no-repeat;
+			background-size: 10px 6px;
+
+			@media screen and (min-width: 48rem) {
+				background-position: calc(100% - 16px) 21px;
+				background-size: 13px 8px;
+			}
+
+			@media screen and (min-width: 62rem) {
+				background-position: calc(100% - 20px) 24px;
+				background-size: 13px 8px;
+			}
+		}
+
+		&.--textarea {
+			@apply leading-normal resize-none;
+			height: 100px;
+
+			@media screen and (min-width: 48rem) {
+				height: 130px;
+			}
+		}
+
+
+		&[type="email"]:-webkit-autofill {
+	      -webkit-box-shadow: none!important;
+	      -webkit-text-fill-color: #fff !important;
+	      -webkit-transition: background 3000s linear;
+			caret-color: #fff;
+	   }
+		&[type="tel"]:-webkit-autofill {
+	      -webkit-box-shadow: none!important;
+	      -webkit-text-fill-color: #fff !important;
+	      -webkit-transition: background 3000s linear;
+			caret-color: #fff;
+	   }
+		&[type="text"]:-webkit-autofill {
+	      -webkit-box-shadow: none!important;
+	      -webkit-text-fill-color: #fff !important;
+	      -webkit-transition: background 3000s linear;
+			caret-color: #fff;
+	   }
+		&[type="number"]:-webkit-autofill {
+	      -webkit-box-shadow: none!important;
+	      -webkit-text-fill-color: #fff !important;
+	      -webkit-transition: background 3000s linear;
+			caret-color: #fff;
+	   }
+	}
+}
+
+input.input[type=number] {
+	appearance:textfield;
+
+	&::-webkit-inner-spin-button {
+		@apply m-0;
+		appearance: none
+	}
+
+	&::-webkit-outer-spin-button {
+		@apply m-0;
+		appearance: none
+	}
+}
+
+// Firefox Select
+select.input {
+	&:-moz-focusring {
+	   color: transparent;
+	   text-shadow: 0 0 0 #fff;
+
+		option {
+			color: transparent;
+		   text-shadow: 0 0 0 #000;
+		}
+	}
+}
+
+
+// ---------------------------------------------------------------------------
+// Howdy Styles
+//.error { @apply text-yellow text-xs }
+.error {
+	@apply block ml-6 -mb-2 mt-1 text-14;
+	color: #cc3333
+}
+.swal2-title, .swal2-content {
+	@apply font-sans;
+	color: #1e2635!important
+}
+
+.swal2-styled {
+	@apply font-sans;
+	background-color: #3265cc!important;
+
+	&:hover { background-color: #1e2635!important }
+}

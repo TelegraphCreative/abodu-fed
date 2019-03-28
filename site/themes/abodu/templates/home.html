@@ -9,7 +9,54 @@
 {{ partial:molecules/photo_with_content_block }}
 
 
-{{ partial:how_its_built }}
+<!--   How It's Built   -->
+<section class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20             py-12 lg:pb-20 lg:pt-10   my-16 lg:my-20       relative" style="z-index: 1">
+
+   <!--   Color Block Background   -->
+   <div class="absolute bg-sand h-full pin-r pin-t w-3/4   xl:-mr-20 xl:w-4/5" style="z-index:-1"></div>
+
+
+   <div class="row">
+      <div class="col-xs-12 mb-6">
+
+         {{ how_its_built__fields }}
+            <h1 class="heading --dash --rust">{{ how_its_built__heading }}</h1>
+            <h2 class="heading --tertiary">{{ how_its_built__subheading }}</h2>
+         {{ /how_its_built__fields }}
+
+      </div>
+   </div>
+
+   <!--   Image Grid   -->
+   {{ partial:molecules/image_grid }}
+   <!-- End Image Grid -->
+
+   <div class="row   end-md">
+      <!--   Text: Hidden on Medium/Large Display   -->
+      <div class="col-xs-12 col-sm-10 col-md-5  |  md:-mt-1/5">
+
+         {{ how_its_built__fields }}
+            <div class="nested-mb-6 -mt-2 lg:mt-0 xl:-mt-5">
+               {{ how_its_built__copy | markdown }}
+            </div>
+
+            {{ how_its_built__button }}
+               {{ partial:atoms/btn--arrow url="{{ how_its_built__button.url }}" text="{{ how_its_built__button.text }}" }}
+            {{ /how_its_built__button }}
+         {{ /how_its_built__fields }}
+
+      </div>
+   </div>
+</section>
+<!-- End How It's Built -->
+
+
+
+
+
+
+
+
 {{ partial:how_its_delivered }}
 {{ partial:color_block }}
 

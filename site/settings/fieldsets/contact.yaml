@@ -1,0 +1,40 @@
+sections:
+  main:
+    display: Main
+    fields:
+      hero__section:
+        type: section
+        display: Hero
+      hero__heading:
+        type: text
+        display: Heading
+      hero__copy:
+        type: textarea
+        display: Copy
+      our_vision__section:
+        type: section
+        display: 'Our Vision'
+      our_vision__heading:
+        type: text
+        display: Heading
+      our_vision__copy:
+        type: textarea
+        display: Copy
+      image_grid__section:
+        type: section
+        display: Images
+      image_grid__images:
+        fieldset: partial__image_grid
+        type: partial
+        display: Images
+      who_we_are__section:
+        type: section
+        display: 'Who We Are'
+      who_we_are__heading:
+        type: text
+        display: Heading
+      who_we_are__copy:
+        type: textarea
+        display: Copy
+taxonomies: true
+title: 'Contact: Page'
