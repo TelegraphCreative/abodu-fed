@@ -1,0 +1,66 @@
+<script src="{{ theme:js }}"></script>
+
+{{ if template == "service" }}
+   {{#   Accordian Toggle   #}}
+   <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.7.0/d3.min.js"></script>
+   <script>
+      // ---------------------------------------------------------------------------
+      // Accordian Toggle
+      var accordianBtn      = document.querySelectorAll(".js-accordian__btn");
+      var accordianSection  = document.querySelectorAll('.js-accordian__section');
+
+      accordianBtn.forEach(function(show) {
+         show.onclick = function(){
+            this.classList.toggle("--active");
+            this.parentElement.nextElementSibling.classList.toggle("--hidden");
+         };
+      });
+   </script>
+
+   {{#   Medium Zoom   #}}
+   <script src="{{ theme:js src="medium-zoom" }}"></script>
+   <script>
+      mediumZoom(document.querySelector('#js--zoomable'), {
+         margin: 24,
+         background: '#fff',
+         scrollOffset: 0,
+      })
+   </script>
+
+   {{#   Tiny Slider   #}}
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script>
+   <script>
+      var slider = tns({
+         container: '.card_slider',
+         autoWidth: true,
+         loop: false,
+         slideBy: 1,
+         mouseDrag: true,
+         swipeAngle: false,
+         speed: 400,
+         controlsText:["", ""],
+      });
+   </script>
+{{ /if }}
+
+{{ if template == "home" or template == "product" }}
+   {{#   Tiny Slider   #}}
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script>
+   <script>
+      var slider = tns({
+         container: '.slider',
+         loop: true,
+         items: 1,
+         slideBy: 'page',
+         nav: false,
+         autoplay: true,
+         speed: 3000,
+         autoplayButtonOutput: false,
+         mouseDrag: true,
+         controlsContainer: ".slider__controls",
+         mode: "gallery",
+         animateIn: "fadeIn",
+         animateOut: "fadeOut",
+      });
+   </script>
+{{ /if }}

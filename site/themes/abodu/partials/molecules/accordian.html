@@ -1,0 +1,59 @@
+<section class="my-16 lg:my-20">
+   {{ accordian__fields }}
+   <div class="container  |  pb-12 lg:pb-16">
+      <div class="row">
+         <div class="col-xs-12 col-sm-10 col-md-7">
+            {{#   Heading   #}}
+            {{ accordian__heading | wrap:h1.heading.--dash.--green }}
+
+            {{#   Copy   #}}
+            {{ accordian__copy | wrap:p.text.--large }}
+         </div>
+      </div>
+   </div>
+
+   {{#   Accordian   #}}
+   <div class="accordian">
+
+      {{#   Accordian Section   #}}
+         {{ accordian__sections }}
+            <div class="accordian__section">
+               <div class="container">
+
+                  {{#   Accordian Section Header   #}}
+                  <div class="accordian__section--header  |  row middle-xs">
+                     {{#   Number   #}}
+                     <div class="col-xs-1">
+                        <span>{{ accordian__sections__section--number }}</span>
+                     </div>
+
+                     {{#   Heading   #}}
+                     <div class="col-xs-10">
+                        {{ accordian__sections__section--heading | wrap:h2.heading.--quaternary.text-green }}
+                     </div>
+
+                     {{#   Button   #}}
+                     <button class="btn --reveal  |  js-accordian__btn"></button>
+                  </div>
+
+                  {{#   Accordian Section Body #}}
+                  <div class="accordian__section--body --hidden  |  row">
+                     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                        {{ accordian__sections__section--items }}
+                           {{#   Heading   #}}
+                           {{ accordian__sections__section__item--heading | wrap:h3.heading.--septenary.mb-2 }}
+
+                           {{#   Copy   #}}
+                           <p class="mb-2   md:text-18">
+                              {{ accordian__sections__section__item--copy }}
+                           </p>
+                        {{ /accordian__sections__section--items }}
+                     </div>
+                  </div>
+               </div>
+            </div>
+         {{ /accordian__sections }}
+   </div>
+
+   {{ /accordian__fields }}
+</section>

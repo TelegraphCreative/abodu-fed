@@ -1,0 +1,32 @@
+sections:
+  main:
+    display: Main
+    fields:
+      card_slider__heading:
+        type: text
+        display: Heading
+      card_slider__cards:
+        sets:
+          card_slider__cards__card:
+            display: Step
+            fields:
+              card_slider__cards__card--length:
+                type: text
+                width: 50
+                display: Length
+              card_slider__cards__card--heading:
+                type: text
+                width: 50
+                display: Heading
+              card_slider__cards__card--copy:
+                type: textarea
+                width: 50
+                display: Copy
+              card_slider__cards__card--note:
+                type: text
+                width: 50
+                display: Note
+        type: replicator
+        display: Steps
+taxonomies: true
+title: 'Service: Partial: Timeline'

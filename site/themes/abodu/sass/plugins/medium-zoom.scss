@@ -1,0 +1,11 @@
+//
+// Medium Zoom
+//
+
+.medium-zoom-overlay {
+   @apply z-10
+}
+
+.medium-zoom-image--opened {
+   @apply z-20
+}

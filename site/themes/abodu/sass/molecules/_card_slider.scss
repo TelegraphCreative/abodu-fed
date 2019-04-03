@@ -1,0 +1,111 @@
+//
+// Card Slider
+//
+
+.card_slider {
+   @apply -mx-2;
+
+   @media screen and (min-width: 36rem) {
+      @apply -mx-3
+   }
+
+   @media screen and (min-width: 48rem) {
+      @apply -mx-4
+   }
+
+   .card_slider--card_wrapper {
+      @apply px-2;
+
+      @media screen and (min-width: 36rem) {
+         @apply px-3
+      }
+
+      @media screen and (min-width: 48rem) {
+         @apply px-4
+      }
+
+      .card_slider--card {
+         @apply bg-white h-full;
+         width: 16rem;
+
+         @media screen and (min-width: 36rem) {
+            width: 22rem
+         }
+
+         .card_slider--card_inner {
+            @apply pb-8 pt-12 px-6;
+
+            @media screen and (min-width: 36rem) {
+               @apply px-10
+            }
+         }
+      }
+   }
+}
+
+
+/* purgecss start ignore */
+#tns1-ow,#tns1-mw {
+   overflow: visible!important
+}
+.tns-visually-hidden {
+    position: absolute;
+    left: -10000em;
+}
+
+.tns-controls {
+   @apply absolute flex items-center -mr-1 pin-t pin-r;
+   margin-top: -62px;
+
+   @media screen and (min-width: 22.5rem) {
+      margin-top: -64px;
+   }
+
+   @media screen and (min-width: 36rem) {
+      @apply -mr-1;
+      margin-top: -66px
+   }
+
+   @media screen and (min-width: 48rem) {
+      @apply -mr-3;
+      margin-top: -80px
+   }
+
+   @media screen and (min-width: 62rem) {
+      @apply -mr-3;
+      margin-top: -84px
+   }
+
+   button {
+      @apply flex h-12 items-center justify-center my-2 opacity-50 text-green-light w-12;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: .625rem 1rem;
+
+      @media screen and (min-width: 48rem) {
+         @apply mx-2;
+         background-size: .75rem 1.25rem;
+      }
+
+      &[disabled] {
+         @apply cursor-default opacity-25;
+
+         &:hover {
+            @apply opacity-25
+         }
+      }
+
+      &:hover {
+         @apply opacity-100
+      }
+
+      &[data-controls="prev"] {
+         background-image: url(../images/icons/card_slider_arrow--prev.svg);
+      }
+
+      &[data-controls="next"] {
+         background-image: url(../images/icons/card_slider_arrow--next.svg);
+      }
+   }
+}
+/* purgecss end ignore */

@@ -1,0 +1,34 @@
+sections:
+  main:
+    display: Main
+    fields:
+      hero__partial:
+        fieldset: partial__hero
+        type: partial
+        display: 'Hero Partial'
+      installation__section:
+        type: section
+        display: Installation
+      accordian__fields:
+        child_fieldset: service__partial__installation
+        type: accordion_group
+        display: Installation
+      calendar__section:
+        type: section
+      calendar__heading:
+        type: text
+        display: Heading
+      timeline__section:
+        type: section
+      card_slider__fields:
+        type: accordion_group
+        display: Timeline
+        child_fieldset: service__partial__timeline
+      call_to_action__section:
+        type: section
+      cta__fields:
+        child_fieldset: partial__cta
+        type: accordion_group
+        display: 'Call to Action'
+taxonomies: true
+title: 'Service: Page'

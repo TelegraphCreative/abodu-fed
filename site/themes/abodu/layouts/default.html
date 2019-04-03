@@ -27,41 +27,7 @@
       </div>
 
 
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script src="{{ theme:js }}"></script>
-
-      <!--   Tiny Slider   -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script>
-      <script>
-
-  var slider = tns({
-    container: '.slider',
-    loop: true,
-    items: 1,
-    slideBy: 'page',
-    nav: false,
-    autoplay: true,
-    speed: 3000,
-    autoplayButtonOutput: false,
-    mouseDrag: true,
-    controlsContainer: ".slider__controls",
-    mode: "gallery",
-    animateIn: "fadeIn",
-    animateOut: "fadeOut",
-    //lazyload: true,
-
-
-  });
-
-      /*
-         var slider = tns({
-            container: '.my-slider',
-            items: 3,
-            slideBy: 'page',
-            autoplay: true
-         });
-         */
-      </script>
-
+      {{#   JavaScript   #}}
+      {{ partial:javascript }}
    </body>
 </html>

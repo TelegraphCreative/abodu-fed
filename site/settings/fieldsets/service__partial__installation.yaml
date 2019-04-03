@@ -1,0 +1,44 @@
+sections:
+  main:
+    display: Main
+    fields:
+      accordian__heading:
+        type: text
+        display: Heading
+        width: 50
+      accordian__copy:
+        type: textarea
+        display: Copy
+        width: 50
+      accordian__sections:
+        sets:
+          accordian__sections__section:
+            display: Section
+            fields:
+              accordian__sections__section--number:
+                type: text
+                width: 50
+                display: Number
+              accordian__sections__section--heading:
+                type: text
+                display: Heading
+                width: 50
+              accordian__sections__section--items:
+                sets:
+                  accordian__sections__section__item:
+                    display: Item
+                    fields:
+                      accordian__sections__section__item--heading:
+                        type: text
+                        width: 50
+                        display: Heading
+                      accordian__sections__section__item--copy:
+                        type: textarea
+                        width: 50
+                        display: Copy
+                type: replicator
+                display: Items
+        type: replicator
+        display: Sections
+taxonomies: true
+title: 'Service: Partial: Installation'

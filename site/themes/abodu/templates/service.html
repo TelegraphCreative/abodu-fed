@@ -1,0 +1,102 @@
+{{ partial:molecules/hero
+   bg_color="green"
+   color="white"
+}}
+
+
+<!--   Installation   -->
+{{ partial:molecules/accordian }}
+
+
+<!--   Calendar   -->
+<section class="container  |  my-16 lg:my-20">
+   {{#   Header   #}}
+   <div class="row  |  mb-8 sm:mb-12 md:mb-20">
+      <div class="col-xs-12 col-sm-10 col-md-7">
+         {{#   Heading   #}}
+         {{ calendar__heading | wrap:h1.text.--large }}
+      </div>
+   </div>
+
+   {{#   Image   #}}
+   <div class="row">
+      <div class="col-xs-12">
+         <img class="block" id="js--zoomable" src="{{ theme:images src="timeline2.svg" }}">
+      </div>
+   </div>
+</section>
+
+
+<!--   Timeline   -->
+<section class="bg-green-lightest  |  mt-16 lg:mt-20 pb-20 lg:pb-24 pt-12">
+   <div class="container">
+      {{#   Header   #}}
+      <div class="row  |  mb-4 md:mb-8">
+         <div class="col-xs-12 col-sm-10 col-md-7">
+            {{#   Heading   #}}
+            {{ card_slider__fields.card_slider__heading | wrap:h1.text.--large }}
+         </div>
+      </div>
+
+      {{#   Image   #}}
+      <style media="screen">
+         #tns1 {
+            display: flex
+         }
+      </style>
+      <div class="row">
+         <div class="col-xs-12  |  relative">
+            <div class="absolute bg-green-lightest h-full w-full z-50" style="margin-left: -100%">
+            </div>
+            <div class="card_slider">
+               {{ card_slider__fields }}
+                  {{ card_slider__cards }}
+                     <div class="card_slider--card_wrapper">
+                        <div class="card_slider--card">
+                           <div class="card_slider--card_inner">
+                              {{#   Time   #}}
+                              {{ card_slider__cards__card--length | wrap:time.heading.--dash.--green }}
+
+                              {{#   Heading   #}}
+                              {{ card_slider__cards__card--heading | wrap:h2.heading.--quinary.mb-2 }}
+
+                              {{#   Copy   #}}
+                              {{ card_slider__cards__card--copy | wrap:p.mb-5.text.--small }}
+
+                              {{#   Note   #}}
+                              {{ card_slider__cards__card--note | wrap:p.mb-5.text-12.text-grey-dark }}
+                           </div>
+                        </div>
+                     </div>
+                  {{ /card_slider__cards }}
+
+                  {{ card_slider__cards }}
+                     <div class="card_slider--card_wrapper">
+                        <div class="card_slider--card">
+                           <div class="card_slider--card_inner">
+                              {{#   Time   #}}
+                              {{ card_slider__cards__card--length | wrap:time.heading.--dash.--green }}
+
+                              {{#   Heading   #}}
+                              {{ card_slider__cards__card--heading | wrap:h2.heading.--quinary.mb-2 }}
+
+                              {{#   Copy   #}}
+                              {{ card_slider__cards__card--copy | wrap:p.mb-5.text.--small }}
+
+                              {{#   Note   #}}
+                              {{ card_slider__cards__card--note | wrap:p.mb-5.text-12.text-grey-dark }}
+                           </div>
+                        </div>
+                     </div>
+                  {{ /card_slider__cards }}
+               {{ /card_slider__fields }}
+
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+<!--   CTA   -->
+{{ partial:molecules/cta bg_color="green" color="green" }}

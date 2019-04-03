@@ -1,0 +1,35 @@
+//
+// Accordian
+//
+
+.accordian {
+   @apply border-t border-green;
+
+   .accordian__section {
+      @apply border-b border-green;
+
+      .accordian__section--header {
+         @apply py-8 relative;
+
+         span {
+            @apply block leading-none text-20 text-green;
+            padding-top: 2px;
+
+            @media screen and (min-width: 48rem) {
+               @apply text-30;
+               padding-top: 0
+            }
+         }
+      }
+
+      .accordian__section--body {
+         @apply opacity-100 pb-10 visible;
+         transition: opacity 500ms;
+
+         &.--hidden {
+            @apply invisible opacity-0 pb-0;
+            height: 0;
+         }
+      }
+   }
+}

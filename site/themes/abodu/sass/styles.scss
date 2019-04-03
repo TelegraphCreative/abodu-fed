@@ -15,6 +15,8 @@
 @import 'atoms/text';
 
 // Molecules
+@import 'molecules/accordian';
+@import 'molecules/card_slider';
 @import 'molecules/color_block';
 @import 'molecules/forms';
 @import 'molecules/hero';
@@ -24,6 +26,7 @@
 
 // Plugins
 @import 'plugins/hamburger/hamburger';
+@import 'plugins/medium-zoom';
 @import 'plugins/sass-flexbox-grid/main';
 @import 'plugins/tiny-slider';
 
@@ -58,5 +61,27 @@ a, button { transition: all 150ms ease-in-out }
 	.md\:2-columns {
 		column-count: 2;
 		column-gap: 2rem
+	}
+}
+
+
+// Grid Container
+.container {
+	@apply max-w-3xl mx-auto px-4;
+
+	@media screen and (min-width: 22.5rem) {
+		@apply px-6
+	}
+
+	@media screen and (min-width: 36rem) {
+		@apply px-10
+	}
+
+	@media screen and (min-width: 48rem) {
+		@apply px-16
+	}
+
+	@media screen and (min-width: 62rem) {
+		@apply px-20
 	}
 }

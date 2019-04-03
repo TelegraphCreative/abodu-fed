@@ -38,6 +38,14 @@
             @apply bg-white
          }
       }
+
+      &.--green {
+         @apply text-green;
+
+         &::before {
+            @apply bg-green
+         }
+      }
    }
 
    &.--primary {
@@ -93,6 +101,14 @@
    }
 
    &.--quaternary {
+      @apply text-24;
+
+      @media screen and (min-width: 48rem) {
+         @apply text-38
+      }
+   }
+
+   &.--quinary {
       @apply text-20;
 
       @media screen and (min-width: 62rem) {
@@ -100,7 +116,15 @@
       }
    }
 
-   &.--quinary {
+   &.--senary {
       @apply text-20
+   }
+
+   &.--septenary {
+      @apply text-16;
+
+      @media screen and (min-width: 48rem) {
+         @apply text-18
+      }
    }
 }

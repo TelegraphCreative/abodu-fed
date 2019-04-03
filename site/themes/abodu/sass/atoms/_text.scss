@@ -4,7 +4,7 @@
 
 .text {
    &.--large {
-      @apply text-20;
+      @apply font-normal text-20;
 
       @media screen and (min-width: 22.5rem) {
          @apply text-24
@@ -12,6 +12,14 @@
 
       @media screen and (min-width: 62rem) {
          @apply text-32
+      }
+   }
+
+   &.--small {
+      @apply font-normal text-14;
+
+      @media screen and (min-width: 36rem) {
+         @apply text-16
       }
    }
 }
