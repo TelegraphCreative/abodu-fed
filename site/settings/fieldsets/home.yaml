@@ -23,6 +23,10 @@ sections:
         child_fieldset: home__partial__how_its_built
         type: accordion_group
         display: 'How It''s Built'
+      how_its_delivered__fields:
+        child_fieldset: home__partial__how_its_delivered
+        type: accordion_group
+        display: 'How It''s Delivered'
       color_block__fields:
         type: accordion_group
         display: 'Edit Cost'

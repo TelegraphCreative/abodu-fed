@@ -1,0 +1,55 @@
+sections:
+  main:
+    display: Main
+    fields:
+      how_its_delivered__heading:
+        type: text
+        width: 50
+        display: Heading
+      how_its_delivered__subheading:
+        type: text
+        width: 50
+        display: Subheading
+      how_its_delivered__copy:
+        type: textarea
+        width: 50
+        display: Copy
+      how_its_delivered__button:
+        keys:
+          url: URL
+          text: Text
+        type: array
+        width: 50
+        display: Button
+      how_its_delivered__list:
+        sets:
+          how_its_delivered__list--item:
+            display: Item
+            fields:
+              how_its_delivered__list--item__icon:
+                type: select
+                display: Icon
+                width: 50
+                options:
+                  2_week_install: '2 Week Install'
+                  a_better_foundation: 'A Better Foundation'
+                  deep_backyard: 'Deep Backyard'
+                  electrical_panel_upgrade: 'Electrical Panel Upgrade'
+                  landscape_removal_or_repair: 'Landscape Removal or Repair'
+                  live_closer_to_work: 'Live Closer to Work'
+                  naturally-affordable_housing: 'Naturally-Affordable Housing'
+                  painless_purchase: 'Painless Purchase'
+                  sloped_lot: 'Sloped Lot'
+                  the_perfect_rental: 'The Perfect Rental'
+              how_its_delivered__list--item__heading:
+                type: text
+                display: Heading
+                width: 50
+              how_its_delivered__list--item__copy:
+                type: textarea
+                display: Copy
+                width: 66
+        type: replicator
+        display: List
+taxonomies: true
+title: 'Home: Partial: How It''s Delivered'

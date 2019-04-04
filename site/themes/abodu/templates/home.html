@@ -51,14 +51,54 @@
 <!-- End How It's Built -->
 
 
+<!--   How It's Delivered   -->
+<section class="container  |  my-16 lg:my-20">
+   {{ how_its_delivered__fields }}
+      <div class="row">
+         <div class="col-xs-12 mb-10">
+               {{#   Heading   #}}
+               {{ how_its_delivered__heading | wrap:h1.heading.--dash.--rust }}
 
+               {{#   Subheading   #}}
+               {{ how_its_delivered__subheading | wrap:h1.heading.--tertiary }}
 
+               {{#   Copy   #}}
+               <p class="text-16 xs:text-18  |  max-w-xl  |  mt-3">{{ how_its_delivered__copy }}</p>
 
+               {{#   Button   #}}
+               {{ if how_its_delivered__button }}
+                  {{
+                     partial:atoms/btn--arrow
+                     url="{{ how_its_delivered__button.url }}"
+                     text="{{ how_its_delivered__button.text }}"
+                  }}
+               {{ /if }}
 
+         </div>
+      </div>
 
+      <div class="row -mb-8">
+         {{ how_its_delivered__list }}
+            <div class="col-xs-12   col-sm-6   col-lg-4">
+               <div class="pb-8">
+                  {{#   Icon   #}}
+                  {{ partial:atoms/icons icon="{{ how_its_delivered__list--item__icon }}" }}
 
-{{ partial:how_its_delivered }}
-{{ partial:color_block }}
+                  {{#   Heading   #}}
+                  <h3 class="heading --quinary  |  mb-2 md:mb-3">{{ how_its_delivered__list--item__heading }}</h3>
+
+                  {{#   Copy   #}}
+                  <p>{{ how_its_delivered__list--item__copy }}</p>
+               </div>
+            </div>
+         {{ /how_its_delivered__list }}
+
+      </div>
+
+   {{ /how_its_delivered__fields }}
+</section>
+
+{{ partial:molecules/color_block }}
 
 
 <!--   CTA   -->
