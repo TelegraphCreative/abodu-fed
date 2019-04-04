@@ -7,11 +7,31 @@
 
    <div class="row">
       <div class="col-xs-12   col-sm-10   col-md-7">
-         <h1 class="heading --dash --white">{{ content_block_with_pattern__heading }}</h1>
-         <p class="text --large  |  text-white">{{ content_block_with_pattern__copy }}</p>
+         {{ if content_block_with_pattern__fields }}
 
-         {{ if content_block_with_pattern__toggle == 'true' }}
-            {{ partial:atoms/btn--arrow color="--white" url="{{ content_block_with_pattern__button.url }}" text="{{ content_block_with_pattern__button.text }}" }}
+            {{ content_block_with_pattern__fields }}
+               <h1 class="heading --dash --white">{{ content_block_with_pattern__heading }}</h1>
+               <p class="text --large  |  text-white">{{ content_block_with_pattern__copy }}</p>
+
+               {{ if content_block_with_pattern__toggle == 'true' }}
+                  {{ partial:atoms/btn--arrow
+                     color="--white"
+                     url="{{ content_block_with_pattern__button.url }}"
+                     text="{{ content_block_with_pattern__button.text }}" }}
+               {{ /if }}
+            {{ /content_block_with_pattern__fields }}
+
+         {{ else }}
+
+            <h1 class="heading --dash --white">{{ content_block_with_pattern__heading }}</h1>
+            <p class="text --large  |  text-white">{{ content_block_with_pattern__copy }}</p>
+
+            {{ if content_block_with_pattern__toggle == 'true' }}
+               {{ partial:atoms/btn--arrow
+                  color="--white"
+                  url="{{ content_block_with_pattern__button.url }}"
+                  text="{{ content_block_with_pattern__button.text }}" }}
+            {{ /if }}
          {{ /if }}
       </div>
    </div>

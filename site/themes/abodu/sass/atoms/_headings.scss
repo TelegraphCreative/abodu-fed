@@ -13,7 +13,7 @@
       }
 
       &::before {
-         @apply absolute block pin-b pin-l w-4;
+         @apply absolute bg-black block pin-b pin-l w-4;
          content: '';
          height: .125rem;
          margin-bottom: 7px;

@@ -1,0 +1,6 @@
+sections:
+  main:
+    display: Main
+    fields: {  }
+taxonomies: true
+title: 'Pricing: Partial: Content Block with Pattern'

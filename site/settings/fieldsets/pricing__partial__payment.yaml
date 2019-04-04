@@ -1,0 +1,28 @@
+sections:
+  main:
+    display: Main
+    fields:
+      payment__heading:
+        type: text
+        display: Heading
+      payment__schedule:
+        sets:
+          payment__schedule--block:
+            display: Block
+            fields:
+              payment__schedule--block__number:
+                type: text
+                display: Number
+              payment__schedule--block__heading:
+                type: text
+                display: Heading
+              payment__schedule--block__payment:
+                type: text
+                display: Payment
+              payment__schedule--block__copy:
+                type: textarea
+                display: Copy
+        type: replicator
+        display: Schedule
+taxonomies: true
+title: 'Pricing: Partial: Payment'

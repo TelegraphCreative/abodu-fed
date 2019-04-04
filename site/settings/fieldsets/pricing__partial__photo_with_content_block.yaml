@@ -1,0 +1,44 @@
+sections:
+  main:
+    display: Main
+    fields:
+      photo_with_content_block__image:
+        container: main
+        folder: /
+        restrict: false
+        max_files: 1
+        type: assets
+        width: 50
+        display: Image
+      photo_with_content_block__button:
+        keys:
+          url: URL
+          text: Text
+        type: array
+        width: 50
+        display: 'Image Button'
+      photo_with_content_block__heading:
+        type: text
+        width: 50
+        display: Heading
+      photo_with_content_block__subheading:
+        type: text
+        width: 50
+        display: Subheading
+      photo_with_content_block__copy:
+        type: text
+        width: 50
+        display: Copy
+      photo_with_content_block__copy_list:
+        type: list
+        width: 50
+        display: 'Copy List'
+      photo_with_content_block__copy_button:
+        type: array
+        width: 50
+        display: Button
+        keys:
+          url: URL
+          text: Text
+taxonomies: true
+title: 'Pricing: Partial: Photo with Content Block'

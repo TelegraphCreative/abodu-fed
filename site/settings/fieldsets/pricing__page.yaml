@@ -1,0 +1,42 @@
+sections:
+  main:
+    display: Main
+    fields:
+      hero__section:
+        type: section
+      hero__partial:
+        fieldset: partial__hero
+        type: partial
+        display: Hero
+      cost__section:
+        type: section
+      photo_with_content_block__fields:
+        type: accordion_group
+        display: Cost
+        child_fieldset: pricing__partial__photo_with_content_block
+      upgrades__section:
+        type: section
+      content_block_with_pattern__fields:
+        child_fieldset: partial__content_block_with_pattern
+        type: accordion_group
+        display: 'Upgrades & Options'
+      payment__section:
+        type: section
+      payment__fields:
+        child_fieldset: pricing__partial__payment
+        type: accordion_group
+        display: Payment
+      transparency__section:
+        type: section
+      transparency__fields:
+        child_fieldset: pricing__partial__transparency
+        type: accordion_group
+        display: Transparency
+      cta__section:
+        type: section
+      cta__fields:
+        child_fieldset: partial__cta
+        type: accordion_group
+        display: 'Call to Action'
+taxonomies: true
+title: 'Pricing: Page'
