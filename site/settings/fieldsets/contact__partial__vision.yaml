@@ -1,0 +1,14 @@
+sections:
+  main:
+    display: Main
+    fields:
+      vision__heading:
+        type: text
+        width: 50
+        display: Heading
+      vision__copy:
+        type: textarea
+        width: 50
+        display: Copy
+taxonomies: true
+title: 'Contact: Partial: Vision'

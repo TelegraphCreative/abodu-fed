@@ -8,32 +8,25 @@ sections:
         fieldset: partial__hero
         type: partial
         display: Hero
-      cost__section:
+      sections__section:
         type: section
+        display: Sections
       photo_with_content_block__fields:
         type: accordion_group
         display: Cost
         child_fieldset: pricing__partial__photo_with_content_block
-      upgrades__section:
-        type: section
       content_block_with_pattern__fields:
         child_fieldset: partial__content_block_with_pattern
         type: accordion_group
         display: 'Upgrades & Options'
-      payment__section:
-        type: section
       payment__fields:
         child_fieldset: pricing__partial__payment
         type: accordion_group
         display: Payment
-      transparency__section:
-        type: section
       image_grid_with_color_block__fields:
         child_fieldset: pricing__partial__image_grid_with_color_block
         type: accordion_group
         display: Transparency
-      cta__section:
-        type: section
       cta__fields:
         child_fieldset: partial__cta
         type: accordion_group

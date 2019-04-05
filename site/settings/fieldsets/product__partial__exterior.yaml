@@ -1,0 +1,26 @@
+sections:
+  main:
+    display: Main
+    fields:
+      exterior__heading:
+        type: text
+        width: 50
+        display: Heading
+      exterior__subheading:
+        type: text
+        width: 50
+        display: Subheading
+      exterior__list:
+        type: list
+        width: 50
+        display: Features
+      exterior__image:
+        container: main
+        folder: /
+        restrict: false
+        max_files: 1
+        type: assets
+        width: 50
+        display: Image
+taxonomies: true
+title: 'Product: Partial: Exterior'

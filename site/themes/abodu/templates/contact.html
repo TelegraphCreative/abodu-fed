@@ -129,17 +129,19 @@
 <section class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20                    my-16 lg:my-20">
    <div class="row center-xs">
       <div class="col-xs-12 col-sm-10  |  md:mb-12">
-         <h1 class="heading --tertiary --book  |  mb-6 md:mb-10  |  text-rust">{{ our_vision__heading }}</h1>
-         <div class="nested-mb-6  |  text-18   md:text-24">
-            {{ our_vision__copy | markdown }}
-         </div>
+         {{ vision__fields }}
+            <h1 class="heading --tertiary --book  |  mb-6 md:mb-10  |  text-rust">{{ vision__heading }}</h1>
+            <div class="nested-mb-6  |  text-18   md:text-24">
+               {{ vision__copy | markdown }}
+            </div>
+         {{ /vision__fields }}
       </div>
    </div>
 </section>
 <!-- End Our Vision -->
 
 
-<section class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20   my-16 lg:my-20">
+<section class="container  |  my-16 lg:my-20">
    <!--   Image Grid   -->
    {{ partial:molecules/image_grid }}
    <!-- End Image Grid -->
@@ -151,10 +153,12 @@
 <section class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20                    my-16 lg:my-20">
    <div class="row center-xs">
       <div class="col-xs-12 col-sm-10  |  md:mb-12">
+         {{ who_we_are__fields }}
          <h1 class="heading --tertiary --book  |  mb-6 md:mb-10  |  text-rust">{{ who_we_are__heading }}</h1>
          <div class="nested-mb-6  |  text-18   md:text-24">
             {{ who_we_are__copy | markdown }}
          </div>
+         {{ /who_we_are__fields }}
       </div>
    </div>
 </section>

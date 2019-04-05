@@ -57,7 +57,8 @@ accordian__fields:
       '#hidden': true
   accordian__heading: 'Seamless Installation'
   accordian__copy: 'We know what’s no fun about construction, so we’ve made it better.'
-calendar__heading: 'Here''s how we stack up:'
+calendar__fields:
+  calendar__heading: 'Here''s how we stack up:'
 card_slider__fields:
   card_slider__cards:
     -
@@ -87,6 +88,7 @@ card_slider__fields:
       card_slider__cards__card--heading: 'A Heading'
       card_slider__cards__card--copy: 'Short copy here'
       card_slider__cards__card--note: null
+      '#hidden': true
   card_slider__heading: 'Our Install Timeline'
 cta__fields:
   cta__button:
@@ -94,6 +96,7 @@ cta__fields:
     text: 'See Our Pricing'
   cta__heading: 'No-surprises, risk-free pricing.'
   cta__copy: 'Because nobody likes being nickel and dimed. Especially with their home.'
+calendar__heading: 'Here''s how we stack up:'
 timeline__heading: 'Here''s how we stack up:'
 title: Service
 fieldset: services

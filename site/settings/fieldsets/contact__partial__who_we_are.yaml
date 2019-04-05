@@ -1,0 +1,14 @@
+sections:
+  main:
+    display: Main
+    fields:
+      who_we_are__heading:
+        type: text
+        width: 50
+        display: Heading
+      who_we_are__copy:
+        type: textarea
+        width: 50
+        display: Copy
+taxonomies: true
+title: 'Contact: Partial: Who We Are'

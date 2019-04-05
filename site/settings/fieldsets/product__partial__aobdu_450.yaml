@@ -10,5 +10,17 @@ sections:
         fieldset: partial__content_block_with_pattern
         type: partial
         display: 'Content Block with Pattern'
+      product_specs__image:
+        container: main
+        folder: /
+        restrict: false
+        max_files: 1
+        type: assets
+        width: 50
+        display: 'Products Specs: Image'
+      product_specs__copy:
+        type: textarea
+        width: 50
+        display: 'Product Specs: Copy'
 taxonomies: true
 title: 'Product: Partial: Abodu 450'

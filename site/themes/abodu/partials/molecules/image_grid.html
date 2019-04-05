@@ -4,7 +4,8 @@
    <div class="image_grid__3by4  |  col-xs-4 col-sm-4">
       <div>
          <figure class="img --is3by4">
-            {{ if template == 'home' }}
+
+            {{ if template == "home" }}
 
                {{ how_its_built__fields }}
                   {{ assets:image_grid__image_one }}
@@ -14,11 +15,15 @@
 
             {{ else }}
 
-               {{ assets:image_grid__image_one }}
-                  <img src="{{ url }}" alt="">
-               {{ /assets:image_grid__image_one }}
+               {{ images_grid__fields }}
+                  {{ assets:image_grid__image_one }}
+                     <img src="{{ url }}" alt="">
+                  {{ /assets:image_grid__image_one }}
+               {{ /images_grid__fields }}
 
             {{ /if }}
+
+
          </figure>
       </div>
    </div>
@@ -38,9 +43,11 @@
 
             {{ else }}
 
-               {{ assets:image_grid__image_two }}
-                  <img src="{{ url }}" alt="">
-               {{ /assets:image_grid__image_two }}
+               {{ images_grid__fields }}
+                  {{ assets:image_grid__image_two }}
+                     <img src="{{ url }}" alt="">
+                     {{ /assets:image_grid__image_two }}
+               {{ /images_grid__fields }}
 
             {{ /if }}
          </figure>
@@ -51,6 +58,7 @@
          <div>
             <figure class="img --is1by1">
                {{ if template == 'home' }}
+
                   {{ how_its_built__fields }}
                      {{ assets:image_grid__image_three }}
                         <img src="{{ url }}" alt="">
@@ -59,10 +67,12 @@
 
                {{ else }}
 
-                  {{ assets:image_grid__image_three }}
-                     <img src="{{ url }}" alt="">
-                  {{ /assets:image_grid__image_three }}
-                  
+                  {{ images_grid__fields }}
+                     {{ assets:image_grid__image_three }}
+                        <img src="{{ url }}" alt="">
+                     {{ /assets:image_grid__image_three }}
+                  {{ /images_grid__fields }}
+
                {{ /if }}
             </figure>
          </div>

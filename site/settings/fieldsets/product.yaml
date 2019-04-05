@@ -9,69 +9,29 @@ sections:
         fieldset: partial__hero
         type: partial
         display: Hero
-      pillars__section:
+      sections__section:
         type: section
-        display: 'Product Pillars'
+        display: Sections
       photo_with_content_block__fields:
         child_fieldset: product__partial__photo_with_content_block
         type: accordion_group
-        display: 'Edit Pillars'
-      abodu_450__section:
-        type: section
-        display: 'Abodu 450'
-      abodu_450_product_specs_image:
-        container: main
-        folder: /
-        restrict: false
-        max_files: 1
-        type: assets
-        width: 50
-        display: Image
-      abodu_450_product_specs:
-        type: textarea
-        width: 50
-        display: 'Product Specs'
+        display: Pillars
       abodu_450__fields:
         child_fieldset: product__partial__aobdu_450
         type: accordion_group
         display: 'Abodu 450'
-      exterior__section:
-        type: section
+      exterior__fields:
+        child_fieldset: product__partial__exterior
+        type: accordion_group
         display: Exterior
-      exterior__heading:
-        type: text
-        width: 50
-        display: Heading
-      exterior__subheading:
-        type: text
-        width: 50
-        display: Subheading
-      exterior__list:
-        type: list
-        width: 50
-        display: List
-      exterior__image:
-        container: main
-        folder: /
-        restrict: false
-        max_files: 1
-        type: assets
-        width: 50
-        display: Image
-      interior__section:
-        type: section
-        display: Interior
       two_column_content_grid__fields:
         child_fieldset: product__partial__two_column_content_grid
         type: accordion_group
-        display: 'Interior Fields'
-      customize__section:
-        type: section
-        display: Customize
+        display: Interior
       image_grid_with_color_block__fields:
         child_fieldset: product__partial__image_grid_with_color_block
         type: accordion_group
-        display: 'Edit Customize'
+        display: Customize
       design_partnership__photo_with_content_block__fields:
         child_fieldset: product__partial__design_partnership__photo_with_content_block
         type: accordion_group

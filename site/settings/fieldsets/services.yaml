@@ -6,26 +6,21 @@ sections:
         fieldset: partial__hero
         type: partial
         display: 'Hero Partial'
-      installation__section:
+      sections__section:
         type: section
-        display: Installation
+        display: Sections
       accordian__fields:
         child_fieldset: service__partial__installation
         type: accordion_group
         display: Installation
-      calendar__section:
-        type: section
-      calendar__heading:
-        type: text
-        display: Heading
-      timeline__section:
-        type: section
+      calendar__fields:
+        child_fieldset: service_partial_calendar
+        type: accordion_group
+        display: Calendar
       card_slider__fields:
         type: accordion_group
         display: Timeline
         child_fieldset: service__partial__timeline
-      call_to_action__section:
-        type: section
       cta__fields:
         child_fieldset: partial__cta
         type: accordion_group

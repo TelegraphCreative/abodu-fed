@@ -11,30 +11,20 @@ sections:
       hero__copy:
         type: textarea
         display: Copy
-      our_vision__section:
+      sections__section:
         type: section
-        display: 'Our Vision'
-      our_vision__heading:
-        type: text
-        display: Heading
-      our_vision__copy:
-        type: textarea
-        display: Copy
-      image_grid__section:
-        type: section
+        display: Sections
+      vision__fields:
+        child_fieldset: contact__partial__vision
+        type: accordion_group
+        display: Vision
+      images_grid__fields:
+        child_fieldset: contact__partial__images
+        type: accordion_group
         display: Images
-      image_grid__images:
-        fieldset: partial__image_grid
-        type: partial
-        display: Images
-      who_we_are__section:
-        type: section
+      who_we_are__fields:
+        child_fieldset: contact__partial__who_we_are
+        type: accordion_group
         display: 'Who We Are'
-      who_we_are__heading:
-        type: text
-        display: Heading
-      who_we_are__copy:
-        type: textarea
-        display: Copy
 taxonomies: true
 title: 'Contact: Page'

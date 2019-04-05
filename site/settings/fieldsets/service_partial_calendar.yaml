@@ -1,0 +1,10 @@
+sections:
+  main:
+    display: Main
+    fields:
+      calendar__heading:
+        type: text
+        width: 50
+        display: Heading
+taxonomies: true
+title: 'Service: Partial: Calendar'

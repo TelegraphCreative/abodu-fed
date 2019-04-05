@@ -22,9 +22,14 @@
       <div class="row center-xs">
          <div class="col-xs-12 col-md-10">
 
-            <img class="mb-6" src="{{ abodu_450_product_specs_image }}" alt="">
+            {{ abodu_450__fields }}
+               {{ assets:product_specs__image }}
+                  <img class="mb-6" src="{{ url }}" alt="">
+               {{ /assets:product_specs__image }}
 
-            <p class="text-14 text-center"><span class="font-bold">Product Specs:</span> {{ abodu_450_product_specs }}</p>
+               <p class="text-14 text-center"><span class="font-bold">Product Specs:</span> {{ product_specs__copy }}</p>
+            {{ /abodu_450__fields }}
+
          </div>
       </div>
    </div>
@@ -33,13 +38,15 @@
 
 <!--   Exterior   -->
 <section class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20                    my-16 lg:my-20">
-
    <div class="row reverse-md">
 
+      {{ exterior__fields }}
       <!--   Image   -->
       <div class="col-xs-12 col-md-6 | mb-8 md:mb-0">
          <figure class="img --is3by2">
-            <img src="{{ exterior__image }}" alt="">
+            {{ assets:exterior__image }}
+               <img src="{{ url }}" alt="">
+            {{ /assets:exterior__image }}
          </figure>
       </div>
 
@@ -60,9 +67,9 @@
             </div>
          </div>
       </div>
+      {{ /exterior__fields }}
 
    </div>
-
 </section>
 
 

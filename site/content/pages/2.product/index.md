@@ -29,8 +29,6 @@ photo_with_content_block__fields:
   photo_with_content_block__image:
     - /assets/4.jpg
   photo_with_content_block__heading: 'Our Product Pillars'
-abodu_450_product_specs_image: /assets/8.png
-abodu_450_product_specs: '452 square feet. 14’ wide. 35’4” long. 11’ ceilings. 13.5’ structure height.'
 abodu_450__fields:
   content_block_with_pattern__button:
     url: ''
@@ -43,16 +41,21 @@ abodu_450__fields:
   slider__title: 'Abodu 450'
   content_block_with_pattern__heading: 'Abodu 450'
   content_block_with_pattern__copy: '450 square feet of beautifully designed space, with our signature roof shape. The standard color palette is simple: white, wood, and black. Consider this our American interpretation of Scandinavian influence.'
-exterior__heading: Exterior
-exterior__subheading: 'Standard External Features:'
-exterior__list:
-  - 'Fire-resistant treated wood siding.'
-  - 'Standing-seam metal roof.'
-  - 'Concealed gutters.'
-  - 'Window-specific metal overhangs.'
-  - 'Black adonized aluminum, double-paned windows from Andersen.'
-  - '9'' sliding door from Andersen.'
-exterior__image: /assets/2.jpg
+  product_specs__copy: '452 square feet. 14’ wide. 35’4” long. 11’ ceilings. 13.5’ structure height.'
+  product_specs__image:
+    - /assets/8.png
+exterior__fields:
+  exterior__list:
+    - 'Fire-resistant treated wood siding.'
+    - 'Standing-seam metal roof.'
+    - 'Concealed gutters.'
+    - 'Window-specific metal overhangs.'
+    - 'Black adonized aluminum, double-paned windows from Andersen.'
+    - '9'' sliding door from Andersen.'
+  exterior__image:
+    - /assets/2.jpg
+  exterior__heading: Exterior
+  exterior__subheading: 'Standard External Features:'
 two_column_content_grid__fields:
   two_column_content_grid__list:
     -
