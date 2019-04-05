@@ -2,6 +2,28 @@
 // Slider
 //
 
+.slider__container {
+   @apply flex flex-col max-w-3xl mx-auto relative;
+
+   @media screen and (min-width: 48rem) {
+      @apply flex-row
+   }
+
+   // Lazy hack to hide slide flash
+   @media screen and (min-width: 80rem) {
+      &::after {
+         @apply absolute block pin-b pin-t bg-white;
+         content: '';
+         margin-left: -200%;
+         width: 200%;
+      }
+   }
+
+   .slider__wrapper {
+      @apply relative w-full
+   }
+}
+
 .slider__controls {
    @apply absolute bg-black flex items-center -mb-16 pin-b pin-r;
 
@@ -40,50 +62,48 @@
 .slider__panels {
    @apply flex;
 
-   div {
-      &:first-child {
-         @apply bg-white flex h-16 items-center w-full;
-
-         span {
-            @apply block font-bold leading-none ml-4 text-12 uppercase;
-            letter-spacing: 3px;
-
-            @media screen and (min-width: 22.5rem) {
-               @apply ml-6
-            }
-
-            @media screen and (min-width: 22.5rem) {
-               @apply ml-10 text-13
-            }
-
-            @media screen and (min-width: 48rem) {
-               @apply ml-0;
-
-               margin-top: 3.5rem;
-               transform: rotate(90deg);
-               white-space: nowrap;
-
-            }
-         }
-
-         @media screen and (min-width: 48rem) {
-            @apply block h-1/2
-         }
-      }
-
-      &:last-child {
-         @apply bg-black h-16;
-
-         @media screen and (min-width: 48rem) {
-            @apply h-1/2 w-full
-         }
-      }
-   }
    @media screen and (min-width: 48rem) {
       @apply flex-col w-16;
    }
 
    @media screen and (min-width: 62rem) {
       @apply w-20
+   }
+
+   .slider__panels--one {
+      @apply bg-white flex h-16 items-center w-full;
+
+      span {
+         @apply block font-bold leading-none ml-4 text-12 uppercase;
+         letter-spacing: 3px;
+
+         @media screen and (min-width: 22.5rem) {
+            @apply ml-6
+         }
+
+         @media screen and (min-width: 22.5rem) {
+            @apply ml-10 text-13
+         }
+
+         @media screen and (min-width: 48rem) {
+            @apply ml-0;
+
+            margin-top: 3.5rem;
+            transform: rotate(90deg);
+            white-space: nowrap;
+         }
+      }
+
+      @media screen and (min-width: 48rem) {
+         @apply block h-1/2
+      }
+   }
+
+   .slider__panels--two {
+      @apply bg-black h-16;
+
+      @media screen and (min-width: 48rem) {
+         @apply h-1/2 w-full
+      }
    }
 }

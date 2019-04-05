@@ -45,33 +45,34 @@
          }
       </style>
       <div class="row">
-         <div class="col-xs-12  |  relative">
-            <div class="absolute bg-green-lightest h-full w-full z-50" style="margin-left: -100%">
-            </div>
-            <div class="card_slider">
-               {{ card_slider__fields }}
-                  {{ card_slider__cards }}
-                     <div class="card_slider--card_wrapper">
-                        <div class="card_slider--card">
-                           <div class="card_slider--card_inner">
-                              {{#   Time   #}}
-                              {{ card_slider__cards__card--length | wrap:time.heading.--dash.--green }}
+         <div class="col-xs-12">
 
-                              {{#   Heading   #}}
-                              {{ card_slider__cards__card--heading | wrap:h2.heading.--quinary.mb-2 }}
+            <div class="card_slider--container">
+               <div class="card_slider">
+                  {{ card_slider__fields }}
+                     {{ card_slider__cards }}
+                        <div class="card_slider--card__wrapper">
+                           <div class="card_slider--card">
+                              <div class="card_slider--card__inner">
+                                 {{#   Time   #}}
+                                 {{ card_slider__cards__card--length | wrap:time.heading.--dash.--green }}
 
-                              {{#   Copy   #}}
-                              {{ card_slider__cards__card--copy | wrap:p.mb-5.text.--small }}
+                                 {{#   Heading   #}}
+                                 {{ card_slider__cards__card--heading | wrap:h2.heading.--quinary.mb-2 }}
 
-                              {{#   Note   #}}
-                              {{ card_slider__cards__card--note | wrap:p.mb-5.text-12.text-grey-dark }}
+                                 {{#   Copy   #}}
+                                 {{ card_slider__cards__card--copy | wrap:p.mb-5.text.--small }}
+
+                                 {{#   Note   #}}
+                                 {{ card_slider__cards__card--note | wrap:p.mb-5.text-12.text-grey-dark }}
+                              </div>
                            </div>
                         </div>
-                     </div>
-                  {{ /card_slider__cards }}
-               {{ /card_slider__fields }}
-
+                     {{ /card_slider__cards }}
+                  {{ /card_slider__fields }}
+               </div>
             </div>
+
          </div>
       </div>
    </div>

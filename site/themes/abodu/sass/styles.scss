@@ -36,6 +36,15 @@
 
 
 a, button { transition: all 150ms ease-in-out }
+button {
+	&:focus {
+		outline: none
+	}
+}
+
+:-moz-focusring {
+	 outline: none;
+}
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
 	body { @apply antialiased }

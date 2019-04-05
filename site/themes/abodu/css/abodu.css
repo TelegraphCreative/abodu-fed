@@ -23721,6 +23721,22 @@ table {
   height: 0;
 }
 
+.card_slider--container {
+  position: relative;
+}
+
+.card_slider--container::after {
+  position: absolute;
+  background-color: #f5f8f7;
+  display: block;
+  bottom: 0;
+  top: 0;
+  z-index: 50;
+  content: "";
+  margin-left: -200%;
+  width: 200%;
+}
+
 .card_slider {
   margin-left: -0.5rem;
   margin-right: -0.5rem;
@@ -23740,38 +23756,38 @@ table {
   }
 }
 
-.card_slider .card_slider--card_wrapper {
+.card_slider .card_slider--card__wrapper {
   padding-left: .5rem;
   padding-right: .5rem;
 }
 
 @media screen and (min-width: 36rem) {
-  .card_slider .card_slider--card_wrapper {
+  .card_slider .card_slider--card__wrapper {
     padding-left: .75rem;
     padding-right: .75rem;
   }
 }
 
 @media screen and (min-width: 48rem) {
-  .card_slider .card_slider--card_wrapper {
+  .card_slider .card_slider--card__wrapper {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
 
-.card_slider .card_slider--card_wrapper .card_slider--card {
+.card_slider .card_slider--card__wrapper .card_slider--card {
   background-color: #fff;
   height: 100%;
   width: 16rem;
 }
 
 @media screen and (min-width: 36rem) {
-  .card_slider .card_slider--card_wrapper .card_slider--card {
+  .card_slider .card_slider--card__wrapper .card_slider--card {
     width: 22rem;
   }
 }
 
-.card_slider .card_slider--card_wrapper .card_slider--card .card_slider--card_inner {
+.card_slider .card_slider--card__wrapper .card_slider--card .card_slider--card__inner {
   padding-bottom: 2rem;
   padding-top: 3rem;
   padding-left: 1.5rem;
@@ -23779,7 +23795,7 @@ table {
 }
 
 @media screen and (min-width: 36rem) {
-  .card_slider .card_slider--card_wrapper .card_slider--card .card_slider--card_inner {
+  .card_slider .card_slider--card__wrapper .card_slider--card .card_slider--card__inner {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
@@ -24382,6 +24398,47 @@ body.menu_open #nav_wrap #menu li a::after {
   border-color: #9b4c05;
 }
 
+.slider__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+@media screen and (min-width: 48rem) {
+  .slider__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  .slider__container::after {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    top: 0;
+    background-color: #fff;
+    content: "";
+    margin-left: -200%;
+    width: 200%;
+  }
+}
+
+.slider__container .slider__wrapper {
+  position: relative;
+  width: 100%;
+}
+
 .slider__controls {
   position: absolute;
   background-color: #000;
@@ -24469,71 +24526,6 @@ body.menu_open #nav_wrap #menu li a::after {
   display: flex;
 }
 
-.slider__panels div:first-child {
-  background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 4rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-}
-
-.slider__panels div:first-child span {
-  display: block;
-  font-weight: 700;
-  line-height: 1;
-  margin-left: 1rem;
-  font-size: .75rem;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-@media screen and (min-width: 22.5rem) {
-  .slider__panels div:first-child span {
-    margin-left: 1.5rem;
-  }
-}
-
-@media screen and (min-width: 22.5rem) {
-  .slider__panels div:first-child span {
-    margin-left: 2.5rem;
-    font-size: .8125rem;
-  }
-}
-
-@media screen and (min-width: 48rem) {
-  .slider__panels div:first-child span {
-    margin-left: 0;
-    margin-top: 3.5rem;
-    -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-            transform: rotate(90deg);
-    white-space: nowrap;
-  }
-}
-
-@media screen and (min-width: 48rem) {
-  .slider__panels div:first-child {
-    display: block;
-    height: 50%;
-  }
-}
-
-.slider__panels div:last-child {
-  background-color: #000;
-  height: 4rem;
-}
-
-@media screen and (min-width: 48rem) {
-  .slider__panels div:last-child {
-    height: 50%;
-    width: 100%;
-  }
-}
-
 @media screen and (min-width: 48rem) {
   .slider__panels {
     -webkit-box-orient: vertical;
@@ -24547,6 +24539,71 @@ body.menu_open #nav_wrap #menu li a::after {
 @media screen and (min-width: 62rem) {
   .slider__panels {
     width: 5rem;
+  }
+}
+
+.slider__panels .slider__panels--one {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.slider__panels .slider__panels--one span {
+  display: block;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: 1rem;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+@media screen and (min-width: 22.5rem) {
+  .slider__panels .slider__panels--one span {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 22.5rem) {
+  .slider__panels .slider__panels--one span {
+    margin-left: 2.5rem;
+    font-size: .8125rem;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .slider__panels .slider__panels--one span {
+    margin-left: 0;
+    margin-top: 3.5rem;
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+    white-space: nowrap;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .slider__panels .slider__panels--one {
+    display: block;
+    height: 50%;
+  }
+}
+
+.slider__panels .slider__panels--two {
+  background-color: #000;
+  height: 4rem;
+}
+
+@media screen and (min-width: 48rem) {
+  .slider__panels .slider__panels--two {
+    height: 50%;
+    width: 100%;
   }
 }
 
@@ -26518,6 +26575,14 @@ button {
   -webkit-transition: all 150ms ease-in-out;
   -o-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
+}
+
+button:focus {
+  outline: none;
+}
+
+:-moz-focusring {
+  outline: none;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),

@@ -2,6 +2,16 @@
 // Card Slider
 //
 
+.card_slider--container {
+   @apply relative;
+
+   &::after {
+      @apply absolute bg-green-lightest block pin-b pin-t z-50;
+      content: '';
+      margin-left: -200%;
+      width: 200%;
+   }
+}
 .card_slider {
    @apply -mx-2;
 
@@ -13,7 +23,7 @@
       @apply -mx-4
    }
 
-   .card_slider--card_wrapper {
+   .card_slider--card__wrapper {
       @apply px-2;
 
       @media screen and (min-width: 36rem) {
@@ -32,7 +42,7 @@
             width: 22rem
          }
 
-         .card_slider--card_inner {
+         .card_slider--card__inner {
             @apply pb-8 pt-12 px-6;
 
             @media screen and (min-width: 36rem) {

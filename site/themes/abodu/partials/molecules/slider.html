@@ -1,6 +1,7 @@
-<div class="flex flex-col md:flex-row  |  max-w-3xl  |  mx-auto">
+<div class="slider__container">
+   <!--<div class="absolute pin-b pin-t bg-green" style="z-index: 1000;margin-left: -200%;width: 200%"></div>-->
 
-   <div class="w-full relative">
+   <div class="slider__wrapper">
       <div class="slider">
          {{ slider__images }}
             <div>
@@ -31,10 +32,10 @@
    </div>
 
    <div class="slider__panels">
-      <div>
-         <span>{{ slider__title }}</span>
+      <div class="slider__panels--one">
+         {{ slider__title | wrap:span }}
       </div>
 
-      <div></div>
+      <div class="slider__panels--two"></div>
    </div>
 </div>
