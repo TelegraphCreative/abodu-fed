@@ -1,15 +1,16 @@
 hero__heading: '<span>Backyard apartments<br></span> worth living in.'
-slider__title: 'Abodu 450'
-slider__images:
-  - /assets/1.jpg
-  - /assets/4.jpg
-  - /assets/6.jpg
-content_block_with_pattern__heading: 'What We Do'
-content_block_with_pattern__copy: 'Seamless buying, seamless installation, instant gratification. We do the heavy lifting so you don’t have to — welcome to your backyard home, welcome to your Abodu.'
-content_block_with_pattern__toggle: true
-content_block_with_pattern__button:
-  url: /why-backyard-living
-  text: 'Why Backyard Living'
+what_we_do__fields:
+  content_block_with_pattern__toggle: true
+  content_block_with_pattern__button:
+    url: /why-backyard-living
+    text: 'Why Backyard Living'
+  slider__images:
+    - /assets/1.jpg
+    - /assets/4.jpg
+    - /assets/6.jpg
+  slider__title: 'Abodu 450'
+  content_block_with_pattern__heading: 'What We Do'
+  content_block_with_pattern__copy: 'Seamless buying, seamless installation, instant gratification. We do the heavy lifting so you don’t have to — welcome to your backyard home, welcome to your Abodu.'
 how_its_built__fields:
   how_its_built__button:
     url: 'https://google.com'
@@ -45,6 +46,7 @@ how_its_delivered__fields:
       how_its_delivered__list--item__icon: painless_purchase
       how_its_delivered__list--item__heading: 'Painless Purchase'
       how_its_delivered__list--item__copy: 'Place a $1,000 deposit and we''ll conduct a feasibility study for you. If we can''t get a permit approved, you get that back. Need help with financing? We can provide that through our partner, XXXX. (Note - partner to be selected over the next ~2 months)'
+      '#hidden': true
   how_its_delivered__heading: 'How it''s delivered'
   how_its_delivered__subheading: 'Seamless Experience.'
   how_its_delivered__copy: 'We''ll take care all of the messy details like permitting that you shouldn''t have to think about.'

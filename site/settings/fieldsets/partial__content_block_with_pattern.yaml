@@ -5,19 +5,23 @@ sections:
       content_block_with_pattern__heading:
         type: text
         display: Heading
+        width: 50
       content_block_with_pattern__copy:
         type: textarea
         display: Copy
-      content_block_with_pattern__toggle:
-        type: toggle
-        display: 'Display Button?'
+        width: 50
       content_block_with_pattern__button:
         keys:
           url: URL
           text: Text
         type: array
         display: Button
+        width: 66
         show_when:
           content_block_with_pattern__toggle: true
+      content_block_with_pattern__toggle:
+        type: toggle
+        display: 'Display Button?'
+        width: 33
 taxonomies: true
 title: 'Partial: Content Block with Pattern'

@@ -1,19 +1,17 @@
 <div class="slider__container">
-   <!--<div class="absolute pin-b pin-t bg-green" style="z-index: 1000;margin-left: -200%;width: 200%"></div>-->
-
    <div class="slider__wrapper">
+      {{#   Slides   #}}
       <div class="slider">
-         {{ slider__images }}
+         {{ {{ if section == "What We Do" }}what_we_do__fields.{{ elseif section == "Abodu 450" }}abodu_450__fields.{{ /if }}slider__images }}
             <div>
                <figure class="img --is2by1">
                   <img src="{{ value }}" alt="">
                </figure>
             </div>
-         {{ /slider__images }}
+         {{ /{{ if section == "What We Do" }}what_we_do__fields.{{ elseif section == "Abodu 450" }}abodu_450__fields.{{ /if }}slider__images }}
       </div>
 
-
-      <!--   Controls   -->
+      {{#   Controls   #}}
       <div class="slider__controls" aria-label="Carousel Navigation" tabindex="0">
          <!--   Prev Button   -->
          <button class="slider__controls--btn" data-controls="prev" aria-controls="customize" tabindex="-1">
@@ -28,12 +26,12 @@
             </svg>
          </button>
       </div>
-      <!-- End Controls -->
    </div>
 
+   {{#   Panels   #}}
    <div class="slider__panels">
       <div class="slider__panels--one">
-         {{ slider__title | wrap:span }}
+         {{ {{ if section == "what_we_do" }}what_we_do__fields.{{ elseif section == "Abodu 450" }}abodu_450__fields.{{ /if }}slider__title | wrap:span }}
       </div>
 
       <div class="slider__panels--two"></div>

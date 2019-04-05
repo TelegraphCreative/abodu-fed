@@ -2,13 +2,13 @@ sections:
   main:
     display: Main
     fields:
-      slider:
+      slider__fields:
         fieldset: partial__slider
         type: partial
         display: Slider
-      content_block_with_pattern:
-        type: partial
-        display: 'Content Block'
+      content_block_with_pattern__fields:
         fieldset: partial__content_block_with_pattern
+        type: partial
+        display: 'Content Block with Pattern'
 taxonomies: true
-title: 'Home: Partial: What We Do'
+title: 'Product: Partial: Abodu 450'

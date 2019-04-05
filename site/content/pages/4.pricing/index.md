@@ -2,7 +2,7 @@ hero__heading: 'Our Pricing'
 hero__subheading: 'Let''s talk pricing.'
 hero__copy: |
   Off-site construction allows us significant cost savings, which we pass right through to you. A traditional site-built contractor process will cost you nearly 2x for a unit of similar quality and finish to Abodu - believe us, we checked.
-
+  
   Our price includes all aspects of your Abodu purchase, from unit build to permitting to install. We're not in the business of costly overruns or hidden fees. Rest easy knowing exactly how much your new backyard home will cost you, from start to finish.
 hero__image: /assets/4.jpg
 photo_with_content_block__fields:
@@ -103,6 +103,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__heading: 'Landscape Removal or Repair'
       image_grid_with_color_block__list--item__copy: 'If you need us to tear down that old shed, remove that dead tree, or provide significant landscape repair after Abodu installation - we''ve got you covered.'
       image_grid_with_color_block__list--item__note: 'We''ll bring in a local Landscape partner to provide a quote.'
+      '#hidden': true
   image_grid_with_color_block__first_image:
     - /assets/12.jpg
   image_grid_with_color_block__second_image:

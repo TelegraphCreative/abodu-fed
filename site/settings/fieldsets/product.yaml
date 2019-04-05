@@ -19,14 +19,6 @@ sections:
       abodu_450__section:
         type: section
         display: 'Abodu 450'
-      slider__fields:
-        fieldset: partial__slider
-        type: partial
-        display: 'Abodu 450: Slider'
-      content_block_with_pattern__fields:
-        fieldset: partial__content_block_with_pattern
-        type: partial
-        display: 'Abodu 450: Content Block with Pattern'
       abodu_450_product_specs_image:
         container: main
         folder: /
@@ -39,6 +31,10 @@ sections:
         type: textarea
         width: 50
         display: 'Product Specs'
+      abodu_450__fields:
+        child_fieldset: product__partial__aobdu_450
+        type: accordion_group
+        display: 'Abodu 450'
       exterior__section:
         type: section
         display: Exterior

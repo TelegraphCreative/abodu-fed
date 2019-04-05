@@ -1,18 +1,47 @@
 <!--   Content Block with Pattern   -->
-<div class="max-w-3xl mx-auto px-4   xs:px-6   sm:px-10   md:px-16   lg:px-20                    mb-16 lg:mb-20   py-12   md:py-16    relative     bg-black">
+<div class="container  |  relative  |  mb-16 lg:mb-20 py-12 md:py-16  |  bg-black">
 
+   {{#   Pattern   #}}
    <div class="absolute h-full overflow-hidden pin-t pin-r    hidden   md:flex md:items-center" style="width: 34.72868217%">
       <img class="block w-full" src="{{ theme:images src='patterns/pattern--1.svg' }}">
    </div>
 
+   {{#   Content   #}}
    <div class="row">
       <div class="col-xs-12   col-sm-10   col-md-7">
-         {{ if content_block_with_pattern__fields }}
+         {{ {{ if section == "What We Do" }}what_we_do{{ elseif section == "Abodu 450" }}abodu_450{{ elseif section == "Upgrades" }}content_block_with_pattern{{ /if }}__fields }}
+         
+            {{ content_block_with_pattern__heading | wrap:h1.heading.--dash.--white }}
+            {{ content_block_with_pattern__copy | wrap:p.text.--large.text-white }}
+
+         {{ /{{ if section == "What We Do" }}what_we_do{{ elseif section == "Abodu 450" }}abodu_450{{ elseif section == "Upgrades" }}content_block_with_pattern{{ /if }}__fields }}
+
+         <!--   Yikes   -->
+         {{ if what_we_do__fields }}
+
+            {{ what_we_do__fields }}
+               {{ if content_block_with_pattern__toggle == 'true' }}
+                  {{ partial:atoms/btn--arrow
+                     color="--white"
+                     url="{{ content_block_with_pattern__button.url }}"
+                     text="{{ content_block_with_pattern__button.text }}" }}
+               {{ /if }}
+            {{ /what_we_do__fields }}
+
+         {{ elseif abodu_450__fields }}
+
+            {{ abodu_450__fields }}
+               {{ if content_block_with_pattern__toggle == 'true' }}
+                  {{ partial:atoms/btn--arrow
+                     color="--white"
+                     url="{{ content_block_with_pattern__button.url }}"
+                     text="{{ content_block_with_pattern__button.text }}" }}
+               {{ /if }}
+            {{ /abodu_450__fields }}
+
+         {{ elseif content_block_with_pattern__fields }}
 
             {{ content_block_with_pattern__fields }}
-               <h1 class="heading --dash --white">{{ content_block_with_pattern__heading }}</h1>
-               <p class="text --large  |  text-white">{{ content_block_with_pattern__copy }}</p>
-
                {{ if content_block_with_pattern__toggle == 'true' }}
                   {{ partial:atoms/btn--arrow
                      color="--white"
@@ -21,17 +50,6 @@
                {{ /if }}
             {{ /content_block_with_pattern__fields }}
 
-         {{ else }}
-
-            <h1 class="heading --dash --white">{{ content_block_with_pattern__heading }}</h1>
-            <p class="text --large  |  text-white">{{ content_block_with_pattern__copy }}</p>
-
-            {{ if content_block_with_pattern__toggle == 'true' }}
-               {{ partial:atoms/btn--arrow
-                  color="--white"
-                  url="{{ content_block_with_pattern__button.url }}"
-                  text="{{ content_block_with_pattern__button.text }}" }}
-            {{ /if }}
          {{ /if }}
       </div>
    </div>
