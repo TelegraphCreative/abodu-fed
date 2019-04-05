@@ -69,6 +69,13 @@ sections:
         child_fieldset: product__partial__two_column_content_grid
         type: accordion_group
         display: 'Interior Fields'
+      customize__section:
+        type: section
+        display: Customize
+      image_grid_with_color_block__fields:
+        child_fieldset: product__partial__image_grid_with_color_block
+        type: accordion_group
+        display: 'Edit Customize'
       design_partnership__photo_with_content_block__fields:
         child_fieldset: product__partial__design_partnership__photo_with_content_block
         type: accordion_group

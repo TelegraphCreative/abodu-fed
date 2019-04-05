@@ -51,52 +51,7 @@
 
 
 <!--   Transparency   -->
-<section class="relative  |  mt-16 lg:mt-20 pb-12 lg:pb-20" style="z-index: 1">
-
-   <!--   Color Block Background   -->
-   <div class="absolute bgf-sand h-full pin-b pin-l pin-r pt-32 md:pt-48 lg:pt-76" style="z-index:-1">
-      <div class="bg-sand h-full"></div>
-   </div>
-
-   <div class="container">
-      <!--   Image Grid   -->
-      {{ partial:molecules/image_grid__reverse }}
-      <!-- End Image Grid -->
-
-      {{ transparency__fields }}
-         <div class="row">
-            <!--   Text: Hidden on Medium/Large Display   -->
-            <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6  |  mb-10 lg:mb-16 lg:-mt-12 xl:-mt-20">
-               {{ transparency__heading | wrap:h1.heading.--dash.--rust }}
-               {{ transparency__subheading | wrap:h2.heading.--tertiary.mb-6 }}
-               <p>{{ transparency__copy }}</p>
-            </div>
-         </div>
-
-         <div class="row  |  -mb-10">
-            {{ transparency__list }}
-               <div class="col-xs-12 col-md-6">
-
-                  <div class="pb-10">
-                     {{#   Icon   #}}
-                     {{ partial:atoms/icons icon="{{ transparency__list--outlier__icon }}" }}
-
-
-                     {{#   Heading   #}}
-                     <h2 class="heading --quinary  |  mb-2 md:mb-3">{{ transparency__list--outlier__heading }}</h2>
-
-                     {{#   Copy   #}}
-                     {{ transparency__list--outlier__copy | wrap:p.mb-4 }}
-
-                     {{#   Note   #}}
-                     <p>{{ transparency__list--outlier__note | wrap:p.font-bold }}</p>
-                  </div>
-               </div>
-            {{ /transparency__list }}
-         </div>
-      {{ /transparency__fields }}
-   </div>
-</section>
+{{ partial:molecules/image_grid_with_color_block section="pricing" }}
 
 
 <!--   CTA   -->

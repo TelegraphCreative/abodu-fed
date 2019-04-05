@@ -4,8 +4,7 @@ hero__copy: |
   Over the past few decades, we have failed to build affordable housing in-line with our growing metro populations. We need more density in urban areas, but most of the accessible land is taken up by single family homes. However, there is a new and growing movement to add density within the space homeowners already possess through the addition of Accessory Dwelling Units (ADUs).
 
   Where US cities previously made it illegal or cost-prohibitive to add an ADU, many have begun to roll back theses barriers to encourage such additions. Ultimately, this will help cities meet population demand for housing and provide countless benefits for homeowners.
-hero__image:
-  - /assets/4.jpg
+hero__image: /assets/4.jpg
 two_column_content_grid__fields:
   two_column_content_grid__list:
     -
@@ -49,6 +48,36 @@ color_block__fields:
     text: 'Find Out Your Value'
   color_block__heading: 'Increased Home Value'
   color_block__value: 'Enter your <a href="">Zip Code</a> and we''ll tell you the property increase value for an Abodu 450.'
+image_grid_with_color_block__fields:
+  image_grid_with_color_block__list:
+    -
+      type: image_grid_with_color_block__list--item
+      image_grid_with_color_block__list--item__icon: live_closer_to_work
+      image_grid_with_color_block__list--item__heading: 'Live Closer to Work'
+      image_grid_with_color_block__list--item__copy: 'No more 2+ hours of commuting per day, as is so common for many.'
+      image_grid_with_color_block__list--item__note: null
+      '#hidden': true
+    -
+      type: image_grid_with_color_block__list--item
+      image_grid_with_color_block__list--item__icon: naturally-affordable_housing
+      image_grid_with_color_block__list--item__heading: 'Naturally-affordable housing'
+      image_grid_with_color_block__list--item__copy: 'Most ADUs rent slightly below comparable 1-bedroom units, largely due to the smaller footprint.'
+      image_grid_with_color_block__list--item__note: null
+      '#hidden': true
+    -
+      type: image_grid_with_color_block__list--item
+      image_grid_with_color_block__list--item__icon: the_perfect_rental
+      image_grid_with_color_block__list--item__heading: 'The perfect rental'
+      image_grid_with_color_block__list--item__copy: 'New construction. Beautifully designed. Energy efficient. No neighbors (or, rather, no shared walls).'
+      image_grid_with_color_block__list--item__note: null
+  image_grid_with_color_block__first_image:
+    - /assets/2.jpg
+  image_grid_with_color_block__second_image:
+    - /assets/3.jpg
+  image_grid_with_color_block__third_image:
+    - /assets/1.jpg
+  image_grid_with_color_block__heading: 'Benefits for renters'
+  image_grid_with_color_block__subheading: 'If you rent out your Abodu, you''ll make someone very happy.'
 why_abodu__two_column_content_grid__fields:
   two_column_content_grid__list:
     -
@@ -64,7 +93,7 @@ why_abodu__two_column_content_grid__fields:
       two_column_content_grid__list--item--button:
         url: 'https://google.com'
         text: 'Our Services'
-      '#hidden': false
+      '#hidden': true
   two_column_content_grid__heading: 'How We''ll Help'
   two_column_content_grid__subheading: '“Why Abodu?”'
 photo_with_content_block__fields:

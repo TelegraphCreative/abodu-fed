@@ -4,13 +4,11 @@
    <div class="image_grid__reverse--3by2  |  col-xs-6 col-sm-7 col-md-8">
       <div>
          <figure class="img --is3by2">
-            {{ transparency__fields }}
-               {{ assets:transparency__first_image }}
+            {{ {{ section }}__fields }}
+               {{ assets:image_grid__first_image }}
                   <img src="{{ url }}" alt="">
-               {{ /assets:transparency__first_image }}
-            {{ /transparency__fields }}
-
-            <!--<img src="{{ theme:images src='placeholder/2.jpg' }}" alt="">-->
+               {{ /assets:image_grid__first_image }}
+            {{ /{{ section }}__fields }}
          </figure>
       </div>
    </div>
@@ -22,23 +20,22 @@
       <div class="image_grid__reverse--1by1">
          <div>
             <figure class="img --is1by1">
-               {{ transparency__fields }}
-                  {{ assets:transparency__second_image }}
+               {{ {{ section }}__fields }}
+                  {{ assets:image_grid__second_image }}
                      <img src="{{ url }}" alt="">
-                  {{ /assets:transparency__second_image }}
-               {{ /transparency__fields }}
-               <!--<img src="{{ theme:images src='placeholder/3.jpg' }}" alt="">-->
+                  {{ /assets:image_grid__second_image }}
+               {{ /{{ section }}__fields }}
             </figure>
          </div>
       </div>
 
       <div class="image_grid__reverse--3by4">
          <figure class="img --is3by4">
-            {{ transparency__fields }}
-               {{ assets:transparency__third_image }}
+            {{ {{ section }}__fields }}
+               {{ assets:image_grid__third_image }}
                   <img src="{{ url }}" alt="">
-               {{ /assets:transparency__third_image }}
-            {{ /transparency__fields }}
+               {{ /assets:image_grid__third_image }}
+            {{ /{{ section }}__fields }}
          </figure>
       </div>
    </div>

@@ -2,7 +2,7 @@ hero__heading: 'Our Pricing'
 hero__subheading: 'Let''s talk pricing.'
 hero__copy: |
   Off-site construction allows us significant cost savings, which we pass right through to you. A traditional site-built contractor process will cost you nearly 2x for a unit of similar quality and finish to Abodu - believe us, we checked.
-  
+
   Our price includes all aspects of your Abodu purchase, from unit build to permitting to install. We're not in the business of costly overruns or hidden fees. Rest easy knowing exactly how much your new backyard home will cost you, from start to finish.
 hero__image: /assets/4.jpg
 photo_with_content_block__fields:
@@ -74,45 +74,44 @@ payment__fields:
       payment__schedule--block__copy: 'We walk you through your new Abodu and explain all the fun bells and whistles.'
       '#hidden': true
   payment__heading: 'Our Timeline & Payment Schedule'
-transparency__fields:
-  transparency__first_image:
+image_grid_with_color_block__fields:
+  image_grid_with_color_block__list:
+    -
+      type: image_grid_with_color_block__list--item
+      image_grid_with_color_block__list--item__icon: deep_backyard
+      image_grid_with_color_block__list--item__heading: 'Deep Backyard'
+      image_grid_with_color_block__list--item__copy: 'Our base price includes up to 50 ft of trenching each for water, waste and electric lines. Particularly large backyard? Good for you! We''ll be able to tell you how much extra that will cost.'
+      image_grid_with_color_block__list--item__note: '$50 per additional linear foot'
+      '#hidden': true
+    -
+      type: image_grid_with_color_block__list--item
+      image_grid_with_color_block__list--item__icon: electrical_panel_upgrade
+      image_grid_with_color_block__list--item__heading: 'Electrical Panel Upgrade'
+      image_grid_with_color_block__list--item__copy: 'If your home electrical panel is under 200 amps or has less than 60 amps of additional capacity, we''ll likely need to upgrade. Don''t worry, we''ll take care of it for you.'
+      image_grid_with_color_block__list--item__note: '$6,000'
+      '#hidden': true
+    -
+      type: image_grid_with_color_block__list--item
+      image_grid_with_color_block__list--item__icon: sloped_lot
+      image_grid_with_color_block__list--item__heading: 'Sloped Lot'
+      image_grid_with_color_block__list--item__copy: 'If you have a sloped lot, we''ll need to develop a flat building pad for your Abodu.'
+      image_grid_with_color_block__list--item__note: 'We''ll bring in a partner to provide a quote.'
+      '#hidden': true
+    -
+      type: image_grid_with_color_block__list--item
+      image_grid_with_color_block__list--item__icon: landscape_removal_or_repair
+      image_grid_with_color_block__list--item__heading: 'Landscape Removal or Repair'
+      image_grid_with_color_block__list--item__copy: 'If you need us to tear down that old shed, remove that dead tree, or provide significant landscape repair after Abodu installation - we''ve got you covered.'
+      image_grid_with_color_block__list--item__note: 'We''ll bring in a local Landscape partner to provide a quote.'
+  image_grid_with_color_block__first_image:
     - /assets/12.jpg
-  transparency__second_image:
-    - /assets/3.jpg
-  transparency__third_image:
+  image_grid_with_color_block__second_image:
+    - /assets/4.jpg
+  image_grid_with_color_block__third_image:
     - /assets/13.jpg
-  transparency__heading: 'For transparency''s sake'
-  transparency__subheading: 'A few things that can increase cost:'
-  transparency__copy: 'While our base pricing covers the vast majority of install scenarios, there''s always the outliers. For those homeowners, we''ve outlined what could add some additional cost.'
-  transparency__list:
-    -
-      type: transparency__list--outlier
-      transparency__list--outlier__heading: 'Deep Backyard'
-      transparency__list--outlier__copy: 'Our base price includes up to 50 ft of trenching each for water, waste and electric lines. Particularly large backyard? Good for you! We''ll be able to tell you how much extra that will cost.'
-      transparency__list--outlier__note: '$50 per additional linear foot'
-      '#hidden': true
-      transparency__list--outlier__icon: deep_backyard
-    -
-      type: transparency__list--outlier
-      transparency__list--outlier__heading: 'Electrical Panel Upgrade'
-      transparency__list--outlier__copy: 'If your home electrical panel is under 200 amps or has less than 60 amps of additional capacity, we''ll likely need to upgrade. Don''t worry, we''ll take care of it for you.'
-      transparency__list--outlier__note: '$6,000'
-      '#hidden': true
-      transparency__list--outlier__icon: electrical_panel_upgrade
-    -
-      type: transparency__list--outlier
-      transparency__list--outlier__heading: 'Sloped Lot'
-      transparency__list--outlier__copy: 'If you have a sloped lot, we''ll need to develop a flat building pad for your Abodu.'
-      transparency__list--outlier__note: 'We''ll bring in a partner to provide a quote.'
-      '#hidden': true
-      transparency__list--outlier__icon: sloped_lot
-    -
-      type: transparency__list--outlier
-      transparency__list--outlier__heading: 'Landscape Removal or Repair'
-      transparency__list--outlier__copy: 'If you need us to tear down that old shed, remove that dead tree, or provide significant landscape repair after Abodu installation - we''ve got you covered.'
-      transparency__list--outlier__note: 'We''ll bring in a local Landscape partner to provide a quote.'
-      '#hidden': false
-      transparency__list--outlier__icon: landscape_removal_or_repair
+  image_grid_with_color_block__heading: 'For transparency''s sake'
+  image_grid_with_color_block__subheading: 'A few things that can increase cost:'
+  image_grid_with_color_block__copy: 'While our base pricing covers the vast majority of install scenarios, there''s always the outliers. For those homeowners, we''ve outlined what could add some additional cost.'
 cta__fields:
   cta__button:
     url: 'https://google.com'

@@ -28,8 +28,8 @@ sections:
         display: Payment
       transparency__section:
         type: section
-      transparency__fields:
-        child_fieldset: pricing__partial__transparency
+      image_grid_with_color_block__fields:
+        child_fieldset: pricing__partial__image_grid_with_color_block
         type: accordion_group
         display: Transparency
       cta__section:

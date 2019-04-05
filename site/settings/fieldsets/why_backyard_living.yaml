@@ -20,6 +20,13 @@ sections:
         type: accordion_group
         display: 'Edit Value'
         child_fieldset: why_backyard_living__partial__color_block
+      renters_section:
+        type: section
+        display: 'Renters Section'
+      image_grid_with_color_block__fields:
+        child_fieldset: why_backyard_living__partial__image_grid_with_color_block
+        type: accordion_group
+        display: Renters
       why_abodu__section:
         type: section
         display: 'Why Abodu?'

@@ -2,7 +2,7 @@ sections:
   main:
     display: Main
     fields:
-      transparency__first_image:
+      image_grid_with_color_block__first_image:
         container: main
         folder: /
         restrict: false
@@ -14,7 +14,7 @@ sections:
           **Dimensions:** 3by2
           <br>
           **Recommended size:** 1000px by 666px
-      transparency__second_image:
+      image_grid_with_color_block__second_image:
         container: main
         folder: /
         restrict: false
@@ -26,7 +26,7 @@ sections:
           **Dimensions:** 1by1
           <br>
           **Recommended size:** 500px by 500px
-      transparency__third_image:
+      image_grid_with_color_block__third_image:
         container: main
         folder: /
         restrict: false
@@ -38,24 +38,20 @@ sections:
           **Dimensions:** 3by4
           <br>
           **Recommended size:** 750px by 1000px
-      transparency__heading:
+      image_grid_with_color_block__heading:
         type: text
         width: 50
         display: Heading
-      transparency__subheading:
+      image_grid_with_color_block__subheading:
         type: text
         width: 50
         display: Subheading
-      transparency__copy:
-        type: textarea
-        width: 50
-        display: Copy
-      transparency__list:
+      image_grid_with_color_block__list:
         sets:
-          transparency__list--outlier:
-            display: Outlier
+          image_grid_with_color_block__list--item:
+            display: Benefit
             fields:
-              transparency__list--outlier__icon:
+              image_grid_with_color_block__list--item__icon:
                 options:
                   2_week_install: '2 Week Install'
                   a_better_foundation: 'A Better Foundation'
@@ -70,19 +66,19 @@ sections:
                 type: select
                 width: 50
                 display: Icon
-              transparency__list--outlier__heading:
+              image_grid_with_color_block__list--item__heading:
                 type: text
-                width: 50
                 display: Heading
-              transparency__list--outlier__copy:
+                width: 50
+              image_grid_with_color_block__list--item__copy:
                 type: textarea
                 width: 50
                 display: Copy
-              transparency__list--outlier__note:
+              image_grid_with_color_block__list--item__note:
                 type: text
                 width: 50
                 display: Note
         type: replicator
-        display: Outliers
+        display: Benefits
 taxonomies: true
-title: 'Pricing: Partial: Transparency'
+title: 'Why Backyard Living: Partial: Image Grid with Color Block'

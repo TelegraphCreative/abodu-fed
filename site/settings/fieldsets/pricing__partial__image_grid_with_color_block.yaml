@@ -1,0 +1,88 @@
+sections:
+  main:
+    display: Main
+    fields:
+      image_grid_with_color_block__first_image:
+        container: main
+        folder: /
+        restrict: false
+        max_files: 1
+        type: assets
+        width: 33
+        display: 'First Image'
+        instructions: |
+          **Dimensions:** 3by2
+          <br>
+          **Recommended size:** 1000px by 666px
+      image_grid_with_color_block__second_image:
+        container: main
+        folder: /
+        restrict: false
+        max_files: 1
+        type: assets
+        width: 33
+        display: 'Second Image'
+        instructions: |
+          **Dimensions:** 1by1
+          <br>
+          **Recommended size:** 500px by 500px
+      image_grid_with_color_block__third_image:
+        container: main
+        folder: /
+        restrict: false
+        max_files: 1
+        type: assets
+        width: 33
+        display: 'Third Image'
+        instructions: |
+          **Dimensions:** 3by4
+          <br>
+          **Recommended size:** 750px by 1000px
+      image_grid_with_color_block__heading:
+        type: text
+        width: 50
+        display: Heading
+      image_grid_with_color_block__subheading:
+        type: text
+        width: 50
+        display: Subheading
+      image_grid_with_color_block__copy:
+        type: textarea
+        width: 50
+        display: Copy
+      image_grid_with_color_block__list:
+        sets:
+          image_grid_with_color_block__list--item:
+            display: Outlier
+            fields:
+              image_grid_with_color_block__list--item__icon:
+                options:
+                  2_week_install: '2 Week Install'
+                  a_better_foundation: 'A Better Foundation'
+                  deep_backyard: 'Deep Backyard'
+                  electrical_panel_upgrade: 'Electrical Panel Upgrade'
+                  landscape_removal_or_repair: 'Landscape Removal or Repair'
+                  live_closer_to_work: 'Live Closer to Work'
+                  naturally-affordable_housing: 'Naturally-Affordable Housing'
+                  painless_purchase: 'Painless Purchase'
+                  sloped_lot: 'Sloped Lot'
+                  the_perfect_rental: 'The Perfect Rental'
+                type: select
+                width: 50
+                display: Icon
+              image_grid_with_color_block__list--item__heading:
+                type: text
+                display: Heading
+                width: 50
+              image_grid_with_color_block__list--item__copy:
+                type: textarea
+                width: 50
+                display: Copy
+              image_grid_with_color_block__list--item__note:
+                type: text
+                width: 50
+                display: Note
+        type: replicator
+        display: Outliers
+taxonomies: true
+title: 'Pricing: Partial: Image Grid with Color Block'

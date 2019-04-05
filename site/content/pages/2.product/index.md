@@ -95,6 +95,57 @@ two_column_content_grid__fields:
       '#hidden': true
   two_column_content_grid__heading: Interior
   two_column_content_grid__subheading: 'Standard Internal Features:'
+image_grid_with_color_block__fields:
+  image_grid_with_color_block__list:
+    -
+      type: image_grid_with_color_block__list--item
+      image_grid_with_color_block__list--item__heading: 'Turn-key furniture package:'
+      image_grid_with_color_block__list--item__list:
+        - 'Queen mattress, from our friends at XXXX'
+        - 'Dining table, from our friends at XXX'
+        - 'Sofa, from our friends at XXX'
+        - 'Coffee table, from our friends at XXX'
+      '#hidden': false
+    -
+      type: image_grid_with_color_block__list--item
+      image_grid_with_color_block__list--item__heading: 'All-the-extras package:'
+      image_grid_with_color_block__list--item__list:
+        - 'Pots and pans, from our friends at XXX'
+        - 'Glassware, from our friends at XXX'
+        - 'Silverware, from our friends at XXX'
+        - 'Wall-mounted shelves, from our friends at XXX'
+        - 'Plants, from our friends at XXX'
+        - 'TV, from our friends at XXX'
+      '#hidden': true
+    -
+      type: image_grid_with_color_block__list--item
+      image_grid_with_color_block__list--item__heading: 'Premium materials:'
+      image_grid_with_color_block__list--item__list:
+        - 'Sub-zero and Wolf appliances - $15,000'
+        - 'Upgraded counter surfaces - $X,XXX'
+        - 'Upgraded faucets and handles - $X,XXX'
+        - '“Shou sugi ban” exterior siding - $X,XXX'
+      '#hidden': true
+    -
+      type: image_grid_with_color_block__list--item
+      image_grid_with_color_block__list--item__heading: 'Solar:'
+      image_grid_with_color_block__list--item__list:
+        - '2020 Zero Net Energy ready, in CA.'
+      '#hidden': true
+    -
+      type: image_grid_with_color_block__list--item
+      image_grid_with_color_block__list--item__heading: 'Outdoor decking:'
+      image_grid_with_color_block__list--item__list:
+        - 'Details on decking to be added.'
+      '#hidden': true
+  image_grid_with_color_block__first_image:
+    - /assets/12.jpg
+  image_grid_with_color_block__second_image:
+    - /assets/4.jpg
+  image_grid_with_color_block__third_image:
+    - /assets/13.jpg
+  image_grid_with_color_block__heading: Customize
+  image_grid_with_color_block__subheading: 'Make your new Abodu yours, with a selection of curated upgrades and options.'
 design_partnership__photo_with_content_block__fields:
   photo_with_content_block__link:
     url: 'https://kotodesign.co.uk/'
