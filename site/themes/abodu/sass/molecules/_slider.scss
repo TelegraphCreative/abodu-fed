@@ -60,7 +60,7 @@
 }
 
 .slider__panels {
-   @apply flex;
+   @apply flex flex-no-shrink;
 
    @media screen and (min-width: 48rem) {
       @apply flex-col w-16;
