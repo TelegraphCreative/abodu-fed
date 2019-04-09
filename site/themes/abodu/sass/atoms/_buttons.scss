@@ -61,3 +61,21 @@
       }
    }
 }
+
+.btn.--arrow {
+
+   @apply flex mt-6 no-underline text-16 text-black;
+
+   span {
+      @apply ml-3 pt-px;
+
+      svg { fill: #9b4c05 }
+   }
+
+   &:hover { @apply text-rust }
+
+   @media screen and (min-width: 36rem) {
+      @apply text-18;
+   }
+
+}

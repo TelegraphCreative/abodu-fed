@@ -2332,6 +2332,14 @@ table {
   min-width: 13.75rem;
 }
 
+.min-w-xxs {
+  min-width: 7rem;
+}
+
+.min-w-xs {
+  min-width: 10rem;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -6214,6 +6222,14 @@ table {
     min-width: 13.75rem;
   }
 
+  .xs\:min-w-xxs {
+    min-width: 7rem;
+  }
+
+  .xs\:min-w-xs {
+    min-width: 10rem;
+  }
+
   .xs\:min-w-full {
     min-width: 100%;
   }
@@ -10079,6 +10095,14 @@ table {
 
   .sm\:min-w-55 {
     min-width: 13.75rem;
+  }
+
+  .sm\:min-w-xxs {
+    min-width: 7rem;
+  }
+
+  .sm\:min-w-xs {
+    min-width: 10rem;
   }
 
   .sm\:min-w-full {
@@ -13948,6 +13972,14 @@ table {
     min-width: 13.75rem;
   }
 
+  .md\:min-w-xxs {
+    min-width: 7rem;
+  }
+
+  .md\:min-w-xs {
+    min-width: 10rem;
+  }
+
   .md\:min-w-full {
     min-width: 100%;
   }
@@ -17813,6 +17845,14 @@ table {
 
   .lg\:min-w-55 {
     min-width: 13.75rem;
+  }
+
+  .lg\:min-w-xxs {
+    min-width: 7rem;
+  }
+
+  .lg\:min-w-xs {
+    min-width: 10rem;
   }
 
   .lg\:min-w-full {
@@ -21682,6 +21722,14 @@ table {
     min-width: 13.75rem;
   }
 
+  .xl\:min-w-xxs {
+    min-width: 7rem;
+  }
+
+  .xl\:min-w-xs {
+    min-width: 10rem;
+  }
+
   .xl\:min-w-full {
     min-width: 100%;
   }
@@ -23836,6 +23884,35 @@ table {
 
 .btn.\--arrow.\--white a:hover {
   opacity: .75;
+}
+
+.btn.\--arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #000;
+}
+
+.btn.\--arrow span {
+  margin-left: .75rem;
+  padding-top: 1px;
+}
+
+.btn.\--arrow span svg {
+  fill: #9b4c05;
+}
+
+.btn.\--arrow:hover {
+  color: #9b4c05;
+}
+
+@media screen and (min-width: 36rem) {
+  .btn.\--arrow {
+    font-size: 1.125rem;
+  }
 }
 
 /*

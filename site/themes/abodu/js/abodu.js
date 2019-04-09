@@ -64,3 +64,4 @@
          nav_wrap.classList.add('scroll-direction--up');
       }
    });
+   
