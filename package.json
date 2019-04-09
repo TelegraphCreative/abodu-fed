@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "papaparse": "^4.6.3",
+    "vue": "^2.6.10"
+  }
+}

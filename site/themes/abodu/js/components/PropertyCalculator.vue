@@ -2,7 +2,7 @@
 <template>
     <div v-bind:class="{ '-loading': active }" class="loading-strip">
         <div class="row | center-xs start-md">
-            <div class="calculator__content | z-20 col-xs-10 col-md-10  |  col-md-offset-1 ">
+            <div class="calculator__content | z-10 col-xs-10 col-md-10  |  col-md-offset-1 ">
 
                     <!-- Header -->
                     <div class="calculator__header">
