@@ -13,7 +13,10 @@ mix.sass('sass/styles.scss', 'css/abodu.css')
             browsers: ['last 3 versions']
         }
     },
-	});
+    })
+    .js([
+        'js/app.js',
+     ], 'js/app.min.js');
    /*
    .js([
       'js/base.js',
