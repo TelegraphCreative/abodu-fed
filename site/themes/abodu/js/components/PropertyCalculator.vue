@@ -14,7 +14,7 @@
               :content="zipcode"
               @enter-input="getResults"
               @update="zipcode = $event"
-              :classes="'py-0 px-3 mx-1 outline-none leading-none md:min-w-xs min-w-xxs inline-block font-bold border-b-4 border-rust text-rust bg-transparent'"
+              :classes="'pt-0 pb-1 px-3 mx-1 outline-none leading-none md:min-w-xs min-w-xxs inline-block font-bold border-b-2 border-rust text-rust bg-transparent '"
             ></editable>
             and we'll tell you the property increase value for an Abodu {{ model }}
           </p>
