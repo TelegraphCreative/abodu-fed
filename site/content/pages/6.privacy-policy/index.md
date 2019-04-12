@@ -1,5 +1,5 @@
 hero__heading: 'Privacy Policy'
-hero__subheading: 'Subheading about privacy policy'
+hero__subheading: 'Subheading about Our Privacy Policy'
 document__text: |
   # Heading
   We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore! What do they got in there? King Kong? You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager?
