@@ -1,4 +1,4 @@
-hero__heading: '<span>Backyard apartments<br></span> worth living in.!'
+hero__heading: '<span>Backyard apartments<br></span> worth living in.'
 what_we_do__fields:
   content_block_with_pattern__toggle: true
   content_block_with_pattern__button:
