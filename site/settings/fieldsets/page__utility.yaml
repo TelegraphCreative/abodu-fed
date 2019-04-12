@@ -17,10 +17,7 @@ sections:
         type: section
         display: Document
       document__text:
-        type: textarea
-        display: 'Document Text'
-      document_markdown:
-        cheatsheet: false
+        cheatsheet: true
         restrict_assets: false
         type: markdown
         display: Document
