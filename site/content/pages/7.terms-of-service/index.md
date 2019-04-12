@@ -1,5 +1,5 @@
 hero__heading: 'Terms of Service'
-hero__subheading: 'Subheading about Terms of Service'
+hero__subheading: 'Subheading about Our Terms of Service'
 document__text: |
   # Heading 1
   Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should. So you two dig up, dig up dinosaurs? Forget the fat lady! You're obsessed with the fat lady! Drive us out of here! Must go faster... go, go, go, go, go!
