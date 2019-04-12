@@ -1,0 +1,23 @@
+sections:
+  main:
+    display: Main
+    fields:
+      hero__section:
+        type: section
+        display: Hero
+      hero__heading:
+        type: text
+        width: 50
+        display: Heading
+      hero__subheading:
+        type: text
+        width: 50
+        display: Subheading
+      document__section:
+        type: section
+        display: Document
+      document__text:
+        type: textarea
+        display: 'Document Text'
+taxonomies: true
+title: 'Page: Utility'
