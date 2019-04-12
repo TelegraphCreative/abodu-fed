@@ -25,5 +25,8 @@ sections:
           First level heading: ## Heading 1
           <br>
           Second level heading: ## Heading 2
+      document_teext:
+        type: textarea
+        display: 'Document Teext'
 taxonomies: true
 title: 'Page: Utility'
