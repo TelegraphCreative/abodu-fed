@@ -23,6 +23,7 @@ sections:
         display: 'Document Text'
         instructions: |
           First level heading: ## Heading 1
+          <br>
           Second level heading: ## Heading 2
 taxonomies: true
 title: 'Page: Utility'
