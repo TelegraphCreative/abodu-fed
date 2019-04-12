@@ -1,0 +1,24 @@
+sections:
+  main:
+    display: Main
+    fields:
+      social_media__accounts:
+        sets:
+          social_media__acounts--account:
+            display: Account
+            fields:
+              social_media__acounts--account__name:
+                type: text
+                width: 50
+                display: Name
+              social_media__acounts--account__url:
+                type: text
+                width: 50
+                display: URL
+              social_media__acounts--account__display_account:
+                type: toggle
+                display: 'Display Account'
+        type: replicator
+        display: Accounts
+taxonomies: true
+title: 'Globals: Social Media'

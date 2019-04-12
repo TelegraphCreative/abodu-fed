@@ -1,0 +1,5 @@
+fe95b35b-8b7e-4dab-9dc8-e39834cd83e0:
+  title: Admin
+  slug: admin
+  permissions:
+    - super

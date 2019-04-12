@@ -85,16 +85,16 @@ why_abodu__two_column_content_grid__fields:
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--copy: 'If you''re new to this ADU thing, let us be the first to tell you - we''re not the only company who can build an ADU. There are hundreds of general contractors that will work for you to build an addition to your property. But it doesn’t stop there- on top of the contractor, you need to deal with architects, builders, engineers, city planning departments, and subcontractors. That process is painful, anxiety-inducing, and confusing.'
       two_column_content_grid__list--item--button:
-        url: 'https://google.com'
+        url: /product
         text: 'Our Products'
       '#hidden': true
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--copy: 'Abodu will take care of all of that for you- and build you a product that we believe in. Oh, and because of our standardized factory production, your Abodu costs half of a traditional on-site builder, and is delivered way faster. We will only be in your backyard for 2 weeks, instead of 4-8 months'
       two_column_content_grid__list--item--button:
-        url: 'https://google.com'
+        url: /service
         text: 'Our Services'
-      '#hidden': true
+      '#hidden': false
   two_column_content_grid__heading: 'How We''ll Help'
   two_column_content_grid__subheading: '“Why Abodu?”'
 photo_with_content_block__fields:

@@ -23,18 +23,30 @@
 
             {{#   Social   #}}
             <div class="flex flex-wrap  |  mb-8 lg:mb-0 -mx-3 xs:-mx-4 sm:-mx-2">
-               {{ social_media_accounts }}
-                  {{ social_media_accounts__account--account }}
-               {{ /social_media_accounts }}
-
-               {{ social_media_accounts__account--account }}
-               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/3" href="#">Facebook</a>
-               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/3" href="#">Instagram</a>
-               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/3" href="#">Twitter</a>
+               {{ social_media.social_media__accounts }}
+                  {{ if social_media__acounts--account__display_account == "true" }}
+                     <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/3" href="{{ social_media__acounts--account__url }}" target="_blank">{{ social_media__acounts--account__name }}</a>
+                  {{ /if }}
+               {{ /social_media.social_media__accounts }}
             </div>
 
-            <nav class="row">
+            <!--
+            <nav class="flex flex-wrap  |  -mx-3 xs:-mx-4 sm:-mx-2      sm:w-2/3">
+               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/2" href="/why-backyard-living">Why backyard living?</a>
+               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/2" href="/product">Product</a>
+               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/2" href="/service">Service</a>
+               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/2" href="/pricing">Pricing</a>
+               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/2" href="contact-us">Contact</a>
             </nav>
+
+            <div class="flex flex-wrap  sm:block  |  mb-8 lg:mb-0 -mx-3 xs:-mx-4 sm:-mx-2     sm:w-1/3">
+               {{ social_media.social_media__accounts }}
+                  {{ if social_media__acounts--account__display_account == "true" }}
+                     <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-full sm:block" href="{{ social_media__acounts--account__url }}">{{ social_media__acounts--account__name }}</a>
+                  {{ /if }}
+               {{ /social_media.social_media__accounts }}
+            </div>
+            -->
          </div>
 
 
@@ -44,15 +56,6 @@
 
                <h2 class="heading  |  text-18  | mb-2">Stay in touch</h2>
                <p class="mb-5 text-13">Be the first to know when we have important updates.</p>
-
-               <!--   Form   --
-               <form class="lg:border-b-2 lg:flex">
-                  <label for="email" class="element-invisible">Email</label>
-                  <input name="email" id="email" type="email" placeholder="Enter Email Address">
-
-                  <input class="btn --outline --blue --submit   cursor-pointer" type="submit" value="Subscribe">
-               </form>
-               <!-- End Form -->
 
                <!-- Begin Mailchimp Signup Form -->
                <!--<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">-->
