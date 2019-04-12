@@ -21,6 +21,8 @@ sections:
         restrict_assets: false
         type: markdown
         display: 'Document Text'
-        instructions: 'First level heading = ## Heading 1'
+        instructions: |
+          First level heading: ## Heading 1
+          Second level heading: ## Heading 2
 taxonomies: true
 title: 'Page: Utility'
