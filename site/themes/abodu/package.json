@@ -16,6 +16,8 @@
         "webpack": "^4.29.6"
     },
     "dependencies": {
-        "laravel-mix-purgecss": "^4.1.0"
+        "laravel-mix-purgecss": "^4.1.0",
+        "papaparse": "^4.6.3",
+        "vue": "^2.6.10"
     }
 }

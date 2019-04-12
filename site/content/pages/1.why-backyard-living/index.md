@@ -2,7 +2,7 @@ hero__heading: 'Why Backyard Living?'
 hero__subheading: 'Upgrade your backyard'
 hero__copy: |
   Over the past few decades, we have failed to build affordable housing in-line with our growing metro populations. We need more density in urban areas, but most of the accessible land is taken up by single family homes. However, there is a new and growing movement to add density within the space homeowners already possess through the addition of Accessory Dwelling Units (ADUs).
-
+  
   Where US cities previously made it illegal or cost-prohibitive to add an ADU, many have begun to roll back theses barriers to encourage such additions. Ultimately, this will help cities meet population demand for housing and provide countless benefits for homeowners.
 hero__image: /assets/4.jpg
 two_column_content_grid__fields:
@@ -70,6 +70,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__heading: 'The perfect rental'
       image_grid_with_color_block__list--item__copy: 'New construction. Beautifully designed. Energy efficient. No neighbors (or, rather, no shared walls).'
       image_grid_with_color_block__list--item__note: null
+      '#hidden': true
   image_grid_with_color_block__first_image:
     - /assets/2.jpg
   image_grid_with_color_block__second_image:
@@ -104,7 +105,7 @@ photo_with_content_block__fields:
   photo_with_content_block__copy: 'In 2017, California enacted statewide legislation on ADUs to make them legal and remove most fees. This recognized ADUs as a much-needed tool to help solve the California housing crisis, particularly in the SF Bay Area, where 1 housing unit has been added for every 12 jobs added since 2010. Oh, and for you California homeowners thinking about Prop 13 - it won''t trigger an increase on your property tax basis for your main home.'
 cta__fields:
   cta__button:
-    url: 'https://google.com'
+    url: /contact-us
     text: 'Talk to Us'
   cta__heading: 'Ready to put an Abodu in your backyard?'
 title: 'Why Backyard Living'

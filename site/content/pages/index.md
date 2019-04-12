@@ -13,7 +13,7 @@ what_we_do__fields:
   content_block_with_pattern__copy: 'Seamless buying, seamless installation, instant gratification. We do the heavy lifting so you don’t have to — welcome to your backyard home, welcome to your Abodu.'
 how_its_built__fields:
   how_its_built__button:
-    url: 'https://google.com'
+    url: /product
     text: 'View Product'
   image_grid__image_one:
     - /assets/1.jpg
@@ -52,14 +52,14 @@ how_its_delivered__fields:
   how_its_delivered__copy: 'We''ll take care all of the messy details like permitting that you shouldn''t have to think about.'
 color_block__fields:
   color_block__button:
-    url: 'https://google.com'
+    url: /pricing
     text: 'View Pricing'
   color_block__heading: 'What it costs'
   color_block__subheading: 'Straightforward Pricing.'
   color_block__copy: 'Our simple, flat pricing starts at $180,000, which includes everything- permitting, build, and install.'
 cta__fields:
   cta__button:
-    url: 'https://google.com'
+    url: /contact-us
     text: 'Talk to Us'
   cta__heading: 'Ready to put an Abodu in your backyard?'
 photo_with_content_block__fields:

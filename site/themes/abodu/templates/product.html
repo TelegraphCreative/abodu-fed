@@ -54,10 +54,12 @@
       <div class="col-xs-12 col-sm-10 col-md-6">
          <div class="row">
 
-            <div class="col-xs-12 col-lg-10">
-               <h1 class="heading --dash --rust">{{ exterior__heading }}</h1>
+            <div class="col-xs-12 col-lg-11">
+               {{#   Heading   #}}
+               {{ exterior__heading | wrap:h1.heading.--dash.--rust }}
 
-               <h2 class="heading --tertiary">{{ exterior__subheading }}</h2>
+               {{#   Subheading   #}}
+               {{ exterior__subheading | wrap:h2.heading.--tertiary.max-w-sm }}
 
                <ul class="list-reset list  |  mt-8">
                   {{ exterior__list }}
@@ -94,7 +96,7 @@
                   <figure class="img --is4by5   sm:--is5by4   md:--is4by5">
                      {{ photo_with_content_block__image }}
                         <img src="{{ value }}" alt="" style="-o-object-position: top;
-     object-position: top;"
+     object-position: top;">
                      {{ /photo_with_content_block__image }}
                   </figure>
                </div>
@@ -113,12 +115,11 @@
 
                <div class="col-xs-12 col-lg-10      flex items-center">
                   <div class="{{ if photo_with_content_block__list }}-mb-12{{/if}} md:pt-8 xl:pt-16">
-                     {{ if photo_with_content_block__heading }}
-                        <h1 class="heading --dash --rust">{{ photo_with_content_block__heading }}</h1>
-                     {{ /if }}
+                     {{#   Heading   #}}
+                     {{ photo_with_content_block__heading | wrap:h1.heading.--dash.--rust }}
 
                      {{ if photo_with_content_block__subheading }}
-                        <h2 class="heading --tertiary">{{ photo_with_content_block__subheading }}</h2>
+                        <h2 class="heading --tertiary  |  xl:pr-20">{{ photo_with_content_block__subheading | wrap.h2.heading --tertiary}}</h2>
                      {{ /if }}
 
                      {{ if photo_with_content_block__copy }}
@@ -127,7 +128,7 @@
                         </div>
                      {{ /if }}
 
-                     {{ partial:atoms/btn--arrow url="{{ photo_with_content_block__link.url }}" text="{{ photo_with_content_block__link.text }}" }}
+                     {{ partial:atoms/btn--arrow url="{{ photo_with_content_block__link.url }}" text="{{ photo_with_content_block__link.text }}" offsite="true" }}
 
                   </div>
                </div>

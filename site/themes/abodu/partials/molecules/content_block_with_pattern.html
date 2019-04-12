@@ -2,15 +2,16 @@
 <div class="container  |  relative  |  mb-16 lg:mb-20 py-12 md:py-16  |  bg-black">
 
    {{#   Pattern   #}}
-   <div class="absolute h-full overflow-hidden pin-t pin-r    hidden   md:flex md:items-center" style="width: 34.72868217%">
+   <div class="absolute h-full overflow-hidden pin-t pin-r    hidden   md:flex md:items-center"
+        style="width: 30%">
       <img class="block w-full" src="{{ theme:images src='patterns/pattern--1.svg' }}">
    </div>
 
    {{#   Content   #}}
    <div class="row">
-      <div class="col-xs-12   col-sm-10   col-md-7">
+      <div class="col-xs-12   col-sm-10   col-md-8">
          {{ {{ if section == "What We Do" }}what_we_do{{ elseif section == "Abodu 450" }}abodu_450{{ elseif section == "Upgrades" }}content_block_with_pattern{{ /if }}__fields }}
-         
+
             {{ content_block_with_pattern__heading | wrap:h1.heading.--dash.--white }}
             {{ content_block_with_pattern__copy | wrap:p.text.--large.text-white }}
 

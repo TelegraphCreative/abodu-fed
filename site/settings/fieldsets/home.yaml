@@ -25,11 +25,11 @@ sections:
         display: 'How It''s Delivered'
       color_block__fields:
         type: accordion_group
-        display: 'Edit Cost'
+        display: 'What It Costs'
         child_fieldset: home__partial__color_block
       cta__fields:
         child_fieldset: partial__cta
         type: accordion_group
-        display: 'Edit Call to Action'
+        display: 'Call to Action'
 taxonomies: true
 title: 'Home: Page'

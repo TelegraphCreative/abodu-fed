@@ -11,7 +11,7 @@
       .accordian__section--header {
          @apply py-8 relative;
 
-         span {
+         .accordian__section--number {
             @apply block leading-none text-20 text-green;
             padding-top: 2px;
 
@@ -29,6 +29,50 @@
          &.--hidden {
             @apply invisible opacity-0 pb-0;
             height: 0;
+         }
+      }
+   }
+}
+
+// Toggle Indicator
+.accordian__section--indicator {
+   @apply absolute block leading-none pin-r pin-t text-24 text-black text-center;
+   margin-right: -11.8257727273%;
+
+   @screen sm {
+      margin-right: 0
+   }
+
+   &:hover {
+      //@apply text-green
+   }
+
+   &::before {
+      content: '+'
+   }
+
+   @media screen and (min-width: 48rem) {
+      @apply text-30
+   }
+}
+
+// Toggle Indicator Hover
+.accordian__section--header {
+   button {
+      &:hover {
+         .accordian__section--indicator {
+            @apply text-green
+         }
+      }
+   }
+}
+
+// Toggle Indicator Active
+.js-accordian__btn {
+   &.--active {
+      .accordian__section--indicator {
+         &::before {
+            content: '-'
          }
       }
    }

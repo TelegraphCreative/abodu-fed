@@ -1,0 +1,40 @@
+{{#   Accordian Section   #}}
+
+<div class="accordian__section">
+   <div class="container">
+
+      {{#   Accordian Section Header   #}}
+      <div class="accordian__section--header  |  row middle-xs">
+         {{#   Number   #}}
+         <div class="col-xs-1">
+            <span class="accordian__section--number">{{ accordian__sections__section--number }}</span>
+         </div>
+
+         {{#   Heading/Toggle   #}}
+         <div class="col-xs-10 col-sm-11">
+            <h2 class="heading --quaternary">
+               <button class="font-bold text-green text-left  |  w-full  |  relative  |  js-accordian__btn {{ btnState }}">
+                  {{ accordian__sections__section--heading }}
+
+                  <span class="accordian__section--indicator"></span>
+               </button>
+            </h2>
+         </div>
+      </div>
+
+      {{#   Accordian Section Body #}}
+      <div class="accordian__section--body {{ sectionState }}  |  row">
+         <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+            {{ accordian__sections__section--items }}
+               {{#   Heading   #}}
+               {{ accordian__sections__section__item--heading | wrap:h3.heading.--septenary.mb-2 }}
+
+               {{#   Copy   #}}
+               <p class="mb-2   md:text-18">
+                  {{ accordian__sections__section__item--copy }}
+               </p>
+            {{ /accordian__sections__section--items }}
+         </div>
+      </div>
+   </div>
+</div>

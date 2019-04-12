@@ -1,41 +1,23 @@
-{{ if icon == '2_week_install' }}
-
-   <img class="h-10 mb-2 w-9   md:h-12 md:mb-3 md:w-11" src="{{ theme:images src="icons/2-week_install.svg" }}">
-
-{{ elseif icon == 'a_better_foundation' }}
-
-   <img class="h-10 mb-2 w-9   md:h-12 md:mb-3 md:w-11" src="{{ theme:images src="icons/a_better_foundation.svg" }}">
-
-{{ elseif icon == 'deep_backyard' }}
-
-   <img class="h-10 mb-2 w-9   md:h-12 md:mb-3 md:w-11" src="{{ theme:images src="icons/deep_backyard.svg" }}">
-
-{{ elseif icon == 'electrical_panel_upgrade' }}
-
-   <img class="h-10 mb-2 w-9   md:h-12 md:mb-3 md:w-11" src="{{ theme:images src="icons/electrical_panel_upgrade.svg" }}">
-
-{{ elseif icon == 'landscape_removal_or_repair' }}
-
-   <img class="h-10 mb-2 w-9   md:h-12 md:mb-3 md:w-11" src="{{ theme:images src="icons/landscape_removal_or_repair.svg" }}">
-
-{{ elseif icon == 'live_closer_to_work' }}
-
-   <img class="h-10 mb-2 w-9   md:h-12 md:mb-3 md:w-11" src="{{ theme:images src="icons/live_closer_to_work.svg" }}">
-
-{{ elseif icon == 'naturally-affordable_housing' }}
-
-   <img class="h-10 mb-2 w-9   md:h-12 md:mb-3 md:w-11" src="{{ theme:images src="icons/naturally-affordable_housing.svg" }}">
-
-{{ elseif icon == 'painless_purchase' }}
-
-   <img class="h-10 mb-2 w-9   md:h-12 md:mb-3 md:w-11" src="{{ theme:images src="icons/painless_purchase.svg" }}">
-
-{{ elseif icon == 'sloped_lot' }}
-
-   <img class="h-10 mb-2 w-9   md:h-12 md:mb-3 md:w-11" src="{{ theme:images src="icons/sloped_lot.svg" }}">
-
-{{ elseif icon == 'the_perfect_rental' }}
-
-   <img class="h-10 mb-2 w-9   md:h-12 md:mb-3 md:w-11" src="{{ theme:images src="icons/the_perfect_rental.svg" }}">
-
-{{ /if }}
+<img class="h-10 w-9 md:h-12 md:w-11  |  mb-2 md:mb-3" src="
+   {{ if icon == '2_week_install' }}
+      {{ theme:images src="icons/2-week_install.svg" }}
+   {{ elseif icon == 'a_better_foundation' }}
+      {{ theme:images src="icons/a_better_foundation.svg" }}
+   {{ elseif icon == 'deep_backyard' }}
+      {{ theme:images src="icons/deep_backyard.svg" }}
+   {{ elseif icon == 'electrical_panel_upgrade' }}
+      {{ theme:images src="icons/electrical_panel_upgrade.svg" }}
+   {{ elseif icon == 'landscape_removal_or_repair' }}
+      {{ theme:images src="icons/landscape_removal_or_repair.svg" }}
+   {{ elseif icon == 'live_closer_to_work' }}
+      {{ theme:images src="icons/live_closer_to_work.svg" }}
+   {{ elseif icon == 'naturally-affordable_housing' }}
+      {{ theme:images src="icons/naturally-affordable_housing.svg" }}
+   {{ elseif icon == 'painless_purchase' }}
+      {{ theme:images src="icons/painless_purchase.svg" }}
+   {{ elseif icon == 'sloped_lot' }}
+      {{ theme:images src="icons/sloped_lot.svg" }}
+   {{ elseif icon == 'the_perfect_rental' }}
+      {{ theme:images src="icons/the_perfect_rental.svg" }}
+   {{ /if }}
+">

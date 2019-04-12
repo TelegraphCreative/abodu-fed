@@ -69,27 +69,6 @@
          }
       }
    }
-
-   &.--reveal {
-      @apply absolute flex h-6 items-center justify-center leading-none mr-2 pb-1 pin-r text-24 w-8;
-
-      &:hover {
-         @apply text-green
-      }
-
-      &::before {
-         content: '+'
-      }
-
-      &.--active {
-         &::before {
-            content: '-'
-         }
-      }
-      @media screen and (min-width: 48rem) {
-         @apply text-30 mr-1 w-10
-      }
-   }
 }
 
 

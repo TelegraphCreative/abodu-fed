@@ -115,7 +115,7 @@ image_grid_with_color_block__fields:
   image_grid_with_color_block__copy: 'While our base pricing covers the vast majority of install scenarios, there''s always the outliers. For those homeowners, we''ve outlined what could add some additional cost.'
 cta__fields:
   cta__button:
-    url: 'https://google.com'
+    url: /contact-us
     text: 'Talk to Us'
   cta__heading: 'Ready to put an Abodu in your backyard?'
   cta__copy: ''

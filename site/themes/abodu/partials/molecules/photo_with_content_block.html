@@ -30,10 +30,14 @@
                      {{ photo_with_content_block__heading | wrap:h1.heading.--dash.--rust }}
 
                      {{#   Subheading   #}}
-                     {{ photo_with_content_block__subheading | wrap:h2.heading.--tertiary }}
+                     {{ if template == "pricing" }}
+                        <h2 class="heading --tertiary" style="max-width: 23rem">{{ photo_with_content_block__subheading }}</h2>
+                     {{ else }}
+                        {{ photo_with_content_block__subheading | wrap:h2.heading.--tertiary }}
+                     {{ /if }}
 
                      {{ if photo_with_content_block__copy }}
-                        <div class="nested-mb-6 mt-6">
+                        <div class="nested-mb-6 mt-6 lg:pr-6">
                            {{ photo_with_content_block__copy | markdown }}
                         </div>
                      {{ /if }}

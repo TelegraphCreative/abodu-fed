@@ -6,7 +6,7 @@
    @apply relative;
 
    &::after {
-      @apply absolute bg-green-lightest block pin-b pin-t z-50;
+      @apply absolute bg-green-lightest block pin-b pin-t z-40;
       content: '';
       margin-left: -200%;
       width: 200%;
@@ -35,8 +35,14 @@
       }
 
       .card_slider--card {
-         @apply bg-white h-full;
+         @apply bg-white h-full relative;
          width: 16rem;
+
+         // Border on Bottom of Card
+         &::after {
+            @apply absolute bg-green h-1 pin-b w-full;
+            content: '';
+         }
 
          @media screen and (min-width: 36rem) {
             width: 22rem

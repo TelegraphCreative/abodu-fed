@@ -1,5 +1,5 @@
 hero__heading: 'Our Product'
-hero__subheading: 'A timeless and appealing  design — without compromising quality or space.'
+hero__subheading: 'A timeless and appealing<br>  design — without compromising quality or space.'
 hero__image: /assets/7.jpg
 photo_with_content_block__fields:
   photo_with_content_block__button:
@@ -164,7 +164,7 @@ design_partnership__photo_with_content_block__fields:
   photo_with_content_block__copy: 'Turns out, Americans aren''t historically world-class at designing small spaces… so we had to enlist the help of our Scandinavian friends. Together, we''ve spent thousands of hours poring over every inch of your'
 cta__fields:
   cta__button:
-    url: /services
+    url: /service
     text: 'View Our Service'
   cta__heading: 'And, we''ll make it easy.'
   cta__copy: 'We take care of everything. No need to deal with construction crews in your backyard for months - we''ll be quick and painless.'

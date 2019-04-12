@@ -3,15 +3,15 @@
    <!--   Header   -->
    <div class="row">
 
-      <div class="col-xs-12 col-sm-10 col-md-7">
+      <div class="col-xs-12 col-sm-10  {{ if template == "product" }}col-md-6{{ else }}col-md-7{{ /if }}">
 
          {{ {{ if section == "why_abodu__"}}why_abodu__{{/if}}two_column_content_grid__fields }}
 
             {{#   Heading   #}}
-            <h1 class="heading --dash --rust">{{ two_column_content_grid__heading }}</h1>
+            {{ two_column_content_grid__heading | wrap:h1.heading.--dash.--rust }}
 
             {{#   Subheading   #}}
-            {{ two_column_content_grid__subheading | wrap:h2.heading.--tertiary }}
+            {{ two_column_content_grid__subheading | wrap:h2.heading.--tertiary.max-w-sm }}
 
             {{#   Intro   #}}
             {{ two_column_content_grid__intro | wrap:p.text.--large }}

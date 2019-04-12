@@ -18,7 +18,7 @@
       accordianBtn.forEach(function(show) {
          show.onclick = function(){
             this.classList.toggle("--active");
-            this.parentElement.nextElementSibling.classList.toggle("--hidden");
+            this.parentElement.parentElement.parentElement.nextElementSibling.classList.toggle("--hidden");
          };
       });
    </script>

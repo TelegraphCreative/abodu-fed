@@ -45,7 +45,7 @@
       <!-- End Image Grid -->
 
       <div class="row">
-         <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6  |  mb-10 lg:mb-16 lg:-mt-12 xl:-mt-20">
+         <div class="col-xs-12 col-sm-10 col-md-8 col-lg-7  |  mb-10 lg:mb-16 lg:-mt-12 xl:-mt-20">
             {{#   Heading   #}}
             {{ image_grid_with_color_block__heading | wrap:h1.heading.--dash.--rust }}
 
@@ -94,7 +94,9 @@
                      <h2 class="heading --quinary  |  mb-2 md:mb-3">{{ image_grid_with_color_block__list--item__heading }}</h2>
 
                      {{#   Copy   #}}
-                     {{ image_grid_with_color_block__list--item__copy | markdown }}
+                     <div class="lg:w-9/10">
+                        {{ image_grid_with_color_block__list--item__copy | markdown }}
+                     </div>
                   </div>
                </div>
             {{ /image_grid_with_color_block__list }}
@@ -102,10 +104,10 @@
 
       {{ elseif section == "pricing" }}
 
-         <div class="row  |  -mb-10">
+         <div class="row  |  -mb-14">
             {{ image_grid_with_color_block__list }}
                <div class="col-xs-12 col-md-6">
-                  <div class="pb-10">
+                  <div class="pb-14">
                      {{#   Icon   #}}
                      {{ partial:atoms/icons icon="{{ image_grid_with_color_block__list--item__icon }}" }}
 
