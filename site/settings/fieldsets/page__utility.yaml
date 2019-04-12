@@ -21,5 +21,6 @@ sections:
         restrict_assets: false
         type: markdown
         display: Document
+        instructions: 'Some instructions here'
 taxonomies: true
 title: 'Page: Utility'
