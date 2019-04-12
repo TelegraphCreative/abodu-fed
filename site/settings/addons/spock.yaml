@@ -1,0 +1,4 @@
+environments:
+  - production
+git_push: true
+git_username: Spock
