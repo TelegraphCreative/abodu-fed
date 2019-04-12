@@ -11,6 +11,17 @@ what_we_do__fields:
   slider__title: 'Abodu 450'
   content_block_with_pattern__heading: 'What We Do'
   content_block_with_pattern__copy: 'Seamless buying, seamless installation, instant gratification. We do the heavy lifting so you don’t have to — welcome to your backyard home, welcome to your Abodu.'
+photo_with_content_block__fields:
+  photo_with_content_block__button:
+    url: 'https://google.com'
+    text: 'Have a Look Around'
+  photo_with_content_block__image:
+    - /assets/4.jpg
+  photo_with_content_block__heading: 'How It Feels'
+  photo_with_content_block__subheading: 'Timeless, Considered Design.'
+  photo_with_content_block__copy: 'Turns out, Americans aren''t historically world-class at designing small spaces… so we had to enlist the help of our Scandinavian friends. Together, we''ve spent thousands of hours poring over every inch of your Abodu to make sure it''s just-right, so that you don''t have to. All you need to do is select your finishes, and tell us where you want it.'
+  photo_with_content_block__quote: 'Customer or review quote. We’ve spent thousands of hours designing every inch of an Abodu to ensure each aspect is deliberate and with purpose so you don’t have to... All you need to do is select a color, and any upgrades'
+  photo_with_content_block__quoted: 'Jane Smitherson'
 how_its_built__fields:
   how_its_built__button:
     url: /product
@@ -62,17 +73,6 @@ cta__fields:
     url: /contact-us
     text: 'Talk to Us'
   cta__heading: 'Ready to put an Abodu in your backyard?'
-photo_with_content_block__fields:
-  photo_with_content_block__button:
-    url: 'https://google.com'
-    text: 'Have a Look Around'
-  photo_with_content_block__image:
-    - /assets/4.jpg
-  photo_with_content_block__heading: 'How It Feels'
-  photo_with_content_block__subheading: 'Timeless, Considered Design.'
-  photo_with_content_block__copy: 'Turns out, Americans aren''t historically world-class at designing small spaces… so we had to enlist the help of our Scandinavian friends. Together, we''ve spent thousands of hours poring over every inch of your Abodu to make sure it''s just-right, so that you don''t have to. All you need to do is select your finishes, and tell us where you want it.'
-  photo_with_content_block__quote: 'Customer or review quote. We’ve spent thousands of hours designing every inch of an Abodu to ensure each aspect is deliberate and with purpose so you don’t have to... All you need to do is select a color, and any upgrades'
-  photo_with_content_block__quoted: 'Jane Smitherson'
 title: Home
 template: home
 fieldset: home
