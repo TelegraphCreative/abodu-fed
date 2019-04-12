@@ -161,7 +161,7 @@ design_partnership__photo_with_content_block__fields:
     - /assets/koto.jpg
   photo_with_content_block__heading: 'Award winning design'
   photo_with_content_block__subheading: 'Designed in partnership with our friends at Koto Designs.'
-  photo_with_content_block__copy: 'Turns out, Americans aren''t historically world-class at designing small spaces… so we had to enlist the help of our Scandinavian friends. Together, we''ve spent thousands of hours poring over every inch of your'
+  photo_with_content_block__copy: 'Turns out, Americans aren''t historically world-class at designing small spaces… so we had to enlist the help of our Scandinavian friends. Together, we''ve spent thousands of hours poring over every inch of your Abodu.'
 cta__fields:
   cta__button:
     url: /service
