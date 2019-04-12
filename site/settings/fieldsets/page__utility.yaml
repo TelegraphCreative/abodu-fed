@@ -21,8 +21,5 @@ sections:
         restrict_assets: false
         type: markdown
         display: Document
-      documenthey:
-        type: textarea
-        display: Document
 taxonomies: true
 title: 'Page: Utility'
