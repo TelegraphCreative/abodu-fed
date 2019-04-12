@@ -20,7 +20,7 @@ sections:
         cheatsheet: true
         restrict_assets: false
         type: markdown
-        display: Document
-        instructions: 'Some instructions here'
+        display: 'Document Text'
+        instructions: 'First level heading = ## Heading 1'
 taxonomies: true
 title: 'Page: Utility'
