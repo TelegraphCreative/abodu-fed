@@ -17,16 +17,11 @@ sections:
         type: section
         display: Document
       document__text:
-        cheatsheet: true
-        restrict_assets: false
-        type: markdown
-        display: 'Document Text'
+        type: textarea
         instructions: |
           First level heading: ## Heading 1
           <br>
           Second level heading: ## Heading 2
-      document_teext:
-        type: textarea
-        display: 'Document Teext'
+        display: 'Document Text'
 taxonomies: true
 title: 'Page: Utility'
