@@ -19,5 +19,10 @@ sections:
       document__text:
         type: textarea
         display: 'Document Text'
+      document_markdown:
+        cheatsheet: false
+        restrict_assets: false
+        type: markdown
+        display: Document
 taxonomies: true
 title: 'Page: Utility'
