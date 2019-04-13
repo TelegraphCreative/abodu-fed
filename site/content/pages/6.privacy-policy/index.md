@@ -32,7 +32,7 @@ document_teext: |
   Did he just throw my cat out of the window? So you two dig up, dig up dinosaurs? Forget the fat lady! You're obsessed with the fat lady! Drive us out of here! They're using our own satellites against us. And the clock is ticking. So you two dig up, dig up dinosaurs?
   
   Life finds a way. Jaguar shark! So tell me - does it really exist? Remind me to thank John for a lovely weekend. You really think you can fly that thing? You know what? It is beets. I've crashed into a beet truck. Jaguar shark! So tell me - does it really exist?
-title: 'Legal: Privacy Policy'
+title: 'Privacy Policy'
 fieldset: page__utility
 template: utility
 id: ad66a7dd-535e-418f-a0ee-4a6856ca89ee

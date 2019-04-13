@@ -19,7 +19,7 @@ sections:
       document__text:
         type: textarea
         instructions: |
-          First level heading: ## Heading 1
+          First level heading: # Heading 1
           <br>
           Second level heading: ## Heading 2
         display: 'Document Text'

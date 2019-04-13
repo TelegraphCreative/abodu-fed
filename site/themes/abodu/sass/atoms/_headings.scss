@@ -128,3 +128,30 @@
       }
    }
 }
+
+// Utility Pages
+.nested-headings {
+   h1, h2, h3, h4, h5 {
+      @apply font-bold
+   }
+
+   h1 {
+      @apply text-20;
+
+      @screen md {
+         @apply text-26
+      }
+   }
+
+   h2, h3, h4, h5 {
+      @apply text-16;
+
+      @screen md {
+         @apply text-18
+      }
+
+      @screen lg {
+         @apply text-20
+      }
+   }
+}

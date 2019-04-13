@@ -3,46 +3,8 @@
       color="white"
 }}
 
-<style media="screen">
-   .nested-content h1 {
-      font-size: 20px
-   }
-
-   .nested-content h2,
-   .nested-content h3,
-   .nested-content h4,
-   .nested-content h5 {
-      font-size: 16px
-   }
-
-   @media screen and (min-width: 48rem) {
-      .nested-content h1 {
-         font-size: 26px
-      }
-
-      .nested-content h2,
-      .nested-content h3,
-      .nested-content h4,
-      .nested-content h5 {
-         font-size: 18px
-      }
-   }
-
-   @media screen and (min-width: 62rem) {
-      .nested-content h2,
-      .nested-content h3,
-      .nested-content h4,
-      .nested-content h5 {
-         font-size: 20px
-      }
-   }
-</style>
-
 <section class="container  |  py-20 md:py-32">
-
-
-         <div class="md:text-18 lg:text-20  |  mx-auto nested-mb-6    nested-content" style="max-width: 30em">
-            {{ document__text | markdown }}
-         </div>
-
+   <div class="md:text-18 lg:text-20 nested-headings  |  mx-auto nested-mb-6" style="max-width: 30em">
+      {{ document__text | markdown }}
+   </div>
 </section>
