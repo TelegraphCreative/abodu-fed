@@ -25,6 +25,6 @@ sections:
         instructions: |
           **Image Dimensions:** 3x2
           <br>
-          **Recommended Image Size:** 600px by 400px
+          **Recommended Image Size:** 750px by 500px
 taxonomies: true
 title: 'Product: Partial: Exterior'
