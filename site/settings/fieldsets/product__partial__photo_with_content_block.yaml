@@ -9,6 +9,11 @@ sections:
         type: assets
         display: Image
         width: 50
+        instructions: |
+          **Image Dimensions:** 4x5
+          <br>
+          **Recommended Image Size:** 640px by 800px
+        max_files: 1
       photo_with_content_block__button:
         keys:
           url: URL

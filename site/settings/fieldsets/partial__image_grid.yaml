@@ -11,9 +11,9 @@ sections:
         type: assets
         display: 'First Image'
         instructions: |
-          **Dimensions:** 3by4
+          **Dimensions:** 3x4
           <br>
-          **Recommended size:** 750px by 1000px
+          **Recommended Image Size:** 600px by 800px
         width: 33
       image_grid__image_two:
         container: main
@@ -23,9 +23,9 @@ sections:
         type: assets
         display: 'Second Image'
         instructions: |
-          **Dimensions:** 3by2
+          **Dimensions:** 3x2
           <br>
-          **Recommended size:** 1000px by 666px
+          **Recommended Image Size:** 750px by 500px
         width: 33
       image_grid__image_three:
         container: main
@@ -34,9 +34,9 @@ sections:
         type: assets
         display: 'Third Image'
         instructions: |
-          **Dimensions:** 1by1
+          **Dimensions:** 1x1
           <br>
-          **Recommended size:** 500px by 500px
+          **Recommended Image Size:** 500px by 500px
         width: 33
         max_files: 1
 taxonomies: true

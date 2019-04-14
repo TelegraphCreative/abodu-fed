@@ -26,5 +26,6 @@ sections:
         width: 50
         max_files: 1
         mode: grid
+        instructions: '**Recommended Image Size:** 2000px by 1000px'
 taxonomies: true
 title: 'Partial: Hero'

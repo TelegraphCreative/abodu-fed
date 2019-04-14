@@ -2,9 +2,6 @@ sections:
   main:
     display: Main
     fields:
-      image__section:
-        type: section
-        display: Image
       photo_with_content_block__image:
         container: main
         folder: /
@@ -12,16 +9,17 @@ sections:
         type: assets
         display: Image
         width: 50
+        instructions: |
+          **Image Dimensions:** 4x5
+          <br>
+          **Recommended Image Size:** 640px by 800px
       photo_with_content_block__button:
         keys:
           url: URL
           text: Text
         type: array
-        display: Button
+        display: 'Image Button'
         width: 50
-      content__section:
-        type: section
-        display: Content
       photo_with_content_block__heading:
         type: text
         display: Heading

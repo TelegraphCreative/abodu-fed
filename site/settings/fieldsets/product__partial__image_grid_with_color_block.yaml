@@ -11,9 +11,9 @@ sections:
         width: 33
         display: 'First Image'
         instructions: |
-          **Dimensions:** 3by2
+          **Dimensions:** 3x2
           <br>
-          **Recommended size:** 1000px by 666px
+          **Recommended size:** 750px by 500px
       image_grid_with_color_block__second_image:
         container: main
         folder: /
@@ -23,7 +23,7 @@ sections:
         width: 33
         display: 'Second Image'
         instructions: |
-          **Dimensions:** 1by1
+          **Dimensions:** 1x1
           <br>
           **Recommended size:** 500px by 500px
       image_grid_with_color_block__third_image:
@@ -35,9 +35,9 @@ sections:
         width: 33
         display: 'Third Image'
         instructions: |
-          **Dimensions:** 3by4
+          **Dimensions:** 3x4
           <br>
-          **Recommended size:** 750px by 1000px
+          **Recommended size:** 600px by 800px
       image_grid_with_color_block__heading:
         type: text
         width: 50

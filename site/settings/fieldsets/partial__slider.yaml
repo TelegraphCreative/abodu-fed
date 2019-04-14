@@ -14,7 +14,10 @@ sections:
         max_files: 5
         mode: grid
         type: assets
-        instructions: 'Limit 5 images'
+        instructions: |
+          **Image Dimensions:** 2x1
+          <br>
+          **Recommended Image Size:** 1200px by 600px
         width: 50
         display: 'Slider: Images'
 title: 'Partial: Slider'

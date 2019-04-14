@@ -22,5 +22,9 @@ sections:
         type: assets
         width: 50
         display: Image
+        instructions: |
+          **Image Dimensions:** 3x2
+          <br>
+          **Recommended Image Size:** 600px by 400px
 taxonomies: true
 title: 'Product: Partial: Exterior'

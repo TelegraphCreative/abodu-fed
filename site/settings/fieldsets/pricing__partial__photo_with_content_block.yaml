@@ -10,6 +10,10 @@ sections:
         type: assets
         width: 50
         display: Image
+        instructions: |
+          **Image Dimensions:** 4x5
+          <br>
+          **Recommended Image Size:** 640px by 800px
       photo_with_content_block__button:
         keys:
           url: URL
