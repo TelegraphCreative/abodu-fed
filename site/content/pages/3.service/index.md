@@ -14,14 +14,14 @@ accordian__fields:
       accordian__sections__section--items:
         -
           type: accordian__sections__section__item
-          accordian__sections__section__item--heading: 'Common fustrations:'
+          accordian__sections__section__item--heading: 'Common frustrations:'
           accordian__sections__section__item--copy: 'Living with a noisy construction crew in your backyard for 8 months is no fun. For you, or your neighbors.'
           '#hidden': true
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
           accordian__sections__section__item--copy: '2 weeks or less onsite - guaranteed. With Abodu, you''ll know everything falls into the right place. If it doesn''t, we''ll hand you $500 cash for every extra day we''re in your yard.'
-          '#hidden': true
+          '#hidden': false
       '#hidden': true
     -
       type: accordian__sections__section
@@ -30,14 +30,14 @@ accordian__fields:
       accordian__sections__section--items:
         -
           type: accordian__sections__section__item
-          accordian__sections__section__item--heading: 'Must go faster:'
-          accordian__sections__section__item--copy: 'Go, go, go, go, go! Jaguar shark! So tell me - does it really exist?'
+          accordian__sections__section__item--heading: 'Common frustrations:'
+          accordian__sections__section__item--copy: 'Dealing with the city''s confusing permitting process. Building your schedule around unpredictable construction timelines. Repeating yourself to all the different parties involved - architect, plumber, engineer, electrician.'
           '#hidden': true
         -
           type: accordian__sections__section__item
-          accordian__sections__section__item--heading: 'Did he just throw my cat out of the window?'
-          accordian__sections__section__item--copy: 'Do you have any idea how long it takes those cups to decompose. I was part of something special.'
-          '#hidden': true
+          accordian__sections__section__item--heading: 'What we''ve done:'
+          accordian__sections__section__item--copy: 'No-sweat permitting and approvals. We''ll take care of everything for you. If we can''t get a permit, you get your money back.'
+          '#hidden': false
       '#hidden': true
     -
       type: accordian__sections__section
@@ -46,15 +46,15 @@ accordian__fields:
       accordian__sections__section--items:
         -
           type: accordian__sections__section__item
-          accordian__sections__section__item--heading: 'You know what?'
-          accordian__sections__section__item--copy: 'It is beets. I''ve crashed into a beet truck.'
+          accordian__sections__section__item--heading: 'Common frustrations:'
+          accordian__sections__section__item--copy: 'Concrete trucks on your lawn. Huge slabs of concrete foundation. Wasted materials in your yard.'
           '#hidden': true
         -
           type: accordian__sections__section__item
-          accordian__sections__section__item--heading: 'God help us:'
-          accordian__sections__section__item--copy: 'We''re in the hands of engineers.'
+          accordian__sections__section__item--heading: 'What we''ve done:'
+          accordian__sections__section__item--copy: 'Our proprietary foundation system, which is based on helical piles, takes less than a day to install, without any concrete. No waste on-site because everything is built in factory.'
           '#hidden': true
-      '#hidden': true
+      '#hidden': false
   accordian__heading: 'Seamless Installation'
   accordian__copy: 'We know what’s no fun about construction, so we’ve made it better.'
 calendar__fields:
