@@ -21,7 +21,7 @@ accordian__fields:
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
           accordian__sections__section__item--copy: '2 weeks or less onsite - guaranteed. With Abodu, you''ll know everything falls into the right place. If it doesn''t, we''ll hand you $500 cash for every extra day we''re in your yard.'
-          '#hidden': false
+          '#hidden': true
       '#hidden': true
     -
       type: accordian__sections__section
@@ -37,7 +37,7 @@ accordian__fields:
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
           accordian__sections__section__item--copy: 'No-sweat permitting and approvals. We''ll take care of everything for you. If we can''t get a permit, you get your money back.'
-          '#hidden': false
+          '#hidden': true
       '#hidden': true
     -
       type: accordian__sections__section
@@ -54,7 +54,7 @@ accordian__fields:
           accordian__sections__section__item--heading: 'What we''ve done:'
           accordian__sections__section__item--copy: 'Our proprietary foundation system, which is based on helical piles, takes less than a day to install, without any concrete. No waste on-site because everything is built in factory.'
           '#hidden': true
-      '#hidden': false
+      '#hidden': true
   accordian__heading: 'Seamless Installation'
   accordian__copy: 'We know what’s no fun about construction, so we’ve made it better.'
 calendar__fields:
@@ -84,11 +84,25 @@ card_slider__fields:
       '#hidden': true
     -
       type: card_slider__cards__card
-      card_slider__cards__card--length: '4 Weeks'
-      card_slider__cards__card--heading: 'A Heading'
-      card_slider__cards__card--copy: 'Short copy here'
+      card_slider__cards__card--length: '10 Days'
+      card_slider__cards__card--heading: 'Pre-Delivery Yard Work'
+      card_slider__cards__card--copy: 'We take care of everything to make sure your yard is ready for it’s new Abodu.'
       card_slider__cards__card--note: null
       '#hidden': true
+    -
+      type: card_slider__cards__card
+      card_slider__cards__card--length: '2 Days'
+      card_slider__cards__card--heading: 'Delivery and Install'
+      card_slider__cards__card--copy: 'We get your Abodu from factory to your home and make sure install goes smooth and stress-free.'
+      card_slider__cards__card--note: null
+      '#hidden': true
+    -
+      type: card_slider__cards__card
+      card_slider__cards__card--length: '1 Day'
+      card_slider__cards__card--heading: 'Your New Abodu'
+      card_slider__cards__card--copy: 'We walk you through your new Abodu and explain all the fun bells and whistles.'
+      card_slider__cards__card--note: null
+      '#hidden': false
   card_slider__heading: 'Our Install Timeline'
 cta__fields:
   cta__button:
