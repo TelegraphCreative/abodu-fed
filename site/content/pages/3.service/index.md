@@ -85,10 +85,10 @@ card_slider__fields:
     -
       type: card_slider__cards__card
       card_slider__cards__card--length: '10 Days'
-      card_slider__cards__card--heading: 'Pre-Delivery Yard Work'
+      card_slider__cards__card--heading: 'Yard Work'
       card_slider__cards__card--copy: 'We take care of everything to make sure your yard is ready for it’s new Abodu.'
       card_slider__cards__card--note: null
-      '#hidden': true
+      '#hidden': false
     -
       type: card_slider__cards__card
       card_slider__cards__card--length: '2 Days'
@@ -102,7 +102,7 @@ card_slider__fields:
       card_slider__cards__card--heading: 'Your New Abodu'
       card_slider__cards__card--copy: 'We walk you through your new Abodu and explain all the fun bells and whistles.'
       card_slider__cards__card--note: null
-      '#hidden': false
+      '#hidden': true
   card_slider__heading: 'Our Install Timeline'
 cta__fields:
   cta__button:
