@@ -61,15 +61,6 @@
             a {
                padding-bottom: 4px;
 
-               /*
-               &.active {
-                  &::after {
-                     @apply absolute border-blue border-b-2 pin-b pin-l w-full;
-                     content: "";
-                  }
-               }
-               */
-
                &::after {
                   @apply absolute border-b-2 pin-b pin-l;
                   content: "";
@@ -77,7 +68,16 @@
                   width: 0;
                }
 
-               &:hover::after { @apply .w-full }
+               // Non-touch Devices
+               @media (hover: hover) {
+                  &:hover::after { @apply .w-full }
+               }
+
+               &.--current {
+                  &::after {
+                     @apply w-full
+                  }
+               }
 
                @media screen and (min-width: 62rem) {
                   @apply pb-3

@@ -94,7 +94,7 @@ why_abodu__two_column_content_grid__fields:
       two_column_content_grid__list--item--button:
         url: /service
         text: 'Our Services'
-      '#hidden': false
+      '#hidden': true
   two_column_content_grid__heading: 'How We''ll Help'
   two_column_content_grid__subheading: '“Why Abodu?”'
 photo_with_content_block__fields:
@@ -108,7 +108,7 @@ cta__fields:
     url: /contact-us
     text: 'Talk to Us'
   cta__heading: 'Ready to put an Abodu in your backyard?'
-title: 'Why Backyard Living'
+title: 'Why Backyard Living?'
 fieldset: why_backyard_living
 template: why-backyard-living
 id: 55455385-44a7-41b7-a0bd-84e1c5c13ab8

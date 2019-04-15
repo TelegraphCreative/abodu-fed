@@ -57,8 +57,9 @@
 }
 
 // Toggle Indicator Hover
-.accordian__section--header {
-   button {
+.js-accordian__btn {
+   // Non-touch Devices
+   @media (hover: hover) {
       &:hover {
          .accordian__section--indicator {
             @apply text-green
