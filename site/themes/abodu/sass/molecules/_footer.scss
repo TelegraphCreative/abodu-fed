@@ -1,0 +1,228 @@
+//
+// Footer
+//
+
+.site-footer {
+   @apply bg-black text-grey-light;
+
+   .site-footer__container {
+      @apply
+         max-w-3xl
+         mx-auto pt-12 px-4 pb-8;
+
+      @screen xs {
+         @apply px-6
+      }
+
+      @screen sm {
+         @apply px-10
+      }
+
+      @screen md {
+         @apply pt-16 px-16
+      }
+
+      @screen lg {
+         @apply pt-24 px-20
+      }
+   }
+
+   // Logo
+   .site-footer__logo {
+      @apply
+         block
+         mb-8;
+
+      @screen md {
+         @apply mb-12
+      }
+
+      @screen lg {
+         @apply mt-1 mb-0
+      }
+
+      @screen xl {
+         @apply mt-3
+      }
+
+      a {
+         @apply
+            block
+            h-6 w-24;
+
+         &:hover {
+            @apply opacity-50
+         }
+      }
+   }
+
+   // Footer Nav
+   .site-footer__nav-wrap {
+      a {
+         @apply leading-loose no-underline text-14 text-grey-light
+      }
+   }
+
+   // Small Nav
+   .site-footer__small-nav {
+      @apply mb-8;
+      
+      @screen md {
+         @apply hidden;
+      }
+
+      > div {
+         @apply
+            flex flex-wrap
+            -mx-4;
+
+         a {
+            @apply px-4;
+
+            @screen sm {
+               @apply w-auto
+            }
+         }
+
+         &:first-child {
+            @apply mb-2
+         }
+      }
+   }
+
+   // Large Nav
+   .site-footer__large-nav {
+      @apply hidden;
+
+      @screen md {
+         @apply flex flex-wrap
+      }
+
+      @screen lg {
+         @apply justify-end
+      }
+
+      > div {
+         @screen md {
+            @apply w-1/2
+         }
+
+         @screen lg {
+            @apply w-auto
+         }
+
+         &:last-child {
+            @apply
+               flex flex-wrap
+               w-full
+               mt-4;
+
+            @screen lg {
+               @apply
+                  block
+                  w-auto
+                  mt-0
+            }
+
+            a {
+               @apply w-1/2;
+
+               @screen lg {
+                  @apply w-full
+               }
+            }
+         }
+
+         a {
+            @screen md {
+               @apply
+                  block
+                  py-1 pr-4;
+
+               &:hover {
+                  @apply opacity-75
+               }
+            }
+
+            @screen lg {
+               @apply
+                  w-auto
+                  pr-10
+            }
+
+            @screen xl {
+               @apply pr-16
+            }
+         }
+      }
+   }
+
+   // Mailchimp Signup
+   .site-footer__newsletter-signup {
+      @apply mb-12;
+
+      @screen md {
+         @apply mb-24
+      }
+
+      @screen lg {
+         @apply mb-32
+      }
+
+      h2 {
+         @apply
+            text-18
+            mb-2;
+
+         @screen lg {
+            @apply mt-1 pt-px
+         }
+      }
+
+      p {
+         @apply
+            text-13
+            mb-5
+      }
+   }
+
+   // Copyright
+   .site-footer__copyright {
+      @apply
+         text-12
+         mb-2;
+
+      @screen md {
+         @apply mb-0
+      }
+   }
+
+   // Legal
+   .site-footer__legal {
+      @apply
+         flex
+         -mx-2;
+
+      @screen xs {
+         @apply -mx-4
+      }
+
+      @screen md {
+         @apply justify-end
+      }
+
+      a {
+         @apply
+            no-underline text-12 text-grey-light
+            px-2;
+
+         &:hover {
+            @apply opacity-75
+         }
+
+         @screen xs {
+            @apply px-4
+         }
+      }
+   }
+}

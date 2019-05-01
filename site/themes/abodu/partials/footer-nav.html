@@ -1,0 +1,43 @@
+<div class="col-xs-12   col-md-6   col-lg-6">
+   <div class="site-footer__nav-wrap">
+      <!--   Small Screens   -->
+      <div class="site-footer__small-nav">
+         <div class="">
+            {{ nav from="/" exclude="legal" }}
+               <a href="{{ url }}">{{ title }}</a>
+            {{ /nav }}
+         </div>
+
+         <div class="">
+            {{ social_media.social_media__accounts }}
+               {{ if social_media__acounts--account__display_account == "true" }}
+                  <a href="{{ social_media__acounts--account__url }}" target="_blank">{{ social_media__acounts--account__name }}</a>
+               {{ /if }}
+            {{ /social_media.social_media__accounts }}
+         </div>
+      </div>
+
+      <!--   Large Screens   -->
+      <div class="site-footer__large-nav">
+         <div>
+            {{ nav from="/" exclude="legal" limit="3" }}
+               <a href="{{ url }}">{{ title }}</a>
+            {{ /nav }}
+         </div>
+
+         <div>
+            {{ nav from="/" exclude="legal" limit="3" offset="3" }}
+               <a href="{{ url }}">{{ title }}</a>
+            {{ /nav }}
+         </div>
+
+         <div>
+            {{ social_media.social_media__accounts }}
+               {{ if social_media__acounts--account__display_account == "true" }}
+                  <a href="{{ social_media__acounts--account__url }}" target="_blank">{{ social_media__acounts--account__name }}</a>
+               {{ /if }}
+            {{ /social_media.social_media__accounts }}
+         </div>
+      </div>
+   </div>
+</div>

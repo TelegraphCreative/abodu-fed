@@ -1,65 +1,25 @@
-<footer class="bg-black text-grey-light">
-   <div class="max-w-3xl mx-auto px-4 pb-8 pt-12   xs:px-6   sm:px-10   md:px-16 md:pt-16   lg:px-20 lg:pt-24">   <!--  16 / 32 / 40 / 64 / 80    currently:   16 / 24 / 40 / 64 / 80 -->
+<footer class="site-footer">
+   <div class="site-footer__container">
       <div class="row">
          <!--   Logo   -->
-         <div class="col-xs-12   col-lg-3">
-            <a class="block mb-8   md:mb-12   lg:mb-0 lg:mt-3" href="">
-               <img alt="Abodu" class="block h-6 w-24 hover:opacity-50" src="{{ theme:asset src="images/abodu_wordmark.svg" }}">
+         <div class="col-xs-12   col-lg-2">
+            <a class="site-footer__logo" href="">
+               <img alt="Abodu" src="{{ theme:asset src='images/abodu_wordmark.svg' }}" />
                <span class="element-invisible">Abodu</span>
             </a>
          </div>
 
          <!--   Footer   -->
-         <div class="col-xs-12   col-md-6   col-lg-5">
-
-            {{#   Nav   #}}
-            <nav class="flex flex-wrap  |  mb-4 -mx-3 xs:-mx-4 sm:-mx-2">
-               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/3" href="/why-backyard-living">Why backyard living?</a>
-               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/3" href="/product">Product</a>
-               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/3" href="/service">Service</a>
-               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/3" href="/pricing">Pricing</a>
-               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/3" href="contact-us">Contact</a>
-            </nav>
-
-            {{#   Social   #}}
-            <div class="flex flex-wrap  |  mb-8 lg:mb-0 -mx-3 xs:-mx-4 sm:-mx-2">
-               {{ social_media.social_media__accounts }}
-                  {{ if social_media__acounts--account__display_account == "true" }}
-                     <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/3" href="{{ social_media__acounts--account__url }}" target="_blank">{{ social_media__acounts--account__name }}</a>
-                  {{ /if }}
-               {{ /social_media.social_media__accounts }}
-            </div>
-
-            <!--
-            <nav class="flex flex-wrap  |  -mx-3 xs:-mx-4 sm:-mx-2      sm:w-2/3">
-               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/2" href="/why-backyard-living">Why backyard living?</a>
-               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/2" href="/product">Product</a>
-               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/2" href="/service">Service</a>
-               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/2" href="/pricing">Pricing</a>
-               <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-1/2" href="contact-us">Contact</a>
-            </nav>
-
-            <div class="flex flex-wrap  sm:block  |  mb-8 lg:mb-0 -mx-3 xs:-mx-4 sm:-mx-2     sm:w-1/3">
-               {{ social_media.social_media__accounts }}
-                  {{ if social_media__acounts--account__display_account == "true" }}
-                     <a class="leading-loose no-underline px-3 py-1 text-14 text-grey-light w-1/2 hover:opacity-75   xs:px-4 xs:w-auto   sm:px-2 sm:w-full sm:block" href="{{ social_media__acounts--account__url }}">{{ social_media__acounts--account__name }}</a>
-                  {{ /if }}
-               {{ /social_media.social_media__accounts }}
-            </div>
-            -->
-         </div>
-
+         {{ partial:footer-nav }}
 
          <!--   Contact   -->
          <div class="col-xs-12   col-md-6   col-lg-4">
-            <div class="mb-12   md:mb-24   lg:mb-32">
+            <div class="site-footer__newsletter-signup">
 
-               <h2 class="heading  |  text-18  | mb-2">Stay in touch</h2>
-               <p class="mb-5 text-13">Be the first to know when we have important updates.</p>
+               <h2 class="heading">Stay in touch</h2>
+               <p>Be the first to know when we have important updates.</p>
 
                <!-- Begin Mailchimp Signup Form -->
-               <!--<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">-->
-
                <div id="mc_embed_signup">
                   <form action="https://Abodu.us7.list-manage.com/subscribe/post?u=9d88fa6493c52616017fd9d78&amp;id=c9773d431a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
                      <div id="mc_embed_signup_scroll">
@@ -77,9 +37,7 @@
                      </div>
                   </form>
                </div>
-
                <!--End mc_embed_signup-->
-
             </div>
          </div>
          <!-- End Contact -->
@@ -87,14 +45,14 @@
 
       <div class="row">
          <div class="col-xs-12   col-md-6">
-            <p class="mb-2 text-12   md:mb-0">&copy;<script type="text/javascript">document.write(new Date().getFullYear());</script> Abodu. All rights reserved</p>
+            <p class="site-footer__copyright">&copy;<script type="text/javascript">document.write(new Date().getFullYear());</script> Abodu. All rights reserved</p>
          </div>
 
          <div class="col-xs-12   col-md-6">
-            <div class="flex -mx-2   xs:-mx-4   md:justify-end">
-               <a class="no-underline px-2 text-12 text-grey-light hover:opacity-75   xs:px-4" href="/privacy-policy">Privacy Policy</a>
-               <a class="no-underline px-2 text-12 text-grey-light hover:opacity-75   xs:px-4" href="/terms-of-service">Terms of Service</a>
-               <a class="no-underline px-2 text-12 text-grey-light hover:opacity-75   xs:px-4" href="/terms-of-use">Terms of Use</a>
+            <div class="site-footer__legal">
+               {{ nav from="legal" }}
+                  <a href="{{ url }}">{{ title }}</a>
+               {{ /nav }}
             </div>
          </div>
       </div>
