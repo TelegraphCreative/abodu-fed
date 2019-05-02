@@ -1,0 +1,94 @@
+//
+// Animation
+//
+
+.hero-animation {
+   @apply font-normal leading-tight text-30;
+
+   @media screen and (min-width: 30rem) {
+      font-size: 6.75vw;
+   }
+
+   @media screen and (min-width: 36rem) {
+      font-size: 6.5vw;
+   }
+
+   @media screen and (min-width: 48rem) {
+      font-size: 6.25vw;
+   }
+
+   @media screen and (min-width: 64rem) {
+      @apply text-64
+   }
+
+
+   .hero-animation__animate {
+      span {
+         @apply
+            hidden
+            text-rust;
+
+         &:nth-child(5){
+            @apply block
+         }
+      }
+   }
+
+   @media screen and (min-width: 30rem ) {
+      .hero-animation__animate {
+         @apply block;
+         padding-bottom: 1.25em;
+
+         span {
+            @apply absolute block overflow-hidden opacity-0;
+
+            &:nth-child(1){
+            	animation: animationStart 15s ease-out 0s;
+            }
+
+            &:nth-child(2){
+            	animation: animationMiddle 15s ease-out 0s;
+            	animation-delay: 3s;
+            }
+
+            &:nth-child(3){
+            	animation: animationMiddle 15s ease-out 0s;
+            	animation-delay: 6s;
+            }
+
+            &:nth-child(4){
+            	animation: animationMiddle 15s ease-out 0s;
+            	animation-delay: 9s;
+            }
+
+            &:nth-child(5){
+            	@apply opacity-100;
+            	animation: animationEnd 15s linear 0s;
+            }
+         }
+
+         @-webkit-keyframes animationStart {
+         	0% { opacity: 1; }
+         	25% { opacity: 1; -webkit-transform: translateY(0px); }
+         	26% { opacity: 0; -webkit-transform: translateY(.375em); }
+         	100% { opacity: 0; }
+         }
+
+         @-webkit-keyframes animationMiddle {
+         	0% { opacity: 0; }
+         	5% { opacity: 0; -webkit-transform: translateY(-.75em); }
+         	10% { opacity: 1; -webkit-transform: translateY(0px); }
+         	25% { opacity: 1; -webkit-transform: translateY(0px); }
+         	26% { opacity: 0; -webkit-transform: translateY(.375em); }
+         	100% { opacity: 0; }
+         }
+
+         @-webkit-keyframes animationEnd {
+         	0% { opacity: 0; }
+         	85% { opacity: 0; -webkit-transform: translateY(-.75em); }
+         	88% { opacity: 1; -webkit-transform: translateY(0px); }
+         	100% { opacity: 1; }
+         }
+      }
+   }
+}
