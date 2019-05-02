@@ -108,7 +108,7 @@ cta__fields:
     url: /product
     text: 'View our product'
   cta__heading: 'The perfect space.'
-  cta__copy: 'We''ve spent countless hours designing every inch so Abodu is right at home in your backyard.'
+  cta__copy: 'We''ve spent countless hours designing every inch so an Abodu feels right at home in your backyard.'
 title: 'Why Backyard Living?'
 fieldset: why_backyard_living
 template: why-backyard-living
