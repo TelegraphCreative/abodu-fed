@@ -105,9 +105,10 @@ photo_with_content_block__fields:
   photo_with_content_block__copy: 'In 2017, California enacted statewide legislation on ADUs to make them legal and remove most fees. This recognized ADUs as a much-needed tool to help solve the California housing crisis, particularly in the SF Bay Area, where 1 housing unit has been added for every 12 jobs added since 2010. Oh, and for you California homeowners thinking about Prop 13 - it won''t trigger an increase on your property tax basis for your main home.'
 cta__fields:
   cta__button:
-    url: /contact-us
-    text: 'Talk to Us'
-  cta__heading: 'Ready to put an Abodu in your backyard?'
+    url: /product
+    text: 'View our product'
+  cta__heading: 'The perfect space.'
+  cta__copy: 'We''ve spent countless hours designing every inch so Abodu is right at home in your backyard.'
 title: 'Why Backyard Living?'
 fieldset: why_backyard_living
 template: why-backyard-living
