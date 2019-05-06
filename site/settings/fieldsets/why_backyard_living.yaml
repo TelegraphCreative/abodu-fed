@@ -39,8 +39,5 @@ sections:
         type: accordion_group
         display: 'Call to Action'
         child_fieldset: partial__cta
-      field_9:
-        type: select
-        display: 'Field 9'
 taxonomies: true
 title: 'Why Backyard Living: Page'
