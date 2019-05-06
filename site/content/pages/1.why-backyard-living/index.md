@@ -5,6 +5,7 @@ hero__copy: |
   
   Where US cities previously made it illegal or cost-prohibitive to add an ADU, many have begun to roll back theses barriers to encourage such additions. Ultimately, this will help cities meet population demand for housing and provide countless benefits for homeowners.
 hero__image: /assets/4.jpg
+model_number: '450'
 two_column_content_grid__fields:
   two_column_content_grid__list:
     -
@@ -42,7 +43,6 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--copy: 'Either way, you''ll help do your part to solve the local housing crisis. Want to go even further? Talk to us about how you can help house someone who needs it most.'
   two_column_content_grid__heading: 'Benefits for homeowners'
   two_column_content_grid__intro: 'We take care everything for you, so it’s no more complicated than buying a consumer product, and selecting a delivery date.'
-property_calculator_model_number: '450'
 image_grid_with_color_block__fields:
   image_grid_with_color_block__list:
     -
@@ -104,13 +104,14 @@ cta__fields:
     text: 'View our product'
   cta__heading: 'The perfect space.'
   cta__copy: 'We''ve spent countless hours designing every inch so an Abodu feels right at home in your backyard.'
+property_calculator_model_number: '450'
 color_block__fields:
   color_block__button:
     url: 'https://google.com'
     text: 'Find Out Your Value'
   color_block__heading: 'Increased Home Value'
   color_block__value: 'Enter your <a href="">Zip Code</a> and we''ll tell you the property increase value for an Abodu 450.'
-title: 'Why Backyard Living?'
+title: 'Why Backyard Living?450'
 fieldset: why_backyard_living
 template: why-backyard-living
 id: 55455385-44a7-41b7-a0bd-84e1c5c13ab8
