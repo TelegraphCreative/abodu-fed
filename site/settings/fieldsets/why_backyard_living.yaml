@@ -13,10 +13,15 @@ sections:
         child_fieldset: why_backyard_living__partial__two_column_content_grid
         type: accordion_group
         display: Homeowners
-      color_block__fields:
-        type: accordion_group
-        display: Value
-        child_fieldset: why_backyard_living__partial__color_block
+      property_calculator_model_number:
+        type: text
+        instructions: |
+          Indicate an Abodu model that the Property Calculator app should use. 
+          
+          To add a new model, upload the .csv file to this directory: `themes/abodu/js/data`
+          The CSV filename should follow this convention: `property-values__Abodu-{model number}.csv`
+          Example filename for a model 450: `property-values__Abodu-450.csv`
+        display: 'Property Calculator Model Number'
       image_grid_with_color_block__fields:
         child_fieldset: why_backyard_living__partial__image_grid_with_color_block
         type: accordion_group
@@ -33,5 +38,8 @@ sections:
         type: accordion_group
         display: 'Call to Action'
         child_fieldset: partial__cta
+      field_9:
+        type: select
+        display: 'Field 9'
 taxonomies: true
 title: 'Why Backyard Living: Page'
