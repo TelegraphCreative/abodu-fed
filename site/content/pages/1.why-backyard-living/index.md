@@ -111,7 +111,7 @@ color_block__fields:
     text: 'Find Out Your Value'
   color_block__heading: 'Increased Home Value'
   color_block__value: 'Enter your <a href="">Zip Code</a> and we''ll tell you the property increase value for an Abodu 450.'
-title: 'Why Backyard Living?450'
+title: 'Why Backyard Living?'
 fieldset: why_backyard_living
 template: why-backyard-living
 id: 55455385-44a7-41b7-a0bd-84e1c5c13ab8
