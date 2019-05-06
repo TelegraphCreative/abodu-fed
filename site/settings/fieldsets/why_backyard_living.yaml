@@ -6,17 +6,10 @@ sections:
         fieldset: partial__hero
         type: partial
         display: 'Hero Partial'
-      sections__section:
+      property_calculator:
         type: section
-        display: Sections
-      two_column_content_grid__fields:
-        child_fieldset: why_backyard_living__partial__two_column_content_grid
-        type: accordion_group
-        display: Homeowners
-      find_out_your_value:
-        type: section
-        display: 'Find out your Value'
-      property_calculator_model_number:
+        display: 'Property Calculator'
+      model_number:
         type: text
         instructions: |
           Specify which Abodu model number and file that the Property Calculator app should use. 
@@ -25,7 +18,14 @@ sections:
           - The CSV filename should follow this convention: `property-values__Abodu-{model number}.csv`
           - Example filename for a model 450: `property-values__Abodu-450.csv`
         width: 66
-        display: 'Property Calculator Model Number'
+        display: 'Model Number'
+      sections__section:
+        type: section
+        display: Sections
+      two_column_content_grid__fields:
+        child_fieldset: why_backyard_living__partial__two_column_content_grid
+        type: accordion_group
+        display: Homeowners
       image_grid_with_color_block__fields:
         child_fieldset: why_backyard_living__partial__image_grid_with_color_block
         type: accordion_group
