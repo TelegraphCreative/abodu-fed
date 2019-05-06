@@ -42,12 +42,7 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--copy: 'Either way, you''ll help do your part to solve the local housing crisis. Want to go even further? Talk to us about how you can help house someone who needs it most.'
   two_column_content_grid__heading: 'Benefits for homeowners'
   two_column_content_grid__intro: 'We take care everything for you, so it’s no more complicated than buying a consumer product, and selecting a delivery date.'
-color_block__fields:
-  color_block__button:
-    url: 'https://google.com'
-    text: 'Find Out Your Value'
-  color_block__heading: 'Increased Home Value'
-  color_block__value: 'Enter your <a href="">Zip Code</a> and we''ll tell you the property increase value for an Abodu 450.'
+property_calculator_model_number: '450'
 image_grid_with_color_block__fields:
   image_grid_with_color_block__list:
     -
@@ -109,6 +104,12 @@ cta__fields:
     text: 'View our product'
   cta__heading: 'The perfect space.'
   cta__copy: 'We''ve spent countless hours designing every inch so an Abodu feels right at home in your backyard.'
+color_block__fields:
+  color_block__button:
+    url: 'https://google.com'
+    text: 'Find Out Your Value'
+  color_block__heading: 'Increased Home Value'
+  color_block__value: 'Enter your <a href="">Zip Code</a> and we''ll tell you the property increase value for an Abodu 450.'
 title: 'Why Backyard Living?'
 fieldset: why_backyard_living
 template: why-backyard-living
