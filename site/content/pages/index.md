@@ -8,7 +8,7 @@ what_we_do__fields:
     - /assets/1.jpg
     - /assets/4.jpg
     - /assets/6.jpg
-  slider__title: 'Abodu 4500'
+  slider__title: 'Abodu 450'
   content_block_with_pattern__heading: 'What We Do'
   content_block_with_pattern__copy: 'Seamless buying, seamless installation, instant gratification. We do the heavy lifting so you don’t have to — welcome to your backyard home, welcome to your Abodu.'
 photo_with_content_block__fields:
