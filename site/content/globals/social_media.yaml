@@ -9,11 +9,6 @@ social_media__accounts:
     social_media__acounts--account__name: Instagram
     social_media__acounts--account__url: 'https://google.com'
     social_media__acounts--account__display_account: true
-  -
-    type: social_media__acounts--account
-    social_media__acounts--account__name: Twitter
-    social_media__acounts--account__url: 'https://google.com'
-    social_media__acounts--account__display_account: true
 title: 'Social Media'
 fieldset: globals__social_media
 id: 0b303dad-f912-4233-bef8-973d82f78a99

@@ -5,6 +5,14 @@
 .site-footer {
    @apply bg-black text-grey-light;
 
+   a {
+      @apply text-grey-light;
+
+      &:hover {
+         @apply opacity-75
+      }
+   }
+   
    .site-footer__container {
       @apply
          max-w-3xl
@@ -59,33 +67,53 @@
    // Footer Nav
    .site-footer__nav-wrap {
       a {
-         @apply leading-loose no-underline text-14 text-grey-light
+         @apply leading-loose no-underline text-14
       }
    }
 
    // Small Nav
    .site-footer__small-nav {
       @apply mb-8;
-      
+
       @screen md {
          @apply hidden;
       }
 
       > div {
-         @apply
-            flex flex-wrap
-            -mx-4;
+         &:nth-child(-n+2) {
+            @apply
+               flex flex-wrap
+               -mx-4;
 
-         a {
-            @apply px-4;
+            a {
+               @apply px-4;
 
-            @screen sm {
-               @apply w-auto
+               @screen sm {
+                  @apply w-auto
+               }
+            }
+
+            &:first-child {
+               @apply mb-2
             }
          }
 
-         &:first-child {
-            @apply mb-2
+         // Link Wrapper
+         &:last-child {
+            @apply mt-4;
+
+            // Link
+            a {
+               @apply
+                  block
+                  w-4;
+
+               svg {
+                  @apply
+                     fill-current
+                     h-4 w-4
+               }
+            }
          }
       }
    }
@@ -103,19 +131,42 @@
       }
 
       > div {
-         @screen md {
-            @apply w-1/2
+         // First Two Nav Blocks
+         &:nth-child(-n+2) {
+            @screen md {
+               @apply w-1/2
+            }
+
+            @screen lg {
+               @apply w-auto
+            }
+
+            // Link Wrapper
+            div {
+               @screen md {
+                  @apply py-1 pr-4
+               }
+
+               @screen lg {
+                  @apply
+                     w-auto
+                     pr-10
+               }
+
+               @screen xl {
+                  @apply pr-16
+               }
+            }
          }
 
-         @screen lg {
-            @apply w-auto
-         }
-
+         // Social Links
          &:last-child {
-            @apply
-               flex flex-wrap
-               w-full
-               mt-4;
+            @screen md {
+               @apply
+                  flex flex-wrap
+                  w-full
+                  mt-4;
+            }
 
             @screen lg {
                @apply
@@ -124,34 +175,37 @@
                   mt-0
             }
 
-            a {
-               @apply w-1/2;
+            // Link Wrapper
+            div {
+               @screen md {
+                  @apply
+                     w-4
+                     py-1 mr-4
+               }
 
                @screen lg {
-                  @apply w-full
+                  @apply
+                     w-auto
+                     mr-0 pr-10
                }
-            }
-         }
 
-         a {
-            @screen md {
-               @apply
-                  block
-                  py-1 pr-4;
-
-               &:hover {
-                  @apply opacity-75
+               @screen xl {
+                  @apply pr-16
                }
-            }
 
-            @screen lg {
-               @apply
-                  w-auto
-                  pr-10
-            }
+               // Link
+               a {
+                  @apply
+                     block
+                     w-4
+                     mt-px;
 
-            @screen xl {
-               @apply pr-16
+                  svg {
+                     @apply
+                        fill-current
+                        h-4 w-4
+                  }
+               }
             }
          }
       }
@@ -213,12 +267,8 @@
 
       a {
          @apply
-            no-underline text-12 text-grey-light
+            no-underline text-12
             px-2;
-
-         &:hover {
-            @apply opacity-75
-         }
 
          @screen xs {
             @apply px-4

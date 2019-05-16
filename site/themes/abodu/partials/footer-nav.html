@@ -11,9 +11,14 @@
          <div class="">
             {{ social_media.social_media__accounts }}
                {{ if social_media__acounts--account__display_account == "true" }}
-                  <a href="{{ social_media__acounts--account__url }}" target="_blank">{{ social_media__acounts--account__name }}</a>
+                  <a href="{{ social_media__acounts--account__url }}" target="_blank">
+                     {{ partial:atoms/social-icons account="{{ social_media__acounts--account__name }}" }}
+                  </a>
                {{ /if }}
             {{ /social_media.social_media__accounts }}
+
+
+
          </div>
       </div>
 
@@ -21,20 +26,28 @@
       <div class="site-footer__large-nav">
          <div>
             {{ nav from="/" exclude="legal" limit="3" }}
-               <a href="{{ url }}">{{ title }}</a>
+               <div class="">
+                  <a href="{{ url }}">{{ title }}</a>
+               </div>
             {{ /nav }}
          </div>
 
          <div>
             {{ nav from="/" exclude="legal" limit="3" offset="3" }}
-               <a href="{{ url }}">{{ title }}</a>
+               <div class="">
+                  <a href="{{ url }}">{{ title }}</a>
+               </div>
             {{ /nav }}
          </div>
 
          <div>
             {{ social_media.social_media__accounts }}
                {{ if social_media__acounts--account__display_account == "true" }}
-                  <a href="{{ social_media__acounts--account__url }}" target="_blank">{{ social_media__acounts--account__name }}</a>
+                  <div>
+                     <a href="{{ social_media__acounts--account__url }}" target="_blank">
+                        {{ partial:atoms/social-icons account="{{ social_media__acounts--account__name }}" }}
+                     </a>
+                  </div>
                {{ /if }}
             {{ /social_media.social_media__accounts }}
          </div>
