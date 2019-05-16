@@ -24814,6 +24814,14 @@ table {
   }
 }
 
+.input.\--field.\--select option {
+  color: #000;
+}
+
+.input.\--field.\--select::-ms-expand {
+  display: none;
+}
+
 .input.\--field.\--textarea {
   line-height: 1.5;
   resize: none;
