@@ -1,6 +1,7 @@
 hero__heading: 'Get in Touch'
 hero__copy: |
   Seamless buying, seamless installation, instant gratification. Let us know how we can help you build your backyard home. 
+  
   We'll respond in < 24 hours, guaranteed.
 vision__fields:
   vision__heading: 'Our Vision'
