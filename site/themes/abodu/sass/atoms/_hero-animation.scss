@@ -27,9 +27,43 @@
          @apply
             hidden
             text-rust;
+      }
 
-         &:nth-child(5){
-            @apply block
+      &.--one {
+         span {
+            @apply block;
+         }
+      }
+
+      &.--two {
+         span {
+            &:nth-child(2){
+               @apply block
+            }
+         }
+      }
+
+      &.--three {
+         span {
+            &:nth-child(3){
+               @apply block
+            }
+         }
+      }
+
+      &.--four {
+         span {
+            &:nth-child(4){
+               @apply block
+            }
+         }
+      }
+
+      &.--five {
+         span {
+            &:nth-child(5){
+               @apply block
+            }
          }
       }
    }
@@ -41,29 +75,75 @@
 
          span {
             @apply absolute block overflow-hidden opacity-0;
+         }
 
-            &:nth-child(1){
-            	animation: animationStart 15s ease-out 0s;
+         &.--one {
+            padding-bottom: 0;
+
+            span {
+               @apply
+                  static
+                  block
+                  opacity-100
             }
+         }
 
-            &:nth-child(2){
-            	animation: animationMiddle 15s ease-out 0s;
-            	animation-delay: 3s;
+         &.--two {
+            span {
+               &:nth-child(1) {
+               	animation: animationStart 6s ease-out 0s;
+               }
+
+               &:nth-child(2) {
+                  @apply opacity-100;
+               	animation: animationEndTwo 3s linear 0s;
+               }
             }
+         }
 
-            &:nth-child(3){
-            	animation: animationMiddle 15s ease-out 0s;
-            	animation-delay: 6s;
+         &.--three {
+            span {
+               &:nth-child(1) {
+               	animation: animationStart 9s ease-out 0s;
+               }
+
+               &:nth-child(2){
+               	animation: animationMiddle 9s ease-out 0s;
+               	//animation-delay: 3s;
+               }
+
+               &:nth-child(3) {
+                  @apply opacity-100;
+               	animation: animationEndThree 9s linear 0s;
+               }
             }
+         }
 
-            &:nth-child(4){
-            	animation: animationMiddle 15s ease-out 0s;
-            	animation-delay: 9s;
-            }
+         &.--five {
+            span {
+               &:nth-child(1){
+               	animation: animationStart 15s ease-out 0s;
+               }
 
-            &:nth-child(5){
-            	@apply opacity-100;
-            	animation: animationEnd 15s linear 0s;
+               &:nth-child(2){
+               	animation: animationMiddle 15s ease-out 0s;
+               	animation-delay: 3s;
+               }
+
+               &:nth-child(3){
+               	animation: animationMiddle 15s ease-out 0s;
+               	animation-delay: 6s;
+               }
+
+               &:nth-child(4){
+               	animation: animationMiddle 15s ease-out 0s;
+               	animation-delay: 9s;
+               }
+
+               &:nth-child(5){
+               	@apply opacity-100;
+               	animation: animationEnd 15s linear 0s;
+               }
             }
          }
 
@@ -81,6 +161,21 @@
          	25% { opacity: 1; -webkit-transform: translateY(0px); }
          	26% { opacity: 0; -webkit-transform: translateY(.375em); }
          	100% { opacity: 0; }
+         }
+
+
+         @-webkit-keyframes animationEndTwo {
+         	0% { opacity: 0; }
+         	50% { opacity: 0; -webkit-transform: translateY(-.75em); }
+         	70% { opacity: 1; -webkit-transform: translateY(0px); }
+         	100% { opacity: 1; }
+         }
+
+         @-webkit-keyframes animationEndThree {
+         	0% { opacity: 0; }
+         	60% { opacity: 0; -webkit-transform: translateY(-.75em); }
+         	80% { opacity: 1; -webkit-transform: translateY(0px); }
+         	100% { opacity: 1; }
          }
 
          @-webkit-keyframes animationEnd {

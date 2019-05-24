@@ -5,9 +5,13 @@ sections:
       hero__section:
         type: section
         display: Hero
-      hero__heading:
+      hero__heading_1:
+        type: list
+        display: 'Heading: Part 1'
+        instructions: 'Limit 5'
+      hero__heading_2:
         type: text
-        display: Heading
+        display: 'Heading: Part 2'
       sections__section:
         type: section
         display: Sections
