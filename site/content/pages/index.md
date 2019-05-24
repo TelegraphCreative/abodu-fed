@@ -1,4 +1,10 @@
-hero__heading: '<span>Backyard homes<br></span> worth living in.'
+hero__heading_1:
+  - 'Backyard homes'
+  - 'Artist studios'
+  - 'A place for friends and family'
+  - 'The perfect rental'
+  - 'Affordable housing'
+hero__heading_2: 'worth living in'
 what_we_do__fields:
   content_block_with_pattern__toggle: true
   content_block_with_pattern__button:
@@ -73,6 +79,7 @@ cta__fields:
     url: /contact-us
     text: 'Talk to Us'
   cta__heading: 'Ready to put an Abodu in your backyard?'
+hero__heading: '<span>Backyard homes<br></span> worth living in.'
 title: Home
 template: home
 fieldset: home

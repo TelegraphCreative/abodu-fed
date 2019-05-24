@@ -23,14 +23,25 @@
 
                   <!--<h1 class="heading  --primary">{{ hero__heading }}</h1>-->
                   <h1 class="hero-animation">
-                     <span class="hero-animation__animate">
-                        <span>Backyard homes</span>
-                        <span>Artist studios</span>
-                        <span>A place for friends and family</span>
-                        <span>The perfect rental</span>
-                        <span>Affordable housing</span>
+                     <span class="
+                        hero-animation__animate
+                        {{ if hero__heading_1 | count == "1" }}
+                           --one
+                        {{ elseif hero__heading_1 | count == "2" }}
+                           --two
+                        {{ elseif hero__heading_1 | count == "3" }}
+                           --three
+                        {{ elseif hero__heading_1 | count == "4" }}
+                           --four
+                        {{ elseif hero__heading_1 | count == "5" }}
+                           --five
+                        {{ /if }}
+                     ">
+                        {{ hero__heading_1 }}
+                           <span>{{ value }}</span>
+                        {{ /hero__heading_1 }}
                      </span>
-                     worth living in
+                     {{ hero__heading_2 }}
                   </h1>
 
                {{ else }}
