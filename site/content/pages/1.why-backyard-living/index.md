@@ -1,5 +1,5 @@
 hero__heading: 'Why Backyard Living?'
-hero__subheading: 'Upgrade your backyard'
+hero__subheading: 'Upgrade your backyard.'
 hero__copy: |
   Over the past few decades, we have failed to build affordable housing in-line with our growing metro populations. We need more density in urban areas, but most of the accessible land is taken up by single family homes. However, there is a new and growing movement to add density within the space homeowners already possess through the addition of Accessory Dwelling Units (ADUs).
   
