@@ -43,7 +43,7 @@ abodu_450__fields:
   content_block_with_pattern__copy: '450 square feet of beautifully designed space, with our signature roof shape. The standard color palette is simple: white, wood, and black. Consider this our American interpretation of Scandinavian influence.'
   product_specs__copy: '452 square feet. 14’ wide. 35’4” long. 11’ ceilings. 13.5’ structure height.'
   product_specs__image:
-    - /assets/8.png
+    - /assets/floorplan-(clear).jpg
 exterior__fields:
   exterior__list:
     - 'Fire-resistant treated wood siding.'

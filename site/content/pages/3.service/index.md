@@ -73,8 +73,8 @@ card_slider__fields:
       card_slider__cards__card--length: '1 Day*'
       card_slider__cards__card--heading: Permitting
       card_slider__cards__card--copy: 'We work with the city to get your permit all squared away.'
-      card_slider__cards__card--note: '*Other cities: 4-6 weeks'
-      '#hidden': true
+      card_slider__cards__card--note: '*Other cities: 4-12 weeks'
+      '#hidden': false
     -
       type: card_slider__cards__card
       card_slider__cards__card--length: '4 Weeks'
@@ -88,7 +88,7 @@ card_slider__fields:
       card_slider__cards__card--heading: 'Yard Work'
       card_slider__cards__card--copy: 'We take care of everything to make sure your yard is ready for it’s new Abodu.'
       card_slider__cards__card--note: null
-      '#hidden': false
+      '#hidden': true
     -
       type: card_slider__cards__card
       card_slider__cards__card--length: '2 Days'

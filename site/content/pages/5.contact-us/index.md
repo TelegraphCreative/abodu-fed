@@ -1,5 +1,8 @@
 hero__heading: 'Get in Touch'
-hero__copy: 'Seamless buying, seamless installation, instant gratification. Let us know how we can help you build your backyard home.'
+hero__copy: |
+  Seamless buying, seamless installation, instant gratification. Let us know how we can help you build your backyard home. 
+  
+  We'll respond in < 24 hours, guaranteed.
 vision__fields:
   vision__heading: 'Our Vision'
   vision__copy: 'Abodu began with the idea that there had to be a better way to add density to our growing cities throughout the US. That the American Dream of homeownership is changing- and neighborhoods are evolving. We believe beautifully-designed housing should be accessible and functional. We believe construction projects are almost never a customer-centric process… but they can be. We believe manufacturing technology, software, and thoughtfulness can make that process more joyful for homeowners.'
