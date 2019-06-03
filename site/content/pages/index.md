@@ -1,9 +1,11 @@
 hero__heading_1:
   - 'Backyard homes'
-  - 'Artist studios'
-  - 'A place for friends and family'
-  - 'The perfect rental'
-  - 'Affordable housing'
+  - 'Accessory dwelling units'
+  - 'Guest house'
+  - 'Granny unit'
+  - 'In-law unit'
+  - 'Rental unit'
+  - Spaces
 hero__heading_2: 'worth living in'
 what_we_do__fields:
   content_block_with_pattern__toggle: true
