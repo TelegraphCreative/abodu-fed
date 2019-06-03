@@ -1,8 +1,8 @@
 hero__heading_1:
   - 'Backyard homes'
   - 'Accessory dwelling units'
-  - 'Guest house'
-  - 'Rental unit'
+  - 'Guest houses'
+  - 'Rental units'
   - Spaces
 hero__heading_2: 'worth living in'
 what_we_do__fields:
