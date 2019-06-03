@@ -148,12 +148,12 @@
                */
 
                &:nth-child(1){
-               	animation: animation1 10s ease-out 0s;
+               	animation: animation1 10s ease-in-out 0s;
                }
                @-webkit-keyframes animation1 {
                	0% { opacity: 1; }
-               	35% { opacity: 1; -webkit-transform: translateY(0px); } // 3.5s
-               	40% { opacity: 0; -webkit-transform: translateY(.375em); } // 4s
+               	30% { opacity: 1; -webkit-transform: translateY(0px); }    // 3s
+               	35% { opacity: 0; -webkit-transform: translateY(.375em); } // 3.5s
                	100% { opacity: 0; }
                }
 
@@ -164,14 +164,11 @@
                @-webkit-keyframes animation2 {
                	0% { opacity: 0; }
 
-               	40% { opacity: 0; -webkit-transform: translateY(-.75em); } // 4s
-               	45% { opacity: 1; -webkit-transform: translateY(0px); } // 4.75
+               	35% { opacity: 0; -webkit-transform: translateY(-.75em) } // 3.5s
+               	40% { opacity: 1; -webkit-transform: translateY(0px) }    // 4s
 
-               	55% { opacity: 1; -webkit-transform: translateY(0px); } // 5.5
-                  60% {
-                     opacity: 0;
-                     -webkit-transform: translateY(.375em)
-                  }
+               	50% { opacity: 1; -webkit-transform: translateY(0px) }    // 5s
+                  55% { opacity: 0; -webkit-transform: translateY(.375em) } // 5.5s
                	100% { opacity: 0; }
                }
 
@@ -181,43 +178,40 @@
                @-webkit-keyframes animation3 {
                	0% { opacity: 0; }
 
-               	60% { opacity: 0; -webkit-transform: translateY(-.75em); } // 6s
-               	65% { opacity: 1; -webkit-transform: translateY(0px); } // 6.5s
+               	55% { opacity: 0; -webkit-transform: translateY(-.75em) } // 5.5s
+               	60% { opacity: 1; -webkit-transform: translateY(0px) }    // 6s
 
-               	75% { opacity: 1; -webkit-transform: translateY(0px); } // 7.5s
-                  80% { opacity: 0; -webkit-transform: translateY(.375em)}// 8s
+               	70% { opacity: 1; -webkit-transform: translateY(0px) }    // 7s
+                  75% { opacity: 0; -webkit-transform: translateY(.375em) } // 7.5s
                	100% { opacity: 0; }
                }
 
                &:nth-child(4){
                	animation: animation4 10s ease-in-out 0s;
-                  animation-delay: 5s;
                }
 
                @-webkit-keyframes animation4 {
                	0% { opacity: 0; }
 
-               	30% { opacity: 0; -webkit-transform: translateY(-.75em) } // 5 + 3s   = 8s
-               	35% { opacity: 1; -webkit-transform: translateY(0px) }    // 5+ 3.5s  = 8.5s
+               	75% { opacity: 0; -webkit-transform: translateY(-.75em) } // 7.5s
+               	80% { opacity: 1; -webkit-transform: translateY(0px) }    // 8s
 
-               	45% { opacity: 1; -webkit-transform: translateY(0px); }   // 5 + 4.5s = 9.5s
-                  50% { opacity: 0; -webkit-transform: translateY(.375em)}  // 5 + 5s   = 10
+               	90% { opacity: 1; -webkit-transform: translateY(0px); }   // 9s
+                  95% { opacity: 0; -webkit-transform: translateY(.375em)}  // 9.5
                	100% { opacity: 0; }
                }
 
                &:nth-child(5){
                	@apply opacity-100;
-               	animation: animation5 20s ease-in-out 0s;
+               	animation: animation5 50s ease-in-out 0s;
                }
 
                @-webkit-keyframes animation5 {
                	0% { opacity: 0 }
 
-               	50% { opacity: 0; -webkit-transform: translateY(-.75em) } // 5 + 5s
-               	52% { opacity: 1; -webkit-transform: translateY(0px) }    // 5 + 5.5s
+               	19% { opacity: 0; -webkit-transform: translateY(-.75em) } // 9.5s
+               	20% { opacity: 1; -webkit-transform: translateY(0px) }    // 10s
 
-               	57% { opacity: 1 }   // 11.5s
-                  //70% { opacity: 0; -webkit-transform: translateY(.375em)}  // 5 + 4s
                	100% { opacity: 1 }
                }
             }
