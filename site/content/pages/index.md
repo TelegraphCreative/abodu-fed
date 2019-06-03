@@ -2,8 +2,6 @@ hero__heading_1:
   - 'Backyard homes'
   - 'Accessory dwelling units'
   - 'Guest house'
-  - 'Granny unit'
-  - 'In-law unit'
   - 'Rental unit'
   - Spaces
 hero__heading_2: 'worth living in'
