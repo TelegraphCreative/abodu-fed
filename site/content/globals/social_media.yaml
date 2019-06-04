@@ -2,12 +2,12 @@ social_media__accounts:
   -
     type: social_media__acounts--account
     social_media__acounts--account__name: Facebook
-    social_media__acounts--account__url: 'https://google.com'
+    social_media__acounts--account__url: facebook.com/myabodu
     social_media__acounts--account__display_account: true
   -
     type: social_media__acounts--account
     social_media__acounts--account__name: Instagram
-    social_media__acounts--account__url: 'https://google.com'
+    social_media__acounts--account__url: 'https://www.instagram.com/myabodu/'
     social_media__acounts--account__display_account: true
 title: 'Social Media'
 fieldset: globals__social_media
