@@ -46,7 +46,7 @@ how_its_built__fields:
 how_its_delivered__fields:
   how_its_delivered__button:
     url: /service
-    text: 'View Services'
+    text: 'View Service'
   how_its_delivered__list:
     -
       type: how_its_delivered__list--item
