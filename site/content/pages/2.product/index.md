@@ -46,12 +46,12 @@ abodu_450__fields:
     - /assets/floorplan-(clear).jpg
 exterior__fields:
   exterior__list:
-    - 'Fire-resistant treated wood siding.'
+    - 'Fiber cement siding.'
     - 'Standing-seam metal roof.'
-    - 'Concealed gutters.'
-    - 'Window-specific metal overhangs.'
-    - 'Black adonized aluminum, double-paned windows from Andersen.'
-    - '9'' sliding door from Andersen.'
+    - ''
+    - ''
+    - 'High efficiency windows, from Anderson.'
+    - 'Sliding patio door, from Anderson.'
   exterior__image:
     - /assets/2.jpg
   exterior__heading: Exterior
@@ -62,12 +62,12 @@ two_column_content_grid__fields:
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Throughout
       two_column_content_grid__list--item--list:
-        - 'LED lighting, with architectural LED accent strips.'
+        - 'LED lighting.'
         - 'Mini-split HVAC system.'
         - 'In-unit washer dryer, from Haier.'
         - 'Smart thermostat, from Nest.'
         - 'Smart door locks, from August.'
-      '#hidden': true
+      '#hidden': false
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Kitchen
@@ -144,7 +144,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__heading: 'Outdoor decking:'
       image_grid_with_color_block__list--item__list:
         - 'Details on decking to be added.'
-      '#hidden': true
+      '#hidden': false
   image_grid_with_color_block__first_image:
     - /assets/12.jpg
   image_grid_with_color_block__second_image:
