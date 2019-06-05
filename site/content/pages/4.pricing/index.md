@@ -28,7 +28,7 @@ content_block_with_pattern__fields:
   content_block_with_pattern__toggle: true
   content_block_with_pattern__button:
     url: /product
-    text: 'View Products'
+    text: 'View Product'
   content_block_with_pattern__heading: 'Upgrades & Options'
   content_block_with_pattern__copy: 'For a detailed list of additional options including premium materials, solar, turn-key furniture packages and more, see our product page.'
 payment__fields:
