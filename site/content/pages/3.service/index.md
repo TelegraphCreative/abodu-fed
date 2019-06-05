@@ -20,9 +20,9 @@ accordian__fields:
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
-          accordian__sections__section__item--copy: '2 weeks or less onsite - guaranteed. With Abodu, you''ll know everything falls into the right place. If it doesn''t, we''ll hand you $500 cash for every extra day we''re in your yard.'
-          '#hidden': true
-      '#hidden': true
+          accordian__sections__section__item--copy: '2 weeks or less onsite - guaranteed. With Abodu, you''ll know everything falls into the right place. If it doesn''t, we''ll hand you $50 cash for every extra day we''re in your yard.'
+          '#hidden': false
+      '#hidden': false
     -
       type: accordian__sections__section
       accordian__sections__section--number: '02'
@@ -74,7 +74,7 @@ card_slider__fields:
       card_slider__cards__card--heading: Permitting
       card_slider__cards__card--copy: 'We work with the city to get your permit all squared away.'
       card_slider__cards__card--note: '*Other cities: 4-12 weeks'
-      '#hidden': false
+      '#hidden': true
     -
       type: card_slider__cards__card
       card_slider__cards__card--length: '4 Weeks'
