@@ -20,7 +20,7 @@ accordian__fields:
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
-          accordian__sections__section__item--copy: '2 weeks or less onsite - guaranteed. With Abodu, you''ll know everything falls into the right place. If it doesn''t, we''ll hand you $50 cash for every extra day we''re in your yard.'
+          accordian__sections__section__item--copy: '2 weeks or less onsite - guaranteed. With Abodu, you''ll know everything falls into the right place.'
           '#hidden': false
       '#hidden': false
     -
