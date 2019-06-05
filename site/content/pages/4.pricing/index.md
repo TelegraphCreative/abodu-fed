@@ -11,8 +11,8 @@ photo_with_content_block__fields:
     text: 'Have a Look Around'
   photo_with_content_block__copy_list:
     - 'Site evaluation'
-    - 'Permitting services (including all city fees)'
-    - 'Completed Abodu (including all finishes & appliances)'
+    - 'Permitting services (including city fees)'
+    - 'Completed Abodu (including finishes & appliances)'
     - 'All site work (foundation, trenching, utility tie in)'
     - 'Delivery from our factory'
     - 'Installation on site'
