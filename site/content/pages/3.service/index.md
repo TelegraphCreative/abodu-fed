@@ -21,8 +21,8 @@ accordian__fields:
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
           accordian__sections__section__item--copy: '2 weeks or less onsite - guaranteed. With Abodu, you''ll know everything falls into the right place.'
-          '#hidden': false
-      '#hidden': false
+          '#hidden': true
+      '#hidden': true
     -
       type: accordian__sections__section
       accordian__sections__section--number: '02'
@@ -48,13 +48,13 @@ accordian__fields:
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'Common frustrations:'
           accordian__sections__section__item--copy: 'Concrete trucks on your lawn. Huge slabs of concrete foundation. Wasted materials in your yard.'
-          '#hidden': true
+          '#hidden': false
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
-          accordian__sections__section__item--copy: 'Our proprietary foundation system, which is based on helical piles, takes less than a day to install, without any concrete. No waste on-site because everything is built in factory.'
+          accordian__sections__section__item--copy: 'Our proprietary foundation system, using helical piles, takes less than a day to install, without any concrete. No waste on-site because everything is built in factory.'
           '#hidden': true
-      '#hidden': true
+      '#hidden': false
   accordian__heading: 'Seamless Installation'
   accordian__copy: 'We know what’s no fun about construction, so we’ve made it better.'
 calendar__fields:
