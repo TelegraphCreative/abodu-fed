@@ -4,7 +4,7 @@ hero__heading_1:
   - 'Guest houses'
   - 'Rental units'
   - Spaces
-hero__heading_2: 'worth living in'
+hero__heading_2: 'worth living in.'
 what_we_do__fields:
   content_block_with_pattern__toggle: true
   content_block_with_pattern__button:
