@@ -16,7 +16,9 @@ what_we_do__fields:
     - /assets/6.jpg
   slider__title: 'Abodu 450'
   content_block_with_pattern__heading: 'What We Do'
-  content_block_with_pattern__copy: 'Seamless buying, seamless installation, instant gratification. We do the heavy lifting so you don’t have to — welcome to your backyard home, welcome to your Abodu.'
+  content_block_with_pattern__copy: |
+    Maniacally designed backyard homes. Built in factory, seamlessly installed in less than 2 weeks. 
+    We do the heavy lifting so you don’t have to.
 photo_with_content_block__fields:
   photo_with_content_block__button:
     url: 'https://google.com'
