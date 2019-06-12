@@ -88,8 +88,8 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__icon: electrical_panel_upgrade
       image_grid_with_color_block__list--item__heading: 'Electrical Panel Upgrade'
       image_grid_with_color_block__list--item__copy: 'If your home electrical panel is under 200 amps or has less than 60 amps of additional capacity, we''ll likely need to upgrade. Don''t worry, we''ll take care of it for you.'
-      image_grid_with_color_block__list--item__note: '$6,000'
-      '#hidden': true
+      image_grid_with_color_block__list--item__note: '$7,000'
+      '#hidden': false
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: sloped_lot
