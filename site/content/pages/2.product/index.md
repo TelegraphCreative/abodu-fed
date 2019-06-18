@@ -46,7 +46,7 @@ abodu_450__fields:
     - /assets/floorplan-(clear).jpg
 exterior__fields:
   exterior__list:
-    - 'Fiber cement siding, from Jame Hardie.'
+    - 'Fiber cement siding, from James Hardie.'
     - 'Standing-seam metal roof.'
     - ''
     - ''
@@ -90,7 +90,7 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--heading: 'Living Room'
       two_column_content_grid__list--item--list:
         - 'Window seat / bench with built-in storage.'
-      '#hidden': false
+      '#hidden': true
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Bedroom
