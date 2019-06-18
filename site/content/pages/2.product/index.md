@@ -89,8 +89,8 @@ two_column_content_grid__fields:
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: 'Living Room'
       two_column_content_grid__list--item--list:
-        - 'Window seat / bench with built-in storage, with soft-close hinges.'
-      '#hidden': true
+        - 'Window seat / bench with built-in storage.'
+      '#hidden': false
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Bedroom
