@@ -67,7 +67,7 @@ two_column_content_grid__fields:
         - 'In-unit washer dryer, from Haier.'
         - 'Smart thermostat, from Nest.'
         - 'Smart door locks, from August.'
-      '#hidden': false
+      '#hidden': true
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Kitchen
@@ -99,7 +99,7 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--heading: Bedroom
       two_column_content_grid__list--item--list:
         - 'Custom bedroom wardrobe, with soft-close hinges.'
-      '#hidden': true
+      '#hidden': false
   two_column_content_grid__heading: Interior
   two_column_content_grid__subheading: 'Standard Internal Features:'
 image_grid_with_color_block__fields:
@@ -108,43 +108,43 @@ image_grid_with_color_block__fields:
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__heading: 'Turn-key furniture package:'
       image_grid_with_color_block__list--item__list:
-        - 'Queen mattress, from our friends at XXXX'
         - 'Dining table, from our friends at XXX'
-        - 'Sofa, from our friends at XXX'
-        - 'Coffee table, from our friends at XXX'
+        - 'Sofa, from our friends at Article'
+        - 'Coffee table, from our friends at Article.'
+        - 'Queen storage bed, from our friends at Ikea.'
+        - 'Queen mattress, from our friends at Casper.'
       '#hidden': true
     -
       type: image_grid_with_color_block__list--item
-      image_grid_with_color_block__list--item__heading: 'All-the-extras package:'
+      image_grid_with_color_block__list--item__heading: 'External upgrade options:'
       image_grid_with_color_block__list--item__list:
-        - 'Pots and pans, from our friends at XXX'
-        - 'Glassware, from our friends at XXX'
-        - 'Silverware, from our friends at XXX'
-        - 'Wall-mounted shelves, from our friends at XXX'
-        - 'Plants, from our friends at XXX'
-        - 'TV, from our friends at XXX'
+        - 'Natural stained cedar siding.'
+        - 'Stucco siding.'
+        - 'Swinging french entry doors, from Anderson.'
+        - '3 panel folding entry door, from La Cantina.'
+        - 'White framed windows, from Anderson.'
       '#hidden': true
     -
       type: image_grid_with_color_block__list--item
-      image_grid_with_color_block__list--item__heading: 'Premium materials:'
+      image_grid_with_color_block__list--item__heading: 'Internal upgrade options:'
       image_grid_with_color_block__list--item__list:
-        - 'Sub-zero and Wolf appliances - $15,000'
-        - 'Upgraded counter surfaces - $X,XXX'
-        - 'Upgraded faucets and handles - $X,XXX'
-        - '“Shou sugi ban” exterior siding - $X,XXX'
-      '#hidden': true
+        - 'Enhanced kitchen appliances, from Fisher & Paykel.'
+        - 'Enhanced kitchen appliances, from Sub-Zero and Wolf.'
+        - 'Washer/Dryer combo unit, from Blomberg.'
+        - 'Additional kitchen cabinetry for increased storage.'
+      '#hidden': false
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__heading: 'Solar:'
       image_grid_with_color_block__list--item__list:
-        - '2020 Zero Net Energy ready, in CA.'
+        - 'Solar PV panels installed.'
       '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__heading: 'Outdoor decking:'
       image_grid_with_color_block__list--item__list:
         - 'Details on decking to be added.'
-      '#hidden': false
+      '#hidden': true
   image_grid_with_color_block__first_image:
     - /assets/12.jpg
   image_grid_with_color_block__second_image:
