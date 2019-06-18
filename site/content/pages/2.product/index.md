@@ -46,7 +46,7 @@ abodu_450__fields:
     - /assets/floorplan-(clear).jpg
 exterior__fields:
   exterior__list:
-    - 'Fiber cement siding.'
+    - 'Fiber cement siding, from Jame Hardie.'
     - 'Standing-seam metal roof.'
     - ''
     - ''
@@ -62,22 +62,29 @@ two_column_content_grid__fields:
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Throughout
       two_column_content_grid__list--item--list:
+        - 'Fully waterproof engineered hardwood, from Mohawk.'
         - 'LED lighting.'
-        - 'Mini-split HVAC system.'
-        - 'In-unit washer dryer, from Haier.'
-        - 'Smart thermostat, from Nest.'
-        - 'Smart door locks, from August.'
+        - 'Mini-split HVAC system, from Panasonic.'
+        - 'Smart thermostat, from XXX.'
       '#hidden': true
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Kitchen
       two_column_content_grid__list--item--list:
-        - 'White quartz countertops.'
-        - 'White tile backsplash.'
-        - 'White and wood cabinets, with soft-close hinges.'
-        - 'Fisher and Paykel stainless-steel, electric appliances.'
+        - 'White quartz countertops and backsplash.'
+        - 'Flat panel door cabinets, with soft-close hinges.'
+        - 'Stainless-steel, electric appliances, from Whirlpool'
         - 'Matte black faucets from Moen.'
       '#hidden': true
+    -
+      type: two_column_content_grid__list--items
+      two_column_content_grid__list--item--heading: Bathroom
+      two_column_content_grid__list--item--list:
+        - 'Marble-textured shower enclosure.'
+        - 'Glass swinging shower door.'
+        - 'Matte black faucets throughout, from Moen.'
+        - 'Wall-mounted vanity.'
+      '#hidden': false
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: 'Living Room'
@@ -86,20 +93,10 @@ two_column_content_grid__fields:
       '#hidden': true
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--heading: Bathroom
-      two_column_content_grid__list--item--list:
-        - 'White tile flooring.'
-        - 'Marble-textured shower, from Kohler Choreograph.'
-        - 'Crittal-style, black-framed shower door.'
-        - 'Matte black faucets throughout from Moen.'
-        - 'Built-in wood vanity.'
-      '#hidden': true
-    -
-      type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Bedroom
       two_column_content_grid__list--item--list:
-        - 'Custom bedroom wardrobe, with soft-close hinges.'
-      '#hidden': false
+        - 'Built-in close wardrobe, with soft-close hinges.'
+      '#hidden': true
   two_column_content_grid__heading: Interior
   two_column_content_grid__subheading: 'Standard Internal Features:'
 image_grid_with_color_block__fields:
@@ -132,7 +129,7 @@ image_grid_with_color_block__fields:
         - 'Enhanced kitchen appliances, from Sub-Zero and Wolf.'
         - 'Washer/Dryer combo unit, from Blomberg.'
         - 'Additional kitchen cabinetry for increased storage.'
-      '#hidden': false
+      '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__heading: 'Solar:'
