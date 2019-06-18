@@ -74,8 +74,8 @@ two_column_content_grid__fields:
         - 'White quartz countertops and backsplash.'
         - 'Flat panel door cabinets, with soft-close hinges.'
         - 'Stainless-steel, electric appliances, from Whirlpool'
-        - 'Matte black faucets from Moen.'
-      '#hidden': true
+        - 'Matte black faucets, from Moen.'
+      '#hidden': false
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Bathroom
@@ -84,7 +84,7 @@ two_column_content_grid__fields:
         - 'Glass swinging shower door.'
         - 'Matte black faucets throughout, from Moen.'
         - 'Wall-mounted vanity.'
-      '#hidden': false
+      '#hidden': true
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: 'Living Room'
