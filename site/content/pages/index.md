@@ -17,7 +17,7 @@ what_we_do__fields:
   slider__title: 'Abodu 450'
   content_block_with_pattern__heading: 'What We Do'
   content_block_with_pattern__copy: |
-    Maniacally designed backyard homes. Built in factory, installed in less than 2 weeks. 
+    Maniacally designed backyard homes.<Br> Built in factory, installed in less than 2 weeks.<Br> 
     We do the heavy lifting so you don’t have to.
 photo_with_content_block__fields:
   photo_with_content_block__button:
