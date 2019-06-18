@@ -64,8 +64,8 @@ how_its_delivered__fields:
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: painless_purchase
       how_its_delivered__list--item__heading: 'Painless Purchase'
-      how_its_delivered__list--item__copy: 'Place a $1,000 deposit and we''ll conduct a feasibility study for you. If we can''t get a permit approved, you get that back. Need help with financing? We can provide that through our partner, XXXX. (Note - partner to be selected over the next ~2 months)'
-      '#hidden': true
+      how_its_delivered__list--item__copy: 'Place a $1,000 deposit and we''ll conduct a feasibility study for you. If we can''t get a permit approved, you get that back.'
+      '#hidden': false
   how_its_delivered__heading: 'How it''s delivered'
   how_its_delivered__subheading: 'Seamless Experience.'
   how_its_delivered__copy: 'We''ll take care all of the messy details like permitting that you shouldn''t have to think about.'
