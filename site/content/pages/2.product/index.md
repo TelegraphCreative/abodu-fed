@@ -41,7 +41,7 @@ abodu_450__fields:
   slider__title: 'Abodu 450'
   content_block_with_pattern__heading: 'Abodu 450'
   content_block_with_pattern__copy: '450 square feet of beautifully designed space, with our signature roof shape. The standard color palette is simple: white, wood, and black. Consider this our American interpretation of Scandinavian influence.'
-  product_specs__copy: '452 square feet. 14’ wide. 35’4” long. 11’ ceilings. 13.5’ structure height.'
+  product_specs__copy: '452 internal square feet. 14’ wide. 35’4” long. 11’ ceilings. 12.5’ structure height.'
   product_specs__image:
     - /assets/floorplan-(clear).jpg
 exterior__fields:
@@ -50,8 +50,8 @@ exterior__fields:
     - 'Standing-seam metal roof.'
     - ''
     - ''
-    - 'High efficiency windows, from Anderson.'
-    - 'Sliding patio door, from Anderson.'
+    - 'High efficiency windows, from Andersen.'
+    - 'Sliding patio door, from Andersen.'
   exterior__image:
     - /assets/2.jpg
   exterior__heading: Exterior
@@ -65,15 +65,15 @@ two_column_content_grid__fields:
         - 'Fully waterproof engineered hardwood, from Mohawk.'
         - 'LED lighting.'
         - 'Mini-split HVAC system, from Panasonic.'
-        - 'Smart thermostat, from XXX.'
+        - 'Smart thermostat, from Sensibo.'
       '#hidden': true
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Kitchen
       two_column_content_grid__list--item--list:
         - 'White quartz countertops and backsplash.'
-        - 'Flat panel door cabinets, with soft-close hinges.'
-        - 'Stainless-steel, electric appliances, from Whirlpool'
+        - 'Premium cabinetry, with soft-close hinges.'
+        - 'Stainless-steel, electric appliances, from Whirlpool.'
         - 'Matte black faucets, from Moen.'
       '#hidden': true
     -
@@ -95,8 +95,8 @@ two_column_content_grid__fields:
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Bedroom
       two_column_content_grid__list--item--list:
-        - 'Built-in close wardrobe, with soft-close hinges.'
-      '#hidden': true
+        - 'Built-in wardrobe closets, with soft-close hinges.'
+      '#hidden': false
   two_column_content_grid__heading: Interior
   two_column_content_grid__subheading: 'Standard Internal Features:'
 image_grid_with_color_block__fields:
@@ -105,8 +105,9 @@ image_grid_with_color_block__fields:
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__heading: 'Turn-key furniture package:'
       image_grid_with_color_block__list--item__list:
-        - 'Dining table, from our friends at XXX'
-        - 'Sofa, from our friends at Article'
+        - 'Dining table, from our friends at Hay.'
+        - 'Dining chairs, from our friends at Muuto.'
+        - 'Sofa, from our friends at Article.'
         - 'Coffee table, from our friends at Article.'
         - 'Queen storage bed, from our friends at Ikea.'
         - 'Queen mattress, from our friends at Casper.'
@@ -115,18 +116,18 @@ image_grid_with_color_block__fields:
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__heading: 'External upgrade options:'
       image_grid_with_color_block__list--item__list:
-        - 'Natural stained cedar siding.'
+        - 'Naturally-stained cedar siding.'
         - 'Stucco siding.'
-        - 'Swinging french entry doors, from Anderson.'
-        - '3 panel folding entry door, from La Cantina.'
-        - 'White framed windows, from Anderson.'
+        - 'French doors, from Andersen.'
+        - 'Premium, 3 panel folding door, from La Cantina.'
+        - 'White-framed windows, from Andersen.'
       '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__heading: 'Internal upgrade options:'
       image_grid_with_color_block__list--item__list:
-        - 'Enhanced kitchen appliances, from Fisher & Paykel.'
-        - 'Enhanced kitchen appliances, from Sub-Zero and Wolf.'
+        - 'Kitchen appliances, from Fisher & Paykel.'
+        - 'Kitchen appliances, from Sub-Zero and Wolf.'
         - 'Washer/Dryer combo unit, from Blomberg.'
         - 'Additional kitchen cabinetry for increased storage.'
       '#hidden': true
@@ -134,13 +135,14 @@ image_grid_with_color_block__fields:
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__heading: 'Solar:'
       image_grid_with_color_block__list--item__list:
-        - 'Solar PV panels installed.'
+        - 'Pre-installed solar panels, connection-ready.'
       '#hidden': true
     -
       type: image_grid_with_color_block__list--item
-      image_grid_with_color_block__list--item__heading: 'Outdoor decking:'
+      image_grid_with_color_block__list--item__heading: 'Decking and landscaping:'
       image_grid_with_color_block__list--item__list:
-        - 'Details on decking to be added.'
+        - 'Site-built decking, from one of our local partners.'
+        - 'Custom landscaping, from one of our local partners.'
       '#hidden': true
   image_grid_with_color_block__first_image:
     - /assets/12.jpg
