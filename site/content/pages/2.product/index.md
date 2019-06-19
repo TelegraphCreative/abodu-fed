@@ -46,11 +46,11 @@ abodu_450__fields:
     - /assets/floorplan-(clear).jpg
 exterior__fields:
   exterior__list:
-    - 'Fiber cement siding, from James Hardie.'
+    - 'Fiber-cement siding, from James Hardie.'
     - 'Standing-seam metal roof.'
     - ''
     - ''
-    - 'High efficiency windows, from Andersen.'
+    - 'High-efficiency windows, from Andersen.'
     - 'Sliding patio door, from Andersen.'
   exterior__image:
     - /assets/2.jpg
