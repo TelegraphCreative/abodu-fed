@@ -19,8 +19,8 @@ photo_with_content_block__fields:
     -
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'Quality materials- natural and industrial.'
-      photo_with_content_block__list--item--copy: 'From the way a window comes together at the seams, down to the way drawers close… quality and feel matters. We use high quality wood, aluminum, and metals throughout to create a distinct, yet comfortable look.'
-      '#hidden': true
+      photo_with_content_block__list--item--copy: 'From the way a window comes together at the seams, down to the way drawers close… quality and feel matters. We use high-quality wood and metals throughout to create a distinct, yet comfortable look.'
+      '#hidden': false
     -
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'Timeless and appealing aesthetic.'
@@ -96,7 +96,7 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--heading: Bedroom
       two_column_content_grid__list--item--list:
         - 'Built-in wardrobe closets, with soft-close hinges.'
-      '#hidden': false
+      '#hidden': true
   two_column_content_grid__heading: Interior
   two_column_content_grid__subheading: 'Standard Internal Features:'
 image_grid_with_color_block__fields:
