@@ -82,14 +82,14 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__heading: 'Deep Backyard'
       image_grid_with_color_block__list--item__copy: 'Our base price includes up to 50 ft of trenching each for water, waste and electric lines. Particularly large backyard? Good for you! We''ll be able to tell you how much extra that will cost.'
       image_grid_with_color_block__list--item__note: '$50 per additional linear foot'
-      '#hidden': true
+      '#hidden': false
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: electrical_panel_upgrade
       image_grid_with_color_block__list--item__heading: 'Electrical Panel Upgrade'
       image_grid_with_color_block__list--item__copy: 'If your home electrical panel is under 200 amps or has less than 85 amps of additional capacity, we''ll likely need to upgrade. Don''t worry, we''ll take care of it for you.'
       image_grid_with_color_block__list--item__note: '$7,500'
-      '#hidden': false
+      '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: sloped_lot
