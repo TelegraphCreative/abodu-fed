@@ -42,7 +42,7 @@ how_its_built__fields:
     - /assets/3.jpg
   how_its_built__heading: 'How It''s Built'
   how_its_built__subheading: 'A No-Compromise Product.'
-  how_its_built__copy: 'Tesla doesn''t manufacture cars in your driveway. We pair the latest technology with the industry''s best craftsmen (and craftswomen- looking at you, Briana) to build Abodu''s in our factory to the highest environmental standards. What that means: you get a premium product with higher quality materials, at a lower price. That’s our no-compromise approach.'
+  how_its_built__copy: 'Tesla doesn''t manufacture cars in your driveway. We pair the latest technology with the industry''s best craftsmen (and craftswomen- looking at you, Briana) to build Abodu''s in our factory to the highest environmental standards. What that means: you get a premium product with higher quality materials, at a lower price. <Br> That’s our no-compromise approach.'
 how_its_delivered__fields:
   how_its_delivered__button:
     url: /service
@@ -65,7 +65,7 @@ how_its_delivered__fields:
       how_its_delivered__list--item__icon: painless_purchase
       how_its_delivered__list--item__heading: 'Painless Purchase'
       how_its_delivered__list--item__copy: 'Place a $250 deposit and we''ll conduct a feasibility study for you. If we can''t get a permit approved, you get that back. Need help with financing? Our friends at Unison can help you utilize your home''s equity.'
-      '#hidden': false
+      '#hidden': true
   how_its_delivered__heading: 'How it''s delivered'
   how_its_delivered__subheading: 'Seamless Experience.'
   how_its_delivered__copy: 'We''ll take care all of the messy details like permitting that you shouldn''t have to think about.'
