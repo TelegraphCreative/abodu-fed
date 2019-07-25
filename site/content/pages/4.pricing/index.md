@@ -38,7 +38,7 @@ payment__fields:
       payment__schedule--block__number: '01'
       payment__schedule--block__heading: 'Home visit'
       payment__schedule--block__copy: 'We come meet you in person to check on a few things and ensure your backyard and Abodu are a great fit.'
-      '#hidden': false
+      '#hidden': true
       payment__schedule--block__payment: '$250 deposit'
     -
       type: payment__schedule--block
@@ -52,8 +52,8 @@ payment__fields:
       payment__schedule--block__number: '03'
       payment__schedule--block__heading: Construction
       payment__schedule--block__copy: 'Using the latest technology, we build your Abodu in our factory to the highest environmental standards.'
-      '#hidden': true
-      payment__schedule--block__payment: '45% Before'
+      '#hidden': false
+      payment__schedule--block__payment: '40% Before'
     -
       type: payment__schedule--block
       payment__schedule--block__number: '04'
@@ -66,13 +66,14 @@ payment__fields:
       payment__schedule--block__heading: 'Delivery & install'
       payment__schedule--block__copy: 'We get your Abodu from factory to your home and make sure install goes smooth and stress-free.'
       '#hidden': true
-      payment__schedule--block__payment: '45% Before'
+      payment__schedule--block__payment: '40% Before'
     -
       type: payment__schedule--block
       payment__schedule--block__number: '06'
       payment__schedule--block__heading: 'Final Handover'
       payment__schedule--block__copy: 'We walk you through your new Abodu and explain all the fun bells and whistles.'
       '#hidden': true
+      payment__schedule--block__payment: 10%
   payment__heading: 'Our Timeline & Payment Schedule'
 image_grid_with_color_block__fields:
   image_grid_with_color_block__list:
