@@ -52,7 +52,7 @@ how_its_delivered__fields:
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: 2_week_install
       how_its_delivered__list--item__heading: '2-Week Install'
-      how_its_delivered__list--item__copy: 'If you''re in one of our pilot locations where we''ve launched our proprietary permitting process, we can get you a permit in a matter of hours instead of months. In your backyard in less than 2 weeks, guaranteed.'
+      how_its_delivered__list--item__copy: 'If you''re in one of our pilot locations where we''ve launched our proprietary permitting process, we can get you a permit in a matter of hours instead of months. In your backyard for less than 2 weeks, guaranteed.'
       '#hidden': false
     -
       type: how_its_delivered__list--item
