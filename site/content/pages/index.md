@@ -64,7 +64,7 @@ how_its_delivered__fields:
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: painless_purchase
       how_its_delivered__list--item__heading: 'Painless Purchase'
-      how_its_delivered__list--item__copy: 'Place a $250 deposit and we''ll conduct a feasibility study for you. If we can''t get a permit approved, you get that back. <Br> Need help with financing? Our friends at Unison can help you utilize your home''s equity.'
+      how_its_delivered__list--item__copy: 'Place a $250 deposit and we''ll conduct a feasibility study for you. If we can''t get a permit approved, you get that back. <Br><Br> Need help with financing? Our friends at Unison can help you utilize your home''s equity.'
       '#hidden': false
   how_its_delivered__heading: 'How it''s delivered'
   how_its_delivered__subheading: 'Seamless Experience.'
