@@ -52,7 +52,7 @@ payment__fields:
       payment__schedule--block__number: '03'
       payment__schedule--block__heading: Construction
       payment__schedule--block__copy: 'Using the latest technology, we build your Abodu in our factory to the highest environmental standards.'
-      '#hidden': false
+      '#hidden': true
       payment__schedule--block__payment: '40% Before'
     -
       type: payment__schedule--block
@@ -94,10 +94,10 @@ image_grid_with_color_block__fields:
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: sloped_lot
-      image_grid_with_color_block__list--item__heading: 'Sloped Lot'
-      image_grid_with_color_block__list--item__copy: 'If you have a sloped lot, we''ll need to develop a flat building pad for your Abodu.'
+      image_grid_with_color_block__list--item__heading: 'Hazardous Soil Conditions'
+      image_grid_with_color_block__list--item__copy: 'If you live in an area where your land requires a specially engineered foundation, we''ll need to design one for your Abodu.'
       image_grid_with_color_block__list--item__note: 'We''ll bring in a partner to provide a quote.'
-      '#hidden': true
+      '#hidden': false
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: landscape_removal_or_repair
