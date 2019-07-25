@@ -58,14 +58,14 @@ how_its_delivered__fields:
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: a_better_foundation
       how_its_delivered__list--item__heading: 'A Better Foundation'
-      how_its_delivered__list--item__copy: 'What you don''t want: Concrete trucks in your backyard, ripping everything up and disrupting your neighbors. We''ll use helical piers that we over-engineered to meet nearly every soil condition, paired with a proprietary connection system that allows us to be in and out in a breeze.'
-      '#hidden': true
+      how_its_delivered__list--item__copy: 'Concrete foundations are costly, time-intensive and bad for the environment. When possible, we''ll use a proprietary foundation that can be installed in a few hours.'
+      '#hidden': false
     -
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: painless_purchase
       how_its_delivered__list--item__heading: 'Painless Purchase'
       how_its_delivered__list--item__copy: 'Place a $250 deposit and we''ll conduct a feasibility study for you. If we can''t get a permit approved, you get that back. <Br><Br> Need help with financing? Our friends at Unison can help you utilize your home''s equity.'
-      '#hidden': false
+      '#hidden': true
   how_its_delivered__heading: 'How it''s delivered'
   how_its_delivered__subheading: 'Seamless Experience.'
   how_its_delivered__copy: 'We''ll take care all of the messy details like permitting that you shouldn''t have to think about.'
