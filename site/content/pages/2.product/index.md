@@ -20,7 +20,7 @@ photo_with_content_block__fields:
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'Quality materials- natural and industrial.'
       photo_with_content_block__list--item--copy: 'From the way a window comes together at the seams, down to the way drawers close… quality and feel matters. We use high-quality wood and metals throughout to create a distinct, yet comfortable look.'
-      '#hidden': false
+      '#hidden': true
     -
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'Timeless and appealing aesthetic.'
@@ -38,10 +38,10 @@ abodu_450__fields:
     - /assets/1.jpg
     - /assets/4.jpg
     - /assets/6.jpg
-  slider__title: 'Abodu 450'
-  content_block_with_pattern__heading: 'Abodu 450'
-  content_block_with_pattern__copy: '450 square feet of beautifully designed space, with our signature roof shape. The standard color palette is simple: white, wood, and black. Consider this our American interpretation of Scandinavian influence.'
-  product_specs__copy: '452 internal square feet. 14’ wide. 35’4” long. 11’ ceilings. 12.5’ structure height.'
+  slider__title: 'Abodu 500'
+  content_block_with_pattern__heading: 'Abodu 500'
+  content_block_with_pattern__copy: '500 square feet of beautifully designed space, with our signature roof shape. The standard color palette is simple: white, wood, and black. Consider this our American interpretation of Scandinavian influence.'
+  product_specs__copy: '495 square feet. 14’ wide. 35’4” long. 11’ ceilings. 12.5’ structure height.'
   product_specs__image:
     - /assets/floorplan-(clear).jpg
 exterior__fields:
@@ -65,7 +65,7 @@ two_column_content_grid__fields:
         - 'Fully waterproof engineered hardwood, from Mohawk.'
         - 'LED lighting.'
         - 'Mini-split HVAC system, from Panasonic.'
-        - 'Smart thermostat, from Sensibo.'
+        - 'Smart thermostat, from Honeywell.'
       '#hidden': true
     -
       type: two_column_content_grid__list--items
@@ -89,14 +89,14 @@ two_column_content_grid__fields:
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: 'Living Room'
       two_column_content_grid__list--item--list:
-        - 'Window seat / bench with built-in storage.'
+        - 'Window bench with built-in storage.'
       '#hidden': true
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Bedroom
       two_column_content_grid__list--item--list:
         - 'Built-in wardrobe closets, with soft-close hinges.'
-      '#hidden': true
+      '#hidden': false
   two_column_content_grid__heading: Interior
   two_column_content_grid__subheading: 'Standard Internal Features:'
 image_grid_with_color_block__fields:
