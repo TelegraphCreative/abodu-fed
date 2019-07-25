@@ -42,7 +42,7 @@ how_its_built__fields:
     - /assets/3.jpg
   how_its_built__heading: 'How It''s Built'
   how_its_built__subheading: 'A No-Compromise Product.'
-  how_its_built__copy: 'Tesla doesn''t manufacture cars in your driveway. We pair the latest technology with the industry''s best craftsmen (and craftswomen- looking at you, Briana) to build Abodu''s in our factory to the highest environmental standards. What that means: you get a premium product with higher quality materials, at a lower price. <Br> That’s our no-compromise approach.'
+  how_its_built__copy: 'Tesla doesn''t manufacture cars in your driveway. We pair the latest technology with the industry''s best craftspeople to build Abodu''s in our factory to the highest environmental standards. What that means: you get a premium product with higher quality materials, at a lower price. <Br> That’s our no-compromise approach.'
 how_its_delivered__fields:
   how_its_delivered__button:
     url: /service
