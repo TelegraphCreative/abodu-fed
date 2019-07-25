@@ -52,14 +52,14 @@ how_its_delivered__fields:
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: 2_week_install
       how_its_delivered__list--item__heading: '2-Week Install'
-      how_its_delivered__list--item__copy: 'We''ve worked with cities to re-engineer the permitting process from the ground up. If you''re in one of our initial pilot locations, we can get a permit in a matter of hours instead of months. We''ll be in your backyard in less than 2 weeks, guaranteed.'
-      '#hidden': true
+      how_its_delivered__list--item__copy: 'If you''re in one of our pilot locations where we''ve launched our proprietary permitting process, we can get you a permit in a matter of hours instead of months. In your backyard in less than 2 weeks, guaranteed.'
+      '#hidden': false
     -
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: a_better_foundation
       how_its_delivered__list--item__heading: 'A Better Foundation'
       how_its_delivered__list--item__copy: 'Concrete foundations are costly, time-intensive and bad for the environment. When possible, we''ll use a proprietary foundation that can be installed in a few hours.'
-      '#hidden': false
+      '#hidden': true
     -
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: painless_purchase
@@ -68,7 +68,7 @@ how_its_delivered__fields:
       '#hidden': true
   how_its_delivered__heading: 'How it''s delivered'
   how_its_delivered__subheading: 'Seamless Experience.'
-  how_its_delivered__copy: 'We''ll take care all of the messy details like permitting that you shouldn''t have to think about.'
+  how_its_delivered__copy: 'We manage the process from start to finish - you shouldn''t have to think about the messy details.'
 color_block__fields:
   color_block__button:
     url: /pricing
