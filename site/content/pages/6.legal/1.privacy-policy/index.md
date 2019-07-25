@@ -1,19 +1,6 @@
 hero__heading: 'Privacy Policy'
 hero__subheading: 'Subheading about Our Privacy Policy'
 document__text: |
-  # Heading
-  We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore! What do they got in there? King Kong? You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager?
-  
-  Eventually, you do plan to have dinosaurs on your dinosaur tour, right? Eventually, you do plan to have dinosaurs on your dinosaur tour, right? God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. Checkmate...
-  
-  ## Another Heading
-  What do they got in there? King Kong? Hey, take a look at the earthlings. Goodbye! I was part of something special. Hey, take a look at the earthlings. Goodbye! Forget the fat lady! You're obsessed with the fat lady! Drive us out of here! This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows.
-  
-  Jaguar shark! So tell me - does it really exist? Jaguar shark! So tell me - does it really exist? God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. I was part of something special. God help us, we're in the hands of engineers.
-  
-  We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore! What do they got in there? King Kong? I gave it a cold? I gave it a virus. A computer virus.
-  
-  
   #1. What is this document?
   
   This Privacy Policy (this “Privacy Policy”) governs the manner in which Abodu, Inc., together with its affiliates and subsidiaries (collectively, “Abodu”) and Third-Party Providers (as defined below) (together with Abodu, “we”, “our”, or “us”), may collect, use, disclose, and protect your Personal Information (as defined below) gathered or provided through our websites, applications, products, services, and devices (collectively, the “Services”), and through the applications and devices of third parties. This Privacy Policy applies to any Services to which this Privacy Policy is referenced or linked.
