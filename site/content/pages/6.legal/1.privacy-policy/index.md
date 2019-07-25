@@ -147,7 +147,7 @@ document__text: |
   
   © 2017, Abodu, Inc. or its affiliates. All product names, logos, and brands are property of their respective owners. All company, product, and service names used in this website are for identification purposes only. Use of these names, logos, and brands does not imply endorsement.
   
-  Last Updated: June 6, 2019
+  Last Updated: July 24, 2019
 document_teext: |
   # Heading 1
   We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore! What do they got in there? King Kong? You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager?
