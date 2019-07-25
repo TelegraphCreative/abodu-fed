@@ -14,7 +14,7 @@ what_we_do__fields:
     - /assets/1.jpg
     - /assets/4.jpg
     - /assets/6.jpg
-  slider__title: 'Abodu 450'
+  slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'What We Do'
   content_block_with_pattern__copy: |
     Maniacally designed backyard homes.<Br> Built in factory, installed in less than 2 weeks.<Br> 
@@ -53,7 +53,7 @@ how_its_delivered__fields:
       how_its_delivered__list--item__icon: 2_week_install
       how_its_delivered__list--item__heading: '2-Week Install'
       how_its_delivered__list--item__copy: 'If you''re in one of our pilot locations where we''ve launched our proprietary permitting process, we can get you a permit in a matter of hours instead of months. In your backyard for less than 2 weeks, guaranteed.'
-      '#hidden': false
+      '#hidden': true
     -
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: a_better_foundation
