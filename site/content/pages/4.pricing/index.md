@@ -22,7 +22,7 @@ photo_with_content_block__fields:
   photo_with_content_block__image:
     - /assets/2.jpg
   photo_with_content_block__heading: 'Straightforward Cost'
-  photo_with_content_block__subheading: 'Base price starts at $180,000.'
+  photo_with_content_block__subheading: 'Base price starts at $199,000.'
   photo_with_content_block__copy: 'This includes the following:'
 content_block_with_pattern__fields:
   content_block_with_pattern__toggle: true
@@ -97,7 +97,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__heading: 'Hazardous Soil Conditions'
       image_grid_with_color_block__list--item__copy: 'If you live in an area where your land requires a specially engineered foundation, we''ll design one for your Abodu.'
       image_grid_with_color_block__list--item__note: 'We''ll bring in a partner to provide a quote.'
-      '#hidden': false
+      '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: landscape_removal_or_repair
