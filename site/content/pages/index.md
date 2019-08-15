@@ -75,7 +75,7 @@ color_block__fields:
     text: 'View Pricing'
   color_block__heading: 'What it costs'
   color_block__subheading: 'Straightforward Pricing.'
-  color_block__copy: 'Our simple pricing starts at $199,000, which includes everything- permitting, build, and install. We''ll guarantee you the price before any contracts are signed.'
+  color_block__copy: 'Our simple, guaranteed pricing starts at $199,000, which includes everything- permitting, build, and install.'
 cta__fields:
   cta__button:
     url: /contact-us
