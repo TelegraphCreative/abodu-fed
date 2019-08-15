@@ -79,14 +79,14 @@ why_abodu__two_column_content_grid__fields:
   two_column_content_grid__list:
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--copy: 'We''re not the only company who can build an ADU - a general contractor will be happy to do that for you. But first you''ll need to make multiple decisions around design, architecture and engineering. That process is painful, but we''ve done all of that for you.'
+      two_column_content_grid__list--item--copy: 'We''re not the only company who can build an ADU - a general contractor will be happy to do that for you. But first you''ll need to make multiple decisions around design, architecture and engineering. That process is painful, but we''ve done all of that for you. Abodu builds you a product that you''ll be proud to have in your backyard.'
       two_column_content_grid__list--item--button:
         url: /product
         text: 'Our Products'
       '#hidden': true
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--copy: 'Abodu builds you a product that you''ll be proud to have in your backyard. Because of our standardized factory production, your Abodu costs half of a traditional on-site builder, and is delivered months sooner. We will only be in your backyard for 2 weeks, instead of 4-8 months.'
+      two_column_content_grid__list--item--copy: 'Abodu''s process is simple, fast and transparent, at a price that is extremely competitive with traditional contractors. We will only be in your backyard for 2 weeks, instead of 4-8 months.'
       two_column_content_grid__list--item--button:
         url: /service
         text: 'Our Services'
