@@ -74,7 +74,7 @@ image_grid_with_color_block__fields:
   image_grid_with_color_block__third_image:
     - /assets/1.jpg
   image_grid_with_color_block__heading: 'Benefits for renters'
-  image_grid_with_color_block__subheading: 'An Abodu makes a great rental'
+  image_grid_with_color_block__subheading: 'An Abodu makes a great rental.'
 why_abodu__two_column_content_grid__fields:
   two_column_content_grid__list:
     -
