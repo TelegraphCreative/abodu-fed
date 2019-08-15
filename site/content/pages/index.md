@@ -53,7 +53,7 @@ how_its_delivered__fields:
       how_its_delivered__list--item__icon: 2_week_install
       how_its_delivered__list--item__heading: '2-Week Install'
       how_its_delivered__list--item__copy: 'In select cities, Abodu Concierge can get you a permit in a matter of hours instead of months. Either way, we''ll be in your backyard for less than 2 weeks, guaranteed.'
-      '#hidden': false
+      '#hidden': true
     -
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: a_better_foundation
@@ -75,7 +75,7 @@ color_block__fields:
     text: 'View Pricing'
   color_block__heading: 'What it costs'
   color_block__subheading: 'Straightforward Pricing.'
-  color_block__copy: 'Our simple, flat pricing starts at $199,000, which includes everything- permitting, build, and install.'
+  color_block__copy: 'Our simple pricing starts at $199,000, which includes everything- permitting, build, and install. We''ll guarantee you the price before any contracts are signed.'
 cta__fields:
   cta__button:
     url: /contact-us
