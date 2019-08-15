@@ -27,9 +27,9 @@ photo_with_content_block__fields:
     - /assets/4.jpg
   photo_with_content_block__heading: 'How It Feels'
   photo_with_content_block__subheading: 'Timeless, Considered Design.'
-  photo_with_content_block__copy: 'Turns out, Americans aren''t historically world-class at designing small spaces… so we had to enlist the help of our Scandinavian friends. Together, we''ve spent thousands of hours poring over every inch of your Abodu to make sure it''s just-right, so that you don''t have to. All you need to do is select your finishes, and tell us where you want it.'
-  photo_with_content_block__quote: 'Customer or review quote. We’ve spent thousands of hours designing every inch of an Abodu to ensure each aspect is deliberate and with purpose so you don’t have to... All you need to do is select a color, and any upgrades'
-  photo_with_content_block__quoted: 'Jane Smitherson'
+  photo_with_content_block__copy: 'With the help of our Scandinavian architects, we''ve spent thousands of hours poring over every inch of your Abodu to make sure it''s the just-right small space. All you need to do is select your finishes, and tell us where you want it.'
+  photo_with_content_block__quote: 'Abodu is the perfect living space. We collaborated with Abodu to marry our award winning small space design expertise with California''s coastal influence to develop a backyard home that is both beautiful and functional.'
+  photo_with_content_block__quoted: 'Jonathon Little, Koto Design (formerly of Snohetta)'
 how_its_built__fields:
   how_its_built__button:
     url: /product
