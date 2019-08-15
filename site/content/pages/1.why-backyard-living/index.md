@@ -14,7 +14,7 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--list:
         - 'A place to stay for visiting friends and family.'
         - 'Allow yourself to age-in-place, or house a live-in-nurse.'
-        - 'A place for your post-grad, that''s not technically under the same roof.'
+        - 'A place for your post-grad...that''s not under the same roof.'
         - 'A place for your nanny, or an Au Pair.'
         - 'A home office, a home gym, or a home studio.'
         - 'The possibilities are endless — it’s your Abodu, it’s your space.'
@@ -28,20 +28,20 @@ two_column_content_grid__fields:
         - 'Need financing? Even after financing costs, most homeowners net more than $1,000 per month from ADU rentals.'
         - 'Want even more? Move into the ADU, and rent out your main home.'
         - 'Contact us to receive a personalized rental estimate for your area.'
-      '#hidden': false
+      '#hidden': true
       two_column_content_grid__list--item--copy: 'The Bay Area is a high-rent market. You know that.'
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: 'Increased Home Value'
       two_column_content_grid__list--item--list: {  }
       '#hidden': true
-      two_column_content_grid__list--item--copy: 'By exactly how much is up for debate, but people generally agree it''s significantly more than the cost of construction. We''ve done our best to quantify this for you.'
+      two_column_content_grid__list--item--copy: 'By exactly how much is up for debate, but people generally agree it''s significantly more than the cost of construction. We''ve done our best to estimate this for you below.'
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--heading: 'That Warm & Fuzzy Feeling'
+      two_column_content_grid__list--item--heading: 'Community Benefits'
       two_column_content_grid__list--item--list: {  }
-      '#hidden': true
-      two_column_content_grid__list--item--copy: 'Either way, you''ll help do your part to solve the local housing crisis. Want to go even further? Talk to us about how you can help house someone who needs it most.'
+      '#hidden': false
+      two_column_content_grid__list--item--copy: 'Adding livable space will help solve the local housing crisis. Want to go even further? Talk to us about how you can help house someone who needs it most.'
   two_column_content_grid__heading: 'Benefits for homeowners'
   two_column_content_grid__intro: 'Backyard homes add value and flexibility to your property.'
 image_grid_with_color_block__fields:
