@@ -42,7 +42,7 @@ how_its_built__fields:
     - /assets/3.jpg
   how_its_built__heading: 'How It''s Built'
   how_its_built__subheading: 'Premium Materials, Dependable Quality.'
-  how_its_built__copy: 'We pair the latest technology with the industry''s best craftspeople to build backyard homes in our factory to the highest environmental standards. This means you get a premium product with higher quality materials, at a lower price.'
+  how_its_built__copy: 'We pair the latest technology with the industry''s best craftspeople to build backyard homes in our factory to the highest environmental standards. You get a premium product with higher quality materials, at a lower price.'
 how_its_delivered__fields:
   how_its_delivered__button:
     url: /service
