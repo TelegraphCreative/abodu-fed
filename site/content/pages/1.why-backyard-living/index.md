@@ -83,7 +83,7 @@ why_abodu__two_column_content_grid__fields:
       two_column_content_grid__list--item--button:
         url: /product
         text: 'Our Products'
-      '#hidden': false
+      '#hidden': true
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--copy: 'Abodu''s process is simple, fast and transparent, at a price that is extremely competitive with traditional contractors. We will only be in your backyard for 2 weeks, instead of 4-8 months.'
@@ -98,7 +98,7 @@ photo_with_content_block__fields:
     - /assets/5.jpg
   photo_with_content_block__heading: 'California, here we come.'
   photo_with_content_block__subheading: 'Recently Legalized in California.'
-  photo_with_content_block__copy: 'In 2017, California enacted statewide legislation on ADUs to make them legal and remove most fees. This recognized ADUs as a much-needed tool to help solve the California housing crisis, particularly in the SF Bay Area, where 1 housing unit has been added for every 12 jobs added since 2010. Oh, and for you California homeowners thinking about Prop 13 - it won''t trigger an increase on your property tax basis for your main home.'
+  photo_with_content_block__copy: 'In 2017, California enacted statewide legislation on ADUs to make them legal and remove most fees. This recognized backyard homes as a much-needed tool to help solve the California housing crisis. And for any California homeowners thinking about Prop 13 - it won''t trigger an increase on your property tax basis for your main home, just the improvement value.'
 cta__fields:
   cta__button:
     url: /product
