@@ -18,7 +18,7 @@ what_we_do__fields:
   content_block_with_pattern__heading: 'What We Do'
   content_block_with_pattern__copy: |
     No-compromise backyard homes.<Br> Easy install - 2 weeks in your backyard.<Br> 
-    Increase your home's value and functionality.
+    Expand your home's value and livable space.
 photo_with_content_block__fields:
   photo_with_content_block__button:
     url: 'https://google.com'
