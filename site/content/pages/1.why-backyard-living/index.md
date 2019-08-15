@@ -40,10 +40,10 @@ two_column_content_grid__fields:
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: 'Community Benefits'
       two_column_content_grid__list--item--list: {  }
-      '#hidden': false
+      '#hidden': true
       two_column_content_grid__list--item--copy: 'Adding livable space will help solve the local housing crisis. Want to go even further? Talk to us about how you can help house someone who needs it most.'
   two_column_content_grid__heading: 'Benefits for homeowners'
-  two_column_content_grid__intro: 'Backyard homes add value and flexibility to your property.'
+  two_column_content_grid__intro: 'An Abodu adds value and flexibility to your property.'
 image_grid_with_color_block__fields:
   image_grid_with_color_block__list:
     -
@@ -74,7 +74,7 @@ image_grid_with_color_block__fields:
   image_grid_with_color_block__third_image:
     - /assets/1.jpg
   image_grid_with_color_block__heading: 'Benefits for renters'
-  image_grid_with_color_block__subheading: 'If you rent out your Abodu, you''ll make someone very happy.'
+  image_grid_with_color_block__subheading: 'An Abodu makes a great rental'
 why_abodu__two_column_content_grid__fields:
   two_column_content_grid__list:
     -
