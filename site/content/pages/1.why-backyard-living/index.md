@@ -79,7 +79,7 @@ why_abodu__two_column_content_grid__fields:
   two_column_content_grid__list:
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--copy: 'We''re not the only company who can build an ADU - a general contractor will be happy to do that for you. But first you''ll need to make multiple decisions around design, architecture and engineering. That process is painful - but we''ve already gone designed the perfect backyard home. You''ll be proud to have an Abodu in your backyard.'
+      two_column_content_grid__list--item--copy: 'We''re not the only company who can build an ADU - a general contractor will be happy to do that for you. But first you''ll need to make multiple decisions around design, architecture and engineering. That process is painful - but we''ve already designed the perfect backyard home. You''ll be proud to have an Abodu in your backyard.'
       two_column_content_grid__list--item--button:
         url: /product
         text: 'Our Products'
