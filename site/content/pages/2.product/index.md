@@ -1,5 +1,5 @@
 hero__heading: 'Our Product'
-hero__subheading: 'A timeless backyard home <br> design - without compromising <br>quality or space.'
+hero__subheading: 'A timeless backyard home design — without compromising <br>quality or space.'
 hero__image: /assets/7.jpg
 photo_with_content_block__fields:
   photo_with_content_block__button:
