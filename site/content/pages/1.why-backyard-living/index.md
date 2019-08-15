@@ -42,7 +42,7 @@ two_column_content_grid__fields:
       '#hidden': true
       two_column_content_grid__list--item--copy: 'Either way, you''ll help do your part to solve the local housing crisis. Want to go even further? Talk to us about how you can help house someone who needs it most.'
   two_column_content_grid__heading: 'Benefits for homeowners'
-  two_column_content_grid__intro: 'We take care everything for you, so it’s no more complicated than buying a consumer product, and selecting a delivery date.'
+  two_column_content_grid__intro: 'Backyard homes add value and flexibility to your property.'
 image_grid_with_color_block__fields:
   image_grid_with_color_block__list:
     -
