@@ -1,5 +1,5 @@
 hero__heading: 'Our Product'
-hero__subheading: 'A timeless and appealing ADU<br>  design — without compromising quality or space.'
+hero__subheading: 'A timeless backyard home design'
 hero__image: /assets/7.jpg
 photo_with_content_block__fields:
   photo_with_content_block__button:
@@ -96,7 +96,7 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--heading: Bedroom
       two_column_content_grid__list--item--list:
         - 'Built-in wardrobe closets, with soft-close hinges.'
-      '#hidden': false
+      '#hidden': true
   two_column_content_grid__heading: Interior
   two_column_content_grid__subheading: 'Standard Internal Features:'
 image_grid_with_color_block__fields:
