@@ -14,8 +14,8 @@ photo_with_content_block__fields:
     -
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'Standardized design, with custom options.'
-      photo_with_content_block__list--item--copy: 'You want a few options, but you don''t want to be expected to design from scratch. Just select from our color and finish packages.'
-      '#hidden': true
+      photo_with_content_block__list--item--copy: 'Enough customization to make your Abodu yours. Select from our color and finish packages.'
+      '#hidden': false
     -
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'Quality materials- natural and industrial.'
