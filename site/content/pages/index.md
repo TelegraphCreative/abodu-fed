@@ -17,8 +17,8 @@ what_we_do__fields:
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'What We Do'
   content_block_with_pattern__copy: |
-    No compromise backyard homes.<Br> Installed with ease in less than 2 weeks.<Br> 
-    Increase your home's value with unparalleled functionality.
+    No-compromise backyard homes.<Br> Easy install - 2 weeks in your backyard.<Br> 
+    Increase your home value with unparalleled functionality.
 photo_with_content_block__fields:
   photo_with_content_block__button:
     url: 'https://google.com'
