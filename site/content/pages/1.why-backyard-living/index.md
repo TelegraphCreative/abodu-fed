@@ -1,9 +1,9 @@
 hero__heading: 'Why Backyard Living?'
 hero__subheading: 'Upgrade your backyard.'
 hero__copy: |
-  Over the past few decades, we have failed to build affordable housing in-line with our growing metro populations. We need more density in urban areas, but most of the accessible land is taken up by single family homes. However, there is a new and growing movement to add density within the space homeowners already possess through the addition of Accessory Dwelling Units (ADUs).
+  Over the past few decades, we haven't built housing to keep up with our growing populations. Part of the solution is a new and growing movement to add backyard homes, also called Accessory Dwelling Units (ADUs).
   
-  Where US cities previously made it illegal or cost-prohibitive to add an ADU, many have begun to roll back theses barriers to encourage such additions. Ultimately, this will help cities meet population demand for housing and provide countless benefits for homeowners.
+  Many areas have recently made it legal and easy for homeowners to add backyard homes to their property. Ultimately, this will help cities meet population demand for housing and provide countless benefits for homeowners.
 hero__image: /assets/4.jpg
 model_number: '450'
 two_column_content_grid__fields:
@@ -89,7 +89,7 @@ why_abodu__two_column_content_grid__fields:
       two_column_content_grid__list--item--button:
         url: /service
         text: 'Our Services'
-      '#hidden': false
+      '#hidden': true
   two_column_content_grid__heading: 'How We''ll Help'
   two_column_content_grid__subheading: '“Why Abodu?”'
 photo_with_content_block__fields:
