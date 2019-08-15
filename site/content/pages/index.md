@@ -41,7 +41,7 @@ how_its_built__fields:
   image_grid__image_three:
     - /assets/3.jpg
   how_its_built__heading: 'How It''s Built'
-  how_its_built__subheading: 'Constructed from the Best Materials.'
+  how_its_built__subheading: 'Premium Materials, Dependable Quality.'
   how_its_built__copy: 'Tesla doesn''t manufacture cars in your driveway. We pair the latest technology with the industry''s best craftspeople to build Abodu''s in our factory to the highest environmental standards. What that means: you get a premium product with higher quality materials, at a lower price. That’s our no-compromise approach.'
 how_its_delivered__fields:
   how_its_delivered__button:
