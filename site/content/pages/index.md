@@ -52,8 +52,8 @@ how_its_delivered__fields:
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: 2_week_install
       how_its_delivered__list--item__heading: '2-Week Install'
-      how_its_delivered__list--item__copy: 'In one of our pilot locations where we''ve launched Abodu Concierge permitting? We can get you a permit in a matter of hours instead of months. Either way, we''ll be in your backyard for less than 2 weeks, guaranteed.'
-      '#hidden': true
+      how_its_delivered__list--item__copy: 'In select cities, Abodu Concierge can get you a permit in a matter of hours instead of months. Either way, we''ll be in your backyard for less than 2 weeks, guaranteed.'
+      '#hidden': false
     -
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: a_better_foundation
@@ -65,7 +65,7 @@ how_its_delivered__fields:
       how_its_delivered__list--item__icon: painless_purchase
       how_its_delivered__list--item__heading: 'Painless Purchase'
       how_its_delivered__list--item__copy: 'Need help with financing? Our exclusive partners can help you choose from a menu of flexible options, whether you want to put $0 down or pay entirely up front,'
-      '#hidden': false
+      '#hidden': true
   how_its_delivered__heading: 'How it''s delivered'
   how_its_delivered__subheading: 'Seamless Experience.'
   how_its_delivered__copy: 'We manage the process from start to finish - you shouldn''t have to think about the messy details.'
