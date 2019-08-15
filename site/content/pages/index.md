@@ -52,20 +52,20 @@ how_its_delivered__fields:
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: 2_week_install
       how_its_delivered__list--item__heading: '2-Week Install'
-      how_its_delivered__list--item__copy: 'If you''re in one of our pilot locations where we''ve launched our proprietary permitting process, we can get you a permit in a matter of hours instead of months. In your backyard for less than 2 weeks, guaranteed.'
+      how_its_delivered__list--item__copy: 'In one of our pilot locations where we''ve launched Abodu Concierge permitting? We can get you a permit in a matter of hours instead of months. Either way, we''ll be in your backyard for less than 2 weeks, guaranteed.'
       '#hidden': true
     -
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: a_better_foundation
       how_its_delivered__list--item__heading: 'A Better Foundation'
-      how_its_delivered__list--item__copy: 'Concrete foundations are costly, time-intensive and bad for the environment. When possible, we''ll use a proprietary foundation that can be installed in a few hours.'
+      how_its_delivered__list--item__copy: 'When possible, we''ll use a minimally-invasive, concrete-less foundation that can be installed in a few hours.'
       '#hidden': true
     -
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: painless_purchase
       how_its_delivered__list--item__heading: 'Painless Purchase'
-      how_its_delivered__list--item__copy: 'Place a $250 deposit and we''ll conduct a feasibility study for you. If we can''t get a permit approved, you get that back. <Br><Br> Need help with financing? Our friends at Unison can help you utilize your home''s equity.'
-      '#hidden': true
+      how_its_delivered__list--item__copy: 'Need help with financing? Our exclusive partners can help you choose from a menu of flexible options, whether you want to put $0 down or pay entirely up front,'
+      '#hidden': false
   how_its_delivered__heading: 'How it''s delivered'
   how_its_delivered__subheading: 'Seamless Experience.'
   how_its_delivered__copy: 'We manage the process from start to finish - you shouldn''t have to think about the messy details.'
