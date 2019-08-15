@@ -29,7 +29,7 @@ photo_with_content_block__fields:
   photo_with_content_block__subheading: 'Timeless, Considered Design.'
   photo_with_content_block__copy: 'With the help of our Scandinavian architects, we''ve spent thousands of hours poring over every inch of your Abodu to make sure it''s the just-right small space. All you need to do is select your finishes, and tell us where you want it.'
   photo_with_content_block__quote: 'Abodu is the perfect living space. We collaborated with Abodu to marry our award winning small space design expertise with California''s coastal influence to develop a backyard home that is both beautiful and functional.'
-  photo_with_content_block__quoted: 'Jonathon Little, Koto Design (formerly of Snohetta)'
+  photo_with_content_block__quoted: 'Johnathon Little, Koto Design (formerly of Snohetta)'
 how_its_built__fields:
   how_its_built__button:
     url: /product
@@ -41,7 +41,7 @@ how_its_built__fields:
   image_grid__image_three:
     - /assets/3.jpg
   how_its_built__heading: 'How It''s Built'
-  how_its_built__subheading: 'A No-Compromise Product.'
+  how_its_built__subheading: 'Constructed from the Best Materials.'
   how_its_built__copy: 'Tesla doesn''t manufacture cars in your driveway. We pair the latest technology with the industry''s best craftspeople to build Abodu''s in our factory to the highest environmental standards. What that means: you get a premium product with higher quality materials, at a lower price. That’s our no-compromise approach.'
 how_its_delivered__fields:
   how_its_delivered__button:
