@@ -13,11 +13,11 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--heading: 'Extra space'
       two_column_content_grid__list--item--list:
         - 'A place to stay for visiting friends and family.'
-        - 'A home office, a home gym, or a home studio.'
-        - 'A place for your nanny, or an Au Pair.'
-        - 'A place for your post-grad, that''s not technically under the same roof.'
         - 'Allow yourself to age-in-place, or house a live-in-nurse.'
-        - 'The possibilities are endless — it’s your Abodu, it’s your unique space.'
+        - 'A place for your post-grad, that''s not technically under the same roof.'
+        - 'A place for your nanny, or an Au Pair.'
+        - 'A home office, a home gym, or a home studio.'
+        - 'The possibilities are endless — it’s your Abodu, it’s your space.'
       '#hidden': true
       two_column_content_grid__list--item--copy: 'More square feet means more options:'
     -
@@ -27,7 +27,7 @@ two_column_content_grid__fields:
         - 'Need financing? Even after financing costs, most homeowners net more than $1,000 per month from ADU rentals.'
         - 'Have savings or home equity? Expect to net more than $2,000 per month.'
         - 'Want even more? Move into the ADU, and rent out your main home.'
-      '#hidden': true
+      '#hidden': false
       two_column_content_grid__list--item--copy: 'If you''re in one of our initial pilot locations, you live in a high-rent market. You know that.'
     -
       type: two_column_content_grid__list--items
