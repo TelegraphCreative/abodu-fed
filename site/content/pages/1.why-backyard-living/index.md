@@ -28,7 +28,7 @@ two_column_content_grid__fields:
         - 'Have savings or home equity? Expect to net more than $2,000 per month.'
         - 'Want even more? Move into the ADU, and rent out your main home.'
       '#hidden': false
-      two_column_content_grid__list--item--copy: 'If you''re in one of our initial pilot locations, you live in a high-rent market. You know that.'
+      two_column_content_grid__list--item--copy: 'The Bay Area is a high-rent market. You know that.'
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: 'Increased Home Value'
