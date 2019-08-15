@@ -1,7 +1,7 @@
 hero__heading: 'Why Backyard Living?'
 hero__subheading: 'Upgrade your backyard.'
 hero__copy: |
-  Over the past few decades, we haven't built housing to keep up with our growing populations. Part of the solution is a new and growing movement to add backyard homes, also called Accessory Dwelling Units (ADUs).
+  Over the past few decades, we haven't built enough housing to keep up with our growing populations. Part of the solution is a new and growing movement to add backyard homes, also called Accessory Dwelling Units (ADUs).
   
   Many areas have recently made it legal and easy for homeowners to add backyard homes to their property. Ultimately, this will help cities meet population demand for housing and provide countless benefits for homeowners.
 hero__image: /assets/4.jpg
