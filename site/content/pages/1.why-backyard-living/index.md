@@ -24,9 +24,10 @@ two_column_content_grid__fields:
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: 'Passive Income from Rentals'
       two_column_content_grid__list--item--list:
-        - 'Need financing? Even after financing costs, most homeowners net more than $1,000 per month from ADU rentals.'
         - 'Have savings or home equity? Expect to net more than $2,000 per month.'
+        - 'Need financing? Even after financing costs, most homeowners net more than $1,000 per month from ADU rentals.'
         - 'Want even more? Move into the ADU, and rent out your main home.'
+        - 'Contact us to receive a personalized rental estimate for your area.'
       '#hidden': false
       two_column_content_grid__list--item--copy: 'The Bay Area is a high-rent market. You know that.'
     -
