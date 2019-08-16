@@ -11,7 +11,7 @@ photo_with_content_block__fields:
     text: 'Have a Look Around'
   photo_with_content_block__copy_list:
     - 'Site evaluation'
-    - 'Permitting services (including city approval fees up to $5,000)'
+    - 'Permitting services (including approval fees up to $5,000)'
     - 'Completed Abodu (including finishes & appliances)'
     - 'All site work (foundation, trenching, utility tie-in)'
     - 'Delivery from our factory'
