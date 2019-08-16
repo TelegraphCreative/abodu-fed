@@ -16,7 +16,7 @@ accordian__fields:
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'Common frustrations:'
           accordian__sections__section__item--copy: 'Living with a noisy construction crew in your backyard for 4+ months is no fun. For you, or your neighbors.'
-          '#hidden': false
+          '#hidden': true
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
@@ -36,9 +36,9 @@ accordian__fields:
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
-          accordian__sections__section__item--copy: 'End to end project management and no-sweat permitting. We''ll take care of everything for you. If we can''t get a permit, you get your money back.'
+          accordian__sections__section__item--copy: 'End-to-end project management and no-sweat permitting. We''ll take care of everything for you. If we can''t get a permit, you get your money back.'
           '#hidden': false
-      '#hidden': false
+      '#hidden': true
     -
       type: accordian__sections__section
       accordian__sections__section--number: '03'
@@ -47,14 +47,14 @@ accordian__fields:
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'Common frustrations:'
-          accordian__sections__section__item--copy: 'Concrete trucks on your lawn. Huge slabs of concrete foundation. Wasted materials in your yard.'
+          accordian__sections__section__item--copy: 'Construction equipment in your yard. Wasted materials running up the budget.'
           '#hidden': true
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
-          accordian__sections__section__item--copy: 'Our foundation system, using helical piles, takes less than a day to install, without any concrete. No waste on-site because everything is built in factory.'
-          '#hidden': true
-      '#hidden': true
+          accordian__sections__section__item--copy: 'No waste on-site because everything is built in factory. Our preferred foundation system, using helical piles, takes less than a day to install, without any concrete.'
+          '#hidden': false
+      '#hidden': false
   accordian__heading: 'Seamless Installation'
   accordian__copy: 'We know what’s painful about construction, so we’ve made it better.'
 calendar__fields:
