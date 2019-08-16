@@ -86,11 +86,11 @@ why_abodu__two_column_content_grid__fields:
       '#hidden': true
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--copy: 'Abodu''s process is simple, fast and transparent, at a price that is extremely competitive with traditional contractors. We will only be in your backyard for 2 weeks, instead of 4-8 months.'
+      two_column_content_grid__list--item--copy: 'Abodu''s process is simple, fast and transparent, at a price that is extremely competitive with traditional contractors. We will only be in your backyard for 2 weeks, instead of 4+ months.'
       two_column_content_grid__list--item--button:
         url: /service
         text: 'Our Services'
-      '#hidden': true
+      '#hidden': false
   two_column_content_grid__heading: 'How We''ll Help'
   two_column_content_grid__subheading: '“Why Abodu?”'
 photo_with_content_block__fields:
