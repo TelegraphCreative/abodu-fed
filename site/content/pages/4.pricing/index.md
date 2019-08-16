@@ -11,11 +11,11 @@ photo_with_content_block__fields:
     text: 'Have a Look Around'
   photo_with_content_block__copy_list:
     - 'Site evaluation'
-    - 'Permitting services (including approval fees up to $5,000)'
+    - 'Permitting (including approval fees up to $5,000)'
     - 'Completed Abodu (including finishes & appliances)'
     - 'All site work (foundation, trenching, utility tie-in)'
     - 'Delivery from our factory'
-    - 'Installation on site, including craning'
+    - 'Installation on site, including craning where necessary'
   photo_with_content_block__copy_button:
     url: /contact
     text: 'Get Started'
