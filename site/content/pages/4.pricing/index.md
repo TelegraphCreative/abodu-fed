@@ -11,17 +11,17 @@ photo_with_content_block__fields:
     text: 'Have a Look Around'
   photo_with_content_block__copy_list:
     - 'Site evaluation'
-    - 'Permitting services (including city fees)'
+    - 'Permitting services (including city approval fees up to $5,000)'
     - 'Completed Abodu (including finishes & appliances)'
-    - 'All site work (foundation, trenching, utility tie in)'
+    - 'All site work (foundation, trenching, utility tie-in)'
     - 'Delivery from our factory'
-    - 'Installation on site'
+    - 'Installation on site, including craning'
   photo_with_content_block__copy_button:
     url: /contact
     text: 'Get Started'
   photo_with_content_block__image:
     - /assets/2.jpg
-  photo_with_content_block__heading: 'Straightforward Cost'
+  photo_with_content_block__heading: Straightforward
   photo_with_content_block__subheading: 'Base price starts at $199,000.'
   photo_with_content_block__copy: 'This includes the following:'
 content_block_with_pattern__fields:
