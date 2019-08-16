@@ -1,9 +1,9 @@
 hero__heading: 'Our Service'
 hero__subheading: 'We''ll do the heavy lifting for you.'
 hero__copy: |
-  What makes the Abodu purchase process different?  We designed the entire experience by taking what we've learned from working with the best companies outside of the construction industry.
+  What makes buying an Abodu different?  We designed the entire experience by taking what we've learned from working with the best companies outside of the construction industry.
   
-  We're maniacal about removing pain from the process of adding an ADU, and we are replacing it with joy — it's what makes us tick.
+  We're maniacal about removing pain from the process of adding an ADU, and replacing it with joy — it's what makes us tick.
 hero__image: /assets/6.jpg
 accordian__fields:
   accordian__sections:
@@ -53,8 +53,8 @@ accordian__fields:
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
           accordian__sections__section__item--copy: 'Our foundation system, using helical piles, takes less than a day to install, without any concrete. No waste on-site because everything is built in factory.'
-          '#hidden': false
-      '#hidden': false
+          '#hidden': true
+      '#hidden': true
   accordian__heading: 'Seamless Installation'
   accordian__copy: 'We know what’s no fun about construction, so we’ve made it better.'
 calendar__fields:
