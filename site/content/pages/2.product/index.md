@@ -24,7 +24,7 @@ photo_with_content_block__fields:
     -
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'An appealing aesthetic.'
-      photo_with_content_block__list--item--copy: 'We offer the best of Scandinavian influence: simplicity, functionality, minimalism - paired with a timeless aesthetic. Your Abodu needs to look like it belongs in your space, no matter the design of your main home.'
+      photo_with_content_block__list--item--copy: 'We offer the best of Scandinavian influence: simplicity, functionality, minimalism - paired with a timeless aesthetic. Your Abodu feels at place in your yard, no matter the design of your main home.'
       '#hidden': false
   photo_with_content_block__image:
     - /assets/4.jpg
