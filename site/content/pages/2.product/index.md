@@ -25,7 +25,7 @@ photo_with_content_block__fields:
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'An appealing aesthetic.'
       photo_with_content_block__list--item--copy: 'We offer the best of Scandinavian influence: simplicity, functionality, minimalism - paired with a timeless aesthetic. Your Abodu feels at place in your yard, no matter the design of your main home.'
-      '#hidden': false
+      '#hidden': true
   photo_with_content_block__image:
     - /assets/4.jpg
   photo_with_content_block__heading: 'Our Product Pillars'
@@ -40,7 +40,7 @@ abodu_450__fields:
     - /assets/6.jpg
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'Abodu 500'
-  content_block_with_pattern__copy: '500 square feet of beautifully designed space, with our signature roof shape. The standard color palette is simple: white, wood, and black. Consider this our American interpretation of Scandinavian influence.'
+  content_block_with_pattern__copy: '500 square feet of beautifully designed space, with our signature cathedral ceilings. A space-optimized 1 bedroom layout.'
   product_specs__copy: '495 square feet. 14’ wide. 35’4” long. 11’ ceilings. 12.5’ structure height.'
   product_specs__image:
     - /assets/floorplan-(clear).jpg
