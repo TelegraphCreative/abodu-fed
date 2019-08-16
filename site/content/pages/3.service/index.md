@@ -22,7 +22,7 @@ accordian__fields:
           accordian__sections__section__item--heading: 'What we''ve done:'
           accordian__sections__section__item--copy: '2 weeks or less onsite - guaranteed. With Abodu, you''ll know everything falls into the right place.'
           '#hidden': true
-      '#hidden': false
+      '#hidden': true
     -
       type: accordian__sections__section
       accordian__sections__section--number: '02'
@@ -31,14 +31,14 @@ accordian__fields:
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'Common frustrations:'
-          accordian__sections__section__item--copy: 'Dealing with the city''s confusing permitting process. Building your schedule around unpredictable construction timelines. Repeating yourself to all the different parties involved - architect, plumber, engineer, electrician.'
+          accordian__sections__section__item--copy: 'Dealing with confusing permitting. Building your schedule around unpredictable construction timelines. Repeating yourself to all the different parties involved - architect, plumber, engineer, electrician.'
           '#hidden': true
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
-          accordian__sections__section__item--copy: 'No-sweat permitting and approvals. We''ll take care of everything for you. If we can''t get a permit, you get your money back.'
-          '#hidden': true
-      '#hidden': true
+          accordian__sections__section__item--copy: 'End to end project management and no-sweat permitting. We''ll take care of everything for you. If we can''t get a permit, you get your money back.'
+          '#hidden': false
+      '#hidden': false
     -
       type: accordian__sections__section
       accordian__sections__section--number: '03'
