@@ -90,7 +90,7 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--heading: Bedroom
       two_column_content_grid__list--item--list:
         - 'Built-in closets.'
-      '#hidden': false
+      '#hidden': true
   two_column_content_grid__heading: Interior
   two_column_content_grid__subheading: 'Standard Internal Features:'
 image_grid_with_color_block__fields:
@@ -143,8 +143,8 @@ image_grid_with_color_block__fields:
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__heading: 'Ceiling and door height:'
       image_grid_with_color_block__list--item__list:
-        - '8 ft tall doors'
-        - '11.5 ft tall cielings'
+        - '11.5 ft tall ceilings with 8 ft tall doors'
+        - ''
       '#hidden': false
   image_grid_with_color_block__first_image:
     - /assets/12.jpg
@@ -160,9 +160,9 @@ design_partnership__photo_with_content_block__fields:
     text: 'View Work'
   photo_with_content_block__image:
     - /assets/koto.jpg
-  photo_with_content_block__heading: 'Award winning design'
-  photo_with_content_block__subheading: 'Designed in partnership with our friends at Koto Designs.'
-  photo_with_content_block__copy: 'Turns out, Americans aren''t historically world-class at designing small spaces… so we had to enlist the help of our Scandinavian friends. Together, we''ve spent thousands of hours poring over every inch of your Abodu.'
+  photo_with_content_block__heading: 'Award-winning design'
+  photo_with_content_block__subheading: 'Designed in partnership with our friends at Koto.'
+  photo_with_content_block__copy: 'Turns out, Americans aren''t historically world-class at designing small spaces… so we had to enlist the help of our Scandinavian friends. Together, we''re proud of the well-designed living space that Abodu provides.'
 cta__fields:
   cta__button:
     url: /service
