@@ -112,7 +112,7 @@ image_grid_with_color_block__fields:
   image_grid_with_color_block__third_image:
     - /assets/13.jpg
   image_grid_with_color_block__heading: 'For transparency''s sake'
-  image_grid_with_color_block__subheading: 'A few things that cost more:'
+  image_grid_with_color_block__subheading: 'A few things that increase cost:'
   image_grid_with_color_block__copy: 'While our base pricing covers the vast majority of install scenarios, there''s always the outliers. For those homeowners, we''ve outlined what could add some additional cost.'
 cta__fields:
   cta__button:
