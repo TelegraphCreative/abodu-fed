@@ -63,9 +63,9 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--heading: Throughout
       two_column_content_grid__list--item--list:
         - 'Fully waterproof engineered hardwood, from Mohawk.'
-        - 'LED lighting.'
-        - 'Mini-split HVAC system, from Panasonic.'
-        - 'Smart thermostat, from Honeywell.'
+        - 'High-efficiency LED lighting.'
+        - 'Mini-split AC and heating system.'
+        - 'Smart thermostat.'
       '#hidden': true
     -
       type: two_column_content_grid__list--items
@@ -74,22 +74,16 @@ two_column_content_grid__fields:
         - 'White quartz countertops and backsplash.'
         - 'Premium cabinetry, with soft-close hinges.'
         - 'Stainless-steel, electric appliances, from Whirlpool.'
-        - 'Matte black faucets, from Moen.'
+        - 'Fixtures and faucets, from Moen.'
       '#hidden': true
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Bathroom
       two_column_content_grid__list--item--list:
-        - 'Marble-textured shower enclosure.'
-        - 'Glass swinging shower door.'
-        - 'Matte black faucets throughout, from Moen.'
+        - 'Marble shower walls.'
         - 'Wall-mounted vanity.'
-      '#hidden': true
-    -
-      type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--heading: 'Living Room'
-      two_column_content_grid__list--item--list:
-        - 'Window bench with built-in storage.'
+        - 'Fixtures and faucets, from Moen.'
+        - 'Mirrored medicine cabinet, from Kohler.'
       '#hidden': true
     -
       type: two_column_content_grid__list--items
