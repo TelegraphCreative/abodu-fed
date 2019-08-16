@@ -40,7 +40,7 @@ abodu_450__fields:
     - /assets/6.jpg
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'Abodu 500'
-  content_block_with_pattern__copy: '500 square feet of beautifully designed space, with our signature cathedral ceilings. A space-optimized 1 bedroom layout.'
+  content_block_with_pattern__copy: '500 square feet of beautifully designed space, with our signature cathedral ceilings. A right-sized one bedroom layout.'
   product_specs__copy: '495 square feet. 14’ wide. 35’4” long. 11’ ceilings. 12.5’ structure height.'
   product_specs__image:
     - /assets/floorplan-(clear).jpg
