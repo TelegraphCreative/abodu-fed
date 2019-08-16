@@ -89,8 +89,8 @@ two_column_content_grid__fields:
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Bedroom
       two_column_content_grid__list--item--list:
-        - 'Built-in wardrobe closets, with soft-close hinges.'
-      '#hidden': true
+        - 'Built-in closets.'
+      '#hidden': false
   two_column_content_grid__heading: Interior
   two_column_content_grid__subheading: 'Standard Internal Features:'
 image_grid_with_color_block__fields:
@@ -99,12 +99,12 @@ image_grid_with_color_block__fields:
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__heading: 'Turn-key furniture package:'
       image_grid_with_color_block__list--item__list:
-        - 'Dining table, from our friends at Hay.'
-        - 'Dining chairs, from our friends at Muuto.'
-        - 'Sofa, from our friends at Article.'
-        - 'Coffee table, from our friends at Article.'
-        - 'Queen storage bed, from our friends at Ikea.'
-        - 'Queen mattress, from our friends at Casper.'
+        - 'Dining table, from Hay.'
+        - 'Dining chairs, from Muuto.'
+        - 'Sofa, from  Article.'
+        - 'Coffee table, from Article.'
+        - 'Queen storage bed, from Ikea.'
+        - 'Queen mattress, from Casper.'
       '#hidden': true
     -
       type: image_grid_with_color_block__list--item
@@ -112,7 +112,6 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__list:
         - 'Naturally-stained cedar siding.'
         - 'Stucco siding.'
-        - 'French doors, from Andersen.'
         - 'Premium, 3 panel folding door, from La Cantina.'
         - 'White-framed windows, from Andersen.'
       '#hidden': true
@@ -120,10 +119,12 @@ image_grid_with_color_block__fields:
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__heading: 'Internal upgrade options:'
       image_grid_with_color_block__list--item__list:
+        - 'Living room window bench with storage.'
+        - 'Additional kitchen cabinetry for increased storage.'
         - 'Kitchen appliances, from Fisher & Paykel.'
         - 'Kitchen appliances, from Sub-Zero and Wolf.'
         - 'Washer/Dryer combo unit, from Blomberg.'
-        - 'Additional kitchen cabinetry for increased storage.'
+        - 'Glass shower door.'
       '#hidden': true
     -
       type: image_grid_with_color_block__list--item
@@ -138,6 +139,13 @@ image_grid_with_color_block__fields:
         - 'Site-built decking, from one of our local partners.'
         - 'Custom landscaping, from one of our local partners.'
       '#hidden': true
+    -
+      type: image_grid_with_color_block__list--item
+      image_grid_with_color_block__list--item__heading: 'Ceiling and door height:'
+      image_grid_with_color_block__list--item__list:
+        - '8 ft tall doors'
+        - '11.5 ft tall cielings'
+      '#hidden': false
   image_grid_with_color_block__first_image:
     - /assets/12.jpg
   image_grid_with_color_block__second_image:
