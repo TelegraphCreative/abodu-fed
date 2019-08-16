@@ -15,12 +15,12 @@ photo_with_content_block__fields:
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'Standardized design, with custom options.'
       photo_with_content_block__list--item--copy: 'Enough customization to make your Abodu yours. Select from our color and finish packages.'
-      '#hidden': false
+      '#hidden': true
     -
       type: photo_with_content_block__list--item
-      photo_with_content_block__list--item--heading: 'Quality materials- natural and industrial.'
-      photo_with_content_block__list--item--copy: 'From the way a window comes together at the seams, down to the way drawers close… quality and feel matters. We use high-quality wood and metals throughout to create a distinct, yet comfortable look.'
-      '#hidden': true
+      photo_with_content_block__list--item--heading: 'Quality materials — natural and industrial.'
+      photo_with_content_block__list--item--copy: 'Quality and feel matters. We use natural wood and other premium materials throughout to create a distinct, yet comfortable experience.'
+      '#hidden': false
     -
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'Timeless and appealing aesthetic.'
