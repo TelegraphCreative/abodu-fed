@@ -15,14 +15,14 @@ accordian__fields:
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'Common frustrations:'
-          accordian__sections__section__item--copy: 'Living with a noisy construction crew in your backyard for 8 months is no fun. For you, or your neighbors.'
-          '#hidden': true
+          accordian__sections__section__item--copy: 'Living with a noisy construction crew in your backyard for 4+ months is no fun. For you, or your neighbors.'
+          '#hidden': false
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
           accordian__sections__section__item--copy: '2 weeks or less onsite - guaranteed. With Abodu, you''ll know everything falls into the right place.'
           '#hidden': true
-      '#hidden': true
+      '#hidden': false
     -
       type: accordian__sections__section
       accordian__sections__section--number: '02'
@@ -56,7 +56,7 @@ accordian__fields:
           '#hidden': true
       '#hidden': true
   accordian__heading: 'Seamless Installation'
-  accordian__copy: 'We know what’s no fun about construction, so we’ve made it better.'
+  accordian__copy: 'We know what’s painful about construction, so we’ve made it better.'
 calendar__fields:
   calendar__heading: 'Here''s how we stack up:'
 card_slider__fields:
