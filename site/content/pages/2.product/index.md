@@ -145,7 +145,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__list:
         - '11.5 ft tall ceilings with 8 ft tall doors'
         - ''
-      '#hidden': false
+      '#hidden': true
   image_grid_with_color_block__first_image:
     - /assets/12.jpg
   image_grid_with_color_block__second_image:
@@ -161,7 +161,7 @@ design_partnership__photo_with_content_block__fields:
   photo_with_content_block__image:
     - /assets/koto.jpg
   photo_with_content_block__heading: 'Award-winning design'
-  photo_with_content_block__subheading: 'Designed in partnership with our friends at Koto.'
+  photo_with_content_block__subheading: 'Designed in partnership with our friends at Koto'
   photo_with_content_block__copy: 'Turns out, Americans aren''t historically world-class at designing small spaces… so we had to enlist the help of our Scandinavian friends. Together, we''re proud of the well-designed living space that Abodu provides.'
 cta__fields:
   cta__button:
