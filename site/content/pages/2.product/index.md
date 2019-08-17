@@ -53,7 +53,7 @@ exterior__fields:
     - 'High-efficiency, dual-pane windows, from Andersen.'
     - 'Fiber-cement siding, from James Hardie.'
   exterior__image:
-    - /assets/Prelim-unit/27-min.PNG
+    - /assets/27-min.PNG
   exterior__heading: Exterior
   exterior__subheading: 'Standard External Features:'
 two_column_content_grid__fields:
