@@ -147,7 +147,7 @@ image_grid_with_color_block__fields:
         - ''
       '#hidden': true
   image_grid_with_color_block__first_image:
-    - /assets/Prelim-unit/12.PNG
+    - /assets/Prelim-unit/2-min.PNG
   image_grid_with_color_block__second_image:
     - /assets/Prelim-unit/19.PNG
   image_grid_with_color_block__third_image:
