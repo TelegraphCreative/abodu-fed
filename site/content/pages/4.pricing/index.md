@@ -108,7 +108,7 @@ image_grid_with_color_block__fields:
   image_grid_with_color_block__first_image:
     - /assets/Prelim-unit/10-min.PNG
   image_grid_with_color_block__second_image:
-    - /assets/Prelim-unit/9.PNG
+    - /assets/Prelim-unit/6-min.PNG
   image_grid_with_color_block__third_image:
     - /assets/Prelim-unit/14.PNG
   image_grid_with_color_block__heading: 'For transparency''s sake'
