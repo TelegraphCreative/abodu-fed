@@ -21,7 +21,7 @@ what_we_do__fields:
     Expand your home's value and livable space.
 photo_with_content_block__fields:
   photo_with_content_block__button:
-    url: 'https://google.com'
+    url: 'https://my.matterport.com/show/?m=ZD4RDZMsBqy'
     text: 'Have a Look Around'
   photo_with_content_block__image:
     - /assets/Prelim-unit/3-min.PNG
