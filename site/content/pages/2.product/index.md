@@ -1,6 +1,6 @@
 hero__heading: 'Our Product'
 hero__subheading: 'A timeless backyard home design — without compromising quality or space.'
-hero__image: /assets/7.jpg
+hero__image: /assets/Prelim-unit/26-min.PNG
 photo_with_content_block__fields:
   photo_with_content_block__button:
     url: 'https://google.com'
@@ -35,9 +35,9 @@ abodu_450__fields:
     text: ''
   content_block_with_pattern__toggle: false
   slider__images:
-    - /assets/1.jpg
-    - /assets/4.jpg
-    - /assets/6.jpg
+    - /assets/Prelim-unit/2-min.PNG
+    - /assets/Prelim-unit/28-min.PNG
+    - /assets/Prelim-unit/8-min.PNG
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'Abodu 500'
   content_block_with_pattern__copy: '500 square feet of beautifully designed space, with our signature cathedral ceilings. A right-sized one-bedroom layout.'
@@ -53,7 +53,7 @@ exterior__fields:
     - 'High-efficiency, dual-pane windows, from Andersen.'
     - 'Fiber-cement siding, from James Hardie.'
   exterior__image:
-    - /assets/2.jpg
+    - /assets/Prelim-unit/27-min.PNG
   exterior__heading: Exterior
   exterior__subheading: 'Standard External Features:'
 two_column_content_grid__fields:
