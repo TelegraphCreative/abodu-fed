@@ -145,7 +145,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__list:
         - '11.5 ft tall ceilings with 8 ft tall doors'
         - ''
-      '#hidden': true
+      '#hidden': false
   image_grid_with_color_block__first_image:
     - /assets/12.jpg
   image_grid_with_color_block__second_image:
