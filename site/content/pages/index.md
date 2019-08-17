@@ -35,11 +35,11 @@ how_its_built__fields:
     url: /product
     text: 'View Product'
   image_grid__image_one:
-    - /assets/1.jpg
+    - /assets/Prelim-unit/11-min.PNG
   image_grid__image_two:
-    - /assets/2.jpg
+    - /assets/Prelim-unit/20.PNG
   image_grid__image_three:
-    - /assets/3.jpg
+    - /assets/Prelim-unit/18-min.PNG
   how_its_built__heading: 'How It''s Built'
   how_its_built__subheading: 'Premium Materials, Dependable Quality.'
   how_its_built__copy: 'We pair the latest technology with the industry''s best craftspeople to build backyard homes in our factory to the highest environmental standards. You get a premium product with higher quality materials, at a lower price.'
