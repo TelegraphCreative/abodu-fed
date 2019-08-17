@@ -68,11 +68,11 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__note: null
       '#hidden': true
   image_grid_with_color_block__first_image:
-    - /assets/2.jpg
+    - /assets/Prelim-unit/22-min.PNG
   image_grid_with_color_block__second_image:
-    - /assets/3.jpg
+    - /assets/Prelim-unit/19.PNG
   image_grid_with_color_block__third_image:
-    - /assets/1.jpg
+    - /assets/Prelim-unit/1.PNG
   image_grid_with_color_block__heading: 'Benefits for renters'
   image_grid_with_color_block__subheading: 'An Abodu makes a great rental.'
 why_abodu__two_column_content_grid__fields:
