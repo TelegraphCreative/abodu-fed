@@ -11,9 +11,9 @@ what_we_do__fields:
     url: /why-backyard-living
     text: 'Why Backyard Living'
   slider__images:
-    - /assets/1.jpg
-    - /assets/4.jpg
-    - /assets/6.jpg
+    - /assets/Prelim-unit/24-min.PNG
+    - /assets/Prelim-unit/28-min.PNG
+    - /assets/Prelim-unit/8-min.PNG
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'What We Do'
   content_block_with_pattern__copy: |
@@ -24,7 +24,7 @@ photo_with_content_block__fields:
     url: 'https://google.com'
     text: 'Have a Look Around'
   photo_with_content_block__image:
-    - /assets/4.jpg
+    - /assets/Prelim-unit/3-min.PNG
   photo_with_content_block__heading: 'How It Feels'
   photo_with_content_block__subheading: 'Timeless, Considered Design.'
   photo_with_content_block__copy: 'With the help of our Scandinavian architects, we''ve spent thousands of hours poring over every inch of your Abodu to make sure it''s the just-right small space. All you need to do is select your finishes, and tell us where you want it.'
