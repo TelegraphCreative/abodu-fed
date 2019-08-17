@@ -151,7 +151,7 @@ image_grid_with_color_block__fields:
   image_grid_with_color_block__second_image:
     - /assets/Prelim-unit/19.PNG
   image_grid_with_color_block__third_image:
-    - /assets/Prelim-unit/15.PNG
+    - /assets/Prelim-unit/16.PNG
   image_grid_with_color_block__heading: Customize
   image_grid_with_color_block__subheading: 'Make your new Abodu yours, with a selection of curated upgrades and options.'
 design_partnership__photo_with_content_block__fields:
