@@ -106,11 +106,11 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__note: 'We''ll bring in a local Landscape partner to provide a quote.'
       '#hidden': true
   image_grid_with_color_block__first_image:
-    - /assets/Prelim-unit/10-min.PNG
+    - /assets/Prelim-unit/18-min.PNG
   image_grid_with_color_block__second_image:
-    - /assets/Prelim-unit/6-min.PNG
+    - /assets/Prelim-unit/21.PNG
   image_grid_with_color_block__third_image:
-    - /assets/Prelim-unit/14.PNG
+    - /assets/Prelim-unit/10-min.PNG
   image_grid_with_color_block__heading: 'For transparency''s sake'
   image_grid_with_color_block__subheading: 'A few things that increase cost:'
   image_grid_with_color_block__copy: 'While our base pricing covers the vast majority of install scenarios, there''s always the outliers. For those homeowners, we''ve outlined what could add some additional cost.'
