@@ -11,9 +11,9 @@ what_we_do__fields:
     url: /why-backyard-living
     text: 'Why Backyard Living'
   slider__images:
-    - /assets/Prelim-unit/24-min.PNG
-    - /assets/Prelim-unit/28-min.PNG
-    - /assets/Prelim-unit/8-min.PNG
+    - /assets/24-min.PNG
+    - /assets/28-min.PNG
+    - /assets/8-min.PNG
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'What We Do'
   content_block_with_pattern__copy: |
