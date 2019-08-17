@@ -4,7 +4,7 @@ hero__copy: |
   What makes buying an Abodu different?  We designed the entire experience by taking what we've learned from working with the best companies outside of the construction industry.
   
   We're maniacal about removing pain from the process of adding an ADU, and replacing it with joy — it's what makes us tick.
-hero__image: /assets/6.jpg
+hero__image: /assets/Prelim-unit/25-min.PNG
 accordian__fields:
   accordian__sections:
     -
@@ -37,7 +37,7 @@ accordian__fields:
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
           accordian__sections__section__item--copy: 'End-to-end project management and no-sweat permitting. We''ll take care of everything for you. If we can''t get a permit, you get your money back.'
-          '#hidden': false
+          '#hidden': true
       '#hidden': true
     -
       type: accordian__sections__section
@@ -53,8 +53,8 @@ accordian__fields:
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
           accordian__sections__section__item--copy: 'No waste on-site because everything is built in factory. Our preferred foundation system, using helical piles, takes less than a day to install, without any concrete.'
-          '#hidden': false
-      '#hidden': false
+          '#hidden': true
+      '#hidden': true
   accordian__heading: 'Seamless Installation'
   accordian__copy: 'We know what’s painful about construction, so we’ve made it better.'
 calendar__fields:
