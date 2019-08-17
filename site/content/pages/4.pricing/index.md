@@ -106,7 +106,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__note: 'We''ll bring in a local Landscape partner to provide a quote.'
       '#hidden': true
   image_grid_with_color_block__first_image:
-    - /assets/18-min.PNG
+    - /assets/18-min-1566007632.PNG
   image_grid_with_color_block__second_image:
     - /assets/Prelim-unit/21.PNG
   image_grid_with_color_block__third_image:
