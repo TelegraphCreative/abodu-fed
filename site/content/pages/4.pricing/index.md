@@ -7,7 +7,7 @@ hero__copy: |
 hero__image: /assets/2-min.PNG
 photo_with_content_block__fields:
   photo_with_content_block__button:
-    url: 'https://google.com'
+    url: 'https://my.matterport.com/show/?m=ZD4RDZMsBqy'
     text: 'Have a Look Around'
   photo_with_content_block__copy_list:
     - 'Site evaluation'
