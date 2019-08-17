@@ -20,7 +20,7 @@ photo_with_content_block__fields:
     url: /contact
     text: 'Get Started'
   photo_with_content_block__image:
-    - /assets/2.jpg
+    - /assets/Prelim-unit/15.PNG
   photo_with_content_block__heading: Straightforward
   photo_with_content_block__subheading: 'Base price starts at $199,000.'
   photo_with_content_block__copy: 'This includes the following:'
