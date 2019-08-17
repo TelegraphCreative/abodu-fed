@@ -27,7 +27,7 @@ photo_with_content_block__fields:
       photo_with_content_block__list--item--copy: 'We offer the best of Scandinavian influence: simplicity, functionality, minimalism - paired with a timeless aesthetic. Your Abodu feels at place in your yard, no matter the design of your main home.'
       '#hidden': true
   photo_with_content_block__image:
-    - /assets/4.jpg
+    - /assets/Prelim-unit/9.PNG
   photo_with_content_block__heading: 'Our Product Pillars'
 abodu_450__fields:
   content_block_with_pattern__button:
