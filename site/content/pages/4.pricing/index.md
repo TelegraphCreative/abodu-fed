@@ -83,7 +83,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__heading: 'Deep Backyard'
       image_grid_with_color_block__list--item__copy: 'Our base price includes up to 50 ft of trenching each for water, waste and electric lines. Particularly large backyard? Good for you! We''ll be able to tell you how much extra that will cost.'
       image_grid_with_color_block__list--item__note: '$125 per additional linear foot'
-      '#hidden': false
+      '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: electrical_panel_upgrade
@@ -106,11 +106,11 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__note: 'We''ll bring in a local Landscape partner to provide a quote.'
       '#hidden': true
   image_grid_with_color_block__first_image:
-    - /assets/12.jpg
+    - /assets/Prelim-unit/10-min.PNG
   image_grid_with_color_block__second_image:
-    - /assets/4.jpg
+    - /assets/Prelim-unit/9.PNG
   image_grid_with_color_block__third_image:
-    - /assets/13.jpg
+    - /assets/Prelim-unit/14.PNG
   image_grid_with_color_block__heading: 'For transparency''s sake'
   image_grid_with_color_block__subheading: 'A few things that increase cost:'
   image_grid_with_color_block__copy: 'While our base pricing covers the vast majority of install scenarios, there''s always the outliers. For those homeowners, we''ve outlined what could add some additional cost.'
