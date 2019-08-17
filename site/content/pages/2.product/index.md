@@ -1,6 +1,6 @@
 hero__heading: 'Our Product'
 hero__subheading: 'A timeless backyard home design — without compromising quality or space.'
-hero__image: /assets/Prelim-unit/26-min.PNG
+hero__image: /assets/26-min.PNG
 photo_with_content_block__fields:
   photo_with_content_block__button:
     url: 'https://google.com'
