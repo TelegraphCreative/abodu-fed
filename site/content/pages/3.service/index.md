@@ -1,9 +1,6 @@
 hero__heading: 'Our Service'
 hero__subheading: 'We''ll do the heavy lifting for you.'
-hero__copy: |
-  What makes buying an Abodu different?  We designed the entire experience by taking what we've learned from working with the best companies outside of the construction industry.
-  
-  We're maniacal about removing pain from the process of adding an ADU, and replacing it with joy — it's what makes us tick.
+hero__copy: 'What makes buying an Abodu different?  Your purchase and install experience is painless, easy and quick.'
 hero__image: /assets/25-min-min.PNG
 accordian__fields:
   accordian__sections:
