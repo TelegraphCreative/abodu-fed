@@ -1,5 +1,5 @@
 hero__heading: 'Terms of Use'
-hero__subheading: 'A Note On Using Our Site.'
+hero__subheading: 'From our legal team.'
 document__text: |
   #Welcome to Abodu.
   
