@@ -1,5 +1,5 @@
-hero__heading: 'Privacy Policy'
-hero__subheading: 'We Take Your Privacy Seriously'
+hero__heading: 'From our legal team'
+hero__subheading: 'Privacy Policy'
 document__text: |
   #1. What is this document?
   
