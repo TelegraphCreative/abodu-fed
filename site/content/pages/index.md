@@ -64,7 +64,7 @@ how_its_delivered__fields:
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: painless_purchase
       how_its_delivered__list--item__heading: 'Painless Purchase'
-      how_its_delivered__list--item__copy: 'Need help with financing? Our exclusive partners can help you choose from a menu of flexible options, whether you want to put $0 down or pay entirely up front.'
+      how_its_delivered__list--item__copy: 'Need help with financing? Our partners can help you choose from a menu of flexible, pre-arranged options, whether you want to put $0 down or pay entirely up front.'
       '#hidden': false
   how_its_delivered__heading: 'How it''s delivered'
   how_its_delivered__subheading: 'Seamless Experience.'
