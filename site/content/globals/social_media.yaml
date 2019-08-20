@@ -2,7 +2,7 @@ social_media__accounts:
   -
     type: social_media__acounts--account
     social_media__acounts--account__name: Facebook
-    social_media__acounts--account__url: facebook.com/myabodu
+    social_media__acounts--account__url: 'https://facebook.com/myabodu'
     social_media__acounts--account__display_account: true
   -
     type: social_media__acounts--account
