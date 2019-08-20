@@ -11,9 +11,9 @@ what_we_do__fields:
     url: /why-backyard-living
     text: 'Why Backyard Living'
   slider__images:
-    - /assets/24-min.PNG
-    - /assets/28-min.PNG
-    - /assets/8-min.PNG
+    - /assets/Launch_photos/abodu_72_comp_2x1.jpg
+    - /assets/Launch_photos/abodu_76_comp_2x1.jpg
+    - /assets/Launch_photos/abodu_54_comp_2x1.jpg
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'What We Do'
   content_block_with_pattern__copy: |
@@ -24,7 +24,7 @@ photo_with_content_block__fields:
     url: 'https://my.matterport.com/show/?m=ZD4RDZMsBqy'
     text: 'Have a Look Around'
   photo_with_content_block__image:
-    - /assets/Prelim-unit/3-min.PNG
+    - /assets/Launch_photos/abodu_44_comp_4x5.jpg
   photo_with_content_block__heading: 'How It Feels'
   photo_with_content_block__subheading: 'Timeless, Considered Design.'
   photo_with_content_block__copy: 'With our partners at Koto, we''ve spent thousands of hours considering and detailing every inch of your Abodu to make sure it''s the perfect backyard home- that can be customized to your liking.'
@@ -35,11 +35,11 @@ how_its_built__fields:
     url: /product
     text: 'View Product'
   image_grid__image_one:
-    - /assets/Prelim-unit/11-min.PNG
+    - /assets/Launch_photos/abodu_58_comp_3x4.jpg
   image_grid__image_two:
-    - /assets/Prelim-unit/20.PNG
+    - /assets/Launch_photos/abodu_68_comp_3x2.jpg
   image_grid__image_three:
-    - /assets/17-min_square.png
+    - /assets/Launch_photos/abodu_65_comp_1x1.jpg
   how_its_built__heading: 'How It''s Built'
   how_its_built__subheading: 'Premium Materials, Dependable Quality.'
   how_its_built__copy: 'We pair the latest technology with the industry''s best craftspeople to build backyard homes in our factory to the highest environmental standards. You get a premium product with higher quality materials, at a lower price.'
