@@ -36,7 +36,7 @@ abodu_450__fields:
   content_block_with_pattern__toggle: false
   slider__images:
     - /assets/Prelim-unit/2-min.PNG
-    - /assets/Prelim-unit/28-min.PNG
+    - /assets/80-min-min.PNG
     - /assets/Prelim-unit/8-min.PNG
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'Abodu 500'
