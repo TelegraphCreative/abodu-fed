@@ -49,21 +49,21 @@ image_grid_with_color_block__fields:
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: live_closer_to_work
-      image_grid_with_color_block__list--item__heading: 'Live Closer to Work'
+      image_grid_with_color_block__list--item__heading: 'Live closer to work'
       image_grid_with_color_block__list--item__copy: 'No more 2+ hours of commuting per day, as is so common for many.'
       image_grid_with_color_block__list--item__note: null
       '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: naturally-affordable_housing
-      image_grid_with_color_block__list--item__heading: 'Naturally-Affordable Housing'
+      image_grid_with_color_block__list--item__heading: 'Naturally-affordable housing'
       image_grid_with_color_block__list--item__copy: 'Most ADUs rent slightly below comparable 1-bedroom units, largely due to the smaller footprint.'
       image_grid_with_color_block__list--item__note: null
       '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: the_perfect_rental
-      image_grid_with_color_block__list--item__heading: 'The Perfect Rental'
+      image_grid_with_color_block__list--item__heading: 'The perfect rental'
       image_grid_with_color_block__list--item__copy: 'New construction. Beautifully designed. Energy efficient. No neighbors (or, rather, no shared walls).'
       image_grid_with_color_block__list--item__note: null
       '#hidden': false
