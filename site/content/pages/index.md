@@ -27,9 +27,9 @@ photo_with_content_block__fields:
     - /assets/Prelim-unit/3-min.PNG
   photo_with_content_block__heading: 'How It Feels'
   photo_with_content_block__subheading: 'Timeless, Considered Design.'
-  photo_with_content_block__copy: 'With the help of our Scandinavian architects, we''ve spent thousands of hours poring over every inch of your Abodu to make sure it''s the just-right small space. All you need to do is select your finishes, and tell us where you want it.'
-  photo_with_content_block__quote: 'Abodu is the perfect living space. We collaborated with Abodu to marry our award winning small space design expertise with California''s coastal influence to develop a backyard home that is both beautiful and functional.'
-  photo_with_content_block__quoted: 'Johnathon Little, Koto Design (formerly of Snohetta)'
+  photo_with_content_block__copy: 'With our partners at Koto, we''ve spent thousands of hours considering and detailing every inch of your Abodu to make sure it''s the perfect backyard home- that can be customized to your liking.'
+  photo_with_content_block__quote: 'We have collaborated closely with Abodu to marry our award-winning design expertise with California''s coastal influence to develop a backyard home that is both beautiful and functional.'
+  photo_with_content_block__quoted: 'Johnathon Little, Koto Design (formerly of Snøhetta)'
 how_its_built__fields:
   how_its_built__button:
     url: /product
@@ -65,7 +65,7 @@ how_its_delivered__fields:
       how_its_delivered__list--item__icon: painless_purchase
       how_its_delivered__list--item__heading: 'Painless Purchase'
       how_its_delivered__list--item__copy: 'Need help with financing? Our partners can help you choose from a menu of flexible, pre-arranged options, whether you want to put $0 down or pay entirely up front.'
-      '#hidden': false
+      '#hidden': true
   how_its_delivered__heading: 'How it''s delivered'
   how_its_delivered__subheading: 'Seamless Experience.'
   how_its_delivered__copy: 'We manage the process from start to finish - you shouldn''t have to think about the messy details.'
