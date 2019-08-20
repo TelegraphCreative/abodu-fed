@@ -79,16 +79,16 @@ card_slider__fields:
       type: card_slider__cards__card
       card_slider__cards__card--length: '4 Weeks'
       card_slider__cards__card--heading: Construction
-      card_slider__cards__card--copy: 'We build your abodu in our factory, so you don''t have to hear us in your backyard.'
+      card_slider__cards__card--copy: 'We build your Abodu in our factory, so you don''t have to hear us in your backyard.'
       card_slider__cards__card--note: null
-      '#hidden': true
+      '#hidden': false
     -
       type: card_slider__cards__card
       card_slider__cards__card--length: '10 Days'
       card_slider__cards__card--heading: 'Yard Work'
       card_slider__cards__card--copy: 'We manage all necessary site-work to make sure your yard is ready for its new Abodu.'
       card_slider__cards__card--note: null
-      '#hidden': false
+      '#hidden': true
     -
       type: card_slider__cards__card
       card_slider__cards__card--length: '2 Days'
