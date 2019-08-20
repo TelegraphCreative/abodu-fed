@@ -10,7 +10,7 @@ two_column_content_grid__fields:
   two_column_content_grid__list:
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--heading: 'Extra space'
+      two_column_content_grid__list--item--heading: 'Extra Space'
       two_column_content_grid__list--item--list:
         - 'A place to stay for visiting friends and family.'
         - 'Allow yourself to age-in-place, or house a live-in-nurse.'
@@ -22,7 +22,7 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--copy: 'More square feet means more options:'
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--heading: 'Passive income from rentals'
+      two_column_content_grid__list--item--heading: 'Rental Income'
       two_column_content_grid__list--item--list:
         - 'Have savings or home equity? Expect to net more than $2,000 per month.'
         - 'Need financing? Even after financing costs, most homeowners net more than $1,000 per month from ADU rentals.'
@@ -32,13 +32,13 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--copy: 'The Bay Area is a high-rent market. You know that.'
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--heading: 'Increased home value'
+      two_column_content_grid__list--item--heading: 'Increased Property Value'
       two_column_content_grid__list--item--list: {  }
       '#hidden': true
       two_column_content_grid__list--item--copy: 'By exactly how much is up for debate, but people generally agree it''s significantly more than the cost of construction. We''ve done our best to estimate this for you below.'
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--heading: 'Community benefits'
+      two_column_content_grid__list--item--heading: 'Community Benefits'
       two_column_content_grid__list--item--list: {  }
       '#hidden': false
       two_column_content_grid__list--item--copy: 'Adding livable space will help solve the local housing crisis. Want to go even further? Talk to us about how you can help house someone who needs it most.'
