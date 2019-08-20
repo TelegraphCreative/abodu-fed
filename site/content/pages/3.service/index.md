@@ -16,7 +16,7 @@ accordian__fields:
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'Common frustrations:'
           accordian__sections__section__item--copy: '4+ months of on-site construction getting in the way of your life.'
-          '#hidden': false
+          '#hidden': true
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
@@ -32,13 +32,13 @@ accordian__fields:
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'Common frustrations:'
           accordian__sections__section__item--copy: 'Confusing permitting requirements. Building your schedule around unpredictable construction timelines. Repeating yourself to all the different parties involved - architect, plumber, engineer, electrician.'
-          '#hidden': false
+          '#hidden': true
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
           accordian__sections__section__item--copy: 'End-to-end project management and no-sweat permitting. We''ll take care of everything for you. If we can''t get a permit, you get your money back.'
           '#hidden': true
-      '#hidden': false
+      '#hidden': true
     -
       type: accordian__sections__section
       accordian__sections__section--number: '03'
@@ -65,7 +65,7 @@ card_slider__fields:
       type: card_slider__cards__card
       card_slider__cards__card--length: '1 Day'
       card_slider__cards__card--heading: 'Home Visit'
-      card_slider__cards__card--copy: 'We come meet you in person to check on a few things and ensure your backyard and Abodu are a great fit.'
+      card_slider__cards__card--copy: 'We meet you in person to check on a few things and ensure your backyard and Abodu are a great fit.'
       card_slider__cards__card--note: null
       '#hidden': true
     -
@@ -79,16 +79,16 @@ card_slider__fields:
       type: card_slider__cards__card
       card_slider__cards__card--length: '4 Weeks'
       card_slider__cards__card--heading: Construction
-      card_slider__cards__card--copy: 'Using the latest technology, we build your Abodu in our factory to the highest environmental standards.'
+      card_slider__cards__card--copy: 'We build your abodu in our factory, so you don''t have to hear us in your backyard.'
       card_slider__cards__card--note: null
       '#hidden': true
     -
       type: card_slider__cards__card
       card_slider__cards__card--length: '10 Days'
       card_slider__cards__card--heading: 'Yard Work'
-      card_slider__cards__card--copy: 'We take care of everything to make sure your yard is ready for it’s new Abodu.'
+      card_slider__cards__card--copy: 'We manage all necessary site-work to make sure your yard is ready for its new Abodu.'
       card_slider__cards__card--note: null
-      '#hidden': true
+      '#hidden': false
     -
       type: card_slider__cards__card
       card_slider__cards__card--length: '2 Days'
