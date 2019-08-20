@@ -160,9 +160,9 @@ design_partnership__photo_with_content_block__fields:
     text: 'View Work'
   photo_with_content_block__image:
     - /assets/koto.jpg
-  photo_with_content_block__heading: 'Award-winning design'
-  photo_with_content_block__subheading: 'Designed in partnership with our friends at Koto'
-  photo_with_content_block__copy: 'Turns out, Americans aren''t historically world-class at designing small spaces… so we had to enlist the help of our Scandinavian friends. Together, we''re proud of the well-designed living space that Abodu provides.'
+  photo_with_content_block__heading: 'Award-winning architects'
+  photo_with_content_block__subheading: 'Designed in partnership with our friends at Koto.'
+  photo_with_content_block__copy: 'Turns out, Americans aren''t historically world-class at designing small spaces… so we enlisted the help of Koto, a UK-based design studio with roots in Scandinavian architecture. Together, we''re proud of the well-designed living space that Abodu provides.'
 cta__fields:
   cta__button:
     url: /service
