@@ -46,14 +46,14 @@ payment__fields:
       payment__schedule--block__heading: Permitting
       payment__schedule--block__copy: 'We work with the city to get your permit all squared away.'
       '#hidden': true
-      payment__schedule--block__payment: '10% Down'
+      payment__schedule--block__payment: '10% down'
     -
       type: payment__schedule--block
       payment__schedule--block__number: '03'
       payment__schedule--block__heading: Construction
       payment__schedule--block__copy: 'Using the latest technology, we build your Abodu in our factory to the highest environmental standards.'
       '#hidden': true
-      payment__schedule--block__payment: '40% Before'
+      payment__schedule--block__payment: '40% before'
     -
       type: payment__schedule--block
       payment__schedule--block__number: '04'
@@ -65,14 +65,14 @@ payment__fields:
       payment__schedule--block__number: '05'
       payment__schedule--block__heading: 'Delivery & install'
       payment__schedule--block__copy: 'We get your Abodu from factory to your home and make sure install goes smooth and stress-free.'
-      '#hidden': true
-      payment__schedule--block__payment: '40% Before'
+      '#hidden': false
+      payment__schedule--block__payment: '40% before'
     -
       type: payment__schedule--block
       payment__schedule--block__number: '06'
       payment__schedule--block__heading: 'Final handover'
       payment__schedule--block__copy: 'We walk you through your new Abodu and explain all the fun bells and whistles.'
-      '#hidden': false
+      '#hidden': true
       payment__schedule--block__payment: 10%
   payment__heading: 'Our Timeline & Payment Schedule'
 image_grid_with_color_block__fields:
