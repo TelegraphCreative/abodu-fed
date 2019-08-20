@@ -10,7 +10,7 @@ two_column_content_grid__fields:
   two_column_content_grid__list:
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--heading: 'Extra Space'
+      two_column_content_grid__list--item--heading: 'Extra space'
       two_column_content_grid__list--item--list:
         - 'A place to stay for visiting friends and family.'
         - 'Allow yourself to age-in-place, or house a live-in-nurse.'
@@ -22,7 +22,7 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--copy: 'More square feet means more options:'
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--heading: 'Passive Income from Rentals'
+      two_column_content_grid__list--item--heading: 'Passive income from rentals'
       two_column_content_grid__list--item--list:
         - 'Have savings or home equity? Expect to net more than $2,000 per month.'
         - 'Need financing? Even after financing costs, most homeowners net more than $1,000 per month from ADU rentals.'
@@ -32,15 +32,15 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--copy: 'The Bay Area is a high-rent market. You know that.'
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--heading: 'Increased Home Value'
+      two_column_content_grid__list--item--heading: 'Increased home value'
       two_column_content_grid__list--item--list: {  }
       '#hidden': true
       two_column_content_grid__list--item--copy: 'By exactly how much is up for debate, but people generally agree it''s significantly more than the cost of construction. We''ve done our best to estimate this for you below.'
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--heading: 'Community Benefits'
+      two_column_content_grid__list--item--heading: 'Community benefits'
       two_column_content_grid__list--item--list: {  }
-      '#hidden': true
+      '#hidden': false
       two_column_content_grid__list--item--copy: 'Adding livable space will help solve the local housing crisis. Want to go even further? Talk to us about how you can help house someone who needs it most.'
   two_column_content_grid__heading: 'Benefits for homeowners'
   two_column_content_grid__intro: 'An Abodu adds value and flexibility to your property.'
@@ -66,7 +66,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__heading: 'The perfect rental'
       image_grid_with_color_block__list--item__copy: 'New construction. Beautifully designed. Energy efficient. No neighbors (or, rather, no shared walls).'
       image_grid_with_color_block__list--item__note: null
-      '#hidden': false
+      '#hidden': true
   image_grid_with_color_block__first_image:
     - /assets/Prelim-unit/22-min.PNG
   image_grid_with_color_block__second_image:
