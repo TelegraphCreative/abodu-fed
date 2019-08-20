@@ -51,19 +51,19 @@ how_its_delivered__fields:
     -
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: 2_week_install
-      how_its_delivered__list--item__heading: '2-week install'
+      how_its_delivered__list--item__heading: '2-Week Install'
       how_its_delivered__list--item__copy: 'In select cities, Abodu Concierge can get you a permit in a matter of hours instead of months. Either way, we''ll be in your backyard for less than 2 weeks, guaranteed.'
       '#hidden': true
     -
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: a_better_foundation
-      how_its_delivered__list--item__heading: 'A better foundation'
+      how_its_delivered__list--item__heading: 'Best-in-Class Foundation'
       how_its_delivered__list--item__copy: 'When possible, we''ll use a minimally-invasive, concrete-less foundation that can be installed in a few hours.'
       '#hidden': true
     -
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: painless_purchase
-      how_its_delivered__list--item__heading: 'Painless purchase'
+      how_its_delivered__list--item__heading: 'Painless Purchase'
       how_its_delivered__list--item__copy: 'Need help with financing? Our partners can help you choose from a menu of flexible, pre-arranged options, whether you want to put $0 down or pay entirely up front.'
       '#hidden': false
   how_its_delivered__heading: 'How it''s delivered'
