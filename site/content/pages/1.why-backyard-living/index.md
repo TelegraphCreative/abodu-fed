@@ -18,7 +18,7 @@ two_column_content_grid__fields:
         - 'A place for your nanny, or an Au Pair.'
         - 'A home office, a home gym, or a home studio.'
         - 'The possibilities are endless — it’s your Abodu, it’s your space.'
-      '#hidden': false
+      '#hidden': true
       two_column_content_grid__list--item--copy: 'More square feet means more options:'
     -
       type: two_column_content_grid__list--items
@@ -56,17 +56,17 @@ image_grid_with_color_block__fields:
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: naturally-affordable_housing
-      image_grid_with_color_block__list--item__heading: 'Naturally-affordable housing'
+      image_grid_with_color_block__list--item__heading: 'Naturally-Affordable Housing'
       image_grid_with_color_block__list--item__copy: 'Most ADUs rent slightly below comparable 1-bedroom units, largely due to the smaller footprint.'
       image_grid_with_color_block__list--item__note: null
       '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: the_perfect_rental
-      image_grid_with_color_block__list--item__heading: 'The perfect rental'
+      image_grid_with_color_block__list--item__heading: 'The Perfect Rental'
       image_grid_with_color_block__list--item__copy: 'New construction. Beautifully designed. Energy efficient. No neighbors (or, rather, no shared walls).'
       image_grid_with_color_block__list--item__note: null
-      '#hidden': true
+      '#hidden': false
   image_grid_with_color_block__first_image:
     - /assets/Prelim-unit/22-min.PNG
   image_grid_with_color_block__second_image:
