@@ -12,7 +12,7 @@ images_grid__fields:
   image_grid__image_two:
     - /assets/39-min.PNG
   image_grid__image_three:
-    - /assets/sj_bottom_right_square_1.jpg
+    - /assets/48-min.PNG
 who_we_are__fields:
   who_we_are__heading: 'Who We Are'
   who_we_are__copy: 'Our team is the best of both worlds – outside experts with experience across industries, and real estate and construction industry veterans - teamed up to take a fresh look at how to re-engineer around the customer.'
