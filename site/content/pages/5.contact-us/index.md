@@ -1,4 +1,4 @@
-hero__heading: 'Get in Touch'
+hero__heading: 'Get in touch'
 hero__copy: |
   Seamless buying, seamless installation, instant gratification. Let us know how we can help you build your backyard home. 
   
