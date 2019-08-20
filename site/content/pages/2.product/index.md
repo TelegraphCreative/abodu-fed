@@ -144,13 +144,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__heading: 'Ceiling and door height:'
       image_grid_with_color_block__list--item__list:
         - '11.5 ft tall ceilings with 8 ft tall doors'
-        - ''
-      '#hidden': true
-    -
-      type: image_grid_with_color_block__list--item
-      image_grid_with_color_block__list--item__heading: Test
-      image_grid_with_color_block__list--item__list:
-        - 'List item'
+      '#hidden': false
   image_grid_with_color_block__first_image:
     - /assets/Prelim-unit/2-min.PNG
   image_grid_with_color_block__second_image:
