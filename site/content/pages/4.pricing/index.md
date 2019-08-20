@@ -17,7 +17,7 @@ photo_with_content_block__fields:
     - 'Delivery from our factory'
     - 'Installation on site, including craning where necessary'
   photo_with_content_block__copy_button:
-    url: /contact
+    url: /contact-us
     text: 'Get Started'
   photo_with_content_block__image:
     - /assets/Prelim-unit/6-min.PNG
