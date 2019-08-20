@@ -14,7 +14,6 @@ what_we_do__fields:
     - /assets/24-min.PNG
     - /assets/28-min.PNG
     - /assets/8-min.PNG
-    - /assets/80-min-min.PNG
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'What We Do'
   content_block_with_pattern__copy: |
