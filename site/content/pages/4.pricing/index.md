@@ -51,15 +51,15 @@ payment__fields:
       type: payment__schedule--block
       payment__schedule--block__number: '03'
       payment__schedule--block__heading: Construction
-      payment__schedule--block__copy: 'We build your Abodu in our factory to the highest environmental standards.'
-      '#hidden': false
+      payment__schedule--block__copy: 'We build your Abodu in our factory, so you don''t have to hear us in your backyard.'
+      '#hidden': true
       payment__schedule--block__payment: '40% before'
     -
       type: payment__schedule--block
       payment__schedule--block__number: '04'
       payment__schedule--block__heading: 'Pre-delivery yard work'
-      payment__schedule--block__copy: 'We take care of everything to make sure your yard is ready for it’s new Abodu.'
-      '#hidden': true
+      payment__schedule--block__copy: 'We manage all necessary site-work to make sure your yard is ready for its new Abodu.'
+      '#hidden': false
     -
       type: payment__schedule--block
       payment__schedule--block__number: '05'
