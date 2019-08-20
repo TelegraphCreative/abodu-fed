@@ -40,7 +40,7 @@ two_column_content_grid__fields:
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: 'Community Benefits'
       two_column_content_grid__list--item--list: {  }
-      '#hidden': false
+      '#hidden': true
       two_column_content_grid__list--item--copy: 'Adding livable space will help solve the local housing crisis. Want to go even further? Talk to us about how you can help house someone who needs it most.'
   two_column_content_grid__heading: 'Benefits for homeowners'
   two_column_content_grid__intro: 'An Abodu adds value and flexibility to your property.'
@@ -49,24 +49,24 @@ image_grid_with_color_block__fields:
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: live_closer_to_work
-      image_grid_with_color_block__list--item__heading: 'Live closer to work'
+      image_grid_with_color_block__list--item__heading: 'Live Closer to Work'
       image_grid_with_color_block__list--item__copy: 'No more 2+ hours of commuting per day, as is so common for many.'
       image_grid_with_color_block__list--item__note: null
       '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: naturally-affordable_housing
-      image_grid_with_color_block__list--item__heading: 'Naturally-affordable housing'
+      image_grid_with_color_block__list--item__heading: 'Lower-cost Housing'
       image_grid_with_color_block__list--item__copy: 'Most ADUs rent slightly below comparable 1-bedroom units, largely due to the smaller footprint.'
       image_grid_with_color_block__list--item__note: null
       '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: the_perfect_rental
-      image_grid_with_color_block__list--item__heading: 'The perfect rental'
+      image_grid_with_color_block__list--item__heading: 'The Perfect Rental'
       image_grid_with_color_block__list--item__copy: 'New construction. Beautifully designed. Energy efficient. No neighbors (or, rather, no shared walls).'
       image_grid_with_color_block__list--item__note: null
-      '#hidden': true
+      '#hidden': false
   image_grid_with_color_block__first_image:
     - /assets/Prelim-unit/22-min.PNG
   image_grid_with_color_block__second_image:
