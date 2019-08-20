@@ -15,8 +15,8 @@ accordian__fields:
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'Common frustrations:'
-          accordian__sections__section__item--copy: 'Living with a noisy construction crew in your backyard for 4+ months is no fun. For you, or your neighbors.'
-          '#hidden': true
+          accordian__sections__section__item--copy: '4+ months of on-site construction getting in the way of your life.'
+          '#hidden': false
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
@@ -31,14 +31,14 @@ accordian__fields:
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'Common frustrations:'
-          accordian__sections__section__item--copy: 'Dealing with confusing permitting. Building your schedule around unpredictable construction timelines. Repeating yourself to all the different parties involved - architect, plumber, engineer, electrician.'
-          '#hidden': true
+          accordian__sections__section__item--copy: 'Confusing permitting requirements. Building your schedule around unpredictable construction timelines. Repeating yourself to all the different parties involved - architect, plumber, engineer, electrician.'
+          '#hidden': false
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
           accordian__sections__section__item--copy: 'End-to-end project management and no-sweat permitting. We''ll take care of everything for you. If we can''t get a permit, you get your money back.'
           '#hidden': true
-      '#hidden': true
+      '#hidden': false
     -
       type: accordian__sections__section
       accordian__sections__section--number: '03'
@@ -56,7 +56,7 @@ accordian__fields:
           '#hidden': true
       '#hidden': true
   accordian__heading: 'Seamless Installation'
-  accordian__copy: 'We know what’s painful about construction, so we’ve made it better.'
+  accordian__copy: 'We''ve take the frustration out of expanding your home.'
 calendar__fields:
   calendar__heading: 'Here''s how we stack up:'
 card_slider__fields:
