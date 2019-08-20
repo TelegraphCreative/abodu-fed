@@ -1,6 +1,9 @@
 hero__heading: 'Our Service'
 hero__subheading: 'We''ll do the heavy lifting for you.'
-hero__copy: 'What makes buying an Abodu different?  Our purchase and install experience is painless and quick.'
+hero__copy: |
+  What makes buying an Abodu different?  Our purchase and install experience is painless and quick.
+  
+  We manage everything for you and will be in your backyard 2 weeks or less - guaranteed.
 hero__image: /assets/25-min-min.PNG
 accordian__fields:
   accordian__sections:
