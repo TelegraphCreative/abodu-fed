@@ -10,7 +10,7 @@ images_grid__fields:
   image_grid__image_one:
     - /assets/Prelim-unit/13.PNG
   image_grid__image_two:
-    - /assets/sj-top-right-pic.jpg
+    - /assets/39-min.PNG
   image_grid__image_three:
     - /assets/sj_bottom_right_square_1.jpg
 who_we_are__fields:
