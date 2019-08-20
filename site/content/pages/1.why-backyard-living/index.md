@@ -56,17 +56,17 @@ image_grid_with_color_block__fields:
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: naturally-affordable_housing
-      image_grid_with_color_block__list--item__heading: 'Lower-cost Housing'
+      image_grid_with_color_block__list--item__heading: 'More Affordable'
       image_grid_with_color_block__list--item__copy: 'Most ADUs rent slightly below comparable 1-bedroom units, largely due to the smaller footprint.'
-      image_grid_with_color_block__list--item__note: null
-      '#hidden': true
+      image_grid_with_color_block__list--item__note: ''
+      '#hidden': false
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: the_perfect_rental
       image_grid_with_color_block__list--item__heading: 'The Perfect Rental'
       image_grid_with_color_block__list--item__copy: 'New construction. Beautifully designed. Energy efficient. No neighbors (or, rather, no shared walls).'
       image_grid_with_color_block__list--item__note: null
-      '#hidden': false
+      '#hidden': true
   image_grid_with_color_block__first_image:
     - /assets/Prelim-unit/22-min.PNG
   image_grid_with_color_block__second_image:
