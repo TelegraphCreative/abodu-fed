@@ -10,7 +10,7 @@ two_column_content_grid__fields:
   two_column_content_grid__list:
     -
       type: two_column_content_grid__list--items
-      two_column_content_grid__list--item--heading: 'Extra space'
+      two_column_content_grid__list--item--heading: 'Extra Space'
       two_column_content_grid__list--item--list:
         - 'A place to stay for visiting friends and family.'
         - 'Allow yourself to age-in-place, or house a live-in-nurse.'
@@ -18,7 +18,7 @@ two_column_content_grid__fields:
         - 'A place for your nanny, or an Au Pair.'
         - 'A home office, a home gym, or a home studio.'
         - 'The possibilities are endless — it’s your Abodu, it’s your space.'
-      '#hidden': true
+      '#hidden': false
       two_column_content_grid__list--item--copy: 'More square feet means more options:'
     -
       type: two_column_content_grid__list--items
