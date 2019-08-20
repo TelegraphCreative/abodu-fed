@@ -14,6 +14,7 @@ what_we_do__fields:
     - /assets/24-min.PNG
     - /assets/28-min.PNG
     - /assets/8-min.PNG
+    - /assets/80-min-min.PNG
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'What We Do'
   content_block_with_pattern__copy: |
@@ -65,7 +66,7 @@ how_its_delivered__fields:
       how_its_delivered__list--item__icon: painless_purchase
       how_its_delivered__list--item__heading: 'Painless Purchase'
       how_its_delivered__list--item__copy: 'Need help with financing? Our partners can help you choose from a menu of flexible, pre-arranged options, whether you want to put $0 down or pay entirely up front.'
-      '#hidden': false
+      '#hidden': true
   how_its_delivered__heading: 'How it''s delivered'
   how_its_delivered__subheading: 'Seamless Experience.'
   how_its_delivered__copy: 'We manage the process from start to finish - you shouldn''t have to think about the messy details.'
