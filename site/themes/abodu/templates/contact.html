@@ -19,6 +19,7 @@
          <!--   Honeypot   -->
          <input type="text" name="_gotcha" style="display:none" />
 
+
          <!--   First Name   -->
          <div class="col-xs-12 col-sm-6 col-md-4  |  mb-8 xs:mb-12 md:mb-16">
             <label for="first_name" class="input --label">First Name*</label>
@@ -30,6 +31,7 @@
             <label for="last_name" class="input --label">Last Name*</label>
             <input name="Last Name" id="last_name" type="text" class="input --field">
          </div>
+
 
          <!--   Telephone   -->
          <div class="col-xs-12 col-sm-6 col-md-4  |  mb-8 xs:mb-12 md:mb-16">
@@ -49,7 +51,6 @@
             <label for="city" class="input --label">City*</label>
             <input name="City" id="city" type="text" class="input --field">
          </div>
-
 
          <!--   State   -->
          <div class="col-xs-12 col-sm-6 col-lg-4  |  mb-8 xs:mb-12 md:mb-16">
@@ -116,10 +117,34 @@
             <input name="Zip" id="zip_code" type="number" class="input --field">
          </div>
 
+
          <!--   Email   -->
          <div class="col-xs-12 col-sm-6 col-lg-4  |  mb-8 xs:mb-12 md:mb-16">
             <label for="email" class="input --label">Email Address*</label>
             <input name="Email" id="email" type="email" class="input --field">
+         </div>
+
+
+         <!--   Reason   -->
+         <div class="col-xs-12 col-sm-6  |  mb-8 xs:mb-12 md:mb-16">
+            <label for="reason" class="input --label">Main reason for adding a backyard home:</label>
+
+            <select name="Reason" id="reason" class="input --field --select">
+               <option hidden disabled selected></option>
+               <option value="Extra Space">Extra Space</option>
+            	<option value="Rental Income">Rental Income</option>
+            </select>
+         </div>
+
+         <!--   Financing   -->
+         <div class="col-xs-12 col-sm-6  |  mb-8 xs:mb-12 md:mb-16">
+            <label for="financing" class="input --label">Will you require financing assistance?</label>
+
+            <select name="Financing" id="financing" class="input --field --select">
+               <option hidden disabled selected></option>
+               <option value="Yes">Yes</option>
+            	<option value="No">No</option>
+            </select>
          </div>
 
 
