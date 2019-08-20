@@ -25,7 +25,7 @@
       <!--   Large Screens   -->
       <div class="site-footer__large-nav">
          <div>
-            {{ nav from="/" exclude="legal" limit="3" }}
+            {{ nav from="/" exclude="legal" limit="3" is_hidden:isnt="true" }}
                <div class="">
                   <a href="{{ url }}">{{ title }}</a>
                </div>
@@ -33,7 +33,7 @@
          </div>
 
          <div>
-            {{ nav from="/" exclude="legal" limit="3" offset="3" }}
+            {{ nav from="/" exclude="legal" limit="3" offset="3" is_hidden:isnt="true" }}
                <div class="">
                   <a href="{{ url }}">{{ title }}</a>
                </div>
