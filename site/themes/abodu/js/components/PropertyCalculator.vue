@@ -16,7 +16,7 @@
               @update="zipcode = $event"
               :classes="'pt-0 pb-1 px-3 mx-1 outline-none leading-none md:min-w-xs min-w-xxs inline-block font-bold border-b-2 border-rust text-rust bg-transparent '"
             ></editable>
-            and we'll tell you the property increase value for an Abodu {{ model }}
+            and we'll estimate the value an Abodu {{ model }} will add to your property.
           </p>
         </div>
 
@@ -27,7 +27,7 @@
         >
           <p
             class="calculator__result-descr md:w-2/5 text-16"
-          >Based on local rents and home prices, we'd expect an Abodu {{ model }} to increase your property value by:</p>
+          >Based on local rents and home prices, we'd expect an Abodu {{ model }} to increase your property value by about:</p>
           <div
             class="calculator__result-value | text-24 md:text-42 font-semibold text-rust md:ml-8 md:mt-0 mt-4"
           >{{ result }}</div>
