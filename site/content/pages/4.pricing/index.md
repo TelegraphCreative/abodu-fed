@@ -70,9 +70,9 @@ payment__fields:
     -
       type: payment__schedule--block
       payment__schedule--block__number: '06'
-      payment__schedule--block__heading: 'Final Handover'
+      payment__schedule--block__heading: 'Final handover'
       payment__schedule--block__copy: 'We walk you through your new Abodu and explain all the fun bells and whistles.'
-      '#hidden': true
+      '#hidden': false
       payment__schedule--block__payment: 10%
   payment__heading: 'Our Timeline & Payment Schedule'
 image_grid_with_color_block__fields:
