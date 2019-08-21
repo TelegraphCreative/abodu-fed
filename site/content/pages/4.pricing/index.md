@@ -4,7 +4,7 @@ hero__copy: |
   Off-site construction allows us significant cost savings, which we pass right through to you. A traditional site-built contractor process will cost you nearly 2x for a unit of similar quality and finish to Abodu - believe us, we checked.
   
   Our price includes all aspects of your Abodu purchase, from unit build to permitting to install. We're not in the business of costly overruns or hidden fees. Rest easy knowing exactly how much your new backyard home will cost you, from start to finish.
-hero__image: /assets/2-min.PNG
+hero__image: /assets/Launch_photos/abodu_43_comp_2x1-(1).jpg
 photo_with_content_block__fields:
   photo_with_content_block__button:
     url: 'https://my.matterport.com/show/?m=ZD4RDZMsBqy'
@@ -20,7 +20,7 @@ photo_with_content_block__fields:
     url: /contact-us
     text: 'Get Started'
   photo_with_content_block__image:
-    - /assets/Prelim-unit/6-min.PNG
+    - /assets/Launch_photos/abodu_52_comp_4x5.jpg
   photo_with_content_block__heading: Straightforward
   photo_with_content_block__subheading: 'Base price starts at $199,000.'
   photo_with_content_block__copy: 'This includes the following:'
@@ -59,7 +59,7 @@ payment__fields:
       payment__schedule--block__number: '04'
       payment__schedule--block__heading: 'Pre-delivery yard work'
       payment__schedule--block__copy: 'We manage all necessary site-work to make sure your yard is ready for its new Abodu.'
-      '#hidden': false
+      '#hidden': true
     -
       type: payment__schedule--block
       payment__schedule--block__number: '05'
@@ -106,11 +106,11 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__note: 'We''ll bring in a local Landscape partner to provide a quote.'
       '#hidden': true
   image_grid_with_color_block__first_image:
-    - /assets/18-min-1566007632.PNG
+    - /assets/Launch_photos/abodu_66_comp_3x2.jpg
   image_grid_with_color_block__second_image:
-    - /assets/Prelim-unit/21.PNG
+    - /assets/Launch_photos/abodu_69_comp_1x1.jpg
   image_grid_with_color_block__third_image:
-    - /assets/Prelim-unit/10-min.PNG
+    - /assets/Launch_photos/abodu_56_comp_3x4.jpg
   image_grid_with_color_block__heading: 'For transparency''s sake'
   image_grid_with_color_block__subheading: 'A few things that increase cost:'
   image_grid_with_color_block__copy: 'While our base pricing covers the vast majority of install scenarios, there''s always the outliers. For those homeowners, we''ve outlined what could add some additional cost.'
