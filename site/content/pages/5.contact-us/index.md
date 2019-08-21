@@ -5,7 +5,7 @@ hero__copy: |
   We'll respond in < 24 hours, guaranteed.
 vision__fields:
   vision__heading: 'Our Vision'
-  vision__copy: 'Abodu began with the idea that there had to be a better way to add density to our growing cities throughout the US. That the American Dream of homeownership is changing- and neighborhoods are evolving. We believe beautifully-designed housing should be accessible and functional. We believe construction projects are almost never a customer-centric process… but they can be. We believe manufacturing technology, software, and thoughtfulness can make that process more joyful for homeowners.'
+  vision__copy: 'Abodu began with the idea that there had to be a better way to add density to our growing cities throughout the US. That the American Dream of homeownership is changing and neighborhoods are evolving. We believe beautifully-designed housing should be accessible and functional. We believe construction projects are almost never a customer-centric process… but they can be. We believe manufacturing technology, software and thoughtfulness can make that process more joyful for homeowners.'
 images_grid__fields:
   image_grid__image_one:
     - /assets/Launch_photos/abodu_60_comp_3x4.jpg
