@@ -4,7 +4,7 @@ hero__copy: |
   Over the past few decades, we haven't built enough housing to keep up with our growing populations. Part of the solution is a new and growing movement to add backyard homes, also called Accessory Dwelling Units (ADUs).
   
   Many areas have recently made it legal and easy for homeowners to add backyard homes to their property. Ultimately, this will help cities meet population demand for housing and provide countless benefits for homeowners.
-hero__image: /assets/30-min.PNG
+hero__image: /assets/Launch_photos/abodu_80_comp_2x1.jpg
 model_number: '500'
 two_column_content_grid__fields:
   two_column_content_grid__list:
@@ -59,7 +59,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__heading: 'More Affordable'
       image_grid_with_color_block__list--item__copy: 'Most ADUs rent slightly below comparable 1-bedroom units, largely due to the smaller footprint.'
       image_grid_with_color_block__list--item__note: ''
-      '#hidden': false
+      '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: the_perfect_rental
@@ -68,11 +68,11 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__note: null
       '#hidden': true
   image_grid_with_color_block__first_image:
-    - /assets/Prelim-unit/22-min.PNG
+    - /assets/Launch_photos/abodu_70_comp_3x2.jpg
   image_grid_with_color_block__second_image:
-    - /assets/Prelim-unit/19.PNG
+    - /assets/Launch_photos/abodu_67_comp_1x1.jpg
   image_grid_with_color_block__third_image:
-    - /assets/Prelim-unit/1.PNG
+    - /assets/Launch_photos/abodu_42_comp_3x4.jpg
   image_grid_with_color_block__heading: 'Benefits for renters'
   image_grid_with_color_block__subheading: 'An Abodu makes a great rental.'
 why_abodu__two_column_content_grid__fields:
