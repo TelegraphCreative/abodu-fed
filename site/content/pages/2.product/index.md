@@ -1,6 +1,6 @@
 hero__heading: 'Our Product'
 hero__subheading: 'A timeless backyard home design — without compromising quality or space.'
-hero__image: /assets/26-min.PNG
+hero__image: /assets/Launch_photos/abodu_74_comp_2x1.jpg
 photo_with_content_block__fields:
   photo_with_content_block__button:
     url: 'https://my.matterport.com/show/?m=ZD4RDZMsBqy'
@@ -27,7 +27,7 @@ photo_with_content_block__fields:
       photo_with_content_block__list--item--copy: 'We offer the best of Scandinavian influence: simplicity, functionality, minimalism - paired with a timeless aesthetic. Your Abodu feels at place in your yard, no matter the design of your main home.'
       '#hidden': true
   photo_with_content_block__image:
-    - /assets/Prelim-unit/9.PNG
+    - /assets/Launch_photos/abodu_55_comp_4x5.jpg
   photo_with_content_block__heading: 'Our Product Pillars'
 abodu_450__fields:
   content_block_with_pattern__button:
@@ -35,9 +35,9 @@ abodu_450__fields:
     text: ''
   content_block_with_pattern__toggle: false
   slider__images:
-    - /assets/Prelim-unit/2-min.PNG
-    - /assets/80-min-min.PNG
-    - /assets/Prelim-unit/8-min.PNG
+    - /assets/Launch_photos/abodu_43_comp_2x1-(1).jpg
+    - /assets/Launch_photos/abodu_79_comp_2x1.jpg
+    - /assets/Launch_photos/abodu_54_comp_2x1.jpg
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'Abodu 500'
   content_block_with_pattern__copy: '500 square feet of beautifully designed space, with our signature cathedral ceilings. A right-sized one-bedroom layout.'
@@ -52,7 +52,7 @@ exterior__fields:
     - 'High-efficiency, dual-pane windows, from Andersen.'
     - 'Fiber-cement siding, from James Hardie.'
   exterior__image:
-    - /assets/27-min.PNG
+    - /assets/Launch_photos/abodu_75_comp_3x2.jpg
   exterior__heading: Exterior
   exterior__subheading: 'Standard External Features:'
 two_column_content_grid__fields:
@@ -114,7 +114,7 @@ image_grid_with_color_block__fields:
         - 'Stucco siding.'
         - 'Premium, 3 panel folding door, from La Cantina.'
         - 'White-framed windows, from Andersen.'
-      '#hidden': false
+      '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__heading: 'Internal upgrade options:'
@@ -146,11 +146,11 @@ image_grid_with_color_block__fields:
         - '11.5 ft tall ceilings with 8 ft tall doors'
       '#hidden': true
   image_grid_with_color_block__first_image:
-    - /assets/Prelim-unit/2-min.PNG
+    - /assets/Launch_photos/abodu_43_comp_3x2.jpg
   image_grid_with_color_block__second_image:
-    - /assets/Prelim-unit/19.PNG
+    - /assets/Launch_photos/abodu_67_comp_1x1.jpg
   image_grid_with_color_block__third_image:
-    - /assets/Prelim-unit/16.PNG
+    - /assets/Launch_photos/abodu_64_comp_3x4.jpg
   image_grid_with_color_block__heading: Customize
   image_grid_with_color_block__subheading: 'Make your new Abodu yours, with a selection of curated upgrades and options.'
 design_partnership__photo_with_content_block__fields:
