@@ -4,7 +4,7 @@ hero__copy: |
   What makes buying an Abodu different?  Our purchase and install experience is painless and quick.
   
   We manage everything for you and will be in your backyard 2 weeks or less - guaranteed.
-hero__image: /assets/25-min-min.PNG
+hero__image: /assets/Launch_photos/abodu_73_comp_2x1.jpg
 accordian__fields:
   accordian__sections:
     -
@@ -81,7 +81,7 @@ card_slider__fields:
       card_slider__cards__card--heading: Construction
       card_slider__cards__card--copy: 'We build your Abodu in our factory, so you don''t have to hear us in your backyard.'
       card_slider__cards__card--note: null
-      '#hidden': false
+      '#hidden': true
     -
       type: card_slider__cards__card
       card_slider__cards__card--length: '10 Days'
