@@ -56,7 +56,7 @@ accordian__fields:
           '#hidden': true
       '#hidden': true
   accordian__heading: 'Seamless Installation'
-  accordian__copy: 'We''ve take the frustration out of expanding your home.'
+  accordian__copy: 'We take the frustration out of expanding your home.'
 calendar__fields:
   calendar__heading: 'Here''s how we stack up:'
 card_slider__fields:
