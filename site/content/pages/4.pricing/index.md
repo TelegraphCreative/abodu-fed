@@ -22,7 +22,7 @@ photo_with_content_block__fields:
   photo_with_content_block__image:
     - /assets/Launch_photos/abodu_52_comp_4x5.jpg
   photo_with_content_block__heading: Straightforward
-  photo_with_content_block__subheading: 'Base price starts at $199,000.'
+  photo_with_content_block__subheading: 'Base price for early adopters starts at $199,000.'
   photo_with_content_block__copy: 'This includes the following:'
 content_block_with_pattern__fields:
   content_block_with_pattern__toggle: true
