@@ -12,7 +12,7 @@ what_we_do__fields:
     text: 'Why Backyard Living'
   slider__images:
     - /assets/Launch_photos/abodu_72_comp_2x1.jpg
-    - /assets/Launch_photos/abodu_76_comp_2x1.jpg
+    - /assets/Launch_photos/abodu_77_2x1.jpg
     - /assets/Launch_photos/abodu_54_comp_2x1.jpg
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'What We Do'
