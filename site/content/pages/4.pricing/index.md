@@ -106,7 +106,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__note: 'We''ll bring in a local Landscape partner to provide a quote.'
       '#hidden': true
   image_grid_with_color_block__first_image:
-    - /assets/Launch_photos/abodu_66_comp_3x2.jpg
+    - /assets/Launch_photos/abodu_66_3x2_v2.jpg
   image_grid_with_color_block__second_image:
     - /assets/Launch_photos/abodu_69_comp_1x1.jpg
   image_grid_with_color_block__third_image:
