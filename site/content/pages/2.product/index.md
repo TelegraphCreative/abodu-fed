@@ -148,7 +148,7 @@ image_grid_with_color_block__fields:
   image_grid_with_color_block__first_image:
     - /assets/abodu_64_comp_3x2.jpg
   image_grid_with_color_block__second_image:
-    - /assets/Launch_photos/abodu_67_comp_1x1.jpg
+    - /assets/abodu_61_comp_1x1.jpg
   image_grid_with_color_block__third_image:
     - /assets/abodu_62_comp_3x4.jpg
   image_grid_with_color_block__heading: Customize
