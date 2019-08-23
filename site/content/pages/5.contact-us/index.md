@@ -12,7 +12,7 @@ images_grid__fields:
   image_grid__image_two:
     - /assets/Launch_photos/abodu_80_comp_3x2.jpg
   image_grid__image_three:
-    - /assets/Launch_photos/abodu_47_comp_1x1.jpg
+    - /assets/abodu_76_comp_1x1.jpg
 who_we_are__fields:
   who_we_are__heading: 'Who We Are'
   who_we_are__copy: 'Our team is the best of both worlds – outside experts with experience across industries, and real estate and construction industry veterans - teamed up to take a fresh look at how to re-engineer around the customer.'
