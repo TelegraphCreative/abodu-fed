@@ -4,7 +4,7 @@ hero__copy: |
   Off-site construction allows us significant cost savings, which we pass right through to you. A traditional site-built contractor process will cost you nearly 2x for a unit of similar quality and finish to Abodu - believe us, we checked.
   
   Our price includes all aspects of your Abodu purchase, from unit build to permitting to install. We're not in the business of costly overruns or hidden fees. Rest easy knowing exactly how much your new backyard home will cost you, from start to finish.
-hero__image: /assets/Launch_photos/abodu_43_comp_2x1.jpg
+hero__image: /assets/abodu_56_comp_2x1.jpg
 photo_with_content_block__fields:
   photo_with_content_block__button:
     url: 'https://my.matterport.com/show/?m=ZD4RDZMsBqy'
@@ -108,9 +108,9 @@ image_grid_with_color_block__fields:
   image_grid_with_color_block__first_image:
     - /assets/Launch_photos/abodu_66_3x2_v2.jpg
   image_grid_with_color_block__second_image:
-    - /assets/Launch_photos/abodu_69_comp_1x1.jpg
+    - /assets/abodu_69_comp_1x1.jpg
   image_grid_with_color_block__third_image:
-    - /assets/Launch_photos/abodu_56_comp_3x4.jpg
+    - /assets/abodu_67_comp_3x4.jpg
   image_grid_with_color_block__heading: 'For transparency''s sake'
   image_grid_with_color_block__subheading: 'A few things that increase cost:'
   image_grid_with_color_block__copy: 'While our base pricing covers the vast majority of install scenarios, there''s always the outliers. For those homeowners, we''ve outlined what could add some additional cost.'
