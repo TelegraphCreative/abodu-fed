@@ -146,11 +146,11 @@ image_grid_with_color_block__fields:
         - '11.5 ft tall ceilings with 8 ft tall doors'
       '#hidden': true
   image_grid_with_color_block__first_image:
-    - /assets/Launch_photos/abodu_43_comp_3x2.jpg
+    - /assets/abodu_64_comp_3x2.jpg
   image_grid_with_color_block__second_image:
     - /assets/Launch_photos/abodu_67_comp_1x1.jpg
   image_grid_with_color_block__third_image:
-    - /assets/Launch_photos/abodu_64_comp_3x4.jpg
+    - /assets/abodu_62_comp_3x4.jpg
   image_grid_with_color_block__heading: Customize
   image_grid_with_color_block__subheading: 'Make your new Abodu yours, with a selection of curated upgrades and options.'
 design_partnership__photo_with_content_block__fields:
