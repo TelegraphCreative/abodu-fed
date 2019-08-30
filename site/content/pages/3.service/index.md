@@ -77,11 +77,11 @@ card_slider__fields:
       '#hidden': true
     -
       type: card_slider__cards__card
-      card_slider__cards__card--length: '4 Weeks'
+      card_slider__cards__card--length: '4-6 Weeks'
       card_slider__cards__card--heading: Construction
       card_slider__cards__card--copy: 'We build your Abodu in our factory, so you don''t have to hear us in your backyard.'
       card_slider__cards__card--note: null
-      '#hidden': true
+      '#hidden': false
     -
       type: card_slider__cards__card
       card_slider__cards__card--length: '10 Days'
