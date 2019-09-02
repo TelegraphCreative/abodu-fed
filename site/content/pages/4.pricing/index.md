@@ -38,8 +38,8 @@ payment__fields:
       payment__schedule--block__number: '01'
       payment__schedule--block__heading: 'Home visit'
       payment__schedule--block__copy: 'We meet you in person to check on a few things and ensure your backyard and Abodu are a great fit.'
-      '#hidden': true
-      payment__schedule--block__payment: '$250 deposit'
+      '#hidden': false
+      payment__schedule--block__payment: 'Free through 2019'
     -
       type: payment__schedule--block
       payment__schedule--block__number: '02'
