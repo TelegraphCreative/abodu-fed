@@ -4,7 +4,10 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'Question 1'
-    faq__list--item__answer: 'Nec nam aliquam sem et tortor consequat id porta nibh. Aliquam faucibus purus in massa tempor. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Nec nam aliquam sem et tortor consequat. Dictum non consectetur a erat nam at. Penatibus et magnis dis parturient montes nascetur.'
+    faq__list--item__answer: |
+      Nec nam aliquam sem et tortor consequat id porta nibh. Aliquam faucibus purus in massa tempor. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Nec nam aliquam sem et tortor consequat. Dictum non consectetur a erat nam at. Penatibus et magnis dis parturient montes nascetur.
+      
+      Nec nam aliquam sem et tortor consequat. Dictum non consectetur a erat nam at. Penatibus et magnis dis parturient montes nascetur.
   -
     type: faq__list--item
     faq__list--item__question: 'Question 2'
