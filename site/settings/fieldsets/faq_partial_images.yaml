@@ -1,0 +1,10 @@
+sections:
+  main:
+    display: Main
+    fields:
+      image_grid__fields:
+        fieldset: partial__image_grid
+        type: partial
+        display: 'Image Grid'
+taxonomies: true
+title: 'FAQ: Partial: Images'
