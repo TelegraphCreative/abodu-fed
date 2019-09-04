@@ -16,6 +16,9 @@ faq__list:
     type: faq__list--item
     faq__list--item__question: 'Question 3'
     faq__list--item__answer: 'Consectetur libero id faucibus nisl. Purus sit amet luctus venenatis lectus magna fringilla urna porttitor. Sit amet purus gravida quis blandit. Mattis rhoncus urna neque viverra justo nec ultrices. Magna sit amet purus gravida. Vel pharetra vel turpis nunc eget lorem dolor.'
+image_grid__image_one: /assets/Launch_photos/abodu_60_comp_3x4.jpg
+image_grid__image_two: /assets/Launch_photos/abodu_80_comp_3x2.jpg
+image_grid__image_three: /assets/abodu_76_comp_1x1.jpg
 title: FAQ
 fieldset: faq_page
 template: faq
