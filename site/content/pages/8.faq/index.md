@@ -23,10 +23,8 @@ images_grid__fields:
     - /assets/Launch_photos/abodu_80_comp_3x2.jpg
   image_grid__image_three:
     - /assets/abodu_76_comp_1x1.jpg
-image_grid__image_one: /assets/Launch_photos/abodu_60_comp_3x4.jpg
-image_grid__image_two: /assets/Launch_photos/abodu_80_comp_3x2.jpg
-image_grid__image_three: /assets/abodu_76_comp_1x1.jpg
 title: FAQ
 fieldset: faq_page
 template: faq
 id: a5116028-91d4-41c0-86c2-eacbdd8213fb
+is_hidden: true
