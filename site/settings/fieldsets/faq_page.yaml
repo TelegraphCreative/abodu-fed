@@ -14,5 +14,20 @@ sections:
       faq__section:
         type: section
         display: FAQ
+      faq__list:
+        sets:
+          faq__list--item:
+            display: 'List Item'
+            fields:
+              faq__list--item__question:
+                type: text
+                width: 50
+                display: Question
+              faq__list--item__answer:
+                type: textarea
+                width: 50
+                display: Answer
+        type: replicator
+        display: 'FAQ List'
 taxonomies: true
 title: 'FAQ: Page'
