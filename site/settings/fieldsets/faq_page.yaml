@@ -29,5 +29,12 @@ sections:
                 display: Answer
         type: replicator
         display: 'FAQ List'
+      images__section:
+        type: section
+        display: Images
+      images_grid__fields:
+        fieldset: faq_partial_images
+        type: partial
+        display: Images
 taxonomies: true
 title: 'FAQ: Page'
