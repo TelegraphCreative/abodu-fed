@@ -166,10 +166,6 @@ cta__fields:
     text: 'View Our Service'
   cta__heading: 'And, we''ll make it easy.'
   cta__copy: 'We take care of everything. No need to deal with construction crews in your backyard for months - we''ll be quick and painless.'
-seo:
-  description: 'Product info lorem ipsum'
-  image: /assets/17-min_square.png
-meta_title: 'Pro - Abodu'
 meta_description: 'Product info lorem ipsum'
 page_no_index: false
 no_follow_links: false
@@ -185,6 +181,9 @@ twitter_description: 'Lorem ipsum Twitter'
 twitter_card_type_page: summary
 twitter_summary_image:
   - /assets/1.jpg
+seo:
+  description: 'Product info lorem ipsum'
+  image: /assets/17-min_square.png
 title: Product
 fieldset: product
 template: product
