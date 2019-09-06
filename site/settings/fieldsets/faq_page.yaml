@@ -8,9 +8,6 @@ sections:
       hero__heading:
         type: text
         display: Heading
-      hero__copy:
-        type: textarea
-        display: Copy
       faq__section:
         type: section
         display: FAQ
