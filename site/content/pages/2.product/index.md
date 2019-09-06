@@ -168,6 +168,7 @@ cta__fields:
   cta__copy: 'We take care of everything. No need to deal with construction crews in your backyard for months - we''ll be quick and painless.'
 seo:
   description: 'Product info lorem ipsum'
+meta_title: 'Pro - Abodu'
 meta_description: 'Product info lorem ipsum'
 page_no_index: false
 no_follow_links: false
