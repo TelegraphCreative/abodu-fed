@@ -4,10 +4,10 @@ sitemap_enabled: true
 sitemap_url: sitemap.xml
 sitemap_cache_length: 60
 defaults:
-  site_name: 'Site Name'
-  site_name_position: after
-  site_name_separator: '|'
   title: '@seo:title'
+  site_name: Abodu
+  site_name_position: before
+  site_name_separator: '|'
   description: '@seo:content'
   priority: 0.5
   change_frequency: monthly
@@ -28,3 +28,4 @@ humans:
     
     Standards: HTML5, CSS3
     Components: Statamic 2, Laravel, PHP, JavaScript
+    
