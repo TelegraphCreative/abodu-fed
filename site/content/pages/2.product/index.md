@@ -168,6 +168,17 @@ cta__fields:
   cta__copy: 'We take care of everything. No need to deal with construction crews in your backyard for months - we''ll be quick and painless.'
 seo:
   description: 'Product info lorem ipsum'
+meta_title: 'Abodu - Product'
+meta_description: 'Product info lorem ipsum'
+page_no_index: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+facebook_title: 'Abodu - Product'
+facebook_description: 'Product info lorem ipsum'
+facebook_image:
+  - /assets/Launch_photos/abodu_43_comp_3x2.jpg
+twitter_share_setting: inherit
 title: Product
 fieldset: product
 template: product
