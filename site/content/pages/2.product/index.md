@@ -35,15 +35,13 @@ abodu_450__fields:
     text: ''
   content_block_with_pattern__toggle: false
   slider__images:
-    - /assets/Launch_photos/abodu_43_comp_2x1-(1).jpg
     - /assets/Launch_photos/abodu_79_comp_2x1.jpg
     - /assets/Launch_photos/abodu_54_comp_2x1.jpg
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'Abodu 500'
   content_block_with_pattern__copy: '500 square feet of beautifully designed space, with our signature cathedral ceilings. A right-sized one-bedroom layout.'
   product_specs__copy: '495 square feet. 14’ wide. 35’4” long. 11’ ceilings. 12.5’ structure height.'
-  product_specs__image:
-    - /assets/floorplan-(clear).jpg
+  product_specs__image: {  }
 exterior__fields:
   exterior__list:
     - ''
@@ -168,6 +166,8 @@ cta__fields:
     text: 'View Our Service'
   cta__heading: 'And, we''ll make it easy.'
   cta__copy: 'We take care of everything. No need to deal with construction crews in your backyard for months - we''ll be quick and painless.'
+seo:
+  title: Boop
 title: Product
 fieldset: product
 template: product
