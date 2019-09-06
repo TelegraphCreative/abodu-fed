@@ -168,6 +168,7 @@ cta__fields:
   cta__copy: 'We take care of everything. No need to deal with construction crews in your backyard for months - we''ll be quick and painless.'
 seo:
   description: 'Product info lorem ipsum'
+  image: /assets/17-min_square.png
 meta_title: 'Pro - Abodu'
 meta_description: 'Product info lorem ipsum'
 page_no_index: false
@@ -178,7 +179,12 @@ facebook_title: 'Abodu - Product'
 facebook_description: 'Product info lorem ipsum'
 facebook_image:
   - /assets/Launch_photos/abodu_43_comp_3x2.jpg
-twitter_share_setting: inherit
+twitter_share_setting: custom
+twitter_title: 'Abodu - Twitter'
+twitter_description: 'Lorem ipsum Twitter'
+twitter_card_type_page: summary
+twitter_summary_image:
+  - /assets/1.jpg
 title: Product
 fieldset: product
 template: product
