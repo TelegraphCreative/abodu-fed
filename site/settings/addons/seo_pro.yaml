@@ -1,3 +1,4 @@
+asset_container: main
 open_graph_image_width: 1200
 open_graph_image_height: 1200
 sitemap_enabled: true
@@ -28,4 +29,3 @@ humans:
     
     Standards: HTML5, CSS3
     Components: Statamic 2, Laravel, PHP, JavaScript
-    
