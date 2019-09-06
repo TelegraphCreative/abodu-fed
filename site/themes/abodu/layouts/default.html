@@ -12,6 +12,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ theme:images/favicon src='favicon-16x16.png' }}">
 
     <link rel="stylesheet" href="{{ theme:css }}" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5VQYblIjdCUT_Ck3jN-lxFTRO06ttWOU&libraries=places"></script>
   </head>
 
   <body class="flex font-sans leading-normal m-0 p-0 text-16 text-black">
@@ -30,5 +31,10 @@
     {{#   JavaScript   #}}
     {{ partial:javascript }}
     {{ partial:tracking }}
+
+    {{ if template == "contact" }}
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      {{ partial:jquery-autocomplete }}
+    {{ /if }}
   </body>
 </html>
