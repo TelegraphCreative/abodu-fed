@@ -167,7 +167,6 @@ cta__fields:
   cta__heading: 'And, we''ll make it easy.'
   cta__copy: 'We take care of everything. No need to deal with construction crews in your backyard for months - we''ll be quick and painless.'
 seo:
-  title: Boop
   description: 'Boop the whoop'
 title: Product
 fieldset: product
