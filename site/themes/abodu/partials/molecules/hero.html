@@ -7,9 +7,11 @@
 
             <div class="col-xs-12   col-sm-10   col-lg-6">
                <h1 class="heading  --primary">{{ hero__heading }}</h1>
-               <div class="nested-mb-6 mt-6">
-                  {{ hero__copy | markdown }}
-               </div>
+               {{ unless template == 'faq' }}
+                  <div class="nested-mb-6 mt-6">
+                     {{ hero__copy | markdown }}
+                  </div>
+               {{ /unless }}
             </div>
 
          {{ else }}
