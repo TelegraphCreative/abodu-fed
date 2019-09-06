@@ -67,11 +67,14 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'What type of foundation is this set on?'
-    faq__list--item__answer: 'They’re on a concrete-less foundation, called helical piers. Basically, these things are steel corkscrews that go deep into the ground at various points along the outside of the unit. They have a connection bracket on the top of each corkscrew that the unit sits on. It’s pretty heavy duty... they’re most commonly used in oil and gas rigs, but also for foundation of single family homes. Helical piers are becoming increasingly popular because of their durability and ease of install.'
+    faq__list--item__answer: |
+      Where possible, we use a concrete-less foundation, called helical piers. These are steel corkscrews that go deep into the ground at various points along the outside of the unit. They have a connection bracket on the top of each corkscrew that the unit sits on. It’s pretty heavy duty...helical piers are becoming increasingly popular because of their durability, strength, and ease of install. 
+      
+      Alternatively, we can also set an Abodu on a typical concrete perimeter foundation. This just requires a bit more time in your backyard - instead of 2 weeks, it could be as much as 4-6 weeks. We'd need to take a look at your site.
   -
     type: faq__list--item
     faq__list--item__question: 'How do you run a gas line to the ADU?'
-    faq__list--item__answer: 'We don’t. Our units are all electric, because electric appliances are much more efficient and environmentally friendly. Don’t worry - our water heater is a beast of a unit, and our electric induction cooktop is way better than a gas cooktop.'
+    faq__list--item__answer: 'We don’t. Our units are all electric, because electric appliances are much more efficient and environmentally friendly. We use a top-of-the-line water heater, and our electric induction cooktop has rave reviews.'
   -
     type: faq__list--item
     faq__list--item__question: 'How do ADU’s work with zoning?'

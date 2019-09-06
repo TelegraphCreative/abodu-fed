@@ -117,8 +117,7 @@ GoogleMapsDemo.Application = (function () {
             $fieldset = $(args.fieldset);
         }
         
-        var $street = $fieldset.find('[id$=Street]');
-        var $street2 = $fieldset.find('[id$=Street2]');
+        var $street = $fieldset.find('[id$=Address]');
         var $postalCode = $fieldset.find('[id$=PostalCode]');
         var $city = $fieldset.find('[id$=City]');
         var $country = $fieldset.find('[id$=Country]');
@@ -126,7 +125,6 @@ GoogleMapsDemo.Application = (function () {
         
         if (!isPostalCode) {
             $street.val('');
-            $street2.val('');
         }
         $postalCode.val('');
         $city.val('');
