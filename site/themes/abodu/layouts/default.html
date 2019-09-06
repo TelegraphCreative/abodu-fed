@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Abodu{{ unless template == "home" }} | {{ title }}{{ /if }}</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="canonical" href="{{ permalink }}" />
+    {{ aardvark-seo:head }}
 
     <link rel="apple-touch-icon" sizes="76x76" href="{{ theme:images/favicon src='apple-touch-icon.png' }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ theme:images/favicon src='favicon-32x32.png' }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ theme:images/favicon src='favicon-16x16.png' }}">
 
+
     <link rel="stylesheet" href="{{ theme:css }}" />
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5VQYblIjdCUT_Ck3jN-lxFTRO06ttWOU&libraries=places"></script>
   </head>
 
   <body class="flex font-sans leading-normal m-0 p-0 text-16 text-black">
@@ -33,6 +32,7 @@
     {{ partial:tracking }}
 
     {{ if template == "contact" }}
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5VQYblIjdCUT_Ck3jN-lxFTRO06ttWOU&libraries=places"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       {{ partial:jquery-autocomplete }}
     {{ /if }}
