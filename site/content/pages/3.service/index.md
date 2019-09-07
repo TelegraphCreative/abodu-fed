@@ -81,7 +81,7 @@ card_slider__fields:
       card_slider__cards__card--heading: Construction
       card_slider__cards__card--copy: 'We build your Abodu in our factory, so you don''t have to hear us in your backyard.'
       card_slider__cards__card--note: null
-      '#hidden': false
+      '#hidden': true
     -
       type: card_slider__cards__card
       card_slider__cards__card--length: '10 Days'
@@ -110,6 +110,12 @@ cta__fields:
     text: 'See Our Pricing'
   cta__heading: 'No-surprises, risk-free pricing.'
   cta__copy: 'Because nobody likes being nickel and dimed. Especially with their home.'
+meta_description: 'Painless ADU construction. Constructed offsite and installed in your backyard through a simple 2 week process.'
+page_no_index: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+twitter_share_setting: inherit
 calendar__heading: 'Here''s how we stack up:'
 timeline__heading: 'Here''s how we stack up:'
 title: Service
