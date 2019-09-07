@@ -3,7 +3,7 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'What is an ADU?'
-    faq__list--item__answer: 'The legal term is Accessory Dwelling Unit, or ADU. ADU''s go by many names - granny flats, granny units, in-law apartments, or secondary suites - just to name a few. ADU’s are a of permanent structure that provides a fully-appointed living space in the backyards of existing homes. ADUs typically have at least 1 bedroom, 1 bathroom and a kitchen space.'
+    faq__list--item__answer: 'The legal term is Accessory Dwelling Unit, or ADU. ADUs go by many names - granny flats, granny units, in-law apartments, or secondary suites - just to name a few. ADUs are a permanent structure that provides a fully-appointed living space in the backyards of existing homes. ADUs typically have at least 1 bedroom, 1 bathroom and a kitchen space.'
   -
     type: faq__list--item
     faq__list--item__question: 'Who designed Abodu?'
