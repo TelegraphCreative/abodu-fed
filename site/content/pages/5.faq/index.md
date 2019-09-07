@@ -11,7 +11,7 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'Can I put an Accessory Dwelling Unit (ADU) in my backyard?'
-    faq__list--item__answer: 'If you live in the State of California, then the answer is most likely Yes. Some cities make it a bit more challenging than others, so feel free to reach out with your name and address and we can quickly check your situation.'
+    faq__list--item__answer: 'If you live in the State of California, then the answer is most likely Yes. In some cities, the process is more challenging than others, so feel free to reach out with your name and address and we can quickly check your situation.'
   -
     type: faq__list--item
     faq__list--item__question: 'How long does it take to get an ADU permitted?'
@@ -63,7 +63,7 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'How do I get plumbing in my ADU?'
-    faq__list--item__answer: 'Generally, we’ll need to run the plumbing underground somewhere out into the front yard, and connect into a part of your yard that breaks off from the sewer main (that’s called the sewer lateral). In some cases, we’ll connect into the cleanout. There’s a few other things we need to take into account - how big the pipes are on your current system, how many bathrooms you have - but we’ll chat about that during a site visit.'
+    faq__list--item__answer: 'Generally, we’ll need to run the plumbing underground somewhere out into the front yard, and connect into a part of your yard that breaks off from the sewer main (that’s called the sewer lateral). In some cases, we’ll connect into the cleanout. In some locations, we can tie in at the back of your home, but not in all. There’s a few other things we need to take into account - how big the pipes are on your current system, how many bathrooms you have - but we’ll chat about that during a site visit.'
   -
     type: faq__list--item
     faq__list--item__question: 'What type of foundation is this set on?'
@@ -74,11 +74,11 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'How do you run a gas line to the ADU?'
-    faq__list--item__answer: 'We don’t. Our units are all electric, because electric appliances are much more efficient and environmentally friendly. We use a top-of-the-line water heater, and our electric induction cooktop has rave reviews.'
+    faq__list--item__answer: 'We don’t. Our units are all electric, because electric appliances are much more efficient and environmentally friendly. We use a top-of-the-line water heater, and our electric induction cook-tops have rave reviews.'
   -
     type: faq__list--item
     faq__list--item__question: 'How do ADU’s work with zoning?'
-    faq__list--item__answer: 'Bit of a loaded question… it depends. Zoning happens at a city-by-city level, and so we’ll have to know where you are. Since the state of California changed the laws around ADUs starting in 2017, ADU’s are now allowed in the backyards of all single family homes, with some restrictions in each local area (things like setbacks, size limits, etc.).'
+    faq__list--item__answer: 'Bit of a loaded question… it depends. Zoning happens at a city-by-city level, and so we’ll have to know where you are. Since the state of California changed the laws around ADUs starting in 2017, ADU’s are now allowed in the backyards of all single family homes, with some restrictions in each local area (things like setbacks, size limits, etc.). If you''re in one of our current service areas, we can help you understand and navigate this process.'
   -
     type: faq__list--item
     faq__list--item__question: 'What setbacks are required on my property?'
