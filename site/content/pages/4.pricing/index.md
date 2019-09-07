@@ -38,7 +38,7 @@ payment__fields:
       payment__schedule--block__number: '01'
       payment__schedule--block__heading: 'Home visit'
       payment__schedule--block__copy: 'We meet you in person to check on a few things and ensure your backyard and Abodu are a great fit.'
-      '#hidden': false
+      '#hidden': true
       payment__schedule--block__payment: 'Free through 2019'
     -
       type: payment__schedule--block
@@ -120,6 +120,13 @@ cta__fields:
     text: 'Talk to Us'
   cta__heading: 'Ready to put an Abodu in your backyard?'
   cta__copy: ''
+meta_title: 'Bay Area ADUs under $200K all-in'
+meta_description: 'Bay Area ADUs for your budget. End to end management, including permitting for under $200,000.'
+page_no_index: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+twitter_share_setting: inherit
 title: Pricing
 fieldset: pricing__page
 template: pricing
