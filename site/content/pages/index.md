@@ -81,6 +81,16 @@ cta__fields:
     url: /contact-us
     text: 'Talk to Us'
   cta__heading: 'Ready to put an Abodu in your backyard?'
+meta_title: 'Abodu Backyard Homes'
+meta_description: |
+  No-compromise backyard homes, serving the Bay Area.
+  Easy install – 2 weeks in your backyard.
+  Expand your home’s value and livable space
+page_no_index: false
+no_follow_links: false
+sitemap_priority: '0.9'
+sitemap_changefreq: daily
+twitter_share_setting: inherit
 hero__heading: '<span>Backyard homes<br></span> worth living in.'
 title: Home
 template: home
