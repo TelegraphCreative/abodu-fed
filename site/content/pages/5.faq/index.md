@@ -11,7 +11,7 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'Can I put an Accessory Dwelling Unit (ADU) in my backyard?'
-    faq__list--item__answer: 'If you live in the State of California, then the answer is most likely Yes. Some cities make it a bit more challenging that others, so feel free to reach out with your name and address and we can quickly check your situation.'
+    faq__list--item__answer: 'If you live in the State of California, then the answer is most likely Yes. Some cities make it a bit more challenging than others, so feel free to reach out with your name and address and we can quickly check your situation.'
   -
     type: faq__list--item
     faq__list--item__question: 'How long does it take to get an ADU permitted?'
@@ -95,6 +95,11 @@ faq__list:
     type: faq__list--item
     faq__list--item__question: 'Does an Abodu have heating and air conditioning?'
     faq__list--item__answer: 'Yes. Your Abodu comes standard with heating and air conditioning. We want to ensure you don’t miss any of the comforts of home.'
+page_no_index: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+twitter_share_setting: inherit
 title: FAQ
 fieldset: faq_page
 template: faq
