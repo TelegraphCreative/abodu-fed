@@ -105,6 +105,12 @@ cta__fields:
     text: 'View our product'
   cta__heading: 'The perfect space.'
   cta__copy: 'We''ve spent countless hours designing every inch so an Abodu feels right at home in your backyard.'
+meta_description: 'Expand your home’s value and livable space with an Abodu ADU.'
+page_no_index: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+twitter_share_setting: inherit
 property_calculator_model_number: '450'
 color_block__fields:
   color_block__button:
