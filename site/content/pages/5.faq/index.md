@@ -27,15 +27,15 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'How does financing work for ADUs?'
-    faq__list--item__answer: 'There are a variety of methods available for ADUs - contact us for additional information on financing options. Many customers tell us that they’ve used a Home Equity Line of Credit (HELOC) to finance their ADU installation.'
+    faq__list--item__answer: 'At Abodu, we offer a curated set of pre-arranged financing options through partners. Depending on your situation, we can help you tap into your home equity (through a HELOC or Cash-out Refi), obtain a traditional loan (construction loan, renovation loan), or take advantage of "zero-down" financing options through our partners who take fractional ownership in your home in exchange for the cash to build an ADU. Talk to us and we''ll point you in the right direction.'
   -
     type: faq__list--item
-    faq__list--item__question: 'How will you get the pre-fabricated ADU into my backyard?'
+    faq__list--item__question: 'How will you get the prefab (pre-fabricated) ADU into my backyard?'
     faq__list--item__answer: 'If you have plenty of access space for us to move it, via rollers, into the backyard, then we’ll do that. If you have a bit less access space, we will use a crane to lift the Abodu over your main home.'
   -
     type: faq__list--item
     faq__list--item__question: 'Can I rent my ADU to anyone?'
-    faq__list--item__answer: 'Yes. If you live in the main house, you can rent your Abodu to anyone you please - aging parents, children back from school, the new teacher at your local elementary school, a local firefighter, etc. The possibilities are endless.'
+    faq__list--item__answer: 'Yes. If you live in the main house, you can rent your Abodu to anyone you please - aging parents, children back from school, a teacher, a local firefighter - the possibilities are endless.'
   -
     type: faq__list--item
     faq__list--item__question: 'Are these ADUs considered mobile homes?'
@@ -51,11 +51,11 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'Can I customize my ADU to make it look how I want it to look?'
-    faq__list--item__answer: 'Yes. We offer multiple exterior siding options and colors, roofing colors and interior flooring and paint colors. You aren’t able to move any walls within your Abodu, but after the thousands of hours of design work we’ve put into Abodu, trust us - you won’t want to.'
+    faq__list--item__answer: 'Yes. We offer multiple exterior siding options and colors, roofing colors and interior flooring and paint colors. You aren’t able to move any walls within your Abodu, but after the thousands of hours we’ve put into designing your Abodu, trust us - you won’t want to.'
   -
     type: faq__list--item
     faq__list--item__question: 'Can I add solar to my ADU?'
-    faq__list--item__answer: 'Yes, we can add solar to your Abodu - no problem. How we install solar will look a little bit different whether or not your existing home currently has solar, but either way, it’s doable.'
+    faq__list--item__answer: 'Yes, we can add solar to your Abodu - no problem. How we install solar will look a little bit different whether or not your existing home currently has solar, but either way, we can arrange this for you.'
   -
     type: faq__list--item
     faq__list--item__question: 'How do I get electricity in my ADU?'
@@ -63,7 +63,7 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'How do I get plumbing in my ADU?'
-    faq__list--item__answer: 'Generally, we’ll need to run the plumbing underground somewhere out into the front yard, and connect into a part of your yard that breaks off from the sewer main (that’s called the sewer lateral). In some cases, we’ll connect into the cleanout. In some locations, we can tie in at the back of your home, but not in all. There’s a few other things we need to take into account - how big the pipes are on your current system, how many bathrooms you have - but we’ll chat about that during a site visit.'
+    faq__list--item__answer: 'Generally, we’ll need to run the plumbing underground somewhere out into the front yard, and connect into a part of your yard that breaks off from the sewer main (that’s called the sewer lateral). Sometimes we’ll connect into the cleanout. In some locations, we can tie in at the back of your home, but not in all. There’s a few other things we need to take into account - how big the pipes are on your current system, how many bathrooms you have - but we’ll chat about that during a site visit.'
   -
     type: faq__list--item
     faq__list--item__question: 'What type of foundation is this set on?'
@@ -77,7 +77,7 @@ faq__list:
     faq__list--item__answer: 'We don’t. Our units are all electric, because electric appliances are much more efficient and environmentally friendly. We use a top-of-the-line water heater, and our electric induction cook-tops have rave reviews.'
   -
     type: faq__list--item
-    faq__list--item__question: 'How do ADU’s work with zoning?'
+    faq__list--item__question: 'How do ADUs work with zoning?'
     faq__list--item__answer: 'Bit of a loaded question… it depends. Zoning happens at a city-by-city level, and so we’ll have to know where you are. Since the state of California changed the laws around ADUs starting in 2017, ADU’s are now allowed in the backyards of all single family homes, with some restrictions in each local area (things like setbacks, size limits, etc.). If you''re in one of our current service areas, we can help you understand and navigate this process.'
   -
     type: faq__list--item
@@ -89,7 +89,7 @@ faq__list:
     faq__list--item__answer: 'It depends. We’ll need to look at your title report, which we can help you pull if you don’t have one readily available. Some easements will still allow an ADU inside them, but will have restrictions such as height limits. Other easements don’t allow any structures inside them, so we’ll have to move your Abodu somewhere else on the property, if possible.'
   -
     type: faq__list--item
-    faq__list--item__question: 'Can you provide me with a fully furnished unit?'
+    faq__list--item__question: 'Can you provide me with a fully-furnished unit?'
     faq__list--item__answer: 'No problem. If that’s what you want, we can help you furnish your Abodu with one of our pre-selected furniture packages.'
   -
     type: faq__list--item
