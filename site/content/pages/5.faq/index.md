@@ -3,7 +3,7 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'What is an ADU?'
-    faq__list--item__answer: 'The legal term is Accessory Dwelling Unit, or ADU. ADU''s go by many names - granny flats, granny units, in-law apartments, secondary suites, just to name a few. ADU’s are a of permanent structure that provides a fully-appointed living space in the backyards of existing homes. ADUs typically have at least 1 bedroom, 1 bathroom and a kitchen space.'
+    faq__list--item__answer: 'The legal term is Accessory Dwelling Unit, or ADU. ADU''s go by many names - granny flats, granny units, in-law apartments, or secondary suites - just to name a few. ADU’s are a of permanent structure that provides a fully-appointed living space in the backyards of existing homes. ADUs typically have at least 1 bedroom, 1 bathroom and a kitchen space.'
   -
     type: faq__list--item
     faq__list--item__question: 'Who designed Abodu?'
@@ -15,15 +15,15 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'How long does it take to get an ADU permitted?'
-    faq__list--item__answer: 'Abodu permitting times depend on where you live. Legally, cities must approve your permit within 120 days, but if you live in San Jose, we can secure your permit in less than 1 week.'
+    faq__list--item__answer: 'Abodu permitting times depend on where you live. Legally, cities must approve your permit within 120 days, but if you live in San Jose, we can secure your permit in less than 1 day.'
   -
     type: faq__list--item
     faq__list--item__question: 'Do ADUs affect my property value?'
-    faq__list--item__answer: 'Yes. Installing an Abodu in your backyard will certainly increase your property value. After all, it’s an additional 495 sq feet of permanent living space on your lot. The increased bedrooms, bathroom and kitchen are viewed as additions to the primary home.'
+    faq__list--item__answer: 'Yes. Installing an Abodu in your backyard will certainly increase your property value. After all, it is an additional 495 sq feet of permanent living space on your lot. The increased bedrooms, bathroom and kitchen are viewed as additions to the primary home.'
   -
     type: faq__list--item
-    faq__list--item__question: 'Will my property reassessed for tax purposes by adding an ADU?'
-    faq__list--item__answer: 'The answer is generally yes, but your property tax assessment will not increase based on the increased value of the entire lot, just the increased value from adding an Abodu. Customers tell us this is generally an increase of ~$1000 - $2000 per year.'
+    faq__list--item__question: 'What happens to my property taxes when I add an ADU?'
+    faq__list--item__answer: 'Your main home''s property tax basis will NOT be reassessed when you add an ADU (important for our CA homeowners due to Prop 13). Your property taxes will only increase by the value of the ADU on your property. Customers tell us this is generally an increase of ~$1,000 to $2,000 per year.'
   -
     type: faq__list--item
     faq__list--item__question: 'How does financing work for ADUs?'
