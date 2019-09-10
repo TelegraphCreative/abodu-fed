@@ -10,7 +10,7 @@ photo_with_content_block__fields:
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'No-compromise living spaces.'
       photo_with_content_block__list--item--copy: 'Our space-optimized size and layout is focused on being just-right. No need to live out of a mini fridge or fold your bed down from a wall.'
-      '#hidden': true
+      '#hidden': false
     -
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'Standardized design, with custom options.'
@@ -41,7 +41,8 @@ abodu_450__fields:
   content_block_with_pattern__heading: 'Abodu 500'
   content_block_with_pattern__copy: '500 square feet of beautifully designed space, with our signature cathedral ceilings. A right-sized one-bedroom layout.'
   product_specs__copy: '495 square feet. 14’ wide. 35’4” long. 11’ ceilings. 12.5’ structure height.'
-  product_specs__image: {  }
+  product_specs__image:
+    - /assets/abodu-500-floor-plan.PNG
 exterior__fields:
   exterior__list:
     - ''
@@ -166,6 +167,11 @@ cta__fields:
     text: 'View Our Service'
   cta__heading: 'And, we''ll make it easy.'
   cta__copy: 'We take care of everything. No need to deal with construction crews in your backyard for months - we''ll be quick and painless.'
+page_no_index: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+twitter_share_setting: inherit
 title: Product
 fieldset: product
 template: product
