@@ -64,7 +64,8 @@ two_column_content_grid__fields:
         - 'High-efficiency LED lighting.'
         - 'Mini-split AC and heating system.'
         - 'Smart thermostat.'
-      '#hidden': true
+        - 'Standard height doors.'
+      '#hidden': false
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Kitchen
