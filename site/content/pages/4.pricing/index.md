@@ -82,7 +82,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__icon: deep_backyard
       image_grid_with_color_block__list--item__heading: 'Deep Backyard'
       image_grid_with_color_block__list--item__copy: 'Our base price includes up to 50 ft of trenching and 100 ft of craning. Particularly large backyard? Good for you! We''ll be able to tell you how much extra that will cost.'
-      image_grid_with_color_block__list--item__note: '$125 per additional trenching foot. $200 per additional craning foot.'
+      image_grid_with_color_block__list--item__note: '$125 per additional trenching foot. <Br>$200 per additional craning foot.'
       '#hidden': false
     -
       type: image_grid_with_color_block__list--item
