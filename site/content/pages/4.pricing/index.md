@@ -38,7 +38,7 @@ payment__fields:
       payment__schedule--block__number: '01'
       payment__schedule--block__heading: 'Home visit'
       payment__schedule--block__copy: 'We meet you in person to check on a few things and ensure your backyard and Abodu are a great fit.'
-      '#hidden': false
+      '#hidden': true
       payment__schedule--block__payment: $250
     -
       type: payment__schedule--block
@@ -81,9 +81,9 @@ image_grid_with_color_block__fields:
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: deep_backyard
       image_grid_with_color_block__list--item__heading: 'Deep Backyard'
-      image_grid_with_color_block__list--item__copy: 'Our base price includes up to 50 ft of trenching each for water, waste and electric lines. Particularly large backyard? Good for you! We''ll be able to tell you how much extra that will cost.'
-      image_grid_with_color_block__list--item__note: '$125 per additional linear foot'
-      '#hidden': true
+      image_grid_with_color_block__list--item__copy: 'Our base price includes up to 50 ft of trenching and 100 ft of craning. Particularly large backyard? Good for you! We''ll be able to tell you how much extra that will cost.'
+      image_grid_with_color_block__list--item__note: '$125 per additional trenching foot. $200 per additional craning foot'
+      '#hidden': false
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: electrical_panel_upgrade
