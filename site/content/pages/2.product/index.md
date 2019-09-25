@@ -10,7 +10,7 @@ photo_with_content_block__fields:
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'No-compromise living spaces.'
       photo_with_content_block__list--item--copy: 'Our space-optimized size and layout is focused on being just-right. No need to live out of a mini fridge or fold your bed down from a wall.'
-      '#hidden': false
+      '#hidden': true
     -
       type: photo_with_content_block__list--item
       photo_with_content_block__list--item--heading: 'Standardized design, with custom options.'
@@ -137,12 +137,6 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__list:
         - 'Site-built decking, from one of our local partners.'
         - 'Custom landscaping, from one of our local partners.'
-      '#hidden': true
-    -
-      type: image_grid_with_color_block__list--item
-      image_grid_with_color_block__list--item__heading: 'Ceiling and door height:'
-      image_grid_with_color_block__list--item__list:
-        - '11.5 ft tall ceilings with 8 ft tall doors'
       '#hidden': true
   image_grid_with_color_block__first_image:
     - /assets/abodu_64_comp_3x2.jpg
