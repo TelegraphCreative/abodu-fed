@@ -40,7 +40,7 @@ abodu_450__fields:
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'Abodu 500'
   content_block_with_pattern__copy: '500 square feet of beautifully designed space, with our signature cathedral ceilings. A right-sized one-bedroom layout.'
-  product_specs__copy: '495 square feet. 14’ wide. 35’4” long. 11’ ceilings. 12.5’ structure height.'
+  product_specs__copy: '495 square feet. 14’ wide. 35’4” long. 10.5’ ceilings. 12.5’ structure height.'
   product_specs__image:
     - /assets/abodu-500-floor-plan.PNG
 exterior__fields:
@@ -65,7 +65,7 @@ two_column_content_grid__fields:
         - 'Mini-split AC and heating system.'
         - 'Smart thermostat.'
         - 'Standard height doors.'
-      '#hidden': false
+      '#hidden': true
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Kitchen
