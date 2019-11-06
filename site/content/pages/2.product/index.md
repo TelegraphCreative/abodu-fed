@@ -72,9 +72,9 @@ two_column_content_grid__fields:
       two_column_content_grid__list--item--list:
         - 'White quartz countertops and backsplash.'
         - 'Premium cabinetry, with soft-close hinges.'
-        - 'Stainless-steel, electric appliances, from Whirlpool.'
+        - 'Stainless-steel, electric appliances, from Haier.'
         - 'Fixtures and faucets, from Moen.'
-      '#hidden': true
+      '#hidden': false
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Bathroom
