@@ -74,7 +74,7 @@ two_column_content_grid__fields:
         - 'Premium cabinetry, with soft-close hinges.'
         - 'Stainless-steel, electric appliances, from Haier.'
         - 'Fixtures and faucets, from Moen.'
-      '#hidden': false
+      '#hidden': true
     -
       type: two_column_content_grid__list--items
       two_column_content_grid__list--item--heading: Bathroom
@@ -162,6 +162,8 @@ cta__fields:
     text: 'View Our Service'
   cta__heading: 'And, we''ll make it easy.'
   cta__copy: 'We take care of everything. No need to deal with construction crews in your backyard for months - we''ll be quick and painless.'
+meta_title: 'Abodu  - California''s best ADU'
+meta_description: 'Abodu''s prefab ADU is well-designed by leading architects, guaranteeing that your backyard home is both beautiful and functional.'
 page_no_index: false
 no_follow_links: false
 sitemap_priority: '0.5'
