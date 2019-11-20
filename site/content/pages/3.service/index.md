@@ -110,7 +110,8 @@ cta__fields:
     text: 'See Our Pricing'
   cta__heading: 'No-surprises, risk-free pricing.'
   cta__copy: 'Because nobody likes being nickel and dimed. Especially with their home.'
-meta_description: 'Painless ADU construction. Constructed offsite and installed in your backyard through a simple 2 week process.'
+meta_title: 'Fastest ADU on the market - No hassle with Abodu'
+meta_description: 'Painless ADU construction. Constructed offsite and installed in your backyard through a simple 2 week process. Pre-approved permis in San Jose.'
 page_no_index: false
 no_follow_links: false
 sitemap_priority: '0.5'
