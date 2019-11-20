@@ -95,6 +95,8 @@ faq__list:
     type: faq__list--item
     faq__list--item__question: 'Does an Abodu have heating and air conditioning?'
     faq__list--item__answer: 'Yes. Your Abodu comes standard with heating and air conditioning. We want to ensure you don’t miss any of the comforts of home.'
+meta_title: 'Abodu - Learn about California ADUs and backyard homes'
+meta_description: 'California has made backyard homes (also known as ADUs) legal statewide. We''ve answered all of your questions on how to build on your property.'
 page_no_index: false
 no_follow_links: false
 sitemap_priority: '0.5'
