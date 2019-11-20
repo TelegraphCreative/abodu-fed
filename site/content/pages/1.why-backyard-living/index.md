@@ -105,6 +105,7 @@ cta__fields:
     text: 'View our product'
   cta__heading: 'The perfect space.'
   cta__copy: 'We''ve spent countless hours designing every inch so an Abodu feels right at home in your backyard.'
+meta_title: 'ADUs  - add value to your property with Abodu'
 meta_description: 'Expand your home’s value and livable space with an Abodu ADU.'
 page_no_index: false
 no_follow_links: false
