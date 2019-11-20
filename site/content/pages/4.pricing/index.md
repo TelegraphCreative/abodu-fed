@@ -120,7 +120,7 @@ cta__fields:
     text: 'Talk to Us'
   cta__heading: 'Ready to put an Abodu in your backyard?'
   cta__copy: ''
-meta_title: 'Bay Area ADUs under $200K - California''s best value backyard home'
+meta_title: 'Abodu: Bay Area ADUs for $200K - California''s best value backyard home'
 meta_description: 'Bay Area ADUs for your budget. End to end management, including permitting for under $200,000, with transparent up-front pricing. That''s the cheapest high quality ADU on the market.'
 page_no_index: false
 no_follow_links: false
