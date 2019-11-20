@@ -83,7 +83,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__heading: 'Deep Backyard'
       image_grid_with_color_block__list--item__copy: 'Our base price includes up to 50 ft of trenching and 100 ft of craning. Particularly large backyard? Good for you! We''ll be able to tell you how much extra that will cost.'
       image_grid_with_color_block__list--item__note: '$125 per additional trenching foot over 50 ft. <Br>$200 per additional craning foot over 100 ft.'
-      '#hidden': false
+      '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: electrical_panel_upgrade
@@ -120,8 +120,8 @@ cta__fields:
     text: 'Talk to Us'
   cta__heading: 'Ready to put an Abodu in your backyard?'
   cta__copy: ''
-meta_title: 'Bay Area ADUs under $200K all-in'
-meta_description: 'Bay Area ADUs for your budget. End to end management, including permitting for under $200,000.'
+meta_title: 'Bay Area ADUs under $200K - California''s best value backyard home'
+meta_description: 'Bay Area ADUs for your budget. End to end management, including permitting for under $200,000. That''s the cheapest high quality ADU on the market'
 page_no_index: false
 no_follow_links: false
 sitemap_priority: '0.5'
