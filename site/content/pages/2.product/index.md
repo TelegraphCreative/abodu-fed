@@ -48,7 +48,7 @@ exterior__fields:
     - ''
     - ''
     - 'Glass entry door.'
-    - 'High-efficiency, dual-pane windows, from Andersen.'
+    - 'High-efficiency, dual-pane windows, from Marvin.'
     - 'Fiber-cement siding, from James Hardie.'
   exterior__image:
     - /assets/abodu_45_comp_3x2.jpg
