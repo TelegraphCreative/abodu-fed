@@ -37,7 +37,7 @@ payment__fields:
       type: payment__schedule--block
       payment__schedule--block__number: '01'
       payment__schedule--block__heading: 'Home visit & Proposal'
-      payment__schedule--block__copy: 'We meet you in person to check on a few things and ensure your backyard and Abodu are a great fit. You will receive a detailed proposal after this visit.'
+      payment__schedule--block__copy: 'We meet you in person to ensure your backyard and Abodu are a great fit. You will receive a detailed proposal after this visit.'
       '#hidden': false
       payment__schedule--block__payment: $500
     -
