@@ -36,10 +36,10 @@ payment__fields:
     -
       type: payment__schedule--block
       payment__schedule--block__number: '01'
-      payment__schedule--block__heading: 'Home visit'
-      payment__schedule--block__copy: 'We meet you in person to check on a few things and ensure your backyard and Abodu are a great fit.'
-      '#hidden': true
-      payment__schedule--block__payment: $250
+      payment__schedule--block__heading: 'Home visit & Proposal'
+      payment__schedule--block__copy: 'We meet you in person to check on a few things and ensure your backyard and Abodu are a great fit. You will receive a detailed proposal after this visit.'
+      '#hidden': false
+      payment__schedule--block__payment: $500
     -
       type: payment__schedule--block
       payment__schedule--block__number: '02'
@@ -83,7 +83,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__heading: 'Deep Backyard'
       image_grid_with_color_block__list--item__copy: 'Our base price includes up to 50 ft of plumbing and 100 ft of craning. Particularly large backyard? Good for you! We''ll be able to tell you how much extra that will cost.'
       image_grid_with_color_block__list--item__note: '$125 per additional foot of plumbing over 50 ft. <Br>$250 per additional craning foot over 100 ft.'
-      '#hidden': false
+      '#hidden': true
     -
       type: image_grid_with_color_block__list--item
       image_grid_with_color_block__list--item__icon: electrical_panel_upgrade
