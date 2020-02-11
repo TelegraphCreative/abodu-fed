@@ -1,0 +1,13 @@
+sections:
+  main:
+    display: Main
+    fields:
+      message:
+        type: textarea
+        display: Message
+      show_banner:
+        type: toggle
+        display: 'Show Banner'
+taxonomies: true
+hide: true
+title: 'Site Banner'
