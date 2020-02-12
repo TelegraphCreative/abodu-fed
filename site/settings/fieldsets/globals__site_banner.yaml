@@ -7,7 +7,7 @@ sections:
         display: Message
         instructions: |
           Inline links allowed. e.g.:</br>
-          `Lorem ipsum dolar sit amet <a href="https://example.com">Link Test Here</a>`
+          `Lorem ipsum dolar sit amet <a href="https://example.com">Link Text Here</a>`
       show_banner:
         type: toggle
         display: 'Show Banner'
