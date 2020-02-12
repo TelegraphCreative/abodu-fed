@@ -1,5 +1,5 @@
 message: 'Join us for our Homeowner Happy Hour in San Jose on March 7! <a href="https://example.com" target="_blank">Register Now</a>'
-show_banner: false
+show_banner: true
 title: 'Site Banner'
 fieldset: globals__site_banner
 id: 385d24ce-01f1-442b-9339-fa4234e58709
