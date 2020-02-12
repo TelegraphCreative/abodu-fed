@@ -18,7 +18,7 @@
     <div class="w-full min-h-screen flex flex-col overflow-hidden relativef">
       {{ partial:nav }}
 
-      <div class="flex-grow relative">
+      <div class="flex-grow relative {{ if site_banner.show_banner == 'true' }}site-banner-padding{{ /if }}">
         {{ template_content }}
 
         {{ partial:footer }}

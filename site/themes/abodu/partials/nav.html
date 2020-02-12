@@ -4,6 +4,20 @@
 {{ if template == 'home' or template == 'pricing' }} --black {{ /if }}
 " id="nav_wrap">
 
+   {{ if site_banner.show_banner == 'true' }}
+      <div class="site_banner" id="site_banner">
+        <div class="site_banner__inner">
+          {{ site_banner.message  | markdown }}
+
+          <button>
+            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+               <path d="M966.85 22.4l-7.7-7.7-7.7 7.7-7.7 7.7-443.7 443.65L56.45 30.1l-7.7-7.7-7.7-7.7-7.7 7.7-15.6 15.4-7.7 7.8 7.7 7.7 7.7 7.7 443.67 443.67L34.75 939l-7.7 7.7-7.7 7.7 7.7 7.7 15.5 15.5 7.7 7.7 7.7-7.7 7.7-7.7L500 535.55 934.35 969.9l7.7 7.7 7.7 7.7 7.7-7.7 15.5-15.5 7.7-7.7-7.7-7.7-7.7-7.7-434.33-434.37L974.55 61l7.7-7.7 7.7-7.7-7.7-7.7-15.4-15.5z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    {{ /if }}
+
       <div class="flex h-24 items-center justify-between max-w-3xl mx-auto relative w-full   lg:h-32              px-4 xs:px-6 sm:px-10 md:px-16 lg:px-20">
          <!--   Logo   -->
          <a class="flex items-center z-50" href="/" id="logo">

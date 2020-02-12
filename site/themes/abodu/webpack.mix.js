@@ -3,16 +3,17 @@ let mix = require('laravel-mix');
 let tailwindcss = require('tailwindcss');
 
 require('laravel-mix-purgecss');
+require('autoprefixer');
 
 mix.sass('sass/styles.scss', 'css/abodu.css')
 	.options({
 		processCssUrls: false,
 		postCss: [tailwindcss('tailwind.js')],
 		autoprefixer: {
-        options: {
-            browsers: ['last 3 versions']
-        }
-    },
+            options: {
+                browsers: ['last 3 versions']
+            }
+        },
     })
     .js([
         'js/app.js',

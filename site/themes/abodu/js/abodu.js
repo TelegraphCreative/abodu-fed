@@ -64,4 +64,14 @@
          nav_wrap.classList.add('scroll-direction--up');
       }
    });
-   
+
+   // ---------------------------------------------------------------------------
+   // Site Banner
+
+   var site_banner         = document.querySelector("#site_banner");
+   var site_banner_padding = document.querySelector(".site-banner-padding");
+
+   site_banner.onclick = function(){
+      this.classList.toggle("hide");
+      site_banner_padding.classList.toggle("site-banner-padding");
+   };

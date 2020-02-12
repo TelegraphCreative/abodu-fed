@@ -195,3 +195,93 @@ body.menu_open {
       }
    }
 }
+
+
+.site_banner {
+   @apply bg-sand text-rust text-13;
+   
+   &__inner {
+      @apply
+         relative
+         max-w-3xl
+         mx-auto py-4 pl-4 pr-12
+         leading-tight;
+
+      a {
+         @apply no-underline text-rust whitespace-no-wrap;
+         border-bottom: 1px solid;
+
+         &:hover { @apply text-black }
+      }
+
+      button {
+         @apply
+            absolute
+            h-4 w-4 mr-4
+            text-rust;
+         top: calc(50% - .5rem);
+         right: 0;
+
+         &:hover { @apply text-black }
+
+         svg { @apply h-full w-full }
+      }
+   }
+
+   @screen xs {
+      &__inner {
+         @apply pl-6 pr-14;
+      
+         button {
+            @apply mr-6;
+            top: calc(50% - .5rem )
+         }
+      }
+   }
+
+   @screen sm {
+      &__inner {
+         @apply pl-10 pr-18;
+      
+         button { @apply mr-10 }
+      }
+   }
+
+   @screen md {
+      @apply text-16;
+      
+      &__inner {
+         @apply pl-16 pr-26;
+
+         button {
+            @apply
+               h-5 w-5
+               mr-16;
+            top: calc(50% - .625rem)
+         }
+      }
+   }
+
+   @screen lg {
+      &__inner {
+         @apply
+            text-center
+            pl-20 pr-32;
+
+         button {
+            @apply
+               h-6 w-6
+               mr-20;
+            top: calc(50% - .75rem)
+         }
+      }
+   }
+}
+
+.site-banner-padding {
+   @apply pt-12;
+
+   @screen md {
+      padding-top: 3.25rem
+   }
+}
