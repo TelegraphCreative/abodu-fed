@@ -9,7 +9,7 @@ sections:
           Inline links allowed. e.g.:</br>
           `Lorem ipsum dolar sit amet <a href="https://example.com">Link Text Here</a>`<br>
           To open links in a new tab add _target="_blank"_. e.g.<br>
-          `<a href="https://example.com" _target="_blank"_>Link Text Here</a>`
+          `<a href="https://example.com" target="_blank">Link Text Here</a>`
       show_banner:
         type: toggle
         display: 'Show Banner'
