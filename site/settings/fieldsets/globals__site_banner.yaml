@@ -6,8 +6,8 @@ sections:
         type: textarea
         display: Message
         instructions: |
-          []()Inline links allowed. e.g.:
-          Lorem ipsum dolar sit amet `<a href="https://example.com">Link Test Here</a>`
+          Inline links allowed. e.g.:</br>
+          `Lorem ipsum dolar sit amet <a href="https://example.com">Link Test Here</a>`
       show_banner:
         type: toggle
         display: 'Show Banner'
