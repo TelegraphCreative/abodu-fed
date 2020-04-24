@@ -38,7 +38,7 @@ payment__fields:
       payment__schedule--block__number: '01'
       payment__schedule--block__heading: 'Home visit & proposal'
       payment__schedule--block__copy: 'We meet you in person to ensure your backyard and Abodu are a great fit. You will receive a detailed proposal after this visit.'
-      '#hidden': false
+      '#hidden': true
       payment__schedule--block__payment: $500
     -
       type: payment__schedule--block
@@ -116,7 +116,7 @@ image_grid_with_color_block__fields:
   image_grid_with_color_block__copy: 'While our base pricing covers the vast majority of install scenarios, there''s always the outliers. For those homeowners, we''ve outlined what could add some additional cost.'
 cta__fields:
   cta__button:
-    url: /contact-us
+    url: /contact
     text: 'Talk to Us'
   cta__heading: 'Ready to put an Abodu in your backyard?'
   cta__copy: ''
