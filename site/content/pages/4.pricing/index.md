@@ -17,7 +17,7 @@ photo_with_content_block__fields:
     - 'Delivery from our factory'
     - 'Installation on site, including craning where necessary'
   photo_with_content_block__copy_button:
-    url: /contact-us
+    url: /contact
     text: 'Get Started'
   photo_with_content_block__image:
     - /assets/Launch_photos/abodu_52_comp_4x5.jpg
