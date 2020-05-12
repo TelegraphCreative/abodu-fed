@@ -19,7 +19,6 @@ what_we_do__fields:
   content_block_with_pattern__copy: |
     No-compromise backyard homes.<Br> Easy install - 2 weeks in your backyard.<Br> 
     Expand your home's value and livable space.
-    
 photo_with_content_block__fields:
   photo_with_content_block__button:
     url: 'https://my.matterport.com/show/?m=ZD4RDZMsBqy'
@@ -90,7 +89,7 @@ sitemap_priority: '0.9'
 sitemap_changefreq: daily
 twitter_share_setting: inherit
 hero__heading: '<span>Backyard homes<br></span> worth living in.'
-title: Home
+title: 'Home - test'
 template: home
 fieldset: home
 id: 4f1a8c88-be09-4b77-8849-4309ed67659a
