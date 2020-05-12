@@ -38,42 +38,43 @@ payment__fields:
       payment__schedule--block__number: '01'
       payment__schedule--block__heading: 'Home visit & proposal'
       payment__schedule--block__copy: 'We meet you in person to ensure your backyard and Abodu are a great fit. You will receive a detailed proposal after this visit.'
-      '#hidden': true
+      '#hidden': false
       payment__schedule--block__payment: $500
     -
       type: payment__schedule--block
       payment__schedule--block__number: '02'
       payment__schedule--block__heading: Permitting
       payment__schedule--block__copy: 'We work with the city to get your permit all squared away.'
-      '#hidden': true
-      payment__schedule--block__payment: '10% down'
+      '#hidden': false
+      payment__schedule--block__payment: '10% to begin'
     -
       type: payment__schedule--block
       payment__schedule--block__number: '03'
       payment__schedule--block__heading: Construction
       payment__schedule--block__copy: 'We build your Abodu in our factory, so you don''t have to hear us in your backyard.'
-      '#hidden': true
+      '#hidden': false
       payment__schedule--block__payment: '40% before'
     -
       type: payment__schedule--block
       payment__schedule--block__number: '04'
       payment__schedule--block__heading: 'Pre-delivery yard work'
       payment__schedule--block__copy: 'We manage all necessary site-work to make sure your yard is ready for its new Abodu.'
-      '#hidden': true
+      '#hidden': false
+      payment__schedule--block__payment: '20% before'
     -
       type: payment__schedule--block
       payment__schedule--block__number: '05'
       payment__schedule--block__heading: 'Delivery & install'
       payment__schedule--block__copy: 'We get your Abodu from factory to your home and make sure install goes smooth and stress-free.'
-      '#hidden': true
-      payment__schedule--block__payment: '40% before'
+      '#hidden': false
+      payment__schedule--block__payment: '20% before'
     -
       type: payment__schedule--block
       payment__schedule--block__number: '06'
       payment__schedule--block__heading: 'Final handover'
       payment__schedule--block__copy: 'We walk you through your new Abodu and explain all the fun bells and whistles.'
-      '#hidden': true
-      payment__schedule--block__payment: 10%
+      '#hidden': false
+      payment__schedule--block__payment: '10% to complete'
   payment__heading: 'Our Timeline & Payment Schedule'
 image_grid_with_color_block__fields:
   image_grid_with_color_block__list:
