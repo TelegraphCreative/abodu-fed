@@ -1,10 +1,9 @@
 hero__heading_1:
   - 'Backyard homes'
   - 'Accessory dwelling units'
-  - 'Guest houses'
+  - ADUs
   - 'Rental units'
   - Spaces
-  - ADUs
 hero__heading_2: 'worth living in.'
 what_we_do__fields:
   content_block_with_pattern__toggle: true
