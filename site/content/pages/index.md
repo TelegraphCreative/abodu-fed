@@ -50,15 +50,15 @@ how_its_delivered__fields:
   how_its_delivered__list:
     -
       type: how_its_delivered__list--item
+      how_its_delivered__list--item__icon: a_better_foundation
+      how_its_delivered__list--item__heading: 'Abodu Concierge'
+      how_its_delivered__list--item__copy: 'Abodu Concierge manages your project end-to-end so you don''t have to lift a finger.'
+      '#hidden': false
+    -
+      type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: 2_week_install
       how_its_delivered__list--item__heading: '2-Week Install'
       how_its_delivered__list--item__copy: 'In select cities, Abodu Concierge can get you a permit in a matter of hours instead of months. Either way, we''ll be in your backyard for as little as 2 weeks.'
-      '#hidden': true
-    -
-      type: how_its_delivered__list--item
-      how_its_delivered__list--item__icon: a_better_foundation
-      how_its_delivered__list--item__heading: 'Best-in-Class Foundation'
-      how_its_delivered__list--item__copy: 'When possible, we''ll use a minimally-invasive, concrete-less foundation that can be installed in a few hours.'
       '#hidden': true
     -
       type: how_its_delivered__list--item
