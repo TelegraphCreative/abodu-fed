@@ -3,7 +3,7 @@
       <!--   Small Screens   -->
       <div class="site-footer__small-nav">
          <div class="">
-            {{ nav from="/" exclude="legal" }}
+            {{ nav from="/" exclude="legal" is_hidden:isnt="true" }}
                <a href="{{ url }}">{{ title }}</a>
             {{ /nav }}
 
