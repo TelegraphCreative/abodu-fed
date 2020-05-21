@@ -2,4 +2,5 @@ first_name: Lindsey
 last_name: Bradford
 email: lindseyb@wearetelegraph.com
 super: true
-password: pureGold1989
+password_hash: $2y$10$jk9WRQ3hvJntFgfNEpUr..lJVczOXSnDAG9R614XJopt7Eu/pnX0m
+id: 3797d3af-09c9-4eaa-902f-12540f84e1e4
