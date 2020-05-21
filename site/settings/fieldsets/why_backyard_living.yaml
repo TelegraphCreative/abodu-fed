@@ -5,20 +5,20 @@ sections:
       hero__partial:
         fieldset: partial__hero
         type: partial
-        display: "Hero Partial"
+        display: 'Hero Partial'
       property_calculator:
         type: section
-        display: "Property Calculator"
+        display: 'Property Calculator'
       model_number:
         type: text
         instructions: |
           Specify which Abodu model number and file that the Property Calculator app should use. 
-
+          
           - To add a new model, upload the .csv file to this directory: `themes/abodu/js/data`
           - The CSV filename should follow this convention: `property-values__Abodu-{model number}.csv`
           - Example filename for a model 450: `property-values__Abodu-450.csv`
         width: 66
-        display: "Model Number"
+        display: 'Model Number'
       sections__section:
         type: section
         display: Sections
@@ -33,14 +33,18 @@ sections:
       why_abodu__two_column_content_grid__fields:
         child_fieldset: why_backyard_living__partial__why_abodu__two_column_content_grid
         type: accordion_group
-        display: "Why Abodu?"
+        display: 'Why Abodu?'
       photo_with_content_block__fields:
         child_fieldset: why_backyard_living__partial__photo_with_content_block
         type: accordion_group
         display: California
       cta__fields:
         type: accordion_group
-        display: "Call to Action"
+        display: 'Call to Action'
         child_fieldset: partial__cta
+      is_hidden:
+        type: toggle
+        display: 'Is Hidden'
+        default: 'false'
 taxonomies: true
-title: "Why Backyard Living: Page"
+title: 'Why Backyard Living: Page'
