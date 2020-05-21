@@ -23,5 +23,9 @@ sections:
           <br>
           Second level heading: ## Heading 2
         display: 'Document Text'
+      is_hidden:
+        type: toggle
+        display: 'Is Hidden'
+        default: 'false'
 taxonomies: true
 title: 'Page: Utility'
