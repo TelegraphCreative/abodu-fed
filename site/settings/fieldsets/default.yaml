@@ -1,0 +1,21 @@
+title: Default
+sections:
+  main:
+    display: Main
+    fields:
+      title:
+        type: text
+        width: 66
+        localizable: true
+      slug:
+        type: text
+        width: 33
+      content:
+        type: markdown
+        display: Content
+        localizable: true
+      is_hidden:
+        type: toggle
+        display: 'Is Hidden'
+        default: 'false'
+taxonomies: true
