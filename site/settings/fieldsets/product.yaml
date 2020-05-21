@@ -40,5 +40,9 @@ sections:
         child_fieldset: partial__cta
         type: accordion_group
         display: CTA
+      is_hidden:
+        type: toggle
+        display: 'Is Hidden'
+        default: 'false'
 taxonomies: false
 title: 'Product: Page'
