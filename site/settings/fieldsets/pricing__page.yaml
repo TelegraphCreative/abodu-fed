@@ -31,5 +31,9 @@ sections:
         child_fieldset: partial__cta
         type: accordion_group
         display: 'Call to Action'
+      is_hidden:
+        type: toggle
+        display: 'Is Hidden'
+        default: 'false'
 taxonomies: true
 title: 'Pricing: Page'
