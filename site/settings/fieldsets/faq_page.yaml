@@ -26,5 +26,9 @@ sections:
                 display: Answer
         type: replicator
         display: 'FAQ List'
+      is_hidden:
+        type: toggle
+        display: 'Is Hidden'
+        default: 'false'
 taxonomies: true
 title: 'FAQ: Page'
