@@ -16,6 +16,7 @@ images_grid__fields:
 who_we_are__fields:
   who_we_are__heading: 'Who We Are'
   who_we_are__copy: 'Our team is the best of both worlds – outside experts with experience across industries, and real estate and construction industry veterans - teamed up to take a fresh look at how to re-engineer around the customer.'
+is_hidden: true
 meta_title: 'Abodu - Build your ADU with ease'
 meta_description: 'Get in touch to learn more about our best in class ADU project experience. We handle everything - permitting, construction and all site work - so that you don''t have to worry about a thing.'
 page_no_index: false
