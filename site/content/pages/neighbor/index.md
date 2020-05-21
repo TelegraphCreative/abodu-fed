@@ -90,7 +90,7 @@ sitemap_priority: '0.9'
 sitemap_changefreq: daily
 twitter_share_setting: inherit
 hero__heading: '<span>Backyard homes<br></span> worth living in.'
-title: Local
+title: Neighbor
 template: home
 fieldset: home
 id: dc24128d-f0c1-41f5-9a4e-002c902c571e
