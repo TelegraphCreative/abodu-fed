@@ -81,7 +81,7 @@ cta__fields:
     url: /contact
     text: 'Talk to Us'
   cta__heading: 'Ready to put an Abodu in your backyard?'
-is_hidden: false
+is_hidden: true
 meta_title: 'Abodu Backyard Homes - Bay Area ADU Provider'
 meta_description: 'No-compromise backyard homes, serving the Bay Area. Easy install – 2 weeks in your backyard. Expand your home’s value and livable space. ADU permits for San Jose homeowners in an hour, rather than months.'
 page_no_index: false
@@ -90,7 +90,7 @@ sitemap_priority: '0.9'
 sitemap_changefreq: daily
 twitter_share_setting: inherit
 hero__heading: '<span>Backyard homes<br></span> worth living in.'
-title: Home
+title: Local
 template: home
 fieldset: home
 id: dc24128d-f0c1-41f5-9a4e-002c902c571e
