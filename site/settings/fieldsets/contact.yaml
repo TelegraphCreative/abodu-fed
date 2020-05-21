@@ -26,5 +26,9 @@ sections:
         child_fieldset: contact__partial__who_we_are
         type: accordion_group
         display: 'Who We Are'
+      is_hidden:
+        type: toggle
+        display: 'Is Hidden'
+        default: 'false'
 taxonomies: true
 title: 'Contact: Page'
