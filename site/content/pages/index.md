@@ -11,7 +11,7 @@ what_we_do__fields:
     url: /why-backyard-living
     text: 'Why Backyard Living'
   slider__images:
-    - /assets/Launch_photos/abodu_72_comp_2x1.jpg
+    - /assets/abodu_72_comp_2x1-2.jpg
     - /assets/Launch_photos/abodu_77_2x1.jpg
     - /assets/Launch_photos/abodu_54_comp_2x1.jpg
   slider__title: 'Abodu 500'
@@ -53,7 +53,7 @@ how_its_delivered__fields:
       how_its_delivered__list--item__icon: a_better_foundation
       how_its_delivered__list--item__heading: 'Abodu Concierge'
       how_its_delivered__list--item__copy: 'Abodu Concierge manages your project end-to-end so you don''t have to lift a finger.'
-      '#hidden': false
+      '#hidden': true
     -
       type: how_its_delivered__list--item
       how_its_delivered__list--item__icon: 2_week_install
@@ -81,6 +81,7 @@ cta__fields:
     url: /contact
     text: 'Talk to Us'
   cta__heading: 'Ready to put an Abodu in your backyard?'
+is_hidden: true
 meta_title: 'Abodu Backyard Homes - Bay Area ADU Provider'
 meta_description: 'No-compromise backyard homes, serving the Bay Area. Easy install – 2 weeks in your backyard. Expand your home’s value and livable space. ADU permits for San Jose homeowners in an hour, rather than months.'
 page_no_index: false
