@@ -35,3 +35,6 @@ assets:
   Backyard_Home_Exterior_Design_1.jpg:
     title: 'Sample backyard home'
     alt: 'Sample backyard home design idea'
+  Launch_photos/ADU_Interior_living_room_1.jpg:
+    title: 'ADU living room interior design'
+    alt: 'Sample ADU living room interior design'
