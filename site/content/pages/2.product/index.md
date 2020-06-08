@@ -162,7 +162,7 @@ cta__fields:
     text: 'View Our Service'
   cta__heading: 'And, we''ll make it easy.'
   cta__copy: 'We take care of everything. No need to deal with construction crews in your backyard for months - we''ll be quick and painless.'
-is_hidden: true
+is_hidden: false
 meta_title: 'Abodu  - California''s best ADU'
 meta_description: 'Abodu''s prefab ADU is well-designed by leading architects, guaranteeing that your backyard home is both beautiful and functional.'
 page_no_index: false
