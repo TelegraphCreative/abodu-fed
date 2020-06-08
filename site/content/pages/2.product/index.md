@@ -36,7 +36,7 @@ abodu_450__fields:
   content_block_with_pattern__toggle: false
   slider__images:
     - /assets/Launch_photos/abodu_79_comp_2x1.jpg
-    - /assets/Launch_photos/abodu_54_comp_2x1.jpg
+    - /assets/Launch_photos/ADU_Interior_living_room_1.jpg
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'Abodu 500'
   content_block_with_pattern__copy: '500 square feet of beautifully designed space, with our signature cathedral ceilings. A right-sized one-bedroom layout.'
@@ -162,6 +162,7 @@ cta__fields:
     text: 'View Our Service'
   cta__heading: 'And, we''ll make it easy.'
   cta__copy: 'We take care of everything. No need to deal with construction crews in your backyard for months - we''ll be quick and painless.'
+is_hidden: true
 meta_title: 'Abodu  - California''s best ADU'
 meta_description: 'Abodu''s prefab ADU is well-designed by leading architects, guaranteeing that your backyard home is both beautiful and functional.'
 page_no_index: false
