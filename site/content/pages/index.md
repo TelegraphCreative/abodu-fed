@@ -24,7 +24,7 @@ photo_with_content_block__fields:
     url: 'https://my.matterport.com/show/?m=ZD4RDZMsBqy'
     text: 'Have a Look Around'
   photo_with_content_block__image:
-    - /assets/Launch_photos/abodu_44_comp_4x5.jpg
+    - /assets/Launch_photos/ADU_interior_dining_4x5.jpg
   photo_with_content_block__heading: 'How It Feels'
   photo_with_content_block__subheading: 'Timeless, Considered Design.'
   photo_with_content_block__copy: 'With our partners at Koto, we''ve spent thousands of hours considering and detailing every inch of your Abodu to make sure it''s the perfect backyard home- that can be customized to your liking.'
