@@ -47,8 +47,6 @@ assets:
     alt: 'Sample ADU bedroom space and floor plan'
   Launch_photos/abodu_66_3x2_v2.jpg:
     alt: 'Sample backyard home exterior ideas'
-  Launch_photos/abodu_60_comp_3x4.jpg:
-    alt: 'Sample ADU bathroom fixture design ideas'
   Launch_photos/abodu_80_comp_3x2.jpg:
     alt: 'Sample backyard home exterior night view and home lighting'
   abodu_76_comp_1x1.jpg:
@@ -107,3 +105,5 @@ assets:
     alt: 'Koto, the architecture minds behind Abodu ADU design'
   Launch_photos/Prefab_Backyard_Home_Exterior_Design_11.jpg:
     alt: 'Sample prefab backyard home design idea 2'
+  Launch_photos/ADU_Interior_bathroom_ideas_3_2.jpg:
+    alt: 'Sample ADU bathroom fixture design ideas'
