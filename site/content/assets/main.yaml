@@ -35,9 +35,6 @@ assets:
   Launch_photos/ADU_Interior_living_room_1.jpg:
     title: 'ADU living room interior design'
     alt: 'Sample ADU living room interior design'
-  Launch_photos/ADU_interior_dining_4x5.jpg:
-    title: 'ADU Dining Area'
-    alt: 'Sample ADU dining area'
   Launch_photos/abodu_58_comp_3x4.jpg:
     alt: 'Sample backyard home outdoor space'
   Launch_photos/abodu_68_comp_3x2.jpg:
@@ -93,3 +90,6 @@ assets:
   Launch_photos/Prefab_Home_Exterior_Design_2.jpg:
     title: 'Sample backyard home night view'
     alt: 'Sample backyard home design idea night view'
+  Launch_photos/Prefab_home_dining_area.jpg:
+    title: 'ADU Dining Area'
+    alt: 'Sample ADU dining area'
