@@ -95,7 +95,7 @@ why_abodu__two_column_content_grid__fields:
   two_column_content_grid__subheading: '“Why Abodu?”'
 photo_with_content_block__fields:
   photo_with_content_block__image:
-    - /assets/5.jpg
+    - /assets/Bay_area_prefab_backyard_homes.jpg
   photo_with_content_block__heading: 'California, here we come.'
   photo_with_content_block__subheading: 'Recently Legalized in California.'
   photo_with_content_block__copy: 'In 2017, California enacted statewide legislation on ADUs to make them legal and remove most fees. This recognized backyard homes as a much-needed tool to help solve the California housing crisis. And for any California homeowners thinking about Prop 13 - it won''t trigger an increase on your property tax basis for your main home, just the improvement value.'
