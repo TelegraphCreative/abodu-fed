@@ -37,9 +37,9 @@ how_its_built__fields:
   image_grid__image_one:
     - /assets/backyard_home_exterior_design_3.jpg
   image_grid__image_two:
-    - /assets/Launch_photos/abodu_68_comp_3x2.jpg
+    - /assets/adu_interior_bedroom_1.jpg
   image_grid__image_three:
-    - /assets/Launch_photos/abodu_65_comp_1x1.jpg
+    - /assets/prefab_home_exterior_design_4-1592213498.jpg
   how_its_built__heading: 'How It''s Built'
   how_its_built__subheading: 'Premium Materials, Dependable Quality.'
   how_its_built__copy: 'We pair the latest technology with the industry''s best craftspeople to build backyard homes in our factory to the highest environmental standards. You get a premium product with higher quality materials, at a lower price.'
