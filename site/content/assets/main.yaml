@@ -37,8 +37,6 @@ assets:
     alt: 'Sample ADU living room interior design'
   Launch_photos/abodu_79_comp_2x1.jpg:
     alt: 'Sample backyard home exterior night view and home lighting'
-  abodu_62_comp_3x4.jpg:
-    alt: 'Sample ADU kitchen interior storage design'
   koto.jpg:
     alt: 'Koto, the architecture minds behind Abodu ADU design'
   Launch_photos/abodu_73_comp_2x1.jpg:
@@ -103,3 +101,5 @@ assets:
     alt: 'Sample ADU bathroom storage design idea'
   ADU_Interior_bathroom_ideas_2.jpg:
     alt: 'Sample ADU bathroom storage design idea'
+  ./ADU_Interior_kitchen_design_2.jpg:
+    alt: 'Sample ADU kitchen interior storage design'
