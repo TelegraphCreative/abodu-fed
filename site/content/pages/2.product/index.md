@@ -140,7 +140,7 @@ image_grid_with_color_block__fields:
         - 'Custom landscaping, from one of our local partners.'
       '#hidden': true
   image_grid_with_color_block__first_image:
-    - /assets/abodu_64_comp_3x2.jpg
+    - /assets/ADU_Interior_bathroom_ideas_1.jpg
   image_grid_with_color_block__second_image:
     - /assets/abodu_61_comp_1x1.jpg
   image_grid_with_color_block__third_image:
