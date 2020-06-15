@@ -70,7 +70,7 @@ image_grid_with_color_block__fields:
   image_grid_with_color_block__first_image:
     - /assets/Launch_photos/Backyard_Home_Exterior_Design_5.jpg
   image_grid_with_color_block__second_image:
-    - /assets/abodu_59_comp_1x1.jpg
+    - /assets/ADU_Interior_design_1.jpg
   image_grid_with_color_block__third_image:
     - /assets/Launch_photos/abodu_42_comp_3x4.jpg
   image_grid_with_color_block__heading: 'Benefits for renters'
