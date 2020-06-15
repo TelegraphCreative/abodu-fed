@@ -1,6 +1,6 @@
 hero__heading: 'Our Product'
 hero__subheading: 'A timeless backyard home design — without compromising quality or space.'
-hero__image: /assets/Launch_photos/abodu_74_comp_2x1.jpg
+hero__image: /assets/Launch_photos/Prefab_Backyard_Home_Exterior_Design_10.jpg
 photo_with_content_block__fields:
   photo_with_content_block__button:
     url: 'https://my.matterport.com/show/?m=ZD4RDZMsBqy'
