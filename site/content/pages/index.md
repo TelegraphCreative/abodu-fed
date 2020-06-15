@@ -35,7 +35,7 @@ how_its_built__fields:
     url: /product
     text: 'View Product'
   image_grid__image_one:
-    - /assets/Launch_photos/abodu_58_comp_3x4.jpg
+    - /assets/backyard_home_exterior_design_3.jpg
   image_grid__image_two:
     - /assets/Launch_photos/abodu_68_comp_3x2.jpg
   image_grid__image_three:
