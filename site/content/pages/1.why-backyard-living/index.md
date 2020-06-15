@@ -68,7 +68,7 @@ image_grid_with_color_block__fields:
       image_grid_with_color_block__list--item__note: null
       '#hidden': true
   image_grid_with_color_block__first_image:
-    - /assets/Launch_photos/abodu_75_comp_3x2_v2.jpg
+    - /assets/Launch_photos/Backyard_Home_Exterior_Design_5.jpg
   image_grid_with_color_block__second_image:
     - /assets/abodu_59_comp_1x1.jpg
   image_grid_with_color_block__third_image:
