@@ -72,7 +72,7 @@ image_grid_with_color_block__fields:
   image_grid_with_color_block__second_image:
     - /assets/ADU_Interior_design_1.jpg
   image_grid_with_color_block__third_image:
-    - /assets/Launch_photos/abodu_42_comp_3x4.jpg
+    - /assets/Launch_photos/prefab_ADU_Interior_kitchen_design_1.jpg
   image_grid_with_color_block__heading: 'Benefits for renters'
   image_grid_with_color_block__subheading: 'An Abodu makes a great rental.'
 why_abodu__two_column_content_grid__fields:
