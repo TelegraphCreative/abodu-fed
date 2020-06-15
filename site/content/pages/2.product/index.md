@@ -51,7 +51,7 @@ exterior__fields:
     - 'High-efficiency, dual-pane windows, from Marvin.'
     - 'Fiber-cement siding, from James Hardie.'
   exterior__image:
-    - /assets/abodu_45_comp_3x2.jpg
+    - /assets/Prefab_Backyard_Home_Exterior_Design_6.jpg
   exterior__heading: Exterior
   exterior__subheading: 'Standard External Features:'
 two_column_content_grid__fields:
