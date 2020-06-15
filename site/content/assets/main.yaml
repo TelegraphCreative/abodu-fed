@@ -47,8 +47,6 @@ assets:
     alt: 'Sample ADU bedroom space and floor plan'
   Launch_photos/abodu_66_3x2_v2.jpg:
     alt: 'Sample backyard home exterior ideas'
-  abodu_76_comp_1x1.jpg:
-    alt: 'Sample backyard home exterior sunset view'
   Launch_photos/Prefab_Home_Exterior_Design_2.jpg:
     title: 'Sample backyard home night view'
     alt: 'Sample backyard home design idea night view'
@@ -107,3 +105,5 @@ assets:
     alt: 'Sample ADU bathroom fixture design ideas'
   Launch_photos/prefabricacted_backyard_home_night_2.jpg:
     alt: 'Sample backyard home exterior night view and home lighting'
+  ./Prefab_Backyard_Home_Exterior_Design_9.jpg:
+    alt: 'Sample backyard home exterior sunset view'
