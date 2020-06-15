@@ -35,8 +35,6 @@ assets:
   Launch_photos/ADU_Interior_living_room_1.jpg:
     title: 'ADU living room interior design'
     alt: 'Sample ADU living room interior design'
-  5.jpg:
-    alt: 'California ADU laws'
   Launch_photos/abodu_74_comp_2x1.jpg:
     alt: 'Backyard Home Exterior Left'
   Launch_photos/abodu_55_4x5_v2.jpg:
@@ -95,3 +93,5 @@ assets:
     alt: 'Sample prefab ADU interior design ideas'
   Launch_photos/prefab_ADU_Interior_kitchen_design_1.jpg:
     alt: 'Sample prefab ADU kitchen interior design'
+  ./Bay_area_prefab_backyard_homes.jpg:
+    alt: 'California ADU laws'
