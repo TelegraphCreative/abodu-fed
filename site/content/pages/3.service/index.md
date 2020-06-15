@@ -4,7 +4,7 @@ hero__copy: |
   What makes buying an Abodu different?  Our purchase and install experience is painless and quick.
   
   We manage everything for you and will be in your backyard as little as 2 weeks or less.
-hero__image: /assets/Launch_photos/abodu_73_comp_2x1.jpg
+hero__image: /assets/Launch_photos/Prefab_Backyard_Home_Exterior_Design_11.jpg
 accordian__fields:
   accordian__sections:
     -
@@ -21,8 +21,8 @@ accordian__fields:
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
           accordian__sections__section__item--copy: 'As little as 2 weeks or less onsite. With Abodu, you''ll know everything falls into the right place.'
-          '#hidden': false
-      '#hidden': false
+          '#hidden': true
+      '#hidden': true
     -
       type: accordian__sections__section
       accordian__sections__section--number: '02'
@@ -32,7 +32,7 @@ accordian__fields:
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'Common frustrations:'
           accordian__sections__section__item--copy: 'Confusing permitting requirements. Building your schedule around unpredictable construction timelines. Repeating yourself to all the different parties involved - architect, plumber, engineer, electrician.'
-          '#hidden': false
+          '#hidden': true
         -
           type: accordian__sections__section__item
           accordian__sections__section__item--heading: 'What we''ve done:'
@@ -95,7 +95,7 @@ card_slider__fields:
       card_slider__cards__card--heading: 'Delivery and Install'
       card_slider__cards__card--copy: 'We get your Abodu from factory to your home and make sure install goes smooth and stress-free.'
       card_slider__cards__card--note: null
-      '#hidden': false
+      '#hidden': true
     -
       type: card_slider__cards__card
       card_slider__cards__card--length: '1 Day'
@@ -110,6 +110,7 @@ cta__fields:
     text: 'See Our Pricing'
   cta__heading: 'No-surprises, risk-free pricing.'
   cta__copy: 'Because nobody likes being nickel and dimed. Especially with their home.'
+is_hidden: true
 meta_title: 'Fastest ADU on the market - No hassle with Abodu'
 meta_description: 'Painless ADU construction. Constructed offsite and installed in your backyard through a simple 2 week process. Pre-approved permis in San Jose.'
 page_no_index: false
