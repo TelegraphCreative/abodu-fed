@@ -142,7 +142,7 @@ image_grid_with_color_block__fields:
   image_grid_with_color_block__first_image:
     - /assets/ADU_Interior_bathroom_ideas_1.jpg
   image_grid_with_color_block__second_image:
-    - /assets/abodu_61_comp_1x1.jpg
+    - /assets/ADU_Interior_bathroom_ideas_2.jpg
   image_grid_with_color_block__third_image:
     - /assets/abodu_62_comp_3x4.jpg
   image_grid_with_color_block__heading: Customize
