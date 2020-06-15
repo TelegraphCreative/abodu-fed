@@ -37,8 +37,6 @@ assets:
     alt: 'Sample ADU living room interior design'
   Launch_photos/abodu_79_comp_2x1.jpg:
     alt: 'Sample backyard home exterior night view and home lighting'
-  abodu_45_comp_3x2.jpg:
-    alt: 'Sample backyard home exterior design idea'
   abodu_64_comp_3x2.jpg:
     alt: 'Sample ADU bathroom design idea'
   abodu_61_comp_1x1.jpg:
@@ -97,3 +95,5 @@ assets:
     alt: 'Sample ADU living room interior design 2'
   ./prefab_adu_floor_plan_500_sqft.PNG:
     alt: '500 square foot abodu ADU floor plan'
+  ./Prefab_Backyard_Home_Exterior_Design_6.jpg:
+    alt: 'Sample backyard home exterior design idea'
