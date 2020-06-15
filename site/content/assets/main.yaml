@@ -37,8 +37,6 @@ assets:
     alt: 'Sample ADU living room interior design'
   Launch_photos/abodu_79_comp_2x1.jpg:
     alt: 'Sample backyard home exterior night view and home lighting'
-  Launch_photos/abodu_73_comp_2x1.jpg:
-    alt: 'Sample backyard home design idea 2'
   abodu_56_comp_2x1.jpg:
     alt: 'ADU interior dining area'
   Launch_photos/abodu_52_comp_4x5.jpg:
@@ -107,3 +105,5 @@ assets:
     alt: 'Koto, the architecture minds behind Abodu ADU design'
   backyard_home_architects_koto.jpg:
     alt: 'Koto, the architecture minds behind Abodu ADU design'
+  Launch_photos/Prefab_Backyard_Home_Exterior_Design_11.jpg:
+    alt: 'Sample backyard home design idea 2'
