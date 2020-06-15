@@ -35,7 +35,7 @@ abodu_450__fields:
     text: ''
   content_block_with_pattern__toggle: false
   slider__images:
-    - /assets/Launch_photos/abodu_79_comp_2x1.jpg
+    - /assets/Launch_photos/prefabricacted_backyard_home_night.jpg
     - /assets/Launch_photos/ADU_Interior_living_room_1.jpg
   slider__title: 'Abodu 500'
   content_block_with_pattern__heading: 'Abodu 500'
