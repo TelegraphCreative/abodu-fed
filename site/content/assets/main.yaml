@@ -35,8 +35,6 @@ assets:
   Launch_photos/ADU_Interior_living_room_1.jpg:
     title: 'ADU living room interior design'
     alt: 'Sample ADU living room interior design'
-  Launch_photos/abodu_75_comp_3x2_v2.jpg:
-    alt: 'Sample backyard home exterior addition wide view'
   abodu_59_comp_1x1.jpg:
     alt: 'Sample ADU interior design ideas'
   Launch_photos/abodu_42_comp_3x4.jpg:
@@ -93,3 +91,5 @@ assets:
     alt: 'Sample ADU bedroom and storage design'
   Launch_photos/prefabricacted_backyard_home_night.jpg:
     alt: 'Sample backyard home exterior night view and home lighting'
+  Launch_photos/Backyard_Home_Exterior_Design_5.jpg:
+    alt: 'Sample backyard home exterior addition wide view'
