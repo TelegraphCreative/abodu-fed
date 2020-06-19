@@ -3,23 +3,23 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'What is an ADU?'
-    faq__list--item__answer: 'The legal term is Accessory Dwelling Unit, or ADU. ADUs go by many names - granny flats, granny units, in-law apartments, or secondary suites - just to name a few. ADUs are a permanent structure that provides a fully-appointed living space in the backyards of existing homes. ADUs typically have at least 1 bedroom, 1 bathroom and a kitchen space.'
+    faq__list--item__answer: 'The legal term is Accessory Dwelling Unit, or ADU. ADUs go by many names - backyard home, prefab granny flats, granny units, in-law apartments, or secondary suites - just to name a few. An ADU is a permanent structure that provides a fully-appointed living space in the backyards of existing homes. ADUs typically have at least 1 bedroom, 1 bathroom and a kitchen space.'
   -
     type: faq__list--item
     faq__list--item__question: 'Who designed Abodu?'
-    faq__list--item__answer: 'Each Abodu has been designed from the ground up by a team of world-class architects, with a focus on developing a space that is both perfect for living in and at-home in any backyard.'
+    faq__list--item__answer: 'Each Abodu has been designed from the ground up by a team of world-class architects, with a focus on developing a prefabricated backyard home that is both perfect for living in and at-home in any backyard.'
   -
     type: faq__list--item
     faq__list--item__question: 'Can I put an Accessory Dwelling Unit (ADU) in my backyard?'
-    faq__list--item__answer: 'If you live in the State of California, then the answer is most likely Yes. In some cities, the process is more challenging than others, so feel free to reach out with your name and address and we can quickly check your situation.'
+    faq__list--item__answer: 'If you live in the State of California, then the answer is most likely Yes, you can build a backyard home or ADU. In some cities, the process is more challenging than others, so feel free to reach out with your name and address and we can quickly check your situation. Our prefab ADUs are approved throughout California.'
   -
     type: faq__list--item
     faq__list--item__question: 'How long does it take to get an ADU permitted?'
-    faq__list--item__answer: 'Abodu permitting times depend on where you live. Legally, cities must approve your permit within 120 days, but if you live in San Jose, we can secure your permit in less than 1 day.'
+    faq__list--item__answer: 'Abodu permitting times depend on where you live. Legally, cities must comment on your permit within 60 days. If you live in San Jose or Sunnyvale, we can secure your pre-approved ADU permit in less than 1 day.'
   -
     type: faq__list--item
     faq__list--item__question: 'Do ADUs affect my property value?'
-    faq__list--item__answer: 'Yes. Installing an Abodu in your backyard will certainly increase your property value. After all, it is an additional 495 sq feet of permanent living space on your lot. The increased bedrooms, bathroom and kitchen are viewed as additions to the primary home.'
+    faq__list--item__answer: 'Yes. Installing an Abodu ADU in your backyard will certainly increase your property value. After all, it is an additional 495 sq feet of permanent living space on your lot. The increased bedrooms, bathroom and kitchen are viewed as additions to the primary home. Our prefabricated ADUs are built to local codes to ensure you receive the full property value benefit possible.'
   -
     type: faq__list--item
     faq__list--item__question: 'What happens to my property taxes when I add an ADU?'
@@ -31,31 +31,31 @@ faq__list:
   -
     type: faq__list--item
     faq__list--item__question: 'How will you get the prefab (pre-fabricated) ADU into my backyard?'
-    faq__list--item__answer: 'If you have plenty of access space for us to move it, via rollers, into the backyard, then we’ll do that. If you have a bit less access space, we will use a crane to lift the Abodu over your main home.'
+    faq__list--item__answer: 'If you have plenty of access space for us to move it, via rollers, into the backyard, then we’ll do that. If you have a bit less access space, we will use a crane to lift the Abodu ADU over your main home.'
   -
     type: faq__list--item
     faq__list--item__question: 'Can I rent my ADU to anyone?'
-    faq__list--item__answer: 'Yes. If you live in the main house, you can rent your Abodu to anyone you please - aging parents, children back from school, a teacher, a local firefighter - the possibilities are endless.'
+    faq__list--item__answer: 'Yes. If you live in the main house, you can rent your Abodu ADU to anyone you please - aging parents, children back from school, a teacher, a local firefighter - the possibilities are endless.'
   -
     type: faq__list--item
     faq__list--item__question: 'Are these ADUs considered mobile homes?'
-    faq__list--item__answer: 'No. Your Abodu unit is constructed in factory to the highest standards of modular home construction. Abodu units are built to be permanently installed on a foundation and permanently connected to utilities. They are considered “Real Property” once fully installed.'
+    faq__list--item__answer: 'No. Your Abodu ADU is prefabricated in factory to the highest standards of modular home construction. Abodu backyard homes are built to be permanently installed on a foundation and permanently connected to utilities. They are considered “Real Property” once fully installed.'
   -
     type: faq__list--item
     faq__list--item__question: 'Can I install an ADU on rental property and rent the main house and ADU to separate parties?'
-    faq__list--item__answer: 'This answer depends on which city you live in. Some cities allow this, while many others don’t. If you have this in mind, feel free to contact us and we will walk you through your options.'
+    faq__list--item__answer: 'This answer depends on where you live. In California, you have the legal right to rent out your ADU and main home to different parties. Outside of California, some cities allow this, while many others don’t.'
   -
     type: faq__list--item
     faq__list--item__question: 'How big can my ADU be?'
-    faq__list--item__answer: 'This depends on where you live, the size of your lot and the size of your primary home. Generally any ADU under 500 sq ft is legal across California.'
+    faq__list--item__answer: 'This depends on where you live, the size of your lot and the size of your primary home. Generally any ADU under 750 sq ft is legal across California.'
   -
     type: faq__list--item
     faq__list--item__question: 'Can I customize my ADU to make it look how I want it to look?'
-    faq__list--item__answer: 'Yes. We offer multiple exterior siding options and colors, roofing colors and interior flooring and paint colors. You aren’t able to move any walls within your Abodu, but after the thousands of hours we’ve put into designing your Abodu, trust us - you won’t want to.'
+    faq__list--item__answer: 'Yes. We offer multiple prefabricated exterior siding options and colors, roofing colors and interior flooring and paint colors. You aren’t able to move any walls within your Abodu, but after the thousands of hours we’ve put into designing your Abodu, trust us - you won’t want to.'
   -
     type: faq__list--item
     faq__list--item__question: 'Can I add solar to my ADU?'
-    faq__list--item__answer: 'Yes, we can add solar to your Abodu - no problem. How we install solar will look a little bit different whether or not your existing home currently has solar, but either way, we can arrange this for you.'
+    faq__list--item__answer: 'Yes, we can add solar to your Abodu ADU - no problem. How we install solar will look a little bit different whether or not your existing home currently has solar, but either way, we can arrange this for you.'
   -
     type: faq__list--item
     faq__list--item__question: 'How do I get electricity in my ADU?'
@@ -95,6 +95,7 @@ faq__list:
     type: faq__list--item
     faq__list--item__question: 'Does an Abodu have heating and air conditioning?'
     faq__list--item__answer: 'Yes. Your Abodu comes standard with heating and air conditioning. We want to ensure you don’t miss any of the comforts of home.'
+is_hidden: true
 meta_title: 'Abodu - Learn about California ADUs and backyard homes'
 meta_description: 'California has made backyard homes (also known as ADUs) legal statewide. We''ve answered all of your questions on how to build on your property.'
 page_no_index: false
