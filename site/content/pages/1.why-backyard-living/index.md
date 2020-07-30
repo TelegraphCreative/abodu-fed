@@ -5,7 +5,7 @@ hero__copy: |
   
   Many areas have recently made it legal and easy for homeowners to add backyard homes to their property. Ultimately, this will help cities meet population demand for housing and provide countless benefits for homeowners.
 hero__image: /assets/Launch_photos/prefabricacted_backyard_home_night.jpg
-model_number: '500'
+model_number: One
 two_column_content_grid__fields:
   two_column_content_grid__list:
     -
