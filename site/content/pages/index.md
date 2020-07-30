@@ -14,7 +14,7 @@ what_we_do__fields:
     - /assets/Launch_photos/Backyard_Home_Exterior_Design_1.jpg
     - /assets/Launch_photos/Prefab_Home_Exterior_Design_2.jpg
     - /assets/Launch_photos/ADU_Interior_living_room_1.jpg
-  slider__title: 'Abodu 500'
+  slider__title: 'Abodu One'
   content_block_with_pattern__heading: 'What We Do'
   content_block_with_pattern__copy: |
     No-compromise backyard homes.<Br> Easy install - 2 weeks in your backyard.<Br> 
