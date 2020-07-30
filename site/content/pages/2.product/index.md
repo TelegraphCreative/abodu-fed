@@ -37,8 +37,8 @@ abodu_450__fields:
   slider__images:
     - /assets/Launch_photos/prefabricacted_backyard_home_night.jpg
     - /assets/Launch_photos/ADU_Interior_living_room_1.jpg
-  slider__title: 'Abodu 500'
-  content_block_with_pattern__heading: 'Abodu 500'
+  slider__title: 'Abodu One'
+  content_block_with_pattern__heading: 'Abodu One'
   content_block_with_pattern__copy: '500 square feet of beautifully designed space, with our signature cathedral ceilings. A right-sized one-bedroom layout.'
   product_specs__copy: '495 square feet. 14’ wide. 35’4” long. 10.5’ ceilings. 12.5’ structure height.'
   product_specs__image:
