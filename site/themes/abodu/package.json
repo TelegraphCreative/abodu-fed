@@ -17,7 +17,7 @@
     },
     "dependencies": {
         "laravel-mix-purgecss": "^4.1.0",
-        "papaparse": "^4.6.3",
+        "papaparse": "^5.2.0",
         "vue": "^2.6.10"
     }
 }
